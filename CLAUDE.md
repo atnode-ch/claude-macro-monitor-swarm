@@ -17,6 +17,7 @@ A macro-monitoring swarm: 7 domain collectors (code), a domain-analyst subagent 
 - **Dates come from `data/calendar.json`**, never from memory. Don't attach a weekday to a date you didn't take from there.
 - **Stay in lane.** Classify an indicator by what it measures, not by who publishes it (Chicago Fed: NFCI is markets, CARTS is growth). A new indicator that only previews a tracked series is logged as a preview; alert only on divergence or multi-source confirmation.
 - **Alert discipline.** Only `tools.pending alerts` output and the Friday summary go to Slack. Quiet run, no Slack. A health alert always goes out, even on a quiet week.
+- **Publish to the deployment branch.** The owner has standing permission for every routine run to push its commit to `github.branch` in `config/deployment.json` (`main`), even when the session was assigned a different working branch. Push to the working branch as the session requires, then fast-forward the deployment branch: `git push origin HEAD:<branch>`. If that is rejected, rebase onto `origin/<branch>` and retry once. Never force-push it.
 - **Blocked writes are loud.** If a commit, push or Slack post fails or is not permitted, start your final answer with `WRITE BLOCKED` and list exactly what was not written.
 
 ## Account-specific values

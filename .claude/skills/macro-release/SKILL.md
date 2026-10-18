@@ -66,6 +66,8 @@ git commit -m "release: <report ref, ...>"
 git push origin <branch>
 ```
 
+If the session assigned a different working branch, push there too, then fast-forward the deployment branch with `git push origin HEAD:<branch>` (standing permission, see CLAUDE.md). The run is not published until `<branch>` has the commit.
+
 If the push is rejected because the Action committed meanwhile: `git pull --rebase origin <branch>` and push again (data files don't overlap). If pushing isn't permitted at all, report `WRITE BLOCKED` and list the files.
 
 ## Final answer

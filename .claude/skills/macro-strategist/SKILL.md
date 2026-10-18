@@ -72,6 +72,8 @@ git commit -m "weekly synthesis <week>"
 git push origin <branch>
 ```
 
+If the session assigned a different working branch, push there too, then fast-forward the deployment branch with `git push origin HEAD:<branch>` (standing permission, see CLAUDE.md). The run is not published until `<branch>` has the commit.
+
 ## 5. Slack
 
 One message to `channel_id`: the `slack_summary` plus the link `<site.base_url>reports/<week>.html`.
