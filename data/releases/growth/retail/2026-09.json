@@ -1,0 +1,26 @@
+{
+  "domain": "growth",
+  "report": "retail",
+  "name": "Retail Sales",
+  "ref": "2026-09",
+  "tier": 2,
+  "detected_at": "2026-10-18 07:21 ET",
+  "source": "fred",
+  "source_url": "https://www.census.gov/retail/index.html",
+  "metrics": {
+    "headline.chg_pct": 0.771,
+    "headline.yoy_pct": 6.288,
+    "ex_auto.chg_pct": 0.722
+  },
+  "prior": {
+    "headline.chg_pct": 1.289,
+    "headline.yoy_pct": 5.556,
+    "ex_auto.chg_pct": 1.279
+  },
+  "verified": true,
+  "consensus": null,
+  "consensus_source": null,
+  "surprise": null,
+  "read": null,
+  "status": "pending_analysis"
+}

@@ -1,0 +1,28 @@
+{
+  "domain": "inflation",
+  "report": "cpi",
+  "name": "CPI",
+  "ref": "2026-09",
+  "tier": 1,
+  "detected_at": "2026-10-18 07:21 ET",
+  "source": "fred",
+  "source_url": "https://www.bls.gov/news.release/cpi.htm",
+  "metrics": {
+    "headline.chg_pct": 0.649,
+    "headline.yoy_pct": 3.738,
+    "core.chg_pct": 0.335,
+    "core.yoy_pct": 2.564
+  },
+  "prior": {
+    "headline.chg_pct": 0.396,
+    "headline.yoy_pct": 3.397,
+    "core.chg_pct": 0.29,
+    "core.yoy_pct": 2.446
+  },
+  "verified": true,
+  "consensus": null,
+  "consensus_source": null,
+  "surprise": null,
+  "read": null,
+  "status": "pending_analysis"
+}

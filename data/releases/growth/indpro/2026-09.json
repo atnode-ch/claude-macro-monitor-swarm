@@ -1,0 +1,26 @@
+{
+  "domain": "growth",
+  "report": "indpro",
+  "name": "Industrial Production",
+  "ref": "2026-09",
+  "tier": 3,
+  "detected_at": "2026-10-18 07:21 ET",
+  "source": "fred",
+  "source_url": "https://www.federalreserve.gov/releases/g17/current/",
+  "metrics": {
+    "ip.chg_pct": 0.663,
+    "ip.yoy_pct": 2.245,
+    "capacity_util.level": 76.85
+  },
+  "prior": {
+    "ip.chg_pct": 0.064,
+    "ip.yoy_pct": 1.615,
+    "capacity_util.level": 76.418
+  },
+  "verified": true,
+  "consensus": null,
+  "consensus_source": null,
+  "surprise": null,
+  "read": null,
+  "status": "pending_analysis"
+}

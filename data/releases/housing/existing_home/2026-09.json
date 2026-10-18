@@ -1,0 +1,24 @@
+{
+  "domain": "housing",
+  "report": "existing_home",
+  "name": "Existing Home Sales",
+  "ref": "2026-09",
+  "tier": 3,
+  "detected_at": "2026-10-18 07:21 ET",
+  "source": "fred",
+  "source_url": "https://www.nar.realtor/research-and-statistics/housing-statistics/existing-home-sales",
+  "metrics": {
+    "sales_m.level": 3.99,
+    "sales_m.chg_pct": 1.527
+  },
+  "prior": {
+    "sales_m.level": 3.93,
+    "sales_m.chg_pct": -3.202
+  },
+  "verified": true,
+  "consensus": null,
+  "consensus_source": null,
+  "surprise": null,
+  "read": null,
+  "status": "pending_analysis"
+}
