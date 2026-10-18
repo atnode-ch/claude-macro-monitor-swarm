@@ -1,14 +1,14 @@
 {
-  "_doc": "Deployment for Felix / atnode-ai. Copy deployment.example.json for another account.",
+  "_doc": "Deployment for Felix / atnode-ch. Copy deployment.example.json for another account.",
   "github": {
-    "owner": "atnode-ai",
+    "owner": "atnode-ch",
     "repo": "claude-macro-monitor-swarm",
     "branch": "main"
   },
   "site": {
-    "base_url": "https://atnode-ai.github.io/claude-macro-monitor-swarm/macro-monitor/",
+    "base_url": "https://atnode-ch.github.io/claude-macro-monitor-swarm/macro-monitor/",
     "title": "Macro Monitor",
-    "footer": "Macro Monitor · atnode.ai · built with Claude Code"
+    "footer": "Macro Monitor · atnode.ch · built with Claude Code"
   },
   "slack": {
     "channel_id": "C0B8B76L7NH",
