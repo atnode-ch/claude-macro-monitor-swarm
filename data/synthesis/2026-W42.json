@@ -1,0 +1,209 @@
+{
+  "regime": "Inflation re-accelerating into firm nominal demand; labour steady, conditions still loose",
+  "executive_summary": "Week 42 was an inflation week. September CPI ran hot on core, 0.34% m/m against 0.22% consensus, with core y/y at 2.56% and headline at 3.74%. PPI was hotter still: headline +1.3% m/m and core +0.7% m/m, 5.0% y/y. Euro area HICP rose to 3.75% y/y, above the 3.6% expectation. Three inflation prints in two regions point the same way, which is signal, not noise. Activity did not soften to offset it: retail sales rose 0.77% m/m and industrial production 0.66% m/m. Labour stayed low-hire, low-fire, with initial claims at 199,000. Financial conditions remain loose, NFCI at -0.499, though it has tightened slightly two weeks running. The 10y yield fell 18bp to 5.10% over 5 days despite the hot prints, while the 2y was flat at 4.77%. The mix argues against near-term easing. Sentiment has no logged stance and its latest print is from August.",
+  "narrative": [
+    {
+      "title": "Inflation and policy",
+      "body": "The ISM to PPI to CPI chain is lining up. September PPI headline rose 1.3% m/m, about 0.7pp above consensus (unconfirmed), and y/y reached 6.3%. Energy drove much of that, but core PPI also jumped to +0.7% m/m and 5.0% y/y. CPI followed in the same month: core +0.34% m/m against 0.22% expected, core y/y 2.56% against 2.4%, headline y/y 3.74% against 3.6%. Since PPI leads CPI by 1 to 3 months, the October and November CPI prints carry upside risk. The latest core PCE in the log is August at 3.0% y/y, so the Fed's preferred gauge has not yet absorbed September. The FOMC upper bound sits at 4.0% after the September decision. In Europe, HICP rose to 3.75% y/y from 3.23%, a 3-year high led by energy, with core steady near 2.5%. Two regions with energy-led headline acceleration and firmer core in the US is the alignment to watch. Market-implied inflation is calm: 5y5y breakevens held at 2.33% and 10y breakevens at 2.35%, both unchanged on the week."
+    },
+    {
+      "title": "Labour",
+      "body": "Labour is not turning. Initial claims were 199,000 against 200,000 consensus (unconfirmed), the 4-week average 198,500, and continuing claims flat at 1.71M. The other legs of the chain are older baseline prints: JOLTS openings fell 256k to 7.08M in August, quits rate 1.9%, ADP added 90k in September and NFP added 29k with unemployment up 0.1pt to 4.2%. Average hourly earnings rose 0.13% m/m and 3.0% y/y, so wages are not feeding the CPI acceleration. The pattern is slow hiring without layoffs. A turn would need claims rising alongside weaker openings and payrolls; only the claims leg updated this week and it was flat. The view changes if the 4-week average climbs above 215,000 or continuing claims pass 1.8M."
+    },
+    {
+      "title": "Growth, housing and sentiment",
+      "body": "Nominal demand is firm. Retail sales rose 0.77% m/m against 0.3% consensus after +1.29% in August, and 6.29% y/y. Gas stations contributed much of the beat on price, so real consumption is softer than the headline, and ex-gas was reported near +0.2% (unconfirmed). Ex-auto sales rose 0.72%. Industrial production added 0.66% m/m, 2.25% y/y, with capacity utilisation up to 76.85%. Both are hard-data support for Q3 GDP after Q2 at 2.2% SAAR. August core capex orders rose 1.56%. Housing is weak at a low level: existing home sales rose 1.5% to 3.99M SAAR, slightly above the 3.95M consensus, but this is a lagging closings count. The leading series, permits, fell 2.1% to 1.40M in August, and starts fell 2.6%. Sentiment has no stance; the latest UMich reading is August at 51.7, down 3.5 points, which is stale for this synthesis."
+    },
+    {
+      "title": "Financial conditions",
+      "body": "Conditions are loose but drifting tighter at the margin. NFCI rose 0.008 to -0.499, a second small tightening week, still well below zero. HY OAS widened 8bp to 3.23% and IG OAS 2bp to 0.84%, both from tight levels. The curve flattened: 10y-2y narrowed 12bp to 0.35% and 10y-3m 16bp to 0.83%, as the 10y fell 18bp to 5.10% and the 2y held at 4.77%. The 10y real yield fell 14bp to 2.78%, so the long-end rally was real rates, not breakevens. VIX rose 1.1 points to 16.46. Long yields falling into hot inflation prints is a mismatch with the macro data; if it reflects growth worries, it should show up in wider spreads and weaker activity data first. Q3 SLOOS showed net C&I tightening at 0%, so bank credit is not a constraint."
+    }
+  ],
+  "domain_scorecard": [
+    {
+      "domain": "Inflation",
+      "signal": "firm",
+      "note": "Core CPI and core PPI both above consensus; PPI points to more upside"
+    },
+    {
+      "domain": "Labor",
+      "signal": "steady",
+      "note": "Claims 199,000, continuing 1.71M flat; low hiring, low layoffs"
+    },
+    {
+      "domain": "Growth & Activity",
+      "signal": "strong",
+      "note": "Retail sales and IP beat; gasoline flatters the retail headline"
+    },
+    {
+      "domain": "Housing",
+      "signal": "weakening",
+      "note": "Existing sales up from low base; permits and starts fell in August"
+    },
+    {
+      "domain": "Sentiment & Surveys",
+      "signal": "n/a",
+      "note": "No stance; latest UMich is August, stale"
+    },
+    {
+      "domain": "Central Banks & Policy",
+      "signal": "firm",
+      "note": "HICP 3.75% above expectations; no case for ECB easing"
+    },
+    {
+      "domain": "Financial Conditions & Markets",
+      "signal": "steady",
+      "note": "NFCI loose at -0.499; slight tightening, HY wider 8bp"
+    }
+  ],
+  "regime_watch": "The firming-inflation regime is confirmed if core CPI m/m stays above 0.3% next month, core PCE for September rises from 3.0% y/y, and core PPI does not retrace. It is denied if energy reverses and core PPI drops back near 0.3% m/m. A shift toward slowdown would need claims above a 215,000 4-week average, falling permits again, and HY spreads widening well beyond this week's 8bp, together rather than alone.",
+  "week_ahead": [
+    {
+      "report": "starts",
+      "name": "Housing Starts & Building Permits",
+      "date": "2026-10-19",
+      "weekday": "Mon",
+      "time_et": "08:30",
+      "date_source": "estimate",
+      "why": "Permits are the leading housing series; a second monthly fall would confirm weakness."
+    },
+    {
+      "report": "uk_labour",
+      "name": "UK Labour Market (ONS)",
+      "date": "2026-10-20",
+      "weekday": "Tue",
+      "time_et": null,
+      "date_source": "estimate",
+      "why": "Input for the BoE path, rate at 3.75%."
+    },
+    {
+      "report": "existing_home",
+      "name": "Existing Home Sales",
+      "date": "2026-10-21",
+      "weekday": "Wed",
+      "time_et": "10:00",
+      "date_source": "estimate",
+      "why": "Checks whether the September rise holds with mortgage rates high."
+    },
+    {
+      "report": "claims",
+      "name": "Initial Jobless Claims",
+      "date": "2026-10-22",
+      "weekday": "Thu",
+      "time_et": "08:30",
+      "date_source": "estimate",
+      "why": "Only weekly labour read; tests whether low layoffs persist."
+    }
+  ],
+  "kpis": [
+    {
+      "label": "Core CPI y/y",
+      "ref": "inflation/cpi/2026-09:core.yoy_pct",
+      "value": 2.564,
+      "unit": "%"
+    },
+    {
+      "label": "Core PPI y/y",
+      "ref": "inflation/ppi/2026-09:core.yoy_pct",
+      "value": 4.978,
+      "unit": "%"
+    },
+    {
+      "label": "Retail sales m/m",
+      "ref": "growth/retail/2026-09:headline.chg_pct",
+      "value": 0.771,
+      "unit": "%"
+    },
+    {
+      "label": "Initial claims 4wk avg",
+      "ref": "labor/claims/2026-10-10:initial_4wk.level",
+      "value": 198500.0,
+      "unit": ""
+    },
+    {
+      "label": "UST 10y",
+      "ref": "markets:ust_10y",
+      "value": 5.1,
+      "unit": "%"
+    },
+    {
+      "label": "HY OAS",
+      "ref": "markets:hy_oas",
+      "value": 3.23,
+      "unit": "%"
+    }
+  ],
+  "slack_summary": "Regime: inflation re-accelerating into firm nominal demand; labour steady, conditions still loose.\nKey prints: core CPI +0.34% m/m vs 0.22% exp, core PPI +0.7% m/m, EZ HICP 3.75% y/y, retail sales +0.77% m/m, claims 199,000.\nNext week: housing starts and permits, jobless claims, existing home sales, UK labour.",
+  "week": "2026-W42",
+  "week_ending": "2026-10-16",
+  "swarm_health": "all domains fresh",
+  "health": {
+    "all_ok": true,
+    "domains": [
+      {
+        "domain": "inflation",
+        "name": "Inflation",
+        "last_success": "2026-10-18 07:21 ET",
+        "age_hours": 1.1,
+        "stale": false,
+        "errors": []
+      },
+      {
+        "domain": "labor",
+        "name": "Labor",
+        "last_success": "2026-10-18 07:21 ET",
+        "age_hours": 1.1,
+        "stale": false,
+        "errors": []
+      },
+      {
+        "domain": "growth",
+        "name": "Growth & Activity",
+        "last_success": "2026-10-18 07:21 ET",
+        "age_hours": 1.1,
+        "stale": false,
+        "errors": []
+      },
+      {
+        "domain": "housing",
+        "name": "Housing",
+        "last_success": "2026-10-18 07:21 ET",
+        "age_hours": 1.1,
+        "stale": false,
+        "errors": []
+      },
+      {
+        "domain": "sentiment",
+        "name": "Sentiment & Surveys",
+        "last_success": "2026-10-18 07:21 ET",
+        "age_hours": 1.1,
+        "stale": false,
+        "errors": []
+      },
+      {
+        "domain": "policy",
+        "name": "Central Banks & Policy",
+        "last_success": "2026-10-18 07:21 ET",
+        "age_hours": 1.1,
+        "stale": false,
+        "errors": []
+      },
+      {
+        "domain": "markets",
+        "name": "Financial Conditions & Markets",
+        "last_success": "2026-10-18 07:21 ET",
+        "age_hours": 1.1,
+        "stale": false,
+        "errors": []
+      }
+    ],
+    "alert_text": "",
+    "checked_at": "2026-10-18 08:29 ET"
+  },
+  "audit": {
+    "issues": [],
+    "ok": true,
+    "checked_at": "2026-10-18 08:29 ET"
+  },
+  "finalized_at": "2026-10-18 08:29 ET"
+}

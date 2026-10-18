@@ -1,6 +1,6 @@
 # Macro Monitor: Blackboard
 
-_Rendered 2026-10-18 08:26 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
+_Rendered 2026-10-18 08:29 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
 
 ## Inflation
 
@@ -114,7 +114,13 @@ _Rendered 2026-10-18 08:26 ET from data/. Do not edit by hand; edit data/ or rer
 
 ## Macro Synthesis
 
-_No synthesis yet; the Friday strategist run writes it._
+**2026-W42: Inflation re-accelerating into firm nominal demand; labour steady, conditions still loose**
+
+Week 42 was an inflation week. September CPI ran hot on core, 0.34% m/m against 0.22% consensus, with core y/y at 2.56% and headline at 3.74%. PPI was hotter still: headline +1.3% m/m and core +0.7% m/m, 5.0% y/y. Euro area HICP rose to 3.75% y/y, above the 3.6% expectation. Three inflation prints in two regions point the same way, which is signal, not noise. Activity did not soften to offset it: retail sales rose 0.77% m/m and industrial production 0.66% m/m. Labour stayed low-hire, low-fire, with initial claims at 199,000. Financial conditions remain loose, NFCI at -0.499, though it has tightened slightly two weeks running. The 10y yield fell 18bp to 5.10% over 5 days despite the hot prints, while the 2y was flat at 4.77%. The mix argues against near-term easing. Sentiment has no logged stance and its latest print is from August.
+
+**Regime watch:** The firming-inflation regime is confirmed if core CPI m/m stays above 0.3% next month, core PCE for September rises from 3.0% y/y, and core PPI does not retrace. It is denied if energy reverses and core PPI drops back near 0.3% m/m. A shift toward slowdown would need claims above a 215,000 4-week average, falling permits again, and HY spreads widening well beyond this week's 8bp, together rather than alone.
+**Week ahead:** Mon 2026-10-19 Housing Starts & Building Permits; Tue 2026-10-20 UK Labour Market (ONS); Wed 2026-10-21 Existing Home Sales; Thu 2026-10-22 Initial Jobless Claims
+**Swarm health:** all domains fresh
 
 ## Collector health
 
