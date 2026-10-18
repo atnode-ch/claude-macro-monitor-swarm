@@ -6,7 +6,7 @@
     "branch": "main"
   },
   "site": {
-    "base_url": "https://atnode-ch.github.io/claude-macro-monitor-swarm/macro-monitor/",
+    "base_url": "https://agents.atnode.ch/macro-monitor/",
     "title": "Macro Monitor",
     "footer": "Macro Monitor · atnode.ch · built with Claude Code"
   },
