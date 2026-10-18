@@ -20,9 +20,28 @@
     "core.yoy_pct": 2.446
   },
   "verified": true,
-  "consensus": null,
-  "consensus_source": null,
-  "surprise": null,
-  "read": null,
-  "status": "pending_analysis"
+  "consensus": {
+    "headline.yoy_pct": 3.6,
+    "core.chg_pct": 0.22,
+    "core.yoy_pct": 2.4
+  },
+  "consensus_source": "Median of 14 bank forecasters (WSJ survey) via investinglive CPI preview, Oct 2026; headline m/m only given as roughly 0.6, so left null",
+  "surprise": {
+    "headline.yoy_pct": 0.1,
+    "core.chg_pct": 0.12,
+    "core.yoy_pct": 0.2
+  },
+  "read": "Core +0.34% m/m vs 0.22% consensus (+0.12pp, material); core y/y 2.56% vs 2.4%, headline y/y 3.74% vs 3.6%. Hot print: yields and USD up, equities down, cuts pushed back.",
+  "status": "analysed",
+  "fields": null,
+  "sources": [],
+  "alert": {
+    "alert": true,
+    "material": true,
+    "reasons": [
+      "core.chg_pct surprise +0.12 (threshold 0.1)",
+      "tier-1 release"
+    ]
+  },
+  "analysed_at": "2026-10-18 08:26 ET"
 }

@@ -16,9 +16,24 @@
     "sales_m.chg_pct": -3.202
   },
   "verified": true,
-  "consensus": null,
-  "consensus_source": null,
-  "surprise": null,
-  "read": null,
-  "status": "pending_analysis"
+  "consensus": {
+    "sales_m.level": 3.95
+  },
+  "consensus_source": "Web search of news reports on the 2026-10-13 release (Trading Economics): consensus 3.95M, one other preview cited 3.96M. Not verified on the source pages.",
+  "surprise": {
+    "sales_m.level": 0.04
+  },
+  "read": "Existing home sales rose 1.5% to 3.99M SAAR, about 0.04M above the 3.95M consensus. Closings lag, and 30-year rates near 7.4% point to weaker Oct and Nov prints. Mild support for builders and REITs, limited GDP lift.",
+  "status": "analysed",
+  "fields": null,
+  "sources": [
+    "https://tradingeconomics.com/united-states/existing-home-sales/news/591552",
+    "https://www.realestatenews.com/2026/10/13/existing-home-sales-ticked-up-slightly-then-rates-hit-7"
+  ],
+  "alert": {
+    "alert": false,
+    "material": false,
+    "reasons": []
+  },
+  "analysed_at": "2026-10-18 08:26 ET"
 }

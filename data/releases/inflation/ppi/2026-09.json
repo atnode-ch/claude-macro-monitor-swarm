@@ -20,9 +20,25 @@
     "core.yoy_pct": 4.807
   },
   "verified": true,
-  "consensus": null,
-  "consensus_source": null,
-  "surprise": null,
-  "read": null,
-  "status": "pending_analysis"
+  "consensus": {
+    "headline.chg_pct": 0.6
+  },
+  "consensus_source": "FT Portfolios note, 2026-10-15 (headline m/m only, single source, unconfirmed; core consensus not found)",
+  "surprise": {
+    "headline.chg_pct": 0.7
+  },
+  "read": "Headline PPI +1.3% m/m vs 0.6% consensus (unconfirmed), y/y 6.3% from 5.6%. Core +0.7% m/m, 5.0% y/y, up from 0.2%. Energy-led, but core also hot. Leads CPI 1 to 3 months: yields and USD up, cuts pushed back.",
+  "status": "analysed",
+  "fields": null,
+  "sources": [
+    "https://www.ftportfolios.com/Commentary/EconomicResearch/2026/10/15/the-producer-price-index-ppi-rose-1.3percent-in-september"
+  ],
+  "alert": {
+    "alert": true,
+    "material": true,
+    "reasons": [
+      "headline.chg_pct surprise +0.7 (threshold 0.3)"
+    ]
+  },
+  "analysed_at": "2026-10-18 08:26 ET"
 }

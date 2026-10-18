@@ -18,9 +18,25 @@
     "ex_auto.chg_pct": 1.279
   },
   "verified": true,
-  "consensus": null,
-  "consensus_source": null,
-  "surprise": null,
-  "read": null,
-  "status": "pending_analysis"
+  "consensus": {
+    "headline.chg_pct": 0.3
+  },
+  "consensus_source": "Trading Economics report on the September 2026 release (2026-10-15), forecast 0.3% m/m, underlying survey not named",
+  "surprise": {
+    "headline.chg_pct": 0.5
+  },
+  "read": "Headline +0.77% m/m vs 0.3% consensus (beat), after +1.29% in August. Gas stations +6.4% on price drove it; ex-gas only +0.2%. Real consumption signal is softer than headline. Supports nominal GDP, adds to inflation pressure.",
+  "status": "analysed",
+  "fields": null,
+  "sources": [
+    "https://tradingeconomics.com/united-states/retail-sales/news/592364"
+  ],
+  "alert": {
+    "alert": true,
+    "material": true,
+    "reasons": [
+      "headline.chg_pct surprise +0.5 (threshold 0.5)"
+    ]
+  },
+  "analysed_at": "2026-10-18 08:26 ET"
 }

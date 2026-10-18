@@ -20,9 +20,23 @@
     "continuing.level": 1710000.0
   },
   "verified": true,
-  "consensus": null,
-  "consensus_source": null,
-  "surprise": null,
-  "read": null,
-  "status": "pending_analysis"
+  "consensus": {
+    "initial.level": 200000
+  },
+  "consensus_source": "TrendForce DataTrack post, 2026-10-16 (single secondary source, unconfirmed)",
+  "surprise": {
+    "initial.level": -1000.0
+  },
+  "read": "Initial claims 199k vs 200k consensus (unconfirmed), +1k w/w. 4-week average 198.5k, continuing 1.71M unchanged. Layoffs stay low, no labour-market turn signal; supports a low-hire, low-fire read.",
+  "status": "analysed",
+  "fields": null,
+  "sources": [
+    "https://datatrack.trendforce.com/blog/content/65445/us-initial-jobless-claims-rise-to-199000-below-expectations-amid-a-low-hire-low-fire-trend"
+  ],
+  "alert": {
+    "alert": false,
+    "material": false,
+    "reasons": []
+  },
+  "analysed_at": "2026-10-18 08:26 ET"
 }

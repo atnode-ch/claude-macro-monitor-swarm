@@ -21,6 +21,16 @@
   "consensus": null,
   "consensus_source": null,
   "surprise": null,
-  "read": null,
-  "status": "pending_analysis"
+  "read": "IP +0.66% m/m (prior +0.06%), +2.25% y/y (prior 1.62%), capacity utilization 76.85% (prior 76.42%). Consensus not found. Firm upside in output; a hard-data tailwind for Q3 GDP, though IP is a small share of activity.",
+  "status": "analysed",
+  "fields": null,
+  "sources": [],
+  "alert": {
+    "alert": false,
+    "material": false,
+    "reasons": [
+      "no consensus available; surprise not assessed"
+    ]
+  },
+  "analysed_at": "2026-10-18 08:26 ET"
 }
