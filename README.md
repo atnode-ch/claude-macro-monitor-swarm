@@ -1,20 +1,20 @@
 # Macro Monitor swarm (Claude Code)
 
-A macro-monitoring swarm for 7 domains (inflation, labour, growth, housing, sentiment, central banks, financial conditions). Free GitHub Actions collect official data every weekday; Claude routines analyse new releases and write a weekly synthesis; a static site is published from `docs/`.
+A macro-monitoring swarm for 7 domains (inflation, labour, growth, housing, sentiment, central banks, financial conditions). Free GitHub Actions collect official data every weekday; Claude routines analyse new releases and write a weekly synthesis; a static site is built in `docs/<slug>/` and published to a shared GitHub Pages repo (`pages` in `config/deployment.json`, here `atnode-agent-pages/docs/macro-monitor/`).
 
 Ported from a Hyperagent swarm. Why it's built this way: [MIGRATION.md](MIGRATION.md).
 
 ```
 GitHub Action (weekdays, free)        Claude routines
 collectors -> data/releases/**  ───▶  macro-release (sonnet): analyst per release -> Slack alerts
-           -> data/pending.json       macro-strategist (opus, Fri): synthesis -> docs/ site -> Slack
+           -> data/pending.json       macro-strategist (opus, Fri): synthesis -> site -> pages repo -> Slack
 ```
 
 ## Set it up in any Claude Code account
 
 1. **Fork or copy** this repo into your GitHub account or org.
 2. **Configure:** copy `config/deployment.example.json` to `config/deployment.json` and fill in GitHub owner/repo/branch, Pages URL, Slack channel ID. That file holds every account-specific value; nothing else needs editing.
-3. **GitHub:** enable Actions with read/write workflow permissions (Settings > Actions > General) and Pages from `docs/` on your branch (Settings > Pages).
+3. **GitHub:** enable Actions with read/write workflow permissions (Settings > Actions > General) In the pages repo named by `pages`, enable Pages from `docs/` on `pages.branch` (Settings > Pages); the site goes to `docs/<pages.slug>/` there.
 4. **Secrets (all optional):** `FRED_API_KEY` adds the official FRED release calendar; `BLS_API_KEY` is unused by default. Data sources work without keys. Add them as Actions secrets.
 5. **Claude:** open the repo in Claude Code on the web (claude.ai/code) with an environment that can reach the internet, attach the **Slack** connector, then run:
 
@@ -42,10 +42,10 @@ config/            domains.json (reports + series), thresholds.json (alert polic
                    lenses/<domain>.md, cross_indicator.md
 collectors/        engine.py (fetch, dedup, queue), calendar.py (Fed/ECB/BoE/BEA calendars), common.py
 tools/             pending.py (analyst I/O + validation), alert_gate.py, synthesis.py (digest, audit, finalize),
-                   render_blackboard.py, build_site.py, store.py
+                   render_blackboard.py, build_site.py, publish_pages.py, store.py
 data/              releases/<domain>/<report>/<ref>.json, stances/, synthesis/, state.json, pending.json, calendar.json
 blackboard/        BLACKBOARD.md (rendered, read-only)
-docs/macro-monitor GitHub Pages site
+docs/macro-monitor site staging copy (published to the pages repo by tools/publish_pages.py)
 .claude/           agents/domain-analyst.md, skills/{macro-release,macro-strategist,swarm-setup}
 routines/          declarative routine specs
 ```

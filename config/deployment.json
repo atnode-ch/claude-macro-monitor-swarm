@@ -10,6 +10,14 @@
     "title": "Macro Monitor",
     "footer": "Macro Monitor · atnode.ch · built with Claude Code"
   },
+  "pages": {
+    "_doc": "Where the static site is published. tools.publish_pages mirrors docs/<slug>/ into <repo>/<dir>/<slug>/ and commits; the skill pushes it to <branch>. Pages serves <repo>/<dir>/ at the site's host.",
+    "owner": "atnode-ch",
+    "repo": "atnode-agent-pages",
+    "branch": "main",
+    "dir": "docs",
+    "slug": "macro-monitor"
+  },
   "slack": {
     "channel_id": "C0B8B76L7NH",
     "channel_name": "#hyper-asset-monitoring"

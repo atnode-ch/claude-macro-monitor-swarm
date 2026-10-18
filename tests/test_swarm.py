@@ -198,5 +198,35 @@ class AuditTests(TempData):
         self.assertFalse(any("Tue 13 Oct" in i["text"] for i in issues if i["type"] == "date"))
 
 
+class PublishPagesTests(unittest.TestCase):
+    def test_mirror_into_slug_only(self):
+        import subprocess
+        from tools import publish_pages
+        tmp = Path(tempfile.mkdtemp())
+        self.addCleanup(shutil.rmtree, tmp)
+        src, repo = tmp / "site", tmp / "pages"
+        (src / "reports").mkdir(parents=True)
+        (src / "index.html").write_text("new")
+        (src / "reports" / "w.html").write_text("r")
+        g = lambda *a: subprocess.run(["git", "-C", str(repo), "-c", "user.name=t", "-c", "user.email=t@t", *a],
+                                      check=True, capture_output=True)
+        repo.mkdir()
+        g("init", "-q")
+        slug = publish_pages.cfg()["slug"]
+        (repo / "docs" / slug).mkdir(parents=True)
+        (repo / "docs" / "CNAME").write_text("x")
+        (repo / "docs" / slug / "stale.html").write_text("old")
+        g("add", "-A"); g("commit", "-qm", "init")
+        orig = publish_pages.git
+        publish_pages.git = lambda r, *a, check=True: orig(r, "-c", "user.name=t", "-c", "user.email=t@t", *a, check=check)
+        self.addCleanup(setattr, publish_pages, "git", orig)
+        r = publish_pages.publish(pages_dir=repo, src=src)
+        self.assertTrue(r["committed"])
+        self.assertFalse((repo / "docs" / slug / "stale.html").exists())
+        self.assertEqual((repo / "docs" / slug / "reports" / "w.html").read_text(), "r")
+        self.assertTrue((repo / "docs" / "CNAME").exists())
+        self.assertFalse(publish_pages.publish(pages_dir=repo, src=src)["committed"])
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -1,6 +1,6 @@
 ---
 name: macro-strategist
-description: Weekly macro synthesis (Friday). Reads the compact digest, applies the cross-indicator chain, writes the weekly synthesis draft, fact-checks it with code, publishes the static site to docs/, posts one Slack summary (plus a health alert when a collector is stale), and commits. Used by the macro-strategist routine.
+description: Weekly macro synthesis (Friday). Reads the compact digest, applies the cross-indicator chain, writes the weekly synthesis draft, fact-checks it with code, builds the static site and publishes it to the shared pages repo (docs/<slug>), posts one Slack summary (plus a health alert when a collector is stale), and commits. Used by the macro-strategist routine.
 ---
 
 # macro-strategist
@@ -73,6 +73,16 @@ git push origin <branch>
 ```
 
 If the session assigned a different working branch, push there too, then fast-forward the deployment branch with `git push origin HEAD:<branch>` (standing permission, see CLAUDE.md). The run is not published until `<branch>` has the commit.
+
+Then publish the site to the pages repo (`pages` in deployment.json; GitHub Pages serves `<pages.repo>/<pages.dir>/`, so the site lands at `<pages.dir>/<pages.slug>/`):
+
+```bash
+python -m tools.publish_pages --message "<slug>: weekly synthesis <week>"
+cd ../<pages.repo>
+git push origin HEAD:<pages.branch>
+```
+
+`publish_pages` uses the checkout at `../<pages.repo>` (cloning it if absent), replaces only `<dir>/<slug>/` and commits. If the session assigned a working branch for the pages repo, push there first (`git push -u origin <working branch>`), then fast-forward `<pages.branch>` the same way as above: same standing permission, rebase onto `origin/<pages.branch>` and retry once if rejected, never force-push. The site is not live until `<pages.branch>` has the commit.
 
 ## 5. Slack
 

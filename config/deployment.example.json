@@ -6,9 +6,17 @@
     "branch": "main"
   },
   "site": {
-    "base_url": "https://YOUR_GITHUB_OWNER.github.io/claude-macro-monitor-swarm/macro-monitor/",
+    "base_url": "https://YOUR_GITHUB_OWNER.github.io/YOUR_PAGES_REPO/macro-monitor/",
     "title": "Macro Monitor",
     "footer": "Macro Monitor, built with Claude Code"
+  },
+  "pages": {
+    "_doc": "Where the static site is published. tools.publish_pages mirrors docs/<slug>/ into <repo>/<dir>/<slug>/ and commits; the skill pushes it to <branch>. Pages serves <repo>/<dir>/ at the site's host.",
+    "owner": "YOUR_GITHUB_OWNER",
+    "repo": "YOUR_PAGES_REPO",
+    "branch": "main",
+    "dir": "docs",
+    "slug": "macro-monitor"
   },
   "slack": {
     "channel_id": "YOUR_SLACK_CHANNEL_ID",

@@ -6,7 +6,7 @@ A macro-monitoring swarm: 7 domain collectors (code), a domain-analyst subagent 
 
 1. **GitHub Action** (`.github/workflows/collect.yml`, weekdays) runs `collectors.calendar` and `collectors.engine`. Official data lands in `data/releases/**`; anything new is queued in `data/pending.json`. No LLM, no tokens.
 2. **macro-release routine** (skill `macro-release`) drains the queue: one `domain-analyst` subagent per release adds consensus, a one-line read and the domain stance; `tools.pending` validates, computes surprise and decides alerts; alerts go to Slack.
-3. **macro-strategist routine** (skill `macro-strategist`, Friday) reads `tools.synthesis digest`, writes the weekly synthesis, fact-checks it, builds the site in `docs/`, posts one Slack summary.
+3. **macro-strategist routine** (skill `macro-strategist`, Friday) reads `tools.synthesis digest`, writes the weekly synthesis, fact-checks it, builds the site in `docs/` and publishes it to `<pages.repo>/docs/<slug>/` (`tools.publish_pages`), posts one Slack summary.
 
 ## Hard rules
 
@@ -17,7 +17,7 @@ A macro-monitoring swarm: 7 domain collectors (code), a domain-analyst subagent 
 - **Dates come from `data/calendar.json`**, never from memory. Don't attach a weekday to a date you didn't take from there.
 - **Stay in lane.** Classify an indicator by what it measures, not by who publishes it (Chicago Fed: NFCI is markets, CARTS is growth). A new indicator that only previews a tracked series is logged as a preview; alert only on divergence or multi-source confirmation.
 - **Alert discipline.** Only `tools.pending alerts` output and the Friday summary go to Slack. Quiet run, no Slack. A health alert always goes out, even on a quiet week.
-- **Publish to the deployment branch.** The owner has standing permission for every routine run to push its commit to `github.branch` in `config/deployment.json` (`main`), even when the session was assigned a different working branch. Push to the working branch as the session requires, then fast-forward the deployment branch: `git push origin HEAD:<branch>`. If that is rejected, rebase onto `origin/<branch>` and retry once. Never force-push it.
+- **Publish to the deployment branch.** The owner has standing permission for every routine run to push its commit to `github.branch` in `config/deployment.json` (`main`), even when the session was assigned a different working branch. Push to the working branch as the session requires, then fast-forward the deployment branch: `git push origin HEAD:<branch>`. The same permission covers the pages repo (`pages` in deployment.json): push its commit to `pages.branch`. If that is rejected, rebase onto `origin/<branch>` and retry once. Never force-push it.
 - **Blocked writes are loud.** If a commit, push or Slack post fails or is not permitted, start your final answer with `WRITE BLOCKED` and list exactly what was not written.
 
 ## Account-specific values
@@ -34,6 +34,7 @@ python -m tools.pending list|brief|apply|alerts
 python -m tools.synthesis digest|audit|finalize
 python -m tools.render_blackboard
 python -m tools.build_site
+python -m tools.publish_pages               # mirror docs/<slug>/ into the pages repo and commit
 ```
 
 Stdlib Python 3.11+ only; no installs needed.

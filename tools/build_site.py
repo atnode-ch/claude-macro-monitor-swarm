@@ -1,4 +1,4 @@
-"""Static site -> docs/macro-monitor/ (GitHub Pages serves docs/).
+"""Static site -> docs/<pages.slug>/ (staging copy; tools.publish_pages mirrors it to the pages repo).
 
     python -m tools.build_site [--week 2026-W41]
 
@@ -15,7 +15,7 @@ import sys
 from collectors import common as C
 from tools import render_blackboard, store
 
-SITE = C.ROOT / "docs" / "macro-monitor"
+SITE = C.ROOT / "docs" / C.deployment().get("pages", {}).get("slug", "macro-monitor")
 
 CSS = """:root{--bg:#f7f7f4;--fg:#1d1d1b;--muted:#6b6b66;--card:#fff;--line:#e2e1dc;--accent:#2f5d8a;--hot:#b4472f;--cool:#2f7a5b}
 @media (prefers-color-scheme:dark){:root{--bg:#141413;--fg:#ecebe6;--muted:#a3a29b;--card:#1e1e1c;--line:#33332f;--accent:#7fa8d1;--hot:#e0866f;--cool:#71c09b}}

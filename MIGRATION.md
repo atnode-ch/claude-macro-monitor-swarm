@@ -38,7 +38,7 @@ The design holds. The implementation drifted.
 | LLM self-audit + rubric | `tools/synthesis.py audit`: weekday/date checks, week-ahead vs calendar, every quoted figure vs data, KPI refs |
 | Saturday/Friday HTML editing by the LLM | `tools/build_site.py` fills pages from `data/synthesis/<week>.json` |
 | 15 memories | `CLAUDE.md`, lenses, `config/*.json`, skills (all in git, portable) |
-| agentweb site | `docs/macro-monitor/` in this repo (GitHub Pages) |
+| agentweb site | `docs/macro-monitor/` here, published to `atnode-agent-pages/docs/macro-monitor/` (GitHub Pages) |
 
 ## Token economy
 
