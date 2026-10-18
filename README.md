@@ -27,6 +27,21 @@ collectors -> data/releases/**  ───▶  macro-release (sonnet): analyst pe
 
 Moving to another account later is the same 6 steps; routine IDs live in the untracked `config/routines.local.json`.
 
+## Where the pages are published
+
+The site is not served from this repo. `tools.publish_pages` mirrors the staging copy in `docs/macro-monitor/` into a separate repo, **[atnode-ch/atnode-agent-pages](https://github.com/atnode-ch/atnode-agent-pages)**, under `docs/macro-monitor/`, and commits it. The `macro-strategist` routine then pushes that commit to `main` of the pages repo.
+
+`atnode-agent-pages` is the shared GitHub Pages repo for all of Felix's agents. It is connected to the custom domain **agents.atnode.ch**, which serves the repo's `docs/` folder. Each agent publishes into its own `docs/<slug>/` folder, so this swarm's site is live at:
+
+**https://agents.atnode.ch/macro-monitor/**
+
+```
+this repo                          atnode-ch/atnode-agent-pages            agents.atnode.ch
+docs/macro-monitor/  ──publish──▶  docs/macro-monitor/  ──GitHub Pages──▶  /macro-monitor/
+```
+
+The values come from `pages` and `site.base_url` in `config/deployment.json` (`owner`, `repo`, `branch`, `dir`, `slug`). To publish elsewhere, change them there and nothing else.
+
 ## Day to day
 
 | When | What | Cost |
