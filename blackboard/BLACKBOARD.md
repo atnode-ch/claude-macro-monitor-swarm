@@ -1,6 +1,6 @@
 # Macro Monitor: Blackboard
 
-_Rendered 2026-10-18 08:29 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
+_Rendered 2026-10-18 09:48 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
 
 ## Inflation
 
@@ -126,10 +126,10 @@ Week 42 was an inflation week. September CPI ran hot on core, 0.34% m/m against 
 
 | Domain | Last success | Age (h, weekdays) | Status |
 |---|---|---|---|
-| Inflation | 2026-10-18 07:21 ET | 1.1 | ok |
-| Labor | 2026-10-18 07:21 ET | 1.1 | ok |
-| Growth & Activity | 2026-10-18 07:21 ET | 1.1 | ok |
-| Housing | 2026-10-18 07:21 ET | 1.1 | ok |
-| Sentiment & Surveys | 2026-10-18 07:21 ET | 1.1 | ok |
-| Central Banks & Policy | 2026-10-18 07:21 ET | 1.1 | ok |
-| Financial Conditions & Markets | 2026-10-18 07:21 ET | 1.1 | ok |
+| Inflation | 2026-10-18 07:21 ET | 2.5 | ok |
+| Labor | 2026-10-18 07:21 ET | 2.5 | ok |
+| Growth & Activity | 2026-10-18 07:21 ET | 2.5 | ok |
+| Housing | 2026-10-18 07:21 ET | 2.5 | ok |
+| Sentiment & Surveys | 2026-10-18 07:21 ET | 2.5 | ok |
+| Central Banks & Policy | 2026-10-18 07:21 ET | 2.5 | ok |
+| Financial Conditions & Markets | 2026-10-18 07:21 ET | 2.5 | ok |
