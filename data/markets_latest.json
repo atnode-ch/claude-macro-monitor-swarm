@@ -1,50 +1,50 @@
 {
-  "as_of": "2026-10-16",
-  "updated_at": "2026-10-19 16:13 ET",
+  "as_of": "2026-10-19",
+  "updated_at": "2026-10-19 19:45 ET",
   "series": {
     "ust_10y": {
       "id": "DGS10",
-      "date": "2026-10-15",
-      "level": 5.1,
+      "date": "2026-10-16",
+      "level": 5.09,
       "unit": "bp",
-      "chg_1d": -9.0,
-      "chg_5d": -18.0,
-      "level_5d_ago": 5.28
+      "chg_1d": -1.0,
+      "chg_5d": -13.0,
+      "level_5d_ago": 5.22
     },
     "ust_2y": {
       "id": "DGS2",
-      "date": "2026-10-15",
-      "level": 4.77,
+      "date": "2026-10-16",
+      "level": 4.74,
       "unit": "bp",
-      "chg_1d": -5.0,
-      "chg_5d": 0.0,
-      "level_5d_ago": 4.77
+      "chg_1d": -3.0,
+      "chg_5d": -1.0,
+      "level_5d_ago": 4.75
     },
     "ust_3m": {
       "id": "DGS3MO",
-      "date": "2026-10-15",
-      "level": 4.28,
+      "date": "2026-10-16",
+      "level": 4.26,
       "unit": "bp",
-      "chg_1d": 0.0,
-      "chg_5d": 6.0,
-      "level_5d_ago": 4.22
+      "chg_1d": -2.0,
+      "chg_5d": 3.0,
+      "level_5d_ago": 4.23
     },
     "curve_10y2y": {
       "id": "T10Y2Y",
-      "date": "2026-10-16",
-      "level": 0.35,
+      "date": "2026-10-19",
+      "level": 0.38,
       "unit": "bp",
-      "chg_1d": 2.0,
-      "chg_5d": -12.0,
-      "level_5d_ago": 0.47
+      "chg_1d": 3.0,
+      "chg_5d": -6.0,
+      "level_5d_ago": 0.44
     },
     "curve_10y3m": {
       "id": "T10Y3M",
-      "date": "2026-10-16",
-      "level": 0.83,
+      "date": "2026-10-19",
+      "level": 0.88,
       "unit": "bp",
-      "chg_1d": 1.0,
-      "chg_5d": -16.0,
+      "chg_1d": 5.0,
+      "chg_5d": -11.0,
       "level_5d_ago": 0.99
     },
     "hy_oas": {
@@ -67,30 +67,30 @@
     },
     "be_5y5y": {
       "id": "T5YIFR",
-      "date": "2026-10-16",
-      "level": 2.33,
+      "date": "2026-10-19",
+      "level": 2.32,
       "unit": "bp",
-      "chg_1d": 2.0,
+      "chg_1d": -1.0,
       "chg_5d": 0.0,
-      "level_5d_ago": 2.33
+      "level_5d_ago": 2.32
     },
     "be_10y": {
       "id": "T10YIE",
-      "date": "2026-10-16",
+      "date": "2026-10-19",
       "level": 2.35,
       "unit": "bp",
-      "chg_1d": 3.0,
-      "chg_5d": 0.0,
-      "level_5d_ago": 2.35
+      "chg_1d": 0.0,
+      "chg_5d": 2.0,
+      "level_5d_ago": 2.33
     },
     "real_10y": {
       "id": "DFII10",
-      "date": "2026-10-15",
-      "level": 2.78,
+      "date": "2026-10-16",
+      "level": 2.74,
       "unit": "bp",
-      "chg_1d": -6.0,
-      "chg_5d": -14.0,
-      "level_5d_ago": 2.92
+      "chg_1d": -4.0,
+      "chg_5d": -13.0,
+      "level_5d_ago": 2.87
     },
     "sofr": {
       "id": "SOFR",
@@ -112,12 +112,12 @@
     },
     "usd_broad": {
       "id": "DTWEXBGS",
-      "date": "2026-10-09",
-      "level": 121.6023,
+      "date": "2026-10-16",
+      "level": 121.4048,
       "unit": "pts",
-      "chg_1d": 0.2,
-      "chg_5d": 0.2,
-      "level_5d_ago": 121.3848
+      "chg_1d": -0.2,
+      "chg_5d": -0.0,
+      "level_5d_ago": 121.4469
     }
   }
 }
