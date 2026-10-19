@@ -1,6 +1,6 @@
 # Macro Monitor: Blackboard
 
-_Rendered 2026-10-18 09:48 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
+_Rendered 2026-10-19 15:06 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
 
 ## Inflation
 
@@ -103,13 +103,13 @@ _Rendered 2026-10-18 09:48 ET from data/. Do not edit by hand; edit data/ or rer
 | ust_3m | 4.28 | +0 | +6 | bp |
 | curve_10y2y | 0.35 | +2 | -12 | bp |
 | curve_10y3m | 0.83 | +1 | -16 | bp |
-| hy_oas | 3.23 | -2 | +8 | bp |
-| ig_oas | 0.84 | +0 | +2 | bp |
+| hy_oas | 3.31 | +8 | +20 | bp |
+| ig_oas | 0.85 | +1 | +2 | bp |
 | be_5y5y | 2.33 | +2 | +0 | bp |
 | be_10y | 2.35 | +3 | +0 | bp |
 | real_10y | 2.78 | -6 | -14 | bp |
-| sofr | 3.89 | +1 | +1 | bp |
-| vix | 16.46 | -0 | +1 | pts |
+| sofr | 3.88 | -1 | +1 | bp |
+| vix | 19.99 | +4 | +5 | pts |
 | usd_broad | 121.60 | +0 | +0 | pts |
 
 ## Macro Synthesis
@@ -126,10 +126,10 @@ Week 42 was an inflation week. September CPI ran hot on core, 0.34% m/m against 
 
 | Domain | Last success | Age (h, weekdays) | Status |
 |---|---|---|---|
-| Inflation | 2026-10-18 07:21 ET | 2.5 | ok |
-| Labor | 2026-10-18 07:21 ET | 2.5 | ok |
-| Growth & Activity | 2026-10-18 07:21 ET | 2.5 | ok |
-| Housing | 2026-10-18 07:21 ET | 2.5 | ok |
-| Sentiment & Surveys | 2026-10-18 07:21 ET | 2.5 | ok |
-| Central Banks & Policy | 2026-10-18 07:21 ET | 2.5 | ok |
-| Financial Conditions & Markets | 2026-10-18 07:21 ET | 2.5 | ok |
+| Inflation | 2026-10-19 15:05 ET | 0.0 | ok |
+| Labor | 2026-10-19 15:05 ET | 0.0 | ok |
+| Growth & Activity | 2026-10-19 15:05 ET | 0.0 | ok |
+| Housing | 2026-10-19 15:05 ET | 0.0 | ok |
+| Sentiment & Surveys | 2026-10-19 15:05 ET | 0.0 | ok |
+| Central Banks & Policy | 2026-10-19 15:05 ET | 0.0 | ok |
+| Financial Conditions & Markets | 2026-10-19 15:05 ET | 0.0 | ok |
