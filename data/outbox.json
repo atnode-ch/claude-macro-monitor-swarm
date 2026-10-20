@@ -1,3 +1,10 @@
 {
-  "items": []
+  "items": [
+    {
+      "report": "starts",
+      "ref": "2026-09",
+      "path": "data/releases/housing/starts/2026-09.json",
+      "alert": false
+    }
+  ]
 }

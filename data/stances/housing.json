@@ -1,6 +1,6 @@
 {
   "domain": "housing",
-  "stance": "Housing is weak but stabilising at a low level. September existing sales of 3.99M SAAR (+1.5%, after -3.2%) edged past consensus, yet the series is a lagging closings count and mortgage rates near 7.4% threaten affordability. Expect softer prints in October and November. No history yet, so the view is provisional. Permits and new home sales (leading) would confirm or contradict any recovery.",
-  "updated_at": "2026-10-18 08:26 ET",
-  "from": "existing_home 2026-09"
+  "stance": "Housing is weak at a low level. September starts fell 5.2% to 1,221k SAAR after -5.9%, a second straight decline. Permits held near 1,400k (-0.2%), which is the leading signal and suggests starts stabilise rather than fall further. Existing sales of 3.99M (+1.5%) edged past consensus but are lagging closings, and mortgage rates near 7.4% cap affordability. Residential investment is a GDP drag. A permits print below 1,350k or weak new home sales would confirm further deterioration. View is provisional.",
+  "updated_at": "2026-10-20 17:10 ET",
+  "from": "starts 2026-09"
 }

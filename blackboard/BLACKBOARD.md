@@ -1,6 +1,6 @@
 # Macro Monitor: Blackboard
 
-_Rendered 2026-10-20 14:45 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
+_Rendered 2026-10-20 17:12 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
 
 ## Inflation
 
@@ -52,13 +52,13 @@ _Rendered 2026-10-20 14:45 ET from data/. Do not edit by hand; edit data/ or rer
 
 | Report | Period | Actual | Prior | Consensus | Surprise | Read |
 |---|---|---|---|---|---|---|
-| **Housing Starts & Building Permits** | 2026-09 | starts 1,221k; starts -5.2% m/m; permits 1,400k; permits -0.2% m/m | starts 1,288k; starts -5.9% m/m; permits 1,403k; permits -2.1% m/m |  |  | _pending analysis_ [source](https://www.census.gov/construction/nrc/index.html) |
+| **Housing Starts & Building Permits** | 2026-09 | starts 1,221k; starts -5.2% m/m; permits 1,400k; permits -0.2% m/m | starts 1,288k; starts -5.9% m/m; permits 1,403k; permits -2.1% m/m | unconfirmed |  | September starts fell 5.2% to 1,221k SAAR, a second straight drop (prior -5.9%). Permits slipped 0.2% to 1,400k, so the leading series is steady. No consensus found. Weak starts signal a residential investment drag in Q3 GDP. [source](https://www.census.gov/construction/nrc/index.html) |
 | **Existing Home Sales** | 2026-09 | sales 3.99m; sales +1.5% m/m | sales 3.93m; sales -3.2% m/m | sales 3.95m | sales_m.level +0.04 | Existing home sales rose 1.5% to 3.99M SAAR, about 0.04M above the 3.95M consensus. Closings lag, and 30-year rates near 7.4% point to weaker Oct and Nov prints. Mild support for builders and REITs, limited GDP lift. [source](https://www.nar.realtor/research-and-statistics/housing-statistics/existing-home-sales) |
 | **Housing Starts & Building Permits** | 2026-08 | starts 1,275k; starts -2.6% m/m; permits 1,403k; permits -2.1% m/m | starts 1,309k; starts -9.0% m/m; permits 1,433k; permits +4.3% m/m |  |  | _baseline (pre-migration)_ [source](https://www.census.gov/construction/nrc/index.html) |
 | **New Home Sales** | 2026-08 | sales 684k; sales +6.4% m/m | sales 643k; sales -4.3% m/m |  |  | _baseline (pre-migration)_ [source](https://www.census.gov/construction/nrs/index.html) |
 | **Existing Home Sales** | 2026-08 | sales 3.98m; sales -2.0% m/m | sales 4.06m; sales -1.7% m/m |  |  | _baseline (pre-migration)_ [source](https://www.nar.realtor/research-and-statistics/housing-statistics/existing-home-sales) |
 
-**Current stance:** Housing is weak but stabilising at a low level. September existing sales of 3.99M SAAR (+1.5%, after -3.2%) edged past consensus, yet the series is a lagging closings count and mortgage rates near 7.4% threaten affordability. Expect softer prints in October and November. No history yet, so the view is provisional. Permits and new home sales (leading) would confirm or contradict any recovery. _(updated 2026-10-18 08:26 ET)_
+**Current stance:** Housing is weak at a low level. September starts fell 5.2% to 1,221k SAAR after -5.9%, a second straight decline. Permits held near 1,400k (-0.2%), which is the leading signal and suggests starts stabilise rather than fall further. Existing sales of 3.99M (+1.5%) edged past consensus but are lagging closings, and mortgage rates near 7.4% cap affordability. Residential investment is a GDP drag. A permits print below 1,350k or weak new home sales would confirm further deterioration. View is provisional. _(updated 2026-10-20 17:10 ET)_
 
 ## Sentiment & Surveys
 
@@ -128,10 +128,10 @@ Week 42 was an inflation week. September CPI ran hot on core, 0.34% m/m against 
 
 | Domain | Last success | Age (h, weekdays) | Status |
 |---|---|---|---|
-| Inflation | 2026-10-20 14:45 ET | 0.0 | ok |
-| Labor | 2026-10-20 14:45 ET | 0.0 | ok |
-| Growth & Activity | 2026-10-20 14:45 ET | 0.0 | ok |
-| Housing | 2026-10-20 14:45 ET | 0.0 | ok |
-| Sentiment & Surveys | 2026-10-20 14:45 ET | 0.0 | ok |
-| Central Banks & Policy | 2026-10-20 14:45 ET | 0.0 | ok |
-| Financial Conditions & Markets | 2026-10-20 14:45 ET | 0.0 | ok |
+| Inflation | 2026-10-20 14:45 ET | 2.5 | ok |
+| Labor | 2026-10-20 14:45 ET | 2.5 | ok |
+| Growth & Activity | 2026-10-20 14:45 ET | 2.5 | ok |
+| Housing | 2026-10-20 14:45 ET | 2.5 | ok |
+| Sentiment & Surveys | 2026-10-20 14:45 ET | 2.5 | ok |
+| Central Banks & Policy | 2026-10-20 14:45 ET | 2.5 | ok |
+| Financial Conditions & Markets | 2026-10-20 14:45 ET | 2.5 | ok |

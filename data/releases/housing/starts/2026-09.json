@@ -23,6 +23,16 @@
   "consensus": null,
   "consensus_source": null,
   "surprise": null,
-  "read": null,
-  "status": "pending_analysis"
+  "read": "September starts fell 5.2% to 1,221k SAAR, a second straight drop (prior -5.9%). Permits slipped 0.2% to 1,400k, so the leading series is steady. No consensus found. Weak starts signal a residential investment drag in Q3 GDP.",
+  "status": "analysed",
+  "fields": null,
+  "sources": [],
+  "alert": {
+    "alert": false,
+    "material": false,
+    "reasons": [
+      "no consensus available; surprise not assessed"
+    ]
+  },
+  "analysed_at": "2026-10-20 17:10 ET"
 }

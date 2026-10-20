@@ -8,15 +8,6 @@
       "needs_fetch": true,
       "tier": 3,
       "detected_at": "2026-10-20 13:49 ET"
-    },
-    {
-      "domain": "housing",
-      "report": "starts",
-      "ref": "2026-09",
-      "path": "data/releases/housing/starts/2026-09.json",
-      "needs_fetch": false,
-      "tier": 3,
-      "detected_at": "2026-10-20 13:49 ET"
     }
   ]
 }
