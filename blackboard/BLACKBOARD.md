@@ -1,6 +1,6 @@
 # Macro Monitor: Blackboard
 
-_Rendered 2026-10-19 19:45 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
+_Rendered 2026-10-20 13:49 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
 
 ## Inflation
 
@@ -22,6 +22,7 @@ _Rendered 2026-10-19 19:45 ET from data/. Do not edit by hand; edit data/ or rer
 
 | Report | Period | Actual | Prior | Consensus | Surprise | Read |
 |---|---|---|---|---|---|---|
+| **UK Labour Market (ONS)** | 2026-08 | _awaiting fetch_ |  |  |  | _pending analysis_ [source](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/latest) _(single-source, unconfirmed)_ |
 | **Initial Jobless Claims** | 2026-10-10 | initial 199,000; initial +1,000 chg; initial 4wk 198,500; continuing 1,710,000 | initial 198,000; initial -1,000 chg; initial 4wk 198,250; continuing 1,710,000 | initial 200,000 | initial.level -1000 | Initial claims 199k vs 200k consensus (unconfirmed), +1k w/w. 4-week average 198.5k, continuing 1.71M unchanged. Layoffs stay low, no labour-market turn signal; supports a low-hire, low-fire read. [source](https://www.dol.gov/ui/data.pdf) |
 | **Initial Jobless Claims** | 2026-09-26 | initial 197,000; initial -1,000 chg; initial 4wk 200,000; continuing 1,701,000 | initial 198,000; initial +0.00 chg; initial 4wk 202,500; continuing 1,701,000 |  |  | _baseline (pre-migration)_ [source](https://www.dol.gov/ui/data.pdf) |
 | **Non-Farm Payrolls** | 2026-09 | payrolls +29k chg; unemployment rate 4.20%; unemployment rate +0.10pp chg; ahe +0.1% m/m; ahe 3.0% y/y | payrolls +133k chg; unemployment rate 4.10%; unemployment rate +0.00pp chg; ahe +0.3% m/m; ahe 3.1% y/y |  |  | _baseline (pre-migration)_ [source](https://www.bls.gov/news.release/empsit.htm) |
@@ -51,6 +52,7 @@ _Rendered 2026-10-19 19:45 ET from data/. Do not edit by hand; edit data/ or rer
 
 | Report | Period | Actual | Prior | Consensus | Surprise | Read |
 |---|---|---|---|---|---|---|
+| **Housing Starts & Building Permits** | 2026-09 | starts 1,221k; starts -5.2% m/m; permits 1,400k; permits -0.2% m/m | starts 1,288k; starts -5.9% m/m; permits 1,403k; permits -2.1% m/m |  |  | _pending analysis_ [source](https://www.census.gov/construction/nrc/index.html) |
 | **Existing Home Sales** | 2026-09 | sales 3.99m; sales +1.5% m/m | sales 3.93m; sales -3.2% m/m | sales 3.95m | sales_m.level +0.04 | Existing home sales rose 1.5% to 3.99M SAAR, about 0.04M above the 3.95M consensus. Closings lag, and 30-year rates near 7.4% point to weaker Oct and Nov prints. Mild support for builders and REITs, limited GDP lift. [source](https://www.nar.realtor/research-and-statistics/housing-statistics/existing-home-sales) |
 | **Housing Starts & Building Permits** | 2026-08 | starts 1,275k; starts -2.6% m/m; permits 1,403k; permits -2.1% m/m | starts 1,309k; starts -9.0% m/m; permits 1,433k; permits +4.3% m/m |  |  | _baseline (pre-migration)_ [source](https://www.census.gov/construction/nrc/index.html) |
 | **New Home Sales** | 2026-08 | sales 684k; sales +6.4% m/m | sales 643k; sales -4.3% m/m |  |  | _baseline (pre-migration)_ [source](https://www.census.gov/construction/nrs/index.html) |
@@ -103,13 +105,13 @@ _Rendered 2026-10-19 19:45 ET from data/. Do not edit by hand; edit data/ or rer
 | ust_3m | 4.26 | -2 | +3 | bp |
 | curve_10y2y | 0.38 | +3 | -6 | bp |
 | curve_10y3m | 0.88 | +5 | -11 | bp |
-| hy_oas | 3.31 | +8 | +20 | bp |
-| ig_oas | 0.85 | +1 | +2 | bp |
+| hy_oas | 3.29 | -2 | +18 | bp |
+| ig_oas | 0.87 | +2 | +4 | bp |
 | be_5y5y | 2.32 | -1 | +0 | bp |
 | be_10y | 2.35 | +0 | +2 | bp |
 | real_10y | 2.74 | -4 | -13 | bp |
-| sofr | 3.88 | -1 | +1 | bp |
-| vix | 19.99 | +4 | +5 | pts |
+| sofr | 3.87 | -1 | +0 | bp |
+| vix | 18.44 | -2 | +3 | pts |
 | usd_broad | 121.40 | -0 | -0 | pts |
 
 ## Macro Synthesis
@@ -126,10 +128,10 @@ Week 42 was an inflation week. September CPI ran hot on core, 0.34% m/m against 
 
 | Domain | Last success | Age (h, weekdays) | Status |
 |---|---|---|---|
-| Inflation | 2026-10-19 19:45 ET | 0.0 | ok |
-| Labor | 2026-10-19 19:45 ET | 0.0 | ok |
-| Growth & Activity | 2026-10-19 19:45 ET | 0.0 | ok |
-| Housing | 2026-10-19 19:45 ET | 0.0 | ok |
-| Sentiment & Surveys | 2026-10-19 19:45 ET | 0.0 | ok |
-| Central Banks & Policy | 2026-10-19 19:45 ET | 0.0 | ok |
-| Financial Conditions & Markets | 2026-10-19 19:45 ET | 0.0 | ok |
+| Inflation | 2026-10-20 13:49 ET | 0.0 | ok |
+| Labor | 2026-10-20 13:49 ET | 0.0 | ok |
+| Growth & Activity | 2026-10-20 13:49 ET | 0.0 | ok |
+| Housing | 2026-10-20 13:49 ET | 0.0 | ok |
+| Sentiment & Surveys | 2026-10-20 13:49 ET | 0.0 | ok |
+| Central Banks & Policy | 2026-10-20 13:49 ET | 0.0 | ok |
+| Financial Conditions & Markets | 2026-10-20 13:49 ET | 0.0 | ok |

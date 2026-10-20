@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19 19:45 ET",
+  "generated_at": "2026-10-20 13:49 ET",
   "cb_meetings": {
     "fed": [
       "2021-01-27",
@@ -99,14 +99,6 @@
   },
   "events": [
     {
-      "date": "2026-10-12",
-      "time_et": "08:30",
-      "report": "cpi",
-      "name": "CPI",
-      "source": "estimate",
-      "weekday": "Mon"
-    },
-    {
       "date": "2026-10-13",
       "time_et": "08:30",
       "report": "ppi",
@@ -200,15 +192,6 @@
       "report": "conf_board",
       "name": "Conference Board Consumer Confidence",
       "source": "estimate",
-      "weekday": "Tue"
-    },
-    {
-      "date": "2026-10-27",
-      "time_et": null,
-      "report": "gdp",
-      "name": "GDP (real, SAAR)",
-      "source": "official",
-      "summary": "GDPNow",
       "weekday": "Tue"
     },
     {
@@ -574,6 +557,15 @@
       "name": "Initial Jobless Claims",
       "source": "estimate",
       "weekday": "Thu"
+    },
+    {
+      "date": "2026-12-04",
+      "time_et": null,
+      "report": "nfp",
+      "name": "Non-Farm Payrolls",
+      "source": "official",
+      "summary": "Employment Situation",
+      "weekday": "Fri"
     }
   ],
   "errors": []

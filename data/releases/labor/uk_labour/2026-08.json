@@ -1,0 +1,24 @@
+{
+  "domain": "labor",
+  "report": "uk_labour",
+  "name": "UK Labour Market (ONS)",
+  "ref": "2026-08",
+  "tier": 3,
+  "detected_at": "2026-10-20 13:49 ET",
+  "source": "web",
+  "source_url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/latest",
+  "metrics": {},
+  "prior": {},
+  "verified": false,
+  "consensus": null,
+  "consensus_source": null,
+  "surprise": null,
+  "read": null,
+  "status": "pending_analysis",
+  "due_date": "2026-10-20",
+  "needs_fetch": [
+    "unemployment_rate",
+    "awe_regular_yoy",
+    "payrolled_employees_chg_k"
+  ]
+}
