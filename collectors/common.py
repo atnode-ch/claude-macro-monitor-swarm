@@ -117,6 +117,9 @@ def fred_csv(series_id, text=None, years=4):
         start = date(date.today().year - years, 1, 1).isoformat()
         text = http_get(f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={series_id}&cosd={start}",
                         timeout=30, browser_ua=False)
+    if text.lstrip()[:15].lower().startswith(("<!doctype", "<html")):
+        # FRED serves its maintenance page as HTTP 200 HTML
+        raise RuntimeError(f"FRED returned HTML, not CSV, for {series_id} (site maintenance?)")
     rows = []
     reader = csv.reader(io.StringIO(text))
     next(reader, None)
