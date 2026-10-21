@@ -1,6 +1,6 @@
 # Macro Monitor: Blackboard
 
-_Rendered 2026-10-21 13:55 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
+_Rendered 2026-10-21 14:57 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
 
 ## Inflation
 
@@ -115,10 +115,10 @@ Week 42 was an inflation week. September CPI ran hot on core, 0.34% m/m against 
 
 | Domain | Last success | Age (h, weekdays) | Status |
 |---|---|---|---|
-| Inflation | 2026-10-20 19:12 ET | 18.7 | errors: cpi: RuntimeError: no data for CPIAUCSL; ppi: RuntimeError: no data for PPIFIS; pce: RuntimeError: no data for PCEPI |
-| Labor | 2026-10-20 19:12 ET | 18.7 | errors: nfp: RuntimeError: no data for PAYEMS; claims: RuntimeError: no data for ICSA; jolts: RuntimeError: no data for JTSJOL; adp: RuntimeError: no data for ADPMNUSNERSA |
-| Growth & Activity | 2026-10-20 19:12 ET | 18.7 | errors: gdp: RuntimeError: no data for A191RL1Q225SBEA; retail: RuntimeError: no data for RSAFS; indpro: RuntimeError: no data for INDPRO; durables: RuntimeError: no data for DGORDER; trade: RuntimeError: no data for BOPGSTB |
-| Housing | 2026-10-20 19:12 ET | 18.7 | errors: starts: RuntimeError: no data for HOUST; new_home: RuntimeError: no data for HSN1F; existing_home: RuntimeError: no data for EXHOSLUSM495S |
-| Sentiment & Surveys | 2026-10-20 19:12 ET | 18.7 | errors: umich: RuntimeError: no data for UMCSENT |
-| Central Banks & Policy | 2026-10-20 19:12 ET | 18.7 | errors: ez_hicp: RuntimeError: no data for CP0000EZ19M086NEST; ez_gdp: RuntimeError: no data for CLVMEURSCAB1GQEA19 |
-| Financial Conditions & Markets | 2026-10-20 19:12 ET | 18.7 | errors: nfci: RuntimeError: no data for NFCI; sloos: RuntimeError: no data for DRTSCILM |
+| Inflation | 2026-10-20 19:12 ET | 19.8 | errors: cpi: RuntimeError: no data for CPIAUCSL; ppi: RuntimeError: no data for PPIFIS; pce: RuntimeError: no data for PCEPI |
+| Labor | 2026-10-20 19:12 ET | 19.8 | errors: nfp: RuntimeError: no data for PAYEMS; claims: RuntimeError: no data for ICSA; jolts: RuntimeError: no data for JTSJOL; adp: RuntimeError: no data for ADPMNUSNERSA |
+| Growth & Activity | 2026-10-20 19:12 ET | 19.8 | errors: gdp: RuntimeError: no data for A191RL1Q225SBEA; retail: RuntimeError: no data for RSAFS; indpro: RuntimeError: no data for INDPRO; durables: RuntimeError: no data for DGORDER; trade: RuntimeError: no data for BOPGSTB |
+| Housing | 2026-10-20 19:12 ET | 19.8 | errors: starts: RuntimeError: no data for HOUST; new_home: RuntimeError: no data for HSN1F; existing_home: RuntimeError: no data for EXHOSLUSM495S |
+| Sentiment & Surveys | 2026-10-20 19:12 ET | 19.8 | errors: umich: RuntimeError: no data for UMCSENT |
+| Central Banks & Policy | 2026-10-20 19:12 ET | 19.8 | errors: ez_hicp: RuntimeError: no data for CP0000EZ19M086NEST; ez_gdp: RuntimeError: no data for CLVMEURSCAB1GQEA19 |
+| Financial Conditions & Markets | 2026-10-20 19:12 ET | 19.8 | errors: nfci: RuntimeError: no data for NFCI; sloos: RuntimeError: no data for DRTSCILM |
