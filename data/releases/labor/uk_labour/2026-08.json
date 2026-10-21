@@ -7,18 +7,40 @@
   "detected_at": "2026-10-20 13:49 ET",
   "source": "web",
   "source_url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/latest",
-  "metrics": {},
+  "metrics": {
+    "unemployment_rate": 4.7,
+    "awe_regular_yoy": 3.7
+  },
   "prior": {},
-  "verified": false,
-  "consensus": null,
-  "consensus_source": null,
-  "surprise": null,
-  "read": null,
-  "status": "pending_analysis",
+  "verified": true,
+  "consensus": {
+    "unemployment_rate": 4.9,
+    "awe_regular_yoy": 3.6
+  },
+  "consensus_source": "Reuters poll (regular pay 3.6%) and economists' forecast of 4.9% unemployment, as reported by investing.com and asktraders, 2026-10-20",
+  "surprise": {
+    "unemployment_rate": -0.2,
+    "awe_regular_yoy": 0.1
+  },
+  "read": "Unemployment 4.7% (3M to Aug) vs 4.9% consensus and 4.9% prior, a beat. Regular pay 3.7% vs 3.6% expected, steady. Vacancies at a 5-year low of 691k. Payrolled change unconfirmed. Firm pay keeps BoE hike risk live.",
+  "status": "analysed",
   "due_date": "2026-10-20",
   "needs_fetch": [
     "unemployment_rate",
     "awe_regular_yoy",
     "payrolled_employees_chg_k"
-  ]
+  ],
+  "fields": null,
+  "sources": [
+    "https://www.investing.com/news/economy-news/uk-wages-grew-by-annual-37-in-three-months-to-august-ons-says-4958853",
+    "https://www.asktraders.com/analysis/uk-unemployment-falls-to-4-7-below-the-4-9-forecast-as-pay-growth-mixed/"
+  ],
+  "alert": {
+    "alert": true,
+    "material": true,
+    "reasons": [
+      "unemployment_rate surprise -0.2 (threshold 0.2)"
+    ]
+  },
+  "analysed_at": "2026-10-21 11:13 ET"
 }
