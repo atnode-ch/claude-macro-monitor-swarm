@@ -2,152 +2,179 @@
   "reports": {
     "cpi": {
       "last_checked": "2026-10-20 19:12 ET",
-      "last_ref": "2026-09"
+      "last_ref": "2026-09",
+      "error": "RuntimeError: no data for CPIAUCSL"
     },
     "ppi": {
       "last_checked": "2026-10-20 19:12 ET",
-      "last_ref": "2026-09"
+      "last_ref": "2026-09",
+      "error": "RuntimeError: no data for PPIFIS"
     },
     "pce": {
       "last_checked": "2026-10-20 19:12 ET",
-      "last_ref": "2026-08"
+      "last_ref": "2026-08",
+      "error": "RuntimeError: no data for PCEPI"
     },
     "nfp": {
       "last_checked": "2026-10-20 19:12 ET",
-      "last_ref": "2026-09"
+      "last_ref": "2026-09",
+      "error": "RuntimeError: no data for PAYEMS"
     },
     "claims": {
       "last_checked": "2026-10-20 19:12 ET",
-      "last_ref": "2026-10-10"
+      "last_ref": "2026-10-10",
+      "error": "RuntimeError: no data for ICSA"
     },
     "jolts": {
       "last_checked": "2026-10-20 19:12 ET",
-      "last_ref": "2026-08"
+      "last_ref": "2026-08",
+      "error": "RuntimeError: no data for JTSJOL"
     },
     "adp": {
       "last_checked": "2026-10-20 19:12 ET",
-      "last_ref": "2026-09"
+      "last_ref": "2026-09",
+      "error": "RuntimeError: no data for ADPMNUSNERSA"
     },
     "uk_labour": {
-      "last_checked": "2026-10-20 19:12 ET",
+      "last_checked": "2026-10-21 13:55 ET",
       "last_ref": "2026-08"
     },
     "gdp": {
       "last_checked": "2026-10-20 19:12 ET",
-      "last_ref": "2026-Q2"
+      "last_ref": "2026-Q2",
+      "error": "RuntimeError: no data for A191RL1Q225SBEA"
     },
     "retail": {
       "last_checked": "2026-10-20 19:12 ET",
-      "last_ref": "2026-09"
+      "last_ref": "2026-09",
+      "error": "RuntimeError: no data for RSAFS"
     },
     "indpro": {
       "last_checked": "2026-10-20 19:12 ET",
-      "last_ref": "2026-09"
+      "last_ref": "2026-09",
+      "error": "RuntimeError: no data for INDPRO"
     },
     "durables": {
       "last_checked": "2026-10-20 19:12 ET",
-      "last_ref": "2026-08"
+      "last_ref": "2026-08",
+      "error": "RuntimeError: no data for DGORDER"
     },
     "trade": {
       "last_checked": "2026-10-20 19:12 ET",
-      "last_ref": "2026-08"
+      "last_ref": "2026-08",
+      "error": "RuntimeError: no data for BOPGSTB"
     },
     "ism_mfg": {
-      "last_checked": "2026-10-20 19:12 ET",
+      "last_checked": "2026-10-21 13:55 ET",
       "last_ref": "2026-09"
     },
     "ism_services": {
-      "last_checked": "2026-10-20 19:12 ET",
+      "last_checked": "2026-10-21 13:55 ET",
       "last_ref": "2026-09"
     },
     "carts": {
-      "last_checked": "2026-10-20 19:12 ET",
+      "last_checked": "2026-10-21 13:55 ET",
       "last_ref": "2026-09"
     },
     "starts": {
       "last_checked": "2026-10-20 19:12 ET",
-      "last_ref": "2026-09"
+      "last_ref": "2026-09",
+      "error": "RuntimeError: no data for HOUST"
     },
     "new_home": {
       "last_checked": "2026-10-20 19:12 ET",
-      "last_ref": "2026-08"
+      "last_ref": "2026-08",
+      "error": "RuntimeError: no data for HSN1F"
     },
     "existing_home": {
       "last_checked": "2026-10-20 19:12 ET",
-      "last_ref": "2026-09"
+      "last_ref": "2026-09",
+      "error": "RuntimeError: no data for EXHOSLUSM495S"
     },
     "umich": {
       "last_checked": "2026-10-20 19:12 ET",
-      "last_ref": "2026-08"
+      "last_ref": "2026-08",
+      "error": "RuntimeError: no data for UMCSENT"
     },
     "conf_board": {
-      "last_checked": "2026-10-20 19:12 ET",
+      "last_checked": "2026-10-21 13:55 ET",
       "last_ref": "2026-09"
     },
     "ifo": {
-      "last_checked": "2026-10-20 19:12 ET",
+      "last_checked": "2026-10-21 13:55 ET",
       "last_ref": "2026-09"
     },
     "fomc": {
-      "last_checked": "2026-10-20 19:12 ET",
+      "last_checked": "2026-10-21 13:55 ET",
       "last_ref": "2026-09-16"
     },
     "ecb": {
-      "last_checked": "2026-10-20 19:12 ET"
+      "last_checked": "2026-10-21 13:55 ET"
     },
     "boe": {
       "last_rate": 3.75,
-      "last_checked": "2026-10-20 19:12 ET",
+      "last_checked": "2026-10-21 13:55 ET",
       "last_ref": "2026-09-17"
     },
     "ez_hicp": {
       "last_checked": "2026-10-20 19:12 ET",
-      "last_ref": "2026-09"
+      "last_ref": "2026-09",
+      "error": "RuntimeError: no data for CP0000EZ19M086NEST"
     },
     "ez_gdp": {
       "last_checked": "2026-10-20 19:12 ET",
-      "last_ref": "2026-Q2"
+      "last_ref": "2026-Q2",
+      "error": "RuntimeError: no data for CLVMEURSCAB1GQEA19"
     },
     "market_levels": {
-      "last_checked": "2026-10-20 19:12 ET"
+      "last_checked": "2026-10-21 13:55 ET"
     },
     "nfci": {
       "last_checked": "2026-10-20 19:12 ET",
-      "last_ref": "2026-10-09"
+      "last_ref": "2026-10-09",
+      "error": "RuntimeError: no data for NFCI"
     },
     "sloos": {
       "last_checked": "2026-10-20 19:12 ET",
-      "last_ref": "2026-Q3"
+      "last_ref": "2026-Q3",
+      "error": "RuntimeError: no data for DRTSCILM"
     }
   },
   "collectors": {
     "inflation": {
-      "last_run": "2026-10-20 19:12 ET",
-      "last_success": "2026-10-20 19:12 ET"
+      "last_run": "2026-10-21 13:55 ET",
+      "last_success": "2026-10-20 19:12 ET",
+      "error": "one or more reports failed; see reports[*].error"
     },
     "labor": {
-      "last_run": "2026-10-20 19:12 ET",
-      "last_success": "2026-10-20 19:12 ET"
+      "last_run": "2026-10-21 13:55 ET",
+      "last_success": "2026-10-20 19:12 ET",
+      "error": "one or more reports failed; see reports[*].error"
     },
     "growth": {
-      "last_run": "2026-10-20 19:12 ET",
-      "last_success": "2026-10-20 19:12 ET"
+      "last_run": "2026-10-21 13:55 ET",
+      "last_success": "2026-10-20 19:12 ET",
+      "error": "one or more reports failed; see reports[*].error"
     },
     "housing": {
-      "last_run": "2026-10-20 19:12 ET",
-      "last_success": "2026-10-20 19:12 ET"
+      "last_run": "2026-10-21 13:55 ET",
+      "last_success": "2026-10-20 19:12 ET",
+      "error": "one or more reports failed; see reports[*].error"
     },
     "sentiment": {
-      "last_run": "2026-10-20 19:12 ET",
-      "last_success": "2026-10-20 19:12 ET"
+      "last_run": "2026-10-21 13:55 ET",
+      "last_success": "2026-10-20 19:12 ET",
+      "error": "one or more reports failed; see reports[*].error"
     },
     "policy": {
-      "last_run": "2026-10-20 19:12 ET",
-      "last_success": "2026-10-20 19:12 ET"
+      "last_run": "2026-10-21 13:55 ET",
+      "last_success": "2026-10-20 19:12 ET",
+      "error": "one or more reports failed; see reports[*].error"
     },
     "markets": {
-      "last_run": "2026-10-20 19:12 ET",
-      "last_success": "2026-10-20 19:12 ET"
+      "last_run": "2026-10-21 13:55 ET",
+      "last_success": "2026-10-20 19:12 ET",
+      "error": "one or more reports failed; see reports[*].error"
     }
   }
 }

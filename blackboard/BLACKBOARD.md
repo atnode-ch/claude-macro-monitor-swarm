@@ -1,6 +1,6 @@
 # Macro Monitor: Blackboard
 
-_Rendered 2026-10-21 11:13 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
+_Rendered 2026-10-21 13:55 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
 
 ## Inflation
 
@@ -96,23 +96,10 @@ _Rendered 2026-10-21 11:13 ET from data/. Do not edit by hand; edit data/ or rer
 
 **Current stance:** Initial stance: financial conditions are loose. NFCI at -0.499 is well below the zero line and has tightened 0.008 to 0.010 per week over the last two prints. Adjusted NFCI is -0.485. No regime signal. No curve, HY OAS or other market history is logged yet, so multi-signal alignment cannot be assessed. A move toward zero, or tightening that coincides with HY widening and curve dis-inversion, would change the view. _(updated 2026-10-18 08:26 ET)_
 
-**Latest market levels** (as of 2026-10-20):
+**Latest market levels** (as of None):
 
 | Series | Level | 1d | 5d | Unit |
 |---|---|---|---|---|
-| ust_10y | 5.15 | +6 | -9 | bp |
-| ust_2y | 4.77 | +3 | -3 | bp |
-| ust_3m | 4.27 | +1 | +2 | bp |
-| curve_10y2y | 0.33 | -5 | -9 | bp |
-| curve_10y3m | 0.86 | -2 | -9 | bp |
-| hy_oas | 3.29 | -2 | +18 | bp |
-| ig_oas | 0.87 | +2 | +4 | bp |
-| be_5y5y | 2.31 | -1 | -2 | bp |
-| be_10y | 2.35 | +0 | +2 | bp |
-| real_10y | 2.80 | +6 | -11 | bp |
-| sofr | 3.87 | -1 | +0 | bp |
-| vix | 18.44 | -2 | +3 | pts |
-| usd_broad | 121.40 | -0 | -0 | pts |
 
 ## Macro Synthesis
 
@@ -128,10 +115,10 @@ Week 42 was an inflation week. September CPI ran hot on core, 0.34% m/m against 
 
 | Domain | Last success | Age (h, weekdays) | Status |
 |---|---|---|---|
-| Inflation | 2026-10-20 19:12 ET | 16.0 | ok |
-| Labor | 2026-10-20 19:12 ET | 16.0 | ok |
-| Growth & Activity | 2026-10-20 19:12 ET | 16.0 | ok |
-| Housing | 2026-10-20 19:12 ET | 16.0 | ok |
-| Sentiment & Surveys | 2026-10-20 19:12 ET | 16.0 | ok |
-| Central Banks & Policy | 2026-10-20 19:12 ET | 16.0 | ok |
-| Financial Conditions & Markets | 2026-10-20 19:12 ET | 16.0 | ok |
+| Inflation | 2026-10-20 19:12 ET | 18.7 | errors: cpi: RuntimeError: no data for CPIAUCSL; ppi: RuntimeError: no data for PPIFIS; pce: RuntimeError: no data for PCEPI |
+| Labor | 2026-10-20 19:12 ET | 18.7 | errors: nfp: RuntimeError: no data for PAYEMS; claims: RuntimeError: no data for ICSA; jolts: RuntimeError: no data for JTSJOL; adp: RuntimeError: no data for ADPMNUSNERSA |
+| Growth & Activity | 2026-10-20 19:12 ET | 18.7 | errors: gdp: RuntimeError: no data for A191RL1Q225SBEA; retail: RuntimeError: no data for RSAFS; indpro: RuntimeError: no data for INDPRO; durables: RuntimeError: no data for DGORDER; trade: RuntimeError: no data for BOPGSTB |
+| Housing | 2026-10-20 19:12 ET | 18.7 | errors: starts: RuntimeError: no data for HOUST; new_home: RuntimeError: no data for HSN1F; existing_home: RuntimeError: no data for EXHOSLUSM495S |
+| Sentiment & Surveys | 2026-10-20 19:12 ET | 18.7 | errors: umich: RuntimeError: no data for UMCSENT |
+| Central Banks & Policy | 2026-10-20 19:12 ET | 18.7 | errors: ez_hicp: RuntimeError: no data for CP0000EZ19M086NEST; ez_gdp: RuntimeError: no data for CLVMEURSCAB1GQEA19 |
+| Financial Conditions & Markets | 2026-10-20 19:12 ET | 18.7 | errors: nfci: RuntimeError: no data for NFCI; sloos: RuntimeError: no data for DRTSCILM |
