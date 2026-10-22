@@ -1,181 +1,153 @@
 {
   "reports": {
     "cpi": {
-      "last_checked": "2026-10-20 19:12 ET",
-      "last_ref": "2026-09",
-      "error": "RuntimeError: FRED returned HTML, not CSV, for CPIAUCSL (site maintenance?)"
+      "last_checked": "2026-10-22 13:52 ET",
+      "last_ref": "2026-09"
     },
     "ppi": {
-      "last_checked": "2026-10-20 19:12 ET",
-      "last_ref": "2026-09",
-      "error": "RuntimeError: FRED returned HTML, not CSV, for PPIFIS (site maintenance?)"
+      "last_checked": "2026-10-22 13:52 ET",
+      "last_ref": "2026-09"
     },
     "pce": {
-      "last_checked": "2026-10-20 19:12 ET",
-      "last_ref": "2026-08",
-      "error": "RuntimeError: FRED returned HTML, not CSV, for PCEPI (site maintenance?)"
+      "last_checked": "2026-10-22 13:52 ET",
+      "last_ref": "2026-08"
     },
     "nfp": {
-      "last_checked": "2026-10-20 19:12 ET",
-      "last_ref": "2026-09",
-      "error": "RuntimeError: FRED returned HTML, not CSV, for PAYEMS (site maintenance?)"
+      "last_checked": "2026-10-22 13:52 ET",
+      "last_ref": "2026-09"
     },
     "claims": {
-      "last_checked": "2026-10-20 19:12 ET",
-      "last_ref": "2026-10-10",
-      "error": "RuntimeError: FRED returned HTML, not CSV, for ICSA (site maintenance?)"
+      "last_checked": "2026-10-22 13:52 ET",
+      "last_ref": "2026-10-17"
     },
     "jolts": {
-      "last_checked": "2026-10-20 19:12 ET",
-      "last_ref": "2026-08",
-      "error": "RuntimeError: FRED returned HTML, not CSV, for JTSJOL (site maintenance?)"
+      "last_checked": "2026-10-22 13:52 ET",
+      "last_ref": "2026-08"
     },
     "adp": {
-      "last_checked": "2026-10-20 19:12 ET",
-      "last_ref": "2026-09",
-      "error": "RuntimeError: FRED returned HTML, not CSV, for ADPMNUSNERSA (site maintenance?)"
+      "last_checked": "2026-10-22 13:52 ET",
+      "last_ref": "2026-09"
     },
     "uk_labour": {
-      "last_checked": "2026-10-21 19:24 ET",
+      "last_checked": "2026-10-22 13:52 ET",
       "last_ref": "2026-08"
     },
     "gdp": {
-      "last_checked": "2026-10-20 19:12 ET",
-      "last_ref": "2026-Q2",
-      "error": "RuntimeError: FRED returned HTML, not CSV, for A191RL1Q225SBEA (site maintenance?)"
+      "last_checked": "2026-10-22 13:52 ET",
+      "last_ref": "2026-Q2"
     },
     "retail": {
-      "last_checked": "2026-10-20 19:12 ET",
-      "last_ref": "2026-09",
-      "error": "RuntimeError: FRED returned HTML, not CSV, for RSAFS (site maintenance?)"
+      "last_checked": "2026-10-22 13:52 ET",
+      "last_ref": "2026-09"
     },
     "indpro": {
-      "last_checked": "2026-10-20 19:12 ET",
-      "last_ref": "2026-09",
-      "error": "RuntimeError: FRED returned HTML, not CSV, for INDPRO (site maintenance?)"
+      "last_checked": "2026-10-22 13:52 ET",
+      "last_ref": "2026-09"
     },
     "durables": {
-      "last_checked": "2026-10-20 19:12 ET",
-      "last_ref": "2026-08",
-      "error": "RuntimeError: FRED returned HTML, not CSV, for DGORDER (site maintenance?)"
+      "last_checked": "2026-10-22 13:52 ET",
+      "last_ref": "2026-08"
     },
     "trade": {
-      "last_checked": "2026-10-20 19:12 ET",
-      "last_ref": "2026-08",
-      "error": "RuntimeError: FRED returned HTML, not CSV, for BOPGSTB (site maintenance?)"
+      "last_checked": "2026-10-22 13:52 ET",
+      "last_ref": "2026-08"
     },
     "ism_mfg": {
-      "last_checked": "2026-10-21 19:24 ET",
+      "last_checked": "2026-10-22 13:52 ET",
       "last_ref": "2026-09"
     },
     "ism_services": {
-      "last_checked": "2026-10-21 19:24 ET",
+      "last_checked": "2026-10-22 13:52 ET",
       "last_ref": "2026-09"
     },
     "carts": {
-      "last_checked": "2026-10-21 19:24 ET",
+      "last_checked": "2026-10-22 13:52 ET",
       "last_ref": "2026-09"
     },
     "starts": {
-      "last_checked": "2026-10-20 19:12 ET",
-      "last_ref": "2026-09",
-      "error": "RuntimeError: FRED returned HTML, not CSV, for HOUST (site maintenance?)"
+      "last_checked": "2026-10-22 13:52 ET",
+      "last_ref": "2026-09"
     },
     "new_home": {
-      "last_checked": "2026-10-20 19:12 ET",
-      "last_ref": "2026-08",
-      "error": "RuntimeError: FRED returned HTML, not CSV, for HSN1F (site maintenance?)"
+      "last_checked": "2026-10-22 13:52 ET",
+      "last_ref": "2026-08"
     },
     "existing_home": {
-      "last_checked": "2026-10-20 19:12 ET",
-      "last_ref": "2026-09",
-      "error": "RuntimeError: FRED returned HTML, not CSV, for EXHOSLUSM495S (site maintenance?)"
+      "last_checked": "2026-10-22 13:52 ET",
+      "last_ref": "2026-09"
     },
     "umich": {
-      "last_checked": "2026-10-20 19:12 ET",
-      "last_ref": "2026-08",
-      "error": "RuntimeError: FRED returned HTML, not CSV, for UMCSENT (site maintenance?)"
+      "last_checked": "2026-10-22 13:52 ET",
+      "last_ref": "2026-08"
     },
     "conf_board": {
-      "last_checked": "2026-10-21 19:24 ET",
+      "last_checked": "2026-10-22 13:52 ET",
       "last_ref": "2026-09"
     },
     "ifo": {
-      "last_checked": "2026-10-21 19:24 ET",
+      "last_checked": "2026-10-22 13:52 ET",
       "last_ref": "2026-09"
     },
     "fomc": {
-      "last_checked": "2026-10-21 19:24 ET",
+      "last_checked": "2026-10-22 13:52 ET",
       "last_ref": "2026-09-16"
     },
     "ecb": {
-      "last_checked": "2026-10-21 19:24 ET"
+      "last_checked": "2026-10-22 13:52 ET"
     },
     "boe": {
       "last_rate": 3.75,
-      "last_checked": "2026-10-21 19:24 ET",
+      "last_checked": "2026-10-22 13:52 ET",
       "last_ref": "2026-09-17"
     },
     "ez_hicp": {
-      "last_checked": "2026-10-20 19:12 ET",
-      "last_ref": "2026-09",
-      "error": "RuntimeError: FRED returned HTML, not CSV, for CP0000EZ19M086NEST (site maintenance?)"
+      "last_checked": "2026-10-22 13:52 ET",
+      "last_ref": "2026-09"
     },
     "ez_gdp": {
-      "last_checked": "2026-10-20 19:12 ET",
-      "last_ref": "2026-Q2",
-      "error": "RuntimeError: FRED returned HTML, not CSV, for CLVMEURSCAB1GQEA19 (site maintenance?)"
+      "last_checked": "2026-10-22 13:52 ET",
+      "last_ref": "2026-Q2"
     },
     "market_levels": {
-      "last_checked": "2026-10-21 14:57 ET",
-      "error": "RuntimeError: FRED returned HTML, not CSV, for DGS10 (site maintenance?)"
+      "last_checked": "2026-10-22 13:52 ET"
     },
     "nfci": {
-      "last_checked": "2026-10-20 19:12 ET",
-      "last_ref": "2026-10-09",
-      "error": "RuntimeError: FRED returned HTML, not CSV, for NFCI (site maintenance?)"
+      "last_checked": "2026-10-22 13:52 ET",
+      "last_ref": "2026-10-16"
     },
     "sloos": {
-      "last_checked": "2026-10-20 19:12 ET",
-      "last_ref": "2026-Q3",
-      "error": "RuntimeError: FRED returned HTML, not CSV, for DRTSCILM (site maintenance?)"
+      "last_checked": "2026-10-22 13:52 ET",
+      "last_ref": "2026-Q3"
     }
   },
   "collectors": {
     "inflation": {
-      "last_run": "2026-10-21 19:24 ET",
-      "last_success": "2026-10-20 19:12 ET",
-      "error": "one or more reports failed; see reports[*].error"
+      "last_run": "2026-10-22 13:52 ET",
+      "last_success": "2026-10-22 13:52 ET"
     },
     "labor": {
-      "last_run": "2026-10-21 19:24 ET",
-      "last_success": "2026-10-20 19:12 ET",
-      "error": "one or more reports failed; see reports[*].error"
+      "last_run": "2026-10-22 13:52 ET",
+      "last_success": "2026-10-22 13:52 ET"
     },
     "growth": {
-      "last_run": "2026-10-21 19:24 ET",
-      "last_success": "2026-10-20 19:12 ET",
-      "error": "one or more reports failed; see reports[*].error"
+      "last_run": "2026-10-22 13:52 ET",
+      "last_success": "2026-10-22 13:52 ET"
     },
     "housing": {
-      "last_run": "2026-10-21 19:24 ET",
-      "last_success": "2026-10-20 19:12 ET",
-      "error": "one or more reports failed; see reports[*].error"
+      "last_run": "2026-10-22 13:52 ET",
+      "last_success": "2026-10-22 13:52 ET"
     },
     "sentiment": {
-      "last_run": "2026-10-21 19:24 ET",
-      "last_success": "2026-10-20 19:12 ET",
-      "error": "one or more reports failed; see reports[*].error"
+      "last_run": "2026-10-22 13:52 ET",
+      "last_success": "2026-10-22 13:52 ET"
     },
     "policy": {
-      "last_run": "2026-10-21 19:24 ET",
-      "last_success": "2026-10-20 19:12 ET",
-      "error": "one or more reports failed; see reports[*].error"
+      "last_run": "2026-10-22 13:52 ET",
+      "last_success": "2026-10-22 13:52 ET"
     },
     "markets": {
-      "last_run": "2026-10-21 19:24 ET",
-      "last_success": "2026-10-20 19:12 ET",
-      "error": "one or more reports failed; see reports[*].error"
+      "last_run": "2026-10-22 13:52 ET",
+      "last_success": "2026-10-22 13:52 ET"
     }
   }
 }

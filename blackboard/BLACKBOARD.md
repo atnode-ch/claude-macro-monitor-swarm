@@ -1,6 +1,6 @@
 # Macro Monitor: Blackboard
 
-_Rendered 2026-10-21 19:24 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
+_Rendered 2026-10-22 13:53 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
 
 ## Inflation
 
@@ -22,12 +22,12 @@ _Rendered 2026-10-21 19:24 ET from data/. Do not edit by hand; edit data/ or rer
 
 | Report | Period | Actual | Prior | Consensus | Surprise | Read |
 |---|---|---|---|---|---|---|
+| **Initial Jobless Claims** | 2026-10-17 | initial 194,000; initial -6,000 chg; initial 4wk 197,750; continuing 1,728,000 | initial 200,000; initial +2,000 chg; initial 4wk 198,750; continuing 1,728,000 |  |  | _pending analysis_ [source](https://www.dol.gov/ui/data.pdf) |
 | **UK Labour Market (ONS)** | 2026-08 | unemployment rate 4.70%; awe regular yoy 3.70 |  | unemployment rate 4.90%; awe regular yoy 3.60 | unemployment_rate -0.2, awe_regular_yoy +0.1 | Unemployment 4.7% (3M to Aug) vs 4.9% consensus and 4.9% prior, a beat. Regular pay 3.7% vs 3.6% expected, steady. Vacancies at a 5-year low of 691k. Payrolled change unconfirmed. Firm pay keeps BoE hike risk live. [source](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/latest) |
 | **Initial Jobless Claims** | 2026-10-10 | initial 199,000; initial +1,000 chg; initial 4wk 198,500; continuing 1,710,000 | initial 198,000; initial -1,000 chg; initial 4wk 198,250; continuing 1,710,000 | initial 200,000 | initial.level -1000 | Initial claims 199k vs 200k consensus (unconfirmed), +1k w/w. 4-week average 198.5k, continuing 1.71M unchanged. Layoffs stay low, no labour-market turn signal; supports a low-hire, low-fire read. [source](https://www.dol.gov/ui/data.pdf) |
 | **Initial Jobless Claims** | 2026-09-26 | initial 197,000; initial -1,000 chg; initial 4wk 200,000; continuing 1,701,000 | initial 198,000; initial +0.00 chg; initial 4wk 202,500; continuing 1,701,000 |  |  | _baseline (pre-migration)_ [source](https://www.dol.gov/ui/data.pdf) |
 | **Non-Farm Payrolls** | 2026-09 | payrolls +29k chg; unemployment rate 4.20%; unemployment rate +0.10pp chg; ahe +0.1% m/m; ahe 3.0% y/y | payrolls +133k chg; unemployment rate 4.10%; unemployment rate +0.00pp chg; ahe +0.3% m/m; ahe 3.1% y/y |  |  | _baseline (pre-migration)_ [source](https://www.bls.gov/news.release/empsit.htm) |
 | **ADP employment** | 2026-09 | private payrolls +90k chg | private payrolls +36k chg |  |  | _baseline (pre-migration)_ [source](https://adpemploymentreport.com/) |
-| **JOLTS** | 2026-08 | openings 7,079k; openings -256k chg; quits rate 1.90% | openings 7,335k; openings +153k chg; quits rate 1.90% |  |  | _baseline (pre-migration)_ [source](https://www.bls.gov/news.release/jolts.htm) |
 
 **Current stance:** Labour market is low-hire, low-fire in the US: initial claims near 199k, 4-week average 198.5k, continuing claims flat at 1.71M. No turn: that needs rising claims, falling JOLTS openings and soft payrolls, and only claims is logged, not rising. UK: unemployment fell to 4.7% from 4.9% and regular pay held at 3.7%, while vacancies hit a 5-year low of 691k, so demand is cooling but slack is not building. UK payrolled change unconfirmed. Would change on US 4-week claims above 215k or continuing claims above 1.8M. _(updated 2026-10-21 11:13 ET)_
 
@@ -90,16 +90,30 @@ _Rendered 2026-10-21 19:24 ET from data/. Do not edit by hand; edit data/ or rer
 
 | Report | Period | Actual | Prior | Consensus | Surprise | Read |
 |---|---|---|---|---|---|---|
+| **Chicago Fed NFCI** | 2026-10-16 | nfci -0.50; nfci +0.01 chg; anfci -0.52; anfci +0.01 chg | nfci -0.50; nfci +0.01 chg; anfci -0.52; anfci +0.01 chg |  |  | _pending analysis_ [source](https://www.chicagofed.org/research/data/nfci/current-data) |
 | **Chicago Fed NFCI** | 2026-10-09 | nfci -0.50; nfci +0.01 chg; anfci -0.48; anfci +0.01 chg | nfci -0.51; nfci +0.01 chg; anfci -0.50; anfci +0.01 chg | unconfirmed |  | NFCI -0.499 (prior -0.507), up 0.008 for a second week of slight tightening. Still well below zero, so conditions remain looser than average. No zero cross; no consensus exists. Immaterial on its own. [source](https://www.chicagofed.org/research/data/nfci/current-data) |
 | **Senior Loan Officer Survey (C&I standards)** | 2026-Q3 | ci tightening net 0.00%; ci tightening net -8.1pp chg | ci tightening net 8.10%; ci tightening net +2.8pp chg |  |  | _baseline (pre-migration)_ [source](https://www.federalreserve.gov/data/sloos.htm) |
 | **Chicago Fed NFCI** | 2026-10-02 | nfci -0.49; nfci +0.02 chg; anfci -0.50; anfci +0.02 chg | nfci -0.51; nfci +0.01 chg; anfci -0.52; anfci +0.02 chg |  |  | _baseline (pre-migration)_ [source](https://www.chicagofed.org/research/data/nfci/current-data) |
 
 **Current stance:** Initial stance: financial conditions are loose. NFCI at -0.499 is well below the zero line and has tightened 0.008 to 0.010 per week over the last two prints. Adjusted NFCI is -0.485. No regime signal. No curve, HY OAS or other market history is logged yet, so multi-signal alignment cannot be assessed. A move toward zero, or tightening that coincides with HY widening and curve dis-inversion, would change the view. _(updated 2026-10-18 08:26 ET)_
 
-**Latest market levels** (as of None):
+**Latest market levels** (as of 2026-10-21):
 
 | Series | Level | 1d | 5d | Unit |
 |---|---|---|---|---|
+| ust_10y | 5.12 | -3 | -9 | bp |
+| ust_2y | 4.79 | +2 | +0 | bp |
+| ust_3m | 4.26 | -1 | +0 | bp |
+| curve_10y2y | 0.32 | -1 | -5 | bp |
+| curve_10y3m | 0.88 | +2 | -3 | bp |
+| hy_oas | 3.27 | -6 | +2 | bp |
+| ig_oas | 0.88 | +1 | +4 | bp |
+| be_5y5y | 2.34 | +3 | +0 | bp |
+| be_10y | 2.37 | +2 | +2 | bp |
+| real_10y | 2.77 | -3 | -11 | bp |
+| sofr | 3.88 | +0 | +0 | bp |
+| vix | 16.68 | -1 | -0 | pts |
+| usd_broad | 121.40 | -0 | -0 | pts |
 
 ## Macro Synthesis
 
@@ -115,10 +129,10 @@ Week 42 was an inflation week. September CPI ran hot on core, 0.34% m/m against 
 
 | Domain | Last success | Age (h, weekdays) | Status |
 |---|---|---|---|
-| Inflation | 2026-10-20 19:12 ET | 24.2 | errors: cpi: RuntimeError: FRED returned HTML, not CSV, for CPIAUCSL (site maintenance?); ppi: RuntimeError: FRED returned HTML, not CSV, for PPIFIS (site maintenance?); pce: RuntimeError: FRED returned HTML, not CSV, for PCEPI (site maintenance?) |
-| Labor | 2026-10-20 19:12 ET | 24.2 | errors: nfp: RuntimeError: FRED returned HTML, not CSV, for PAYEMS (site maintenance?); claims: RuntimeError: FRED returned HTML, not CSV, for ICSA (site maintenance?); jolts: RuntimeError: FRED returned HTML, not CSV, for JTSJOL (site maintenance?); adp: RuntimeError: FRED returned HTML, not CSV, for ADPMNUSNERSA (site maintenance?) |
-| Growth & Activity | 2026-10-20 19:12 ET | 24.2 | errors: gdp: RuntimeError: FRED returned HTML, not CSV, for A191RL1Q225SBEA (site maintenance?); retail: RuntimeError: FRED returned HTML, not CSV, for RSAFS (site maintenance?); indpro: RuntimeError: FRED returned HTML, not CSV, for INDPRO (site maintenance?); durables: RuntimeError: FRED returned HTML, not CSV, for DGORDER (site maintenance?); trade: RuntimeError: FRED returned HTML, not CSV, for BOPGSTB (site maintenance?) |
-| Housing | 2026-10-20 19:12 ET | 24.2 | errors: starts: RuntimeError: FRED returned HTML, not CSV, for HOUST (site maintenance?); new_home: RuntimeError: FRED returned HTML, not CSV, for HSN1F (site maintenance?); existing_home: RuntimeError: FRED returned HTML, not CSV, for EXHOSLUSM495S (site maintenance?) |
-| Sentiment & Surveys | 2026-10-20 19:12 ET | 24.2 | errors: umich: RuntimeError: FRED returned HTML, not CSV, for UMCSENT (site maintenance?) |
-| Central Banks & Policy | 2026-10-20 19:12 ET | 24.2 | errors: ez_hicp: RuntimeError: FRED returned HTML, not CSV, for CP0000EZ19M086NEST (site maintenance?); ez_gdp: RuntimeError: FRED returned HTML, not CSV, for CLVMEURSCAB1GQEA19 (site maintenance?) |
-| Financial Conditions & Markets | 2026-10-20 19:12 ET | 24.2 | errors: market_levels: RuntimeError: FRED returned HTML, not CSV, for DGS10 (site maintenance?); nfci: RuntimeError: FRED returned HTML, not CSV, for NFCI (site maintenance?); sloos: RuntimeError: FRED returned HTML, not CSV, for DRTSCILM (site maintenance?) |
+| Inflation | 2026-10-22 13:52 ET | 0.0 | ok |
+| Labor | 2026-10-22 13:52 ET | 0.0 | ok |
+| Growth & Activity | 2026-10-22 13:52 ET | 0.0 | ok |
+| Housing | 2026-10-22 13:52 ET | 0.0 | ok |
+| Sentiment & Surveys | 2026-10-22 13:52 ET | 0.0 | ok |
+| Central Banks & Policy | 2026-10-22 13:52 ET | 0.0 | ok |
+| Financial Conditions & Markets | 2026-10-22 13:52 ET | 0.0 | ok |
