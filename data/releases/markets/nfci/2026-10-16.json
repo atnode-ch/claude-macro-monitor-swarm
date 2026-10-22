@@ -23,6 +23,16 @@
   "consensus": null,
   "consensus_source": null,
   "surprise": null,
-  "read": null,
-  "status": "pending_analysis"
+  "read": "NFCI -0.496 (prior -0.502), up 0.006 for a third week of slight tightening. ANFCI -0.518. Still well below zero, no zero cross, no consensus exists. Immaterial alone; no HY or curve data to confirm.",
+  "status": "analysed",
+  "fields": null,
+  "sources": [],
+  "alert": {
+    "alert": false,
+    "material": false,
+    "reasons": [
+      "no consensus available; surprise not assessed"
+    ]
+  },
+  "analysed_at": "2026-10-22 17:10 ET"
 }

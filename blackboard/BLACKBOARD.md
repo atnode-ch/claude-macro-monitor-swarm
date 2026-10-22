@@ -1,6 +1,6 @@
 # Macro Monitor: Blackboard
 
-_Rendered 2026-10-22 14:51 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
+_Rendered 2026-10-22 17:10 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
 
 ## Inflation
 
@@ -22,14 +22,14 @@ _Rendered 2026-10-22 14:51 ET from data/. Do not edit by hand; edit data/ or rer
 
 | Report | Period | Actual | Prior | Consensus | Surprise | Read |
 |---|---|---|---|---|---|---|
-| **Initial Jobless Claims** | 2026-10-17 | initial 194,000; initial -6,000 chg; initial 4wk 197,750; continuing 1,728,000 | initial 200,000; initial +2,000 chg; initial 4wk 198,750; continuing 1,728,000 |  |  | _pending analysis_ [source](https://www.dol.gov/ui/data.pdf) |
+| **Initial Jobless Claims** | 2026-10-17 | initial 194,000; initial -6,000 chg; initial 4wk 197,750; continuing 1,728,000 | initial 200,000; initial +2,000 chg; initial 4wk 198,750; continuing 1,728,000 | unconfirmed |  | Initial claims 194k, -6k w/w, a low print; consensus not found. 4-week average 197.75k (from 198.75k), continuing 1.728M. Layoffs stay low, no turn signal; low-hire, low-fire holds. [source](https://www.dol.gov/ui/data.pdf) |
 | **UK Labour Market (ONS)** | 2026-08 | unemployment rate 4.70%; awe regular yoy 3.70 |  | unemployment rate 4.90%; awe regular yoy 3.60 | unemployment_rate -0.2, awe_regular_yoy +0.1 | Unemployment 4.7% (3M to Aug) vs 4.9% consensus and 4.9% prior, a beat. Regular pay 3.7% vs 3.6% expected, steady. Vacancies at a 5-year low of 691k. Payrolled change unconfirmed. Firm pay keeps BoE hike risk live. [source](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/latest) |
 | **Initial Jobless Claims** | 2026-10-10 | initial 199,000; initial +1,000 chg; initial 4wk 198,500; continuing 1,710,000 | initial 198,000; initial -1,000 chg; initial 4wk 198,250; continuing 1,710,000 | initial 200,000 | initial.level -1000 | Initial claims 199k vs 200k consensus (unconfirmed), +1k w/w. 4-week average 198.5k, continuing 1.71M unchanged. Layoffs stay low, no labour-market turn signal; supports a low-hire, low-fire read. [source](https://www.dol.gov/ui/data.pdf) |
 | **Initial Jobless Claims** | 2026-09-26 | initial 197,000; initial -1,000 chg; initial 4wk 200,000; continuing 1,701,000 | initial 198,000; initial +0.00 chg; initial 4wk 202,500; continuing 1,701,000 |  |  | _baseline (pre-migration)_ [source](https://www.dol.gov/ui/data.pdf) |
 | **Non-Farm Payrolls** | 2026-09 | payrolls +29k chg; unemployment rate 4.20%; unemployment rate +0.10pp chg; ahe +0.1% m/m; ahe 3.0% y/y | payrolls +133k chg; unemployment rate 4.10%; unemployment rate +0.00pp chg; ahe +0.3% m/m; ahe 3.1% y/y |  |  | _baseline (pre-migration)_ [source](https://www.bls.gov/news.release/empsit.htm) |
 | **ADP employment** | 2026-09 | private payrolls +90k chg | private payrolls +36k chg |  |  | _baseline (pre-migration)_ [source](https://adpemploymentreport.com/) |
 
-**Current stance:** Labour market is low-hire, low-fire in the US: initial claims near 199k, 4-week average 198.5k, continuing claims flat at 1.71M. No turn: that needs rising claims, falling JOLTS openings and soft payrolls, and only claims is logged, not rising. UK: unemployment fell to 4.7% from 4.9% and regular pay held at 3.7%, while vacancies hit a 5-year low of 691k, so demand is cooling but slack is not building. UK payrolled change unconfirmed. Would change on US 4-week claims above 215k or continuing claims above 1.8M. _(updated 2026-10-21 11:13 ET)_
+**Current stance:** Labour market is low-hire, low-fire in the US: initial claims 194k, 4-week average 197.75k, continuing claims 1.728M (up from 1.71M two weeks ago, still below 1.8M). No turn: that needs rising claims, falling JOLTS openings and soft payrolls, and only claims is logged, not rising. UK: unemployment fell to 4.7% from 4.9%, regular pay 3.7%, vacancies at a 5-year low of 691k, so demand is cooling without slack building. UK payrolled change unconfirmed. Would change on US 4-week claims above 215k or continuing claims above 1.8M. _(updated 2026-10-22 17:10 ET)_
 
 ## Growth & Activity
 
@@ -90,12 +90,12 @@ _Rendered 2026-10-22 14:51 ET from data/. Do not edit by hand; edit data/ or rer
 
 | Report | Period | Actual | Prior | Consensus | Surprise | Read |
 |---|---|---|---|---|---|---|
-| **Chicago Fed NFCI** | 2026-10-16 | nfci -0.50; nfci +0.01 chg; anfci -0.52; anfci +0.01 chg | nfci -0.50; nfci +0.01 chg; anfci -0.52; anfci +0.01 chg |  |  | _pending analysis_ [source](https://www.chicagofed.org/research/data/nfci/current-data) |
+| **Chicago Fed NFCI** | 2026-10-16 | nfci -0.50; nfci +0.01 chg; anfci -0.52; anfci +0.01 chg | nfci -0.50; nfci +0.01 chg; anfci -0.52; anfci +0.01 chg | unconfirmed |  | NFCI -0.496 (prior -0.502), up 0.006 for a third week of slight tightening. ANFCI -0.518. Still well below zero, no zero cross, no consensus exists. Immaterial alone; no HY or curve data to confirm. [source](https://www.chicagofed.org/research/data/nfci/current-data) |
 | **Chicago Fed NFCI** | 2026-10-09 | nfci -0.50; nfci +0.01 chg; anfci -0.48; anfci +0.01 chg | nfci -0.51; nfci +0.01 chg; anfci -0.50; anfci +0.01 chg | unconfirmed |  | NFCI -0.499 (prior -0.507), up 0.008 for a second week of slight tightening. Still well below zero, so conditions remain looser than average. No zero cross; no consensus exists. Immaterial on its own. [source](https://www.chicagofed.org/research/data/nfci/current-data) |
 | **Senior Loan Officer Survey (C&I standards)** | 2026-Q3 | ci tightening net 0.00%; ci tightening net -8.1pp chg | ci tightening net 8.10%; ci tightening net +2.8pp chg |  |  | _baseline (pre-migration)_ [source](https://www.federalreserve.gov/data/sloos.htm) |
 | **Chicago Fed NFCI** | 2026-10-02 | nfci -0.49; nfci +0.02 chg; anfci -0.50; anfci +0.02 chg | nfci -0.51; nfci +0.01 chg; anfci -0.52; anfci +0.02 chg |  |  | _baseline (pre-migration)_ [source](https://www.chicagofed.org/research/data/nfci/current-data) |
 
-**Current stance:** Initial stance: financial conditions are loose. NFCI at -0.499 is well below the zero line and has tightened 0.008 to 0.010 per week over the last two prints. Adjusted NFCI is -0.485. No regime signal. No curve, HY OAS or other market history is logged yet, so multi-signal alignment cannot be assessed. A move toward zero, or tightening that coincides with HY widening and curve dis-inversion, would change the view. _(updated 2026-10-18 08:26 ET)_
+**Current stance:** Financial conditions are loose. NFCI at -0.496 is well below zero and has tightened 0.006 to 0.010 per week for three prints, a slow drift of about 0.01 in total. ANFCI is -0.518. No regime signal. No curve, HY OAS or other market history is logged, so multi-signal alignment cannot be assessed. A move toward zero, or tightening alongside HY widening and curve dis-inversion, would change the view. _(updated 2026-10-22 17:10 ET)_
 
 **Latest market levels** (as of 2026-10-21):
 
@@ -129,10 +129,10 @@ Week 42 was an inflation week. September CPI ran hot on core, 0.34% m/m against 
 
 | Domain | Last success | Age (h, weekdays) | Status |
 |---|---|---|---|
-| Inflation | 2026-10-22 14:51 ET | 0.0 | ok |
-| Labor | 2026-10-22 14:51 ET | 0.0 | ok |
-| Growth & Activity | 2026-10-22 14:51 ET | 0.0 | ok |
-| Housing | 2026-10-22 14:51 ET | 0.0 | ok |
-| Sentiment & Surveys | 2026-10-22 14:51 ET | 0.0 | ok |
-| Central Banks & Policy | 2026-10-22 14:51 ET | 0.0 | ok |
-| Financial Conditions & Markets | 2026-10-22 14:51 ET | 0.0 | ok |
+| Inflation | 2026-10-22 14:51 ET | 2.3 | ok |
+| Labor | 2026-10-22 14:51 ET | 2.3 | ok |
+| Growth & Activity | 2026-10-22 14:51 ET | 2.3 | ok |
+| Housing | 2026-10-22 14:51 ET | 2.3 | ok |
+| Sentiment & Surveys | 2026-10-22 14:51 ET | 2.3 | ok |
+| Central Banks & Policy | 2026-10-22 14:51 ET | 2.3 | ok |
+| Financial Conditions & Markets | 2026-10-22 14:51 ET | 2.3 | ok |

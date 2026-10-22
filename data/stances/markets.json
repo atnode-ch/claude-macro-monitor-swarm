@@ -1,6 +1,6 @@
 {
   "domain": "markets",
-  "stance": "Initial stance: financial conditions are loose. NFCI at -0.499 is well below the zero line and has tightened 0.008 to 0.010 per week over the last two prints. Adjusted NFCI is -0.485. No regime signal. No curve, HY OAS or other market history is logged yet, so multi-signal alignment cannot be assessed. A move toward zero, or tightening that coincides with HY widening and curve dis-inversion, would change the view.",
-  "updated_at": "2026-10-18 08:26 ET",
-  "from": "nfci 2026-10-09"
+  "stance": "Financial conditions are loose. NFCI at -0.496 is well below zero and has tightened 0.006 to 0.010 per week for three prints, a slow drift of about 0.01 in total. ANFCI is -0.518. No regime signal. No curve, HY OAS or other market history is logged, so multi-signal alignment cannot be assessed. A move toward zero, or tightening alongside HY widening and curve dis-inversion, would change the view.",
+  "updated_at": "2026-10-22 17:10 ET",
+  "from": "nfci 2026-10-16"
 }

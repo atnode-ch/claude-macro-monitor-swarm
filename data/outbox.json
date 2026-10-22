@@ -1,3 +1,16 @@
 {
-  "items": []
+  "items": [
+    {
+      "report": "nfci",
+      "ref": "2026-10-16",
+      "path": "data/releases/markets/nfci/2026-10-16.json",
+      "alert": false
+    },
+    {
+      "report": "claims",
+      "ref": "2026-10-17",
+      "path": "data/releases/labor/claims/2026-10-17.json",
+      "alert": false
+    }
+  ]
 }
