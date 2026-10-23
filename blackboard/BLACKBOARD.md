@@ -1,6 +1,6 @@
 # Macro Monitor: Blackboard
 
-_Rendered 2026-10-22 19:26 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
+_Rendered 2026-10-23 13:45 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
 
 ## Inflation
 
@@ -66,6 +66,7 @@ _Rendered 2026-10-22 19:26 ET from data/. Do not edit by hand; edit data/ or rer
 
 | Report | Period | Actual | Prior | Consensus | Surprise | Read |
 |---|---|---|---|---|---|---|
+| **UMich Consumer Sentiment (final)** | 2026-09 | sentiment 48.1; sentiment -3.6 chg | sentiment 51.7; sentiment -3.5 chg |  |  | _pending analysis_ [source](https://www.sca.isr.umich.edu/) |
 | **UMich Consumer Sentiment (final)** | 2026-08 | sentiment 51.7; sentiment -3.5 chg | sentiment 55.2; sentiment +5.7 chg |  |  | _baseline (pre-migration)_ [source](https://www.sca.isr.umich.edu/) |
 
 **Current stance:** _not set yet_
@@ -106,13 +107,13 @@ _Rendered 2026-10-22 19:26 ET from data/. Do not edit by hand; edit data/ or rer
 | ust_3m | 4.25 | -1 | -3 | bp |
 | curve_10y2y | 0.31 | -1 | -2 | bp |
 | curve_10y3m | 0.74 | -14 | -8 | bp |
-| hy_oas | 3.27 | -6 | +2 | bp |
-| ig_oas | 0.88 | +1 | +4 | bp |
+| hy_oas | 3.40 | +13 | +17 | bp |
+| ig_oas | 0.89 | +1 | +5 | bp |
 | be_5y5y | 2.19 | -15 | -12 | bp |
 | be_10y | 2.32 | -5 | +0 | bp |
 | real_10y | 2.76 | -1 | -8 | bp |
-| sofr | 3.88 | +0 | +0 | bp |
-| vix | 16.68 | -1 | -0 | pts |
+| sofr | 3.90 | +2 | +1 | bp |
+| vix | 19.03 | +2 | +3 | pts |
 | usd_broad | 121.40 | -0 | -0 | pts |
 
 ## Macro Synthesis
@@ -129,10 +130,10 @@ Week 42 was an inflation week. September CPI ran hot on core, 0.34% m/m against 
 
 | Domain | Last success | Age (h, weekdays) | Status |
 |---|---|---|---|
-| Inflation | 2026-10-22 19:26 ET | 0.0 | ok |
-| Labor | 2026-10-22 19:26 ET | 0.0 | ok |
-| Growth & Activity | 2026-10-22 19:26 ET | 0.0 | ok |
-| Housing | 2026-10-22 19:26 ET | 0.0 | ok |
-| Sentiment & Surveys | 2026-10-22 19:26 ET | 0.0 | ok |
-| Central Banks & Policy | 2026-10-22 19:26 ET | 0.0 | ok |
-| Financial Conditions & Markets | 2026-10-22 19:26 ET | 0.0 | ok |
+| Inflation | 2026-10-23 13:45 ET | 0.0 | ok |
+| Labor | 2026-10-23 13:45 ET | 0.0 | ok |
+| Growth & Activity | 2026-10-23 13:45 ET | 0.0 | ok |
+| Housing | 2026-10-23 13:45 ET | 0.0 | ok |
+| Sentiment & Surveys | 2026-10-23 13:45 ET | 0.0 | ok |
+| Central Banks & Policy | 2026-10-23 13:45 ET | 0.0 | ok |
+| Financial Conditions & Markets | 2026-10-23 13:45 ET | 0.0 | ok |
