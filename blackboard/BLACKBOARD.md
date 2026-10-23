@@ -1,6 +1,6 @@
 # Macro Monitor: Blackboard
 
-_Rendered 2026-10-23 17:08 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
+_Rendered 2026-10-23 17:49 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
 
 ## Inflation
 
@@ -118,22 +118,22 @@ _Rendered 2026-10-23 17:08 ET from data/. Do not edit by hand; edit data/ or rer
 
 ## Macro Synthesis
 
-**2026-W42: Inflation re-accelerating into firm nominal demand; labour steady, conditions still loose**
+**2026-W43: Inflation firm and hard data solid, but spreads, housing and sentiment start to soften**
 
-Week 42 was an inflation week. September CPI ran hot on core, 0.34% m/m against 0.22% consensus, with core y/y at 2.56% and headline at 3.74%. PPI was hotter still: headline +1.3% m/m and core +0.7% m/m, 5.0% y/y. Euro area HICP rose to 3.75% y/y, above the 3.6% expectation. Three inflation prints in two regions point the same way, which is signal, not noise. Activity did not soften to offset it: retail sales rose 0.77% m/m and industrial production 0.66% m/m. Labour stayed low-hire, low-fire, with initial claims at 199,000. Financial conditions remain loose, NFCI at -0.499, though it has tightened slightly two weeks running. The 10y yield fell 18bp to 5.10% over 5 days despite the hot prints, while the 2y was flat at 4.77%. The mix argues against near-term easing. Sentiment has no logged stance and its latest print is from August.
+Week 43 added no new inflation data, so last week's hot September prints still set the tone: core CPI 0.34% m/m, core PPI 5.0% y/y, euro area HICP 3.75%. Hard US activity data stays firm, with initial claims at 194,000 and a 4-week average of 197,750. The new information came from the soft side. UMich sentiment fell 3.6 points to 48.1, housing starts fell 5.2% for a second straight drop, and HY OAS widened 17bp to 3.40% with VIX up 2.6 points to 19.03. The 10y yield fell 6bp to 5.13% and 5y5y breakevens fell 12bp to 2.19%, so markets are pricing slower growth, not more inflation. Three domains (markets, housing, sentiment) now lean the same way, which is worth tracking, but claims, permits and retail do not confirm it. The regime holds for now. Next week carries the FOMC, the ECB, September PCE and Q3 GDP.
 
-**Regime watch:** The firming-inflation regime is confirmed if core CPI m/m stays above 0.3% next month, core PCE for September rises from 3.0% y/y, and core PPI does not retrace. It is denied if energy reverses and core PPI drops back near 0.3% m/m. A shift toward slowdown would need claims above a 215,000 4-week average, falling permits again, and HY spreads widening well beyond this week's 8bp, together rather than alone.
-**Week ahead:** Mon 2026-10-19 Housing Starts & Building Permits; Tue 2026-10-20 UK Labour Market (ONS); Wed 2026-10-21 Existing Home Sales; Thu 2026-10-22 Initial Jobless Claims
+**Regime watch:** The firming-inflation regime is confirmed if September core PCE rises above 3.0% y/y and the FOMC signals no easing. A shift toward slowdown needs the soft signals to reach hard data: Q3 GDP below the 2.2% Q2 pace, a 4-week claims average above 215,000, and HY spreads widening again next week. If spreads widen while core PCE runs hot, that is the stagflation mix the Fed cannot ease into. A reversal in HY spreads and a VIX back below 17 would deny it.
+**Week ahead:** Tue 2026-10-27 Conference Board Consumer Confidence; Wed 2026-10-28 FOMC decision; Thu 2026-10-29 ECB decision; Thu 2026-10-29 PCE price index; Thu 2026-10-29 GDP (real, SAAR); Thu 2026-10-29 Initial Jobless Claims
 **Swarm health:** all domains fresh
 
 ## Collector health
 
 | Domain | Last success | Age (h, weekdays) | Status |
 |---|---|---|---|
-| Inflation | 2026-10-23 14:44 ET | 2.4 | ok |
-| Labor | 2026-10-23 14:44 ET | 2.4 | ok |
-| Growth & Activity | 2026-10-23 14:44 ET | 2.4 | ok |
-| Housing | 2026-10-23 14:44 ET | 2.4 | ok |
-| Sentiment & Surveys | 2026-10-23 14:44 ET | 2.4 | ok |
-| Central Banks & Policy | 2026-10-23 14:44 ET | 2.4 | ok |
-| Financial Conditions & Markets | 2026-10-23 14:44 ET | 2.4 | ok |
+| Inflation | 2026-10-23 14:44 ET | 3.1 | ok |
+| Labor | 2026-10-23 14:44 ET | 3.1 | ok |
+| Growth & Activity | 2026-10-23 14:44 ET | 3.1 | ok |
+| Housing | 2026-10-23 14:44 ET | 3.1 | ok |
+| Sentiment & Surveys | 2026-10-23 14:44 ET | 3.1 | ok |
+| Central Banks & Policy | 2026-10-23 14:44 ET | 3.1 | ok |
+| Financial Conditions & Markets | 2026-10-23 14:44 ET | 3.1 | ok |
