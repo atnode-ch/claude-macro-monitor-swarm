@@ -1,6 +1,6 @@
 # Macro Monitor: Blackboard
 
-_Rendered 2026-10-23 14:44 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
+_Rendered 2026-10-23 17:08 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
 
 ## Inflation
 
@@ -66,10 +66,10 @@ _Rendered 2026-10-23 14:44 ET from data/. Do not edit by hand; edit data/ or rer
 
 | Report | Period | Actual | Prior | Consensus | Surprise | Read |
 |---|---|---|---|---|---|---|
-| **UMich Consumer Sentiment (final)** | 2026-09 | sentiment 48.1; sentiment -3.6 chg | sentiment 51.7; sentiment -3.5 chg |  |  | _pending analysis_ [source](https://www.sca.isr.umich.edu/) |
+| **UMich Consumer Sentiment (final)** | 2026-09 | sentiment 48.1; sentiment -3.6 chg | sentiment 51.7; sentiment -3.5 chg | unconfirmed |  | Final September sentiment 48.1, down 3.6 from 51.7 and revised up from 47.8 preliminary. Near record-low territory (low 44.8 in May). No final consensus found. Weak print leans soft for retail sales; single survey, low weight. [source](https://www.sca.isr.umich.edu/) |
 | **UMich Consumer Sentiment (final)** | 2026-08 | sentiment 51.7; sentiment -3.5 chg | sentiment 55.2; sentiment +5.7 chg |  |  | _baseline (pre-migration)_ [source](https://www.sca.isr.umich.edu/) |
 
-**Current stance:** _not set yet_
+**Current stance:** Consumer sentiment is weak: 48.1 in September after 51.7 in August, 3.6 points lower and close to the May 2026 record low of 44.8. Soft sentiment tends to foreshadow softer retail spending, but the two decouple often, so we wait for hard spending data. No inflation expectations data logged yet this cycle. Stance: cautious, bearish lean on consumer, low conviction. A rebound above 52 or firm retail sales would soften the view. _(updated 2026-10-23 17:08 ET)_
 
 ## Central Banks & Policy
 
@@ -130,10 +130,10 @@ Week 42 was an inflation week. September CPI ran hot on core, 0.34% m/m against 
 
 | Domain | Last success | Age (h, weekdays) | Status |
 |---|---|---|---|
-| Inflation | 2026-10-23 14:44 ET | 0.0 | ok |
-| Labor | 2026-10-23 14:44 ET | 0.0 | ok |
-| Growth & Activity | 2026-10-23 14:44 ET | 0.0 | ok |
-| Housing | 2026-10-23 14:44 ET | 0.0 | ok |
-| Sentiment & Surveys | 2026-10-23 14:44 ET | 0.0 | ok |
-| Central Banks & Policy | 2026-10-23 14:44 ET | 0.0 | ok |
-| Financial Conditions & Markets | 2026-10-23 14:44 ET | 0.0 | ok |
+| Inflation | 2026-10-23 14:44 ET | 2.4 | ok |
+| Labor | 2026-10-23 14:44 ET | 2.4 | ok |
+| Growth & Activity | 2026-10-23 14:44 ET | 2.4 | ok |
+| Housing | 2026-10-23 14:44 ET | 2.4 | ok |
+| Sentiment & Surveys | 2026-10-23 14:44 ET | 2.4 | ok |
+| Central Banks & Policy | 2026-10-23 14:44 ET | 2.4 | ok |
+| Financial Conditions & Markets | 2026-10-23 14:44 ET | 2.4 | ok |

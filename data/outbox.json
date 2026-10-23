@@ -11,6 +11,12 @@
       "ref": "2026-10-17",
       "path": "data/releases/labor/claims/2026-10-17.json",
       "alert": false
+    },
+    {
+      "report": "umich",
+      "ref": "2026-09",
+      "path": "data/releases/sentiment/umich/2026-09.json",
+      "alert": false
     }
   ]
 }
