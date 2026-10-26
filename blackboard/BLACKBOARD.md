@@ -1,6 +1,6 @@
 # Macro Monitor: Blackboard
 
-_Rendered 2026-10-26 17:09 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
+_Rendered 2026-10-26 18:05 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
 
 ## Inflation
 
@@ -66,6 +66,7 @@ _Rendered 2026-10-26 17:09 ET from data/. Do not edit by hand; edit data/ or rer
 
 | Report | Period | Actual | Prior | Consensus | Surprise | Read |
 |---|---|---|---|---|---|---|
+| **UMich Consumer Sentiment (final)** | 2026-10 | sentiment 48.0; sentiment -0.10 chg; infl exp 1y 4.70; infl exp 1y +0.10 chg; infl exp 5y 3.50; infl exp 5y +0.10 chg | sentiment 48.1; sentiment -3.6 chg; infl exp 1y 4.60; infl exp 1y +0.60 chg; infl exp 5y 3.40; infl exp 5y +0.10 chg |  |  | _pending analysis_ [source](https://www.sca.isr.umich.edu/) |
 | **German Ifo Business Climate** | 2026-10 | business climate 90.2 |  | unconfirmed |  | Ifo climate 90.2 vs 89.9 in September (unconfirmed, single source ifo.de). Expectations improved, current assessment slightly worse; component values not published numerically. Mildly supportive for EUR and Europe equities. No consensus found. [source](https://www.ifo.de/en/ifo-business-climate-index) |
 | **UMich Consumer Sentiment (final)** | 2026-09 | sentiment 48.1; sentiment -3.6 chg | sentiment 51.7; sentiment -3.5 chg | unconfirmed |  | Final September sentiment 48.1, down 3.6 from 51.7 and revised up from 47.8 preliminary. Near record-low territory (low 44.8 in May). No final consensus found. Weak print leans soft for retail sales; single survey, low weight. [source](https://www.sca.isr.umich.edu/) |
 | **UMich Consumer Sentiment (final)** | 2026-08 | sentiment 51.7; sentiment -3.5 chg | sentiment 55.2; sentiment +5.7 chg |  |  | _baseline (pre-migration)_ [source](https://www.sca.isr.umich.edu/) |
@@ -103,38 +104,38 @@ _Rendered 2026-10-26 17:09 ET from data/. Do not edit by hand; edit data/ or rer
 
 | Series | Level | 1d | 5d | Unit |
 |---|---|---|---|---|
-| ust_10y | 4.96 | -17 | -14 | bp |
-| ust_2y | 4.65 | -16 | -12 | bp |
-| ust_3m | 4.22 | -3 | -6 | bp |
+| ust_10y | 5.00 | +4 | -9 | bp |
+| ust_2y | 4.69 | +4 | -5 | bp |
+| ust_3m | 4.22 | +0 | -4 | bp |
 | curve_10y2y | 0.31 | +0 | -4 | bp |
 | curve_10y3m | 0.78 | +4 | -5 | bp |
 | hy_oas | 3.38 | -2 | +7 | bp |
 | ig_oas | 0.91 | +2 | +6 | bp |
 | be_5y5y | 2.20 | +1 | -13 | bp |
 | be_10y | 2.34 | +2 | -1 | bp |
-| real_10y | 2.64 | -12 | -14 | bp |
+| real_10y | 2.66 | +2 | -8 | bp |
 | sofr | 3.92 | +2 | +4 | bp |
 | vix | 19.45 | +0 | -0 | pts |
-| usd_broad | 121.40 | -0 | -0 | pts |
+| usd_broad | 121.32 | -0 | -0 | pts |
 
 ## Macro Synthesis
 
-**2026-W43: Inflation firm and hard data solid, but spreads, housing and sentiment start to soften**
+**2026-W43: Inflation firm and consumer inflation expectations edging up; bond markets price slower growth**
 
-Week 43 added no new inflation data, so last week's hot September prints still set the tone: core CPI 0.34% m/m, core PPI 5.0% y/y, euro area HICP 3.75%. Hard US activity data stays firm, with initial claims at 194,000 and a 4-week average of 197,750. The new information came from the soft side. UMich sentiment fell 3.6 points to 48.1, housing starts fell 5.2% for a second straight drop, and HY OAS widened 17bp to 3.40% with VIX up 2.6 points to 19.03. The 10y yield fell 6bp to 5.13% and 5y5y breakevens fell 12bp to 2.19%, so markets are pricing slower growth, not more inflation. Three domains (markets, housing, sentiment) now lean the same way, which is worth tracking, but claims, permits and retail do not confirm it. The regime holds for now. Next week carries the FOMC, the ECB, September PCE and Q3 GDP.
+Corrected 26 Oct: the first version used the September UMich final instead of the October final released this week, and Treasury yields one day older than the other market data. Market figures below are for the week to 23 Oct. Week 43 added no new US inflation data, so the hot September prints still set the tone: core CPI 0.3% m/m against 0.2% consensus, core PPI 5.0% y/y, euro area HICP 3.75%. Hard US activity data stays firm, with initial claims at 194,000. October UMich sentiment was flat at 48.0 from 48.1, but year-ahead inflation expectations rose to 4.7% and long-run expectations to 3.5%. Bond markets moved the other way: the 10y yield fell 9bp to 5.00%, the 10y real yield 8bp and 5y5y breakevens 13bp to 2.20%. HY OAS widened 7bp to 3.38% while VIX eased to 19.45. Markets and housing lean toward slower growth; households expect more inflation. The regime holds. Next week carries the FOMC, the ECB, September PCE and Q3 GDP.
 
-**Regime watch:** The firming-inflation regime is confirmed if September core PCE rises above 3.0% y/y and the FOMC signals no easing. A shift toward slowdown needs the soft signals to reach hard data: Q3 GDP below the 2.2% Q2 pace, a 4-week claims average above 215,000, and HY spreads widening again next week. If spreads widen while core PCE runs hot, that is the stagflation mix the Fed cannot ease into. A reversal in HY spreads and a VIX back below 17 would deny it.
-**Week ahead:** Tue 2026-10-27 Conference Board Consumer Confidence; Wed 2026-10-28 FOMC decision; Thu 2026-10-29 ECB decision; Thu 2026-10-29 PCE price index; Thu 2026-10-29 GDP (real, SAAR); Thu 2026-10-29 Initial Jobless Claims
+**Regime watch:** The firming-inflation regime is confirmed if September core PCE rises above 3.0% y/y, the FOMC keeps another hike on the table and consumer inflation expectations keep rising. A shift toward slowdown needs the rates signal to reach credit and hard data: Q3 GDP below the 2.2% Q2 pace, a 4-week claims average above 215,000, and HY spreads widening well beyond this week's 7bp. If that happens while core PCE runs hot, that is the stagflation mix the Fed cannot ease into.
+**Week ahead:** Tue 2026-10-27 Conference Board Consumer Confidence; Wed 2026-10-28 FOMC decision; Thu 2026-10-29 PCE price index; Thu 2026-10-29 GDP (real, SAAR); Thu 2026-10-29 Initial Jobless Claims; Thu 2026-10-29 ECB decision
 **Swarm health:** all domains fresh
 
 ## Collector health
 
 | Domain | Last success | Age (h, weekdays) | Status |
 |---|---|---|---|
-| Inflation | 2026-10-26 16:10 ET | 1.0 | ok |
-| Labor | 2026-10-26 16:10 ET | 1.0 | ok |
-| Growth & Activity | 2026-10-26 16:10 ET | 1.0 | ok |
-| Housing | 2026-10-26 16:10 ET | 1.0 | ok |
-| Sentiment & Surveys | 2026-10-26 16:10 ET | 1.0 | ok |
-| Central Banks & Policy | 2026-10-26 16:10 ET | 1.0 | ok |
-| Financial Conditions & Markets | 2026-10-26 16:10 ET | 1.0 | ok |
+| Inflation | 2026-10-26 18:02 ET | 0.1 | ok |
+| Labor | 2026-10-26 18:02 ET | 0.1 | ok |
+| Growth & Activity | 2026-10-26 18:02 ET | 0.1 | ok |
+| Housing | 2026-10-26 18:02 ET | 0.1 | ok |
+| Sentiment & Surveys | 2026-10-26 18:02 ET | 0.1 | ok |
+| Central Banks & Policy | 2026-10-26 18:02 ET | 0.1 | ok |
+| Financial Conditions & Markets | 2026-10-26 18:02 ET | 0.1 | ok |

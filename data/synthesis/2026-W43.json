@@ -1,22 +1,22 @@
 {
-  "regime": "Inflation firm and hard data solid, but spreads, housing and sentiment start to soften",
-  "executive_summary": "Week 43 added no new inflation data, so last week's hot September prints still set the tone: core CPI 0.34% m/m, core PPI 5.0% y/y, euro area HICP 3.75%. Hard US activity data stays firm, with initial claims at 194,000 and a 4-week average of 197,750. The new information came from the soft side. UMich sentiment fell 3.6 points to 48.1, housing starts fell 5.2% for a second straight drop, and HY OAS widened 17bp to 3.40% with VIX up 2.6 points to 19.03. The 10y yield fell 6bp to 5.13% and 5y5y breakevens fell 12bp to 2.19%, so markets are pricing slower growth, not more inflation. Three domains (markets, housing, sentiment) now lean the same way, which is worth tracking, but claims, permits and retail do not confirm it. The regime holds for now. Next week carries the FOMC, the ECB, September PCE and Q3 GDP.",
+  "regime": "Inflation firm and consumer inflation expectations edging up; bond markets price slower growth",
+  "executive_summary": "Corrected 26 Oct: the first version used the September UMich final instead of the October final released this week, and Treasury yields one day older than the other market data. Market figures below are for the week to 23 Oct. Week 43 added no new US inflation data, so the hot September prints still set the tone: core CPI 0.3% m/m against 0.2% consensus, core PPI 5.0% y/y, euro area HICP 3.75%. Hard US activity data stays firm, with initial claims at 194,000. October UMich sentiment was flat at 48.0 from 48.1, but year-ahead inflation expectations rose to 4.7% and long-run expectations to 3.5%. Bond markets moved the other way: the 10y yield fell 9bp to 5.00%, the 10y real yield 8bp and 5y5y breakevens 13bp to 2.20%. HY OAS widened 7bp to 3.38% while VIX eased to 19.45. Markets and housing lean toward slower growth; households expect more inflation. The regime holds. Next week carries the FOMC, the ECB, September PCE and Q3 GDP.",
   "narrative": [
     {
       "title": "Inflation and policy",
-      "body": "No new US inflation print this week. The September set remains hot: core CPI 0.34% m/m against 0.22% consensus, core y/y 2.56%, headline 3.74%. PPI ran ahead of it, headline +1.3% m/m and core +0.7% m/m, 5.0% y/y. PPI leads CPI by 1 to 3 months, so the pipeline still points up. The last logged core PCE is 3.0% y/y for August; September PCE next week is the first test of whether the PPI pass-through shows up in the Fed's measure. The FOMC target range is 3.75% to 4.00% after a 25bp move in September. With core inflation broadening and payroll growth weak, the FOMC faces a dual-mandate tension, and the hot inflation side argues against easing. In the euro area, HICP at 3.75% against 3.6% expected keeps the ECB on hold at best. UK pay at 3.7% keeps BoE hike risk live, with Bank Rate at 3.75%."
+      "body": "No new US inflation print this week. The September set remains hot: core CPI 0.3% m/m against 0.2% consensus, core y/y 2.6%, headline 3.7%. PPI ran ahead of it, headline +1.3% m/m and core +0.7% m/m, 5.0% y/y. PPI leads CPI by 1 to 3 months, so the pipeline still points up. The last logged core PCE is 3.0% y/y for August; September PCE next week is the first test of PPI pass-through into the Fed's measure. The FOMC hiked 25bp in September to a 3.75% to 4.00% range. The live question for next week is whether it hikes again, with hot inflation on one side and weak payrolls on the other. Rising consumer inflation expectations strengthen the case for another move. In the euro area, HICP at 3.75% against 3.6% expected keeps the ECB from easing. UK pay at 3.7% keeps BoE hike risk live, with Bank Rate at 3.75%."
     },
     {
       "title": "Labour",
-      "body": "The US labour market is low-hire, low-fire. Initial claims fell 6,000 to 194,000, the 4-week average eased to 197,750 and continuing claims are 1.728 million, below the 1.8 million line that would signal slack. September payrolls were weak at +29,000 with unemployment at 4.2%, and ADP showed +90,000, but layoffs are not rising. JOLTS openings fell 256,000 in August. That is a slow-hiring market, not a turning one; a turn needs claims to rise alongside falling openings. In the UK, unemployment fell to 4.7% from 4.9% while vacancies hit 691,000, a 5-year low. Demand for labour is cooling there without unemployment rising."
+      "body": "The US labour market is low-hire, low-fire. Initial claims fell 6,000 to 194,000, the 4-week average eased to 197,750 and continuing claims are 1.728 million, below the 1.8 million line that would signal slack. September payrolls were weak at +29,000 with unemployment at 4.2%, and ADP showed +90,000, but layoffs are not rising. JOLTS openings fell 256,000 in August. That is a slow-hiring market, not a turning one; a turn needs claims to rise alongside falling openings. In the UK, unemployment was 4.7%, below the 4.9% consensus, and vacancies fell to 691,000. Demand for labour is cooling there without unemployment rising."
     },
     {
       "title": "Growth, housing and sentiment",
-      "body": "Activity data is firm. Retail sales rose 0.77% m/m in September, though gasoline drove much of it, and industrial production rose 0.66% with capacity use at 76.85. Both support Q3 GDP, which is due next week after 2.2% in Q2. Housing is the weak spot. Starts fell 5.2% to 1.22 million SAAR after a 5.9% fall in August, so residential investment will be a drag in Q3. Permits held near 1.40 million, down only 0.2%, which argues for stabilisation rather than a further slide. Existing home sales rose 1.5% to 3.99 million, slightly above consensus. UMich sentiment fell to 48.1 from 51.7. Sentiment and spending often diverge, so this needs hard-data confirmation before it counts."
+      "body": "Activity data is firm. Retail sales rose 0.8% m/m in September, though gasoline drove much of it, and industrial production rose 0.7% with capacity use at 76.85. Both support Q3 GDP, due next week after 2.2% in Q2. Housing is the weak spot. Starts fell 5.2% to 1.22 million SAAR after a 5.9% fall in August, so residential investment will be a drag in Q3. Permits held near 1.40 million, down 0.2%, which argues for stabilisation rather than a further slide. Existing home sales rose 1.5% to 3.99 million, slightly above consensus. October UMich sentiment was 48.0, flat from 48.1, so it adds no new weakness. The signal in the survey is inflation: year-ahead expectations rose to 4.7% from 4.6% and the 5 to 10 year measure to 3.5% from 3.4%."
     },
     {
       "title": "Financial conditions",
-      "body": "Conditions are loose but tightening at the margin, and this week the move was broader. NFCI rose 0.006 to -0.496, a third small tightening week. HY OAS widened 17bp to 3.40%, more than double last week's widening, and IG OAS 5bp to 0.89%. VIX rose to 19.03. At the same time the 10y yield fell 6bp to 5.13%, the 10y real yield fell 8bp to 2.76% and 5y5y breakevens fell 12bp to 2.19%. The 10y-3m curve narrowed 8bp to 0.74% and 10y-2y 2bp to 0.31%. Wider spreads, a higher VIX and lower long-run inflation pricing together read as growth worry, not inflation fear. That conflicts with the hot inflation prints, and it is the first market signal that lines up with weaker housing and sentiment."
+      "body": "Week to 23 Oct. Conditions are loose and drifting tighter at a slow pace. NFCI rose 0.006 to -0.496, a third small tightening week. HY OAS widened 7bp to 3.38% and IG OAS 6bp to 0.91%, while VIX eased 0.5 points to 19.45. The bond market carried the move: the 10y yield fell 9bp to 5.00%, the 2y 5bp to 4.69% and the 10y real yield 8bp to 2.66%. 5y5y breakevens fell 13bp to 2.20%. The 10y-3m curve narrowed 5bp to 0.78% and 10y-2y 4bp to 0.31%. Falling real yields and long-run breakevens read as growth worry in rates, but credit and volatility do not confirm it this week. Market inflation pricing is falling while household expectations rise, a gap the FOMC will weigh."
     }
   ],
   "domain_scorecard": [
@@ -33,7 +33,7 @@
     {
       "domain": "Growth & Activity",
       "signal": "strong",
-      "note": "Retail +0.77% and IP +0.66% m/m; gasoline flatters retail"
+      "note": "Retail +0.8% and IP +0.7% m/m; gasoline flatters retail"
     },
     {
       "domain": "Housing",
@@ -42,21 +42,21 @@
     },
     {
       "domain": "Sentiment & Surveys",
-      "signal": "weakening",
-      "note": "UMich 48.1, down 3.6 points; low weight until spending confirms"
+      "signal": "steady",
+      "note": "UMich 48.0, flat; inflation expectations up to 4.7% and 3.5%"
     },
     {
       "domain": "Central Banks & Policy",
       "signal": "firm",
-      "note": "HICP 3.75% above consensus; no easing case for ECB or Fed"
+      "note": "Fed hiked in September; HICP 3.75% above consensus; no easing case"
     },
     {
       "domain": "Financial Conditions & Markets",
-      "signal": "weakening",
-      "note": "Still loose; HY +17bp, VIX 19.03, NFCI tighter third week"
+      "signal": "steady",
+      "note": "Loose; yields and breakevens down, HY +7bp, VIX lower"
     }
   ],
-  "regime_watch": "The firming-inflation regime is confirmed if September core PCE rises above 3.0% y/y and the FOMC signals no easing. A shift toward slowdown needs the soft signals to reach hard data: Q3 GDP below the 2.2% Q2 pace, a 4-week claims average above 215,000, and HY spreads widening again next week. If spreads widen while core PCE runs hot, that is the stagflation mix the Fed cannot ease into. A reversal in HY spreads and a VIX back below 17 would deny it.",
+  "regime_watch": "The firming-inflation regime is confirmed if September core PCE rises above 3.0% y/y, the FOMC keeps another hike on the table and consumer inflation expectations keep rising. A shift toward slowdown needs the rates signal to reach credit and hard data: Q3 GDP below the 2.2% Q2 pace, a 4-week claims average above 215,000, and HY spreads widening well beyond this week's 7bp. If that happens while core PCE runs hot, that is the stagflation mix the Fed cannot ease into.",
   "week_ahead": [
     {
       "report": "conf_board",
@@ -65,7 +65,7 @@
       "weekday": "Tue",
       "time_et": null,
       "date_source": "estimate",
-      "why": "Labour differential leads unemployment; checks the UMich drop"
+      "why": "Labour differential leads unemployment; second read on consumers"
     },
     {
       "report": "fomc",
@@ -74,16 +74,7 @@
       "weekday": "Wed",
       "time_et": "14:00",
       "date_source": "official",
-      "why": "Decision with hot CPI and weak payrolls; watch the guidance on further moves"
-    },
-    {
-      "report": "ecb",
-      "name": "ECB decision",
-      "date": "2026-10-29",
-      "weekday": "Thu",
-      "time_et": "08:15",
-      "date_source": "official",
-      "why": "HICP at 3.75% rules out easing; watch tone on energy-led inflation"
+      "why": "After the September hike: another move, or a pause with hot CPI and weak payrolls"
     },
     {
       "report": "pce",
@@ -111,6 +102,15 @@
       "time_et": "08:30",
       "date_source": "estimate",
       "why": "4-week average above 215,000 would start a labour turn"
+    },
+    {
+      "report": "ecb",
+      "name": "ECB decision",
+      "date": "2026-10-29",
+      "weekday": "Thu",
+      "time_et": "09:15",
+      "date_source": "official",
+      "why": "HICP at 3.75% rules out easing; watch tone on energy-led inflation"
     }
   ],
   "kpis": [
@@ -133,25 +133,25 @@
       "unit": "k"
     },
     {
-      "label": "UMich sentiment",
-      "ref": "sentiment/umich/2026-09:sentiment.level",
-      "value": 48.1,
-      "unit": ""
+      "label": "UMich 1y inflation expectations",
+      "ref": "sentiment/umich/2026-10:infl_exp_1y.level",
+      "value": 4.7,
+      "unit": "%"
     },
     {
-      "label": "HY OAS",
-      "ref": "markets:hy_oas",
-      "value": 3.4,
+      "label": "UST 10y",
+      "ref": "markets:ust_10y",
+      "value": 5.0,
       "unit": "%"
     },
     {
       "label": "5y5y breakeven",
       "ref": "markets:be_5y5y",
-      "value": 2.19,
+      "value": 2.2,
       "unit": "%"
     }
   ],
-  "slack_summary": "W43: inflation firm and hard data solid, but spreads, housing and sentiment start to soften.\nKey prints: claims 194,000, starts -5.2% (second fall), UMich 48.1; HY OAS +17bp to 3.40%, 5y5y -12bp to 2.19%.\nNext week: FOMC, ECB, September PCE and Q3 GDP.",
+  "slack_summary": "W43 (corrected): inflation firm and consumer inflation expectations edging up; bond markets price slower growth.\nKey prints: claims 194,000, starts -5.2%, UMich 48.0 (flat) with 1y expectations 4.7%; week to 23 Oct 10y -9bp to 5.00%, 5y5y -13bp, HY +7bp.\nNext week: FOMC, ECB, September PCE and Q3 GDP.",
   "week": "2026-W43",
   "week_ending": "2026-10-23",
   "swarm_health": "all domains fresh",
@@ -161,56 +161,56 @@
       {
         "domain": "inflation",
         "name": "Inflation",
-        "last_success": "2026-10-23 14:44 ET",
-        "age_hours": 3.1,
+        "last_success": "2026-10-26 18:02 ET",
+        "age_hours": -72.2,
         "stale": false,
         "errors": []
       },
       {
         "domain": "labor",
         "name": "Labor",
-        "last_success": "2026-10-23 14:44 ET",
-        "age_hours": 3.1,
+        "last_success": "2026-10-26 18:02 ET",
+        "age_hours": -72.2,
         "stale": false,
         "errors": []
       },
       {
         "domain": "growth",
         "name": "Growth & Activity",
-        "last_success": "2026-10-23 14:44 ET",
-        "age_hours": 3.1,
+        "last_success": "2026-10-26 18:02 ET",
+        "age_hours": -72.2,
         "stale": false,
         "errors": []
       },
       {
         "domain": "housing",
         "name": "Housing",
-        "last_success": "2026-10-23 14:44 ET",
-        "age_hours": 3.1,
+        "last_success": "2026-10-26 18:02 ET",
+        "age_hours": -72.2,
         "stale": false,
         "errors": []
       },
       {
         "domain": "sentiment",
         "name": "Sentiment & Surveys",
-        "last_success": "2026-10-23 14:44 ET",
-        "age_hours": 3.1,
+        "last_success": "2026-10-26 18:02 ET",
+        "age_hours": -72.2,
         "stale": false,
         "errors": []
       },
       {
         "domain": "policy",
         "name": "Central Banks & Policy",
-        "last_success": "2026-10-23 14:44 ET",
-        "age_hours": 3.1,
+        "last_success": "2026-10-26 18:02 ET",
+        "age_hours": -72.2,
         "stale": false,
         "errors": []
       },
       {
         "domain": "markets",
         "name": "Financial Conditions & Markets",
-        "last_success": "2026-10-23 14:44 ET",
-        "age_hours": 3.1,
+        "last_success": "2026-10-26 18:02 ET",
+        "age_hours": -72.2,
         "stale": false,
         "errors": []
       }
