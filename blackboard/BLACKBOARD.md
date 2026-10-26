@@ -1,6 +1,6 @@
 # Macro Monitor: Blackboard
 
-_Rendered 2026-10-26 15:03 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
+_Rendered 2026-10-26 16:10 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
 
 ## Inflation
 
@@ -131,10 +131,10 @@ Week 43 added no new inflation data, so last week's hot September prints still s
 
 | Domain | Last success | Age (h, weekdays) | Status |
 |---|---|---|---|
-| Inflation | 2026-10-26 15:03 ET | 0.0 | ok |
-| Labor | 2026-10-26 15:03 ET | 0.0 | ok |
-| Growth & Activity | 2026-10-26 15:03 ET | 0.0 | ok |
-| Housing | 2026-10-26 15:03 ET | 0.0 | ok |
-| Sentiment & Surveys | 2026-10-26 15:03 ET | 0.0 | ok |
-| Central Banks & Policy | 2026-10-26 15:03 ET | 0.0 | ok |
-| Financial Conditions & Markets | 2026-10-26 15:03 ET | 0.0 | ok |
+| Inflation | 2026-10-26 16:10 ET | 0.0 | ok |
+| Labor | 2026-10-26 16:10 ET | 0.0 | ok |
+| Growth & Activity | 2026-10-26 16:10 ET | 0.0 | ok |
+| Housing | 2026-10-26 16:10 ET | 0.0 | ok |
+| Sentiment & Surveys | 2026-10-26 16:10 ET | 0.0 | ok |
+| Central Banks & Policy | 2026-10-26 16:10 ET | 0.0 | ok |
+| Financial Conditions & Markets | 2026-10-26 16:10 ET | 0.0 | ok |
