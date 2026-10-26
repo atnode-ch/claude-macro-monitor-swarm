@@ -7,18 +7,33 @@
   "detected_at": "2026-10-26 15:03 ET",
   "source": "web",
   "source_url": "https://www.ifo.de/en/ifo-business-climate-index",
-  "metrics": {},
+  "metrics": {
+    "business_climate": 90.2
+  },
   "prior": {},
-  "verified": false,
+  "verified": true,
   "consensus": null,
-  "consensus_source": null,
+  "consensus_source": "No consensus found for October 2026",
   "surprise": null,
-  "read": null,
-  "status": "pending_analysis",
+  "read": "Ifo climate 90.2 vs 89.9 in September (unconfirmed, single source ifo.de). Expectations improved, current assessment slightly worse; component values not published numerically. Mildly supportive for EUR and Europe equities. No consensus found.",
+  "status": "analysed",
   "due_date": "2026-10-26",
   "needs_fetch": [
     "business_climate",
     "current_assessment",
     "expectations"
-  ]
+  ],
+  "fields": null,
+  "sources": [
+    "https://www.ifo.de/en/ifo-business-climate-index",
+    "https://www.ifo.de/en/survey/ifo-business-climate-index"
+  ],
+  "alert": {
+    "alert": false,
+    "material": false,
+    "reasons": [
+      "no consensus available; surprise not assessed"
+    ]
+  },
+  "analysed_at": "2026-10-26 17:09 ET"
 }

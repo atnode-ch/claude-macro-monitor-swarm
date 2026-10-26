@@ -1,6 +1,6 @@
 # Macro Monitor: Blackboard
 
-_Rendered 2026-10-26 16:10 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
+_Rendered 2026-10-26 17:09 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
 
 ## Inflation
 
@@ -66,11 +66,11 @@ _Rendered 2026-10-26 16:10 ET from data/. Do not edit by hand; edit data/ or rer
 
 | Report | Period | Actual | Prior | Consensus | Surprise | Read |
 |---|---|---|---|---|---|---|
-| **German Ifo Business Climate** | 2026-10 | _awaiting fetch_ |  |  |  | _pending analysis_ [source](https://www.ifo.de/en/ifo-business-climate-index) _(single-source, unconfirmed)_ |
+| **German Ifo Business Climate** | 2026-10 | business climate 90.2 |  | unconfirmed |  | Ifo climate 90.2 vs 89.9 in September (unconfirmed, single source ifo.de). Expectations improved, current assessment slightly worse; component values not published numerically. Mildly supportive for EUR and Europe equities. No consensus found. [source](https://www.ifo.de/en/ifo-business-climate-index) |
 | **UMich Consumer Sentiment (final)** | 2026-09 | sentiment 48.1; sentiment -3.6 chg | sentiment 51.7; sentiment -3.5 chg | unconfirmed |  | Final September sentiment 48.1, down 3.6 from 51.7 and revised up from 47.8 preliminary. Near record-low territory (low 44.8 in May). No final consensus found. Weak print leans soft for retail sales; single survey, low weight. [source](https://www.sca.isr.umich.edu/) |
 | **UMich Consumer Sentiment (final)** | 2026-08 | sentiment 51.7; sentiment -3.5 chg | sentiment 55.2; sentiment +5.7 chg |  |  | _baseline (pre-migration)_ [source](https://www.sca.isr.umich.edu/) |
 
-**Current stance:** Consumer sentiment is weak: 48.1 in September after 51.7 in August, 3.6 points lower and close to the May 2026 record low of 44.8. Soft sentiment tends to foreshadow softer retail spending, but the two decouple often, so we wait for hard spending data. No inflation expectations data logged yet this cycle. Stance: cautious, bearish lean on consumer, low conviction. A rebound above 52 or firm retail sales would soften the view. _(updated 2026-10-23 17:08 ET)_
+**Current stance:** Consumer sentiment is weak: 48.1 in September after 51.7 in August, close to the May 2026 record low of 44.8. Soft sentiment tends to foreshadow softer retail spending, but the two decouple often, so we wait for hard spending data. German Ifo climate rose to 90.2 from 89.9 in October (unconfirmed, single source), led by expectations while current assessment slipped, a modest offset for EUR. No inflation expectations data logged yet. Stance: cautious, bearish lean on consumer, low conviction. A rebound above 52 or firm retail sales would soften the view. _(updated 2026-10-26 17:09 ET)_
 
 ## Central Banks & Policy
 
@@ -131,10 +131,10 @@ Week 43 added no new inflation data, so last week's hot September prints still s
 
 | Domain | Last success | Age (h, weekdays) | Status |
 |---|---|---|---|
-| Inflation | 2026-10-26 16:10 ET | 0.0 | ok |
-| Labor | 2026-10-26 16:10 ET | 0.0 | ok |
-| Growth & Activity | 2026-10-26 16:10 ET | 0.0 | ok |
-| Housing | 2026-10-26 16:10 ET | 0.0 | ok |
-| Sentiment & Surveys | 2026-10-26 16:10 ET | 0.0 | ok |
-| Central Banks & Policy | 2026-10-26 16:10 ET | 0.0 | ok |
-| Financial Conditions & Markets | 2026-10-26 16:10 ET | 0.0 | ok |
+| Inflation | 2026-10-26 16:10 ET | 1.0 | ok |
+| Labor | 2026-10-26 16:10 ET | 1.0 | ok |
+| Growth & Activity | 2026-10-26 16:10 ET | 1.0 | ok |
+| Housing | 2026-10-26 16:10 ET | 1.0 | ok |
+| Sentiment & Surveys | 2026-10-26 16:10 ET | 1.0 | ok |
+| Central Banks & Policy | 2026-10-26 16:10 ET | 1.0 | ok |
+| Financial Conditions & Markets | 2026-10-26 16:10 ET | 1.0 | ok |
