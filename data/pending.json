@@ -1,3 +1,13 @@
 {
-  "items": []
+  "items": [
+    {
+      "domain": "sentiment",
+      "report": "ifo",
+      "ref": "2026-10",
+      "path": "data/releases/sentiment/ifo/2026-10.json",
+      "needs_fetch": true,
+      "tier": 3,
+      "detected_at": "2026-10-26 15:03 ET"
+    }
+  ]
 }

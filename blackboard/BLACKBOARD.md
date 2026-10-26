@@ -1,6 +1,6 @@
 # Macro Monitor: Blackboard
 
-_Rendered 2026-10-23 19:11 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
+_Rendered 2026-10-26 15:03 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
 
 ## Inflation
 
@@ -66,6 +66,7 @@ _Rendered 2026-10-23 19:11 ET from data/. Do not edit by hand; edit data/ or rer
 
 | Report | Period | Actual | Prior | Consensus | Surprise | Read |
 |---|---|---|---|---|---|---|
+| **German Ifo Business Climate** | 2026-10 | _awaiting fetch_ |  |  |  | _pending analysis_ [source](https://www.ifo.de/en/ifo-business-climate-index) _(single-source, unconfirmed)_ |
 | **UMich Consumer Sentiment (final)** | 2026-09 | sentiment 48.1; sentiment -3.6 chg | sentiment 51.7; sentiment -3.5 chg | unconfirmed |  | Final September sentiment 48.1, down 3.6 from 51.7 and revised up from 47.8 preliminary. Near record-low territory (low 44.8 in May). No final consensus found. Weak print leans soft for retail sales; single survey, low weight. [source](https://www.sca.isr.umich.edu/) |
 | **UMich Consumer Sentiment (final)** | 2026-08 | sentiment 51.7; sentiment -3.5 chg | sentiment 55.2; sentiment +5.7 chg |  |  | _baseline (pre-migration)_ [source](https://www.sca.isr.umich.edu/) |
 
@@ -107,13 +108,13 @@ _Rendered 2026-10-23 19:11 ET from data/. Do not edit by hand; edit data/ or rer
 | ust_3m | 4.22 | -3 | -6 | bp |
 | curve_10y2y | 0.31 | +0 | -4 | bp |
 | curve_10y3m | 0.78 | +4 | -5 | bp |
-| hy_oas | 3.40 | +13 | +17 | bp |
-| ig_oas | 0.89 | +1 | +5 | bp |
+| hy_oas | 3.38 | -2 | +7 | bp |
+| ig_oas | 0.91 | +2 | +6 | bp |
 | be_5y5y | 2.20 | +1 | -13 | bp |
 | be_10y | 2.34 | +2 | -1 | bp |
 | real_10y | 2.64 | -12 | -14 | bp |
-| sofr | 3.90 | +2 | +1 | bp |
-| vix | 19.03 | +2 | +3 | pts |
+| sofr | 3.92 | +2 | +4 | bp |
+| vix | 19.45 | +0 | -0 | pts |
 | usd_broad | 121.40 | -0 | -0 | pts |
 
 ## Macro Synthesis
@@ -130,10 +131,10 @@ Week 43 added no new inflation data, so last week's hot September prints still s
 
 | Domain | Last success | Age (h, weekdays) | Status |
 |---|---|---|---|
-| Inflation | 2026-10-23 19:11 ET | 0.0 | ok |
-| Labor | 2026-10-23 19:11 ET | 0.0 | ok |
-| Growth & Activity | 2026-10-23 19:11 ET | 0.0 | ok |
-| Housing | 2026-10-23 19:11 ET | 0.0 | ok |
-| Sentiment & Surveys | 2026-10-23 19:11 ET | 0.0 | ok |
-| Central Banks & Policy | 2026-10-23 19:11 ET | 0.0 | ok |
-| Financial Conditions & Markets | 2026-10-23 19:11 ET | 0.0 | ok |
+| Inflation | 2026-10-26 15:03 ET | 0.0 | ok |
+| Labor | 2026-10-26 15:03 ET | 0.0 | ok |
+| Growth & Activity | 2026-10-26 15:03 ET | 0.0 | ok |
+| Housing | 2026-10-26 15:03 ET | 0.0 | ok |
+| Sentiment & Surveys | 2026-10-26 15:03 ET | 0.0 | ok |
+| Central Banks & Policy | 2026-10-26 15:03 ET | 0.0 | ok |
+| Financial Conditions & Markets | 2026-10-26 15:03 ET | 0.0 | ok |
