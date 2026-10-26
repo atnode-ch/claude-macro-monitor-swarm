@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26 18:02 ET",
+  "generated_at": "2026-10-26 19:55 ET",
   "cb_meetings": {
     "fed": [
       "2021-01-27",
@@ -229,12 +229,30 @@
       "weekday": "Mon"
     },
     {
+      "date": "2026-11-03",
+      "time_et": null,
+      "report": "jolts",
+      "name": "JOLTS",
+      "source": "official",
+      "summary": "Job Openings and Labor Turnover Survey",
+      "weekday": "Tue"
+    },
+    {
       "date": "2026-11-04",
       "time_et": "08:30",
       "report": "trade",
       "name": "Trade Balance",
       "source": "official",
       "summary": "U.S. International Trade in Goods and Services, September 2026",
+      "weekday": "Wed"
+    },
+    {
+      "date": "2026-11-04",
+      "time_et": null,
+      "report": "gdp",
+      "name": "GDP (real, SAAR)",
+      "source": "official",
+      "summary": "GDPNow",
       "weekday": "Wed"
     },
     {
@@ -263,19 +281,30 @@
     },
     {
       "date": "2026-11-06",
-      "time_et": "08:30",
+      "time_et": null,
       "report": "nfp",
       "name": "Non-Farm Payrolls",
-      "source": "estimate",
+      "source": "official",
+      "summary": "Employment Situation",
       "weekday": "Fri"
     },
     {
-      "date": "2026-11-06",
-      "time_et": "10:00",
-      "report": "jolts",
-      "name": "JOLTS",
-      "source": "estimate",
-      "weekday": "Fri"
+      "date": "2026-11-09",
+      "time_et": null,
+      "report": "gdp",
+      "name": "GDP (real, SAAR)",
+      "source": "official",
+      "summary": "GDPNow",
+      "weekday": "Mon"
+    },
+    {
+      "date": "2026-11-10",
+      "time_et": null,
+      "report": "cpi",
+      "name": "CPI",
+      "source": "official",
+      "summary": "Consumer Price Index",
+      "weekday": "Tue"
     },
     {
       "date": "2026-11-12",
@@ -286,19 +315,21 @@
       "weekday": "Thu"
     },
     {
-      "date": "2026-11-12",
-      "time_et": "08:30",
-      "report": "cpi",
-      "name": "CPI",
-      "source": "estimate",
-      "weekday": "Thu"
+      "date": "2026-11-13",
+      "time_et": null,
+      "report": "gdp",
+      "name": "GDP (real, SAAR)",
+      "source": "official",
+      "summary": "National Accounts - GDP (Eurostat)",
+      "weekday": "Fri"
     },
     {
       "date": "2026-11-13",
-      "time_et": "08:30",
+      "time_et": null,
       "report": "ppi",
       "name": "PPI",
-      "source": "estimate",
+      "source": "official",
+      "summary": "Producer Price Index",
       "weekday": "Fri"
     },
     {
@@ -328,10 +359,28 @@
     {
       "date": "2026-11-17",
       "time_et": null,
+      "report": "gdp",
+      "name": "GDP (real, SAAR)",
+      "source": "official",
+      "summary": "GDPNow",
+      "weekday": "Tue"
+    },
+    {
+      "date": "2026-11-17",
+      "time_et": null,
       "report": "uk_labour",
       "name": "UK Labour Market (ONS)",
       "source": "estimate",
       "weekday": "Tue"
+    },
+    {
+      "date": "2026-11-18",
+      "time_et": null,
+      "report": "gdp",
+      "name": "GDP (real, SAAR)",
+      "source": "official",
+      "summary": "GDPNow",
+      "weekday": "Wed"
     },
     {
       "date": "2026-11-19",
@@ -424,6 +473,24 @@
       "weekday": "Mon"
     },
     {
+      "date": "2026-12-01",
+      "time_et": null,
+      "report": "gdp",
+      "name": "GDP (real, SAAR)",
+      "source": "official",
+      "summary": "GDPNow",
+      "weekday": "Tue"
+    },
+    {
+      "date": "2026-12-01",
+      "time_et": null,
+      "report": "jolts",
+      "name": "JOLTS",
+      "source": "official",
+      "summary": "Job Openings and Labor Turnover Survey",
+      "weekday": "Tue"
+    },
+    {
       "date": "2026-12-02",
       "time_et": "08:30",
       "report": "gdp",
@@ -441,12 +508,39 @@
       "weekday": "Thu"
     },
     {
+      "date": "2026-12-04",
+      "time_et": null,
+      "report": "nfp",
+      "name": "Non-Farm Payrolls",
+      "source": "official",
+      "summary": "Employment Situation",
+      "weekday": "Fri"
+    },
+    {
+      "date": "2026-12-07",
+      "time_et": null,
+      "report": "gdp",
+      "name": "GDP (real, SAAR)",
+      "source": "official",
+      "summary": "National Accounts - GDP (Eurostat)",
+      "weekday": "Mon"
+    },
+    {
       "date": "2026-12-08",
       "time_et": "08:30",
       "report": "trade",
       "name": "Trade Balance",
       "source": "official",
       "summary": "U.S. International Trade in Goods and Services, October 2026",
+      "weekday": "Tue"
+    },
+    {
+      "date": "2026-12-08",
+      "time_et": null,
+      "report": "gdp",
+      "name": "GDP (real, SAAR)",
+      "source": "official",
+      "summary": "GDPNow",
       "weekday": "Tue"
     },
     {
@@ -458,11 +552,29 @@
       "weekday": "Wed"
     },
     {
+      "date": "2026-12-09",
+      "time_et": null,
+      "report": "gdp",
+      "name": "GDP (real, SAAR)",
+      "source": "official",
+      "summary": "GDPNow",
+      "weekday": "Wed"
+    },
+    {
       "date": "2026-12-10",
       "time_et": "08:30",
       "report": "claims",
       "name": "Initial Jobless Claims",
       "source": "estimate",
+      "weekday": "Thu"
+    },
+    {
+      "date": "2026-12-10",
+      "time_et": null,
+      "report": "cpi",
+      "name": "CPI",
+      "source": "official",
+      "summary": "Consumer Price Index",
       "weekday": "Thu"
     }
   ],
