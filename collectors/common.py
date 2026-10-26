@@ -74,6 +74,25 @@ def now_et(override=None):
     return datetime.now(ET) if ET else datetime.now()
 
 
+# Policy decision release times in each bank's own time zone.
+CB_DECISION_LOCAL = {"fed": ("14:00", "America/New_York"), "ecb": ("14:15", "Europe/Berlin"),
+                     "boe": ("12:00", "Europe/London")}
+
+
+def decision_time_et(bank, d):
+    hhmm, tz = CB_DECISION_LOCAL[bank]
+    return local_time_et(d, hhmm, tz)
+
+
+def local_time_et(d, hhmm, tz):
+    """'HH:MM' in ET for a local wall-clock time on date d. Europe and the US
+    switch DST on different dates, so a fixed offset is wrong for weeks a year."""
+    if ET is None:
+        return hhmm
+    h, m = map(int, hhmm.split(":"))
+    return datetime(d.year, d.month, d.day, h, m, tzinfo=ZoneInfo(tz)).astimezone(ET).strftime("%H:%M")
+
+
 def fmt_et(dt):
     return dt.strftime("%Y-%m-%d %H:%M ET")
 
@@ -108,6 +127,27 @@ def http_get(url, timeout=40, retries=3, data=None, headers=None, browser_ua=Tru
             last = e
             time.sleep(2 * (attempt + 1))
     raise RuntimeError(f"GET {url} failed: {last}")
+
+
+MONTH_NAMES = ["january", "february", "march", "april", "may", "june", "july", "august",
+               "september", "october", "november", "december"]
+
+
+def umich_csv(table, col=1, text=None):
+    """[(date, float)] ascending from a Surveys of Consumers data table
+    (sca.isr.umich.edu/files/<table>.csv: Month,YYYY,value[,value]). Read
+    directly because FRED's UMCSENT posts the final a month late."""
+    if text is None:
+        text = http_get(f"https://www.sca.isr.umich.edu/files/{table}.csv", timeout=30)
+    rows = []
+    for rec in csv.reader(io.StringIO(text)):
+        if len(rec) <= col + 1 or rec[0].strip().lower() not in MONTH_NAMES:
+            continue
+        try:
+            rows.append((date(int(rec[1]), MONTH_NAMES.index(rec[0].strip().lower()) + 1, 1), float(rec[col + 1])))
+        except ValueError:
+            continue
+    return sorted(rows)
 
 
 def fred_csv(series_id, text=None, years=4):

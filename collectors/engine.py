@@ -25,7 +25,7 @@ PENDING = C.DATA / "pending.json"
 MARKETS_LATEST = C.DATA / "markets_latest.json"
 CALENDAR = C.DATA / "calendar.json"
 
-DECISION_GRACE_HOURS = {"fed": 14.5, "ecb": 8.5, "boe": 7.5}  # ET hour after which the day's decision is out
+DECISION_GRACE_MIN = 30  # minutes after the decision time before we look for the new rate
 
 
 # ---------- metric maths ----------
@@ -119,7 +119,21 @@ def fetch_series_map(rep, now):
             ids.append(p["yoy_id"])
     if rep["source"] == "bls":
         return C.bls_series(ids, now.year - 2, now.year)
+    if rep["source"] == "umich":
+        return {i: umich_final(i, rep, now) for i in ids}
     return {i: C.fred_csv(i) for i in ids}
+
+
+def umich_final(sid, rep, now):
+    """'<table>:<col>' from the survey site. The current month only counts once
+    its final is due, so a preliminary posting is never logged as the final."""
+    table, _, col = sid.partition(":")
+    s = C.umich_csv(table, int(col or 1))
+    if s and s[-1][0].year == now.year and s[-1][0].month == now.month:
+        due = due_date(rep["final_rule"], now.year, now.month)
+        if (now.date(), now.hour) < (due, 10):
+            s = s[:-1]
+    return s
 
 
 def fetch_boe_rate():
@@ -216,7 +230,8 @@ def collect_decision(domain, rep, now, rstate, seed, cal_data):
     bank = rep["bank"]
     meetings = sorted((cal_data.get("cb_meetings") or {}).get(bank, []))
     today = now.date()
-    grace = DECISION_GRACE_HOURS.get(bank, 14.5)
+    h, mi = map(int, C.decision_time_et(bank, today).split(":"))
+    grace = h + (mi + DECISION_GRACE_MIN) / 60
     held = [m for m in meetings
             if date.fromisoformat(m) < today
             or (date.fromisoformat(m) == today and now.hour + now.minute / 60 >= grace)]
@@ -282,26 +297,55 @@ def collect_web(domain, rep, now, rstate, seed):
     return rec
 
 
+CURVE_IDENTITIES = {"curve_10y2y": ("ust_10y", "ust_2y"), "curve_10y3m": ("ust_10y", "ust_3m")}
+
+
+def snapshot_levels(rep, series, look, lagging_days):
+    """One as-of date for every series. FRED posts H.15 yields a day after the
+    spreads, curves and VIX; taking each series' own last value mixed two days.
+    as_of = the latest date every current series has. A series more than
+    `lagging_days` behind the freshest (e.g. the weekly-posted dollar index)
+    keeps its own date and is marked lagging. The window is `look` business
+    days as calendar weeks, so chg_5d is the same weekday a week earlier."""
+    last = {k: s[-1][0] for k, s in series.items()}
+    out = {"as_of": None, "series": {}, "issues": []}
+    if not last:
+        return out
+    newest = max(last.values())
+    current = [k for k, d in last.items() if (newest - d).days <= lagging_days]
+    as_of = min(last[k] for k in current)
+    points = set(rep.get("points_series", []))
+    for key, s in series.items():
+        lagging = key not in current
+        cur = _value_at(s, last[key] if lagging else as_of)
+        prev1 = _prev(s, cur[0]) or cur
+        back = _value_at(s, cur[0] - timedelta(days=round(look * 7 / 5))) or s[0]
+        mult = 1 if key in points else 100  # rates move in bp, indices in points
+        out["series"][key] = {
+            "id": rep["series"][key], "date": cur[0].isoformat(), "level": cur[1],
+            "unit": "pts" if key in points else "bp",
+            "chg_1d": _r((cur[1] - prev1[1]) * mult, 1),
+            f"chg_{look}d": _r((cur[1] - back[1]) * mult, 1),
+            f"level_{look}d_ago": back[1],
+            "base_date": back[0].isoformat(),
+        }
+        if lagging:
+            out["series"][key]["lagging"] = True
+            out["issues"].append(f"{key} lags: last value {last[key].isoformat()}, snapshot as of {as_of.isoformat()}")
+    out["as_of"] = as_of.isoformat()
+    lv = {k: v["level"] for k, v in out["series"].items()}
+    for curve, (long_, short) in CURVE_IDENTITIES.items():
+        if all(k in lv for k in (curve, long_, short)) and abs(lv[long_] - lv[short] - lv[curve]) > 0.015:
+            out["issues"].append(f"{curve} {lv[curve]:.2f} != {long_} - {short} = {lv[long_] - lv[short]:.2f}: mixed dates")
+    return out
+
+
 def collect_snapshot(domain, rep, now, rstate, seed, thr):
     mt = thr["markets"]
     look = mt["lookback_days"]
-    latest = {"as_of": None, "updated_at": C.fmt_et(now), "series": {}}
-    points = set(rep.get("points_series", []))
-    for key, sid in rep["series"].items():
-        s = C.fred_csv(sid, years=1)
-        if not s:
-            continue
-        d, v = s[-1]
-        back = s[-1 - look] if len(s) > look else s[0]
-        prev1 = s[-2] if len(s) > 1 else s[-1]
-        mult = 1 if key in points else 100  # rates move in bp, indices in points
-        latest["series"][key] = {
-            "id": sid, "date": d.isoformat(), "level": v, "unit": "pts" if key in points else "bp",
-            "chg_1d": _r((v - prev1[1]) * mult, 1),
-            f"chg_{look}d": _r((v - back[1]) * mult, 1),
-            f"level_{look}d_ago": back[1],
-        }
-        latest["as_of"] = max(latest["as_of"] or "", d.isoformat())
+    fetched = {key: C.fred_csv(sid, years=1) for key, sid in rep["series"].items()}
+    latest = snapshot_levels(rep, {k: s for k, s in fetched.items() if s}, look, mt.get("lagging_days", 4))
+    latest["updated_at"] = C.fmt_et(now)
     C.save_json(MARKETS_LATEST, latest)
 
     signals = []

@@ -476,17 +476,36 @@
           "type": "series",
           "freq": "monthly",
           "tier": 3,
-          "source": "fred",
+          "source": "umich",
           "parts": {
             "sentiment": {
-              "id": "UMCSENT",
+              "id": "tbmics:1",
+              "transforms": [
+                "level",
+                "diff"
+              ]
+            },
+            "infl_exp_1y": {
+              "id": "tbmpx1px5:1",
+              "transforms": [
+                "level",
+                "diff"
+              ]
+            },
+            "infl_exp_5y": {
+              "id": "tbmpx1px5:2",
               "transforms": [
                 "level",
                 "diff"
               ]
             }
           },
-          "release_url": "https://www.sca.isr.umich.edu/"
+          "release_url": "https://www.sca.isr.umich.edu/",
+          "final_rule": {
+            "rule": "nth_weekday",
+            "weekday": 4,
+            "n": 4
+          }
         },
         {
           "id": "conf_board",

@@ -53,6 +53,10 @@ Rules:
 - `week_ahead` uses report ids from `next_week_calendar`; code fills date, weekday and time. Don't write weekdays or dates for upcoming events in the prose.
 - Body copy around 650 to 700 words in total. Plain business language, standard abbreviations (CPI, PPI, PCE, NFP, ISM, FOMC, ECB, BoE).
 - A single surprise is noise; multi-domain alignment is signal. Name alignments.
+- "New this week" means a release whose `ref` is the period that came out this week. A record detected this week for an older period (a source that lags its own release) is not this week's news: say which period it is, or leave it out of the alignment.
+- Market moves: state `markets_as_of` in the Financial conditions section ("week to 23 Oct") and use `chg_5d` as that week's change. If `markets_issues` is non-empty, don't quote a lagging series' level or change as current; name the gap instead.
+- Quote CPI, PPI and PCE changes at one decimal, as the agencies publish them (core CPI 0.3% m/m, not 0.34%).
+- Policy decisions: `rate.change_bp` > 0 is a hike, < 0 a cut. Say which, and frame the next meeting around what is actually live (another hike, a pause, a cut).
 
 ## 3. Finalize and fact-check
 

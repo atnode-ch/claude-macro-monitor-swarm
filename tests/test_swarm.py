@@ -230,3 +230,50 @@ class PublishPagesTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class CountercheckFixTests(unittest.TestCase):
+    """W43 countercheck: UMich source lag, mixed-date market snapshot, ECB DST."""
+
+    def test_umich_csv(self):
+        txt = "Month,YYYY,PX_MD,PX5_MD\nSeptember,2026,4.6,3.4\nOctober,2026,4.7,3.5\n"
+        self.assertEqual(C.umich_csv("t", 2, text=txt), [(date(2026, 9, 1), 3.4), (date(2026, 10, 1), 3.5)])
+
+    def test_umich_current_month_waits_for_final(self):
+        _, rep = C.report_index()["umich"]
+        rows = [(date(2026, 9, 1), 48.1), (date(2026, 10, 1), 48.0)]
+        orig = C.umich_csv
+        C.umich_csv = lambda table, col=1, text=None: list(rows)
+        try:
+            self.assertEqual(E.umich_final("tbmics:1", rep, C.now_et("2026-10-16 12:00"))[-1][1], 48.1)  # preliminary week
+            self.assertEqual(E.umich_final("tbmics:1", rep, C.now_et("2026-10-23 10:30"))[-1][1], 48.0)  # final day
+        finally:
+            C.umich_csv = orig
+
+    def test_snapshot_uses_one_as_of_date(self):
+        d = lambda day: date(2026, 10, day)
+        days = [16, 19, 20, 21, 22, 23]
+        series = {
+            "ust_10y": [(d(x), v) for x, v in zip(days[:-1], [5.10, 5.12, 5.15, 5.13, 4.96])],  # H.15 one day behind
+            "ust_3m": [(d(x), v) for x, v in zip(days[:-1], [4.28, 4.27, 4.26, 4.25, 4.22])],
+            "curve_10y3m": [(d(x), v) for x, v in zip(days, [0.82, 0.85, 0.89, 0.88, 0.74, 0.78])],
+            "usd_broad": [(d(9), 121.0), (d(16), 121.4)],  # weekly, a week behind
+        }
+        rep = {"series": {k: k.upper() for k in series}, "points_series": ["usd_broad"]}
+        out = E.snapshot_levels(rep, series, 5, 4)
+        self.assertEqual(out["as_of"], "2026-10-22")
+        s = out["series"]
+        self.assertEqual(s["curve_10y3m"]["level"], 0.74)        # not Friday's 0.78
+        self.assertEqual(s["ust_10y"]["chg_5d"], -14.0)          # vs a week earlier (first obs here, 16th)
+        self.assertEqual(s["ust_10y"]["base_date"], "2026-10-16")
+        self.assertTrue(s["usd_broad"]["lagging"])
+        self.assertFalse([i for i in out["issues"] if "curve" in i])
+        # mixing dates trips the identity check
+        series["ust_10y"] = [(d(x), v) for x, v in zip(days[:-1], [5.10, 5.12, 5.15, 5.13, 5.13])]
+        self.assertTrue([i for i in E.snapshot_levels(rep, series, 5, 4)["issues"] if "curve_10y3m" in i])
+
+    def test_ecb_time_follows_both_dst_switches(self):
+        self.assertEqual(C.decision_time_et("ecb", date(2026, 10, 22)), "08:15")  # both on summer time
+        self.assertEqual(C.decision_time_et("ecb", date(2026, 10, 29)), "09:15")  # Europe switched 25 Oct, US 1 Nov
+        self.assertEqual(C.decision_time_et("ecb", date(2026, 12, 17)), "08:15")
+        self.assertEqual(C.decision_time_et("boe", date(2026, 11, 5)), "07:00")

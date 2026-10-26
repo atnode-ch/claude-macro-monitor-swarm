@@ -129,7 +129,7 @@ CADENCE = {
     "new_home": ({"rule": "day_of_month", "day": 24}, "10:00"),
     "durables": ({"rule": "day_of_month", "day": 26}, "08:30"),
     "jolts": ({"rule": "nth_business_day", "n": 5}, "10:00"),
-    "umich": ({"rule": "nth_weekday", "weekday": 4, "n": 2}, "10:00"),
+    "umich": ({"rule": "nth_weekday", "weekday": 4, "n": 4}, "10:00"),  # final, not the preliminary
 }
 
 
@@ -161,7 +161,7 @@ def build(now):
         for d in dates:
             dd = date.fromisoformat(d)
             if today - timedelta(days=7) <= dd <= horizon:
-                events.append({"date": d, "time_et": {"fed": "14:00", "ecb": "08:15", "boe": "07:00"}[bank],
+                events.append({"date": d, "time_et": C.decision_time_et(bank, dd),
                                "report": rid_for_bank[bank], "name": reports[rid_for_bank[bank]]["name"],
                                "source": "official"})
 
