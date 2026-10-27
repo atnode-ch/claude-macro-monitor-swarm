@@ -1,6 +1,6 @@
 # Macro Monitor: Blackboard
 
-_Rendered 2026-10-27 14:35 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
+_Rendered 2026-10-27 15:40 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
 
 ## Inflation
 
@@ -134,10 +134,10 @@ Corrected 26 Oct: the first version used the September UMich final instead of th
 
 | Domain | Last success | Age (h, weekdays) | Status |
 |---|---|---|---|
-| Inflation | 2026-10-27 14:35 ET | 0.0 | ok |
-| Labor | 2026-10-27 14:35 ET | 0.0 | ok |
-| Growth & Activity | 2026-10-27 14:35 ET | 0.0 | ok |
-| Housing | 2026-10-27 14:35 ET | 0.0 | ok |
-| Sentiment & Surveys | 2026-10-27 14:35 ET | 0.0 | ok |
-| Central Banks & Policy | 2026-10-27 14:35 ET | 0.0 | ok |
-| Financial Conditions & Markets | 2026-10-27 14:35 ET | 0.0 | ok |
+| Inflation | 2026-10-27 15:40 ET | 0.0 | ok |
+| Labor | 2026-10-27 15:40 ET | 0.0 | ok |
+| Growth & Activity | 2026-10-27 15:40 ET | 0.0 | ok |
+| Housing | 2026-10-27 15:40 ET | 0.0 | ok |
+| Sentiment & Surveys | 2026-10-27 15:40 ET | 0.0 | ok |
+| Central Banks & Policy | 2026-10-27 15:40 ET | 0.0 | ok |
+| Financial Conditions & Markets | 2026-10-27 15:40 ET | 0.0 | ok |
