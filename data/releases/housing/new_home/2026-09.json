@@ -1,0 +1,24 @@
+{
+  "domain": "housing",
+  "report": "new_home",
+  "name": "New Home Sales",
+  "ref": "2026-09",
+  "tier": 3,
+  "detected_at": "2026-10-27 14:35 ET",
+  "source": "fred",
+  "source_url": "https://www.census.gov/construction/nrs/index.html",
+  "metrics": {
+    "sales_k.level": 676.0,
+    "sales_k.chg_pct": -0.588
+  },
+  "prior": {
+    "sales_k.level": 680.0,
+    "sales_k.chg_pct": 5.1
+  },
+  "verified": true,
+  "consensus": null,
+  "consensus_source": null,
+  "surprise": null,
+  "read": null,
+  "status": "pending_analysis"
+}

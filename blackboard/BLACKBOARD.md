@@ -1,6 +1,6 @@
 # Macro Monitor: Blackboard
 
-_Rendered 2026-10-27 11:37 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
+_Rendered 2026-10-27 14:35 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
 
 ## Inflation
 
@@ -37,12 +37,12 @@ _Rendered 2026-10-27 11:37 ET from data/. Do not edit by hand; edit data/ or rer
 
 | Report | Period | Actual | Prior | Consensus | Surprise | Read |
 |---|---|---|---|---|---|---|
+| **Durable Goods** | 2026-09 | orders +1.8% m/m; core capex orders +0.5% m/m | orders +0.1% m/m; core capex orders +1.6% m/m |  |  | _pending analysis_ [source](https://www.census.gov/manufacturing/m3/index.html) |
 | **Retail Sales** | 2026-09 | headline +0.8% m/m; headline 6.3% y/y; ex auto +0.7% m/m | headline +1.3% m/m; headline 5.6% y/y; ex auto +1.3% m/m | headline +0.3% m/m | headline.chg_pct +0.5 | Headline +0.77% m/m vs 0.3% consensus (beat), after +1.29% in August. Gas stations +6.4% on price drove it; ex-gas only +0.2%. Real consumption signal is softer than headline. Supports nominal GDP, adds to inflation pressure. [source](https://www.census.gov/retail/index.html) |
 | **Industrial Production** | 2026-09 | ip +0.7% m/m; ip 2.2% y/y; capacity util 76.8 | ip +0.1% m/m; ip 1.6% y/y; capacity util 76.4 | unconfirmed |  | IP +0.66% m/m (prior +0.06%), +2.25% y/y (prior 1.62%), capacity utilization 76.85% (prior 76.42%). Consensus not found. Firm upside in output; a hard-data tailwind for Q3 GDP, though IP is a small share of activity. [source](https://www.federalreserve.gov/releases/g17/current/) |
 | **GDP (real, SAAR)** | 2026-Q2 | real gdp saar 2.20; real gdp saar -0.30 chg | real gdp saar 2.50; real gdp saar +2.3 chg |  |  | _baseline (pre-migration)_ [source](https://www.bea.gov/data/gdp/gross-domestic-product) |
 | **Trade Balance** | 2026-08 | balance -105.6 $bn; balance -12.7 $bn chg | balance -92.8 $bn; balance -21.6 $bn chg |  |  | _baseline (pre-migration)_ [source](https://www.census.gov/foreign-trade/Press-Release/current_press_release/index.html) |
 | **Retail Sales** | 2026-08 | headline +1.1% m/m; headline 5.4% y/y; ex auto +1.1% m/m | headline -0.5% m/m; headline 4.5% y/y; ex auto -0.6% m/m |  |  | _baseline (pre-migration)_ [source](https://www.census.gov/retail/index.html) |
-| **Industrial Production** | 2026-08 | ip +0.0% m/m; ip 1.4% y/y; capacity util 76.3 | ip +0.2% m/m; ip 1.1% y/y; capacity util 76.3 |  |  | _baseline (pre-migration)_ [source](https://www.federalreserve.gov/releases/g17/current/) |
 
 **Current stance:** Growth: nominal consumer spending is strong, with retail sales up 0.77% m/m and 6.29% y/y after +1.29% in August. Part of the September beat is gasoline prices (ex-gas +0.2%, unconfirmed beyond one news source), so underlying demand is solid but less than the headline. Ex-auto +0.72% matches the headline, so autos were not the driver. Watch the control group and real spending for GDP consumption. A fall in gas prices would reverse the headline boost. _(updated 2026-10-18 08:26 ET)_
 
@@ -52,6 +52,7 @@ _Rendered 2026-10-27 11:37 ET from data/. Do not edit by hand; edit data/ or rer
 
 | Report | Period | Actual | Prior | Consensus | Surprise | Read |
 |---|---|---|---|---|---|---|
+| **New Home Sales** | 2026-09 | sales 676k; sales -0.6% m/m | sales 680k; sales +5.1% m/m |  |  | _pending analysis_ [source](https://www.census.gov/construction/nrs/index.html) |
 | **Housing Starts & Building Permits** | 2026-09 | starts 1,221k; starts -5.2% m/m; permits 1,400k; permits -0.2% m/m | starts 1,288k; starts -5.9% m/m; permits 1,403k; permits -2.1% m/m | unconfirmed |  | September starts fell 5.2% to 1,221k SAAR, a second straight drop (prior -5.9%). Permits slipped 0.2% to 1,400k, so the leading series is steady. No consensus found. Weak starts signal a residential investment drag in Q3 GDP. [source](https://www.census.gov/construction/nrc/index.html) |
 | **Existing Home Sales** | 2026-09 | sales 3.99m; sales +1.5% m/m | sales 3.93m; sales -3.2% m/m | sales 3.95m | sales_m.level +0.04 | Existing home sales rose 1.5% to 3.99M SAAR, about 0.04M above the 3.95M consensus. Closings lag, and 30-year rates near 7.4% point to weaker Oct and Nov prints. Mild support for builders and REITs, limited GDP lift. [source](https://www.nar.realtor/research-and-statistics/housing-statistics/existing-home-sales) |
 | **Housing Starts & Building Permits** | 2026-08 | starts 1,275k; starts -2.6% m/m; permits 1,403k; permits -2.1% m/m | starts 1,309k; starts -9.0% m/m; permits 1,433k; permits +4.3% m/m |  |  | _baseline (pre-migration)_ [source](https://www.census.gov/construction/nrc/index.html) |
@@ -66,6 +67,7 @@ _Rendered 2026-10-27 11:37 ET from data/. Do not edit by hand; edit data/ or rer
 
 | Report | Period | Actual | Prior | Consensus | Surprise | Read |
 |---|---|---|---|---|---|---|
+| **Conference Board Consumer Confidence** | 2026-10 | _awaiting fetch_ |  |  |  | _pending analysis_ [source](https://www.conference-board.org/topics/consumer-confidence) _(single-source, unconfirmed)_ |
 | **UMich Consumer Sentiment (final)** | 2026-10 | sentiment 48.0; sentiment -0.10 chg; infl exp 1y 4.70; infl exp 1y +0.10 chg; infl exp 5y 3.50; infl exp 5y +0.10 chg | sentiment 48.1; sentiment -3.6 chg; infl exp 1y 4.60; infl exp 1y +0.60 chg; infl exp 5y 3.40; infl exp 5y +0.10 chg | unconfirmed |  | Final October sentiment 48.0, down 0.1 from 48.1. 5y inflation expectations 3.5% from 3.4%, 1y 4.7% from 4.6%: small hawkish tick on anchoring. Sentiment flat and weak; no consensus found. [source](https://www.sca.isr.umich.edu/) |
 | **German Ifo Business Climate** | 2026-10 | business climate 90.2 |  | unconfirmed |  | Ifo climate 90.2 vs 89.9 in September (unconfirmed, single source ifo.de). Expectations improved, current assessment slightly worse; component values not published numerically. Mildly supportive for EUR and Europe equities. No consensus found. [source](https://www.ifo.de/en/ifo-business-climate-index) |
 | **UMich Consumer Sentiment (final)** | 2026-09 | sentiment 48.1; sentiment -3.6 chg | sentiment 51.7; sentiment -3.5 chg | unconfirmed |  | Final September sentiment 48.1, down 3.6 from 51.7 and revised up from 47.8 preliminary. Near record-low territory (low 44.8 in May). No final consensus found. Weak print leans soft for retail sales; single survey, low weight. [source](https://www.sca.isr.umich.edu/) |
@@ -132,10 +134,10 @@ Corrected 26 Oct: the first version used the September UMich final instead of th
 
 | Domain | Last success | Age (h, weekdays) | Status |
 |---|---|---|---|
-| Inflation | 2026-10-26 19:55 ET | 15.7 | ok |
-| Labor | 2026-10-26 19:55 ET | 15.7 | ok |
-| Growth & Activity | 2026-10-26 19:55 ET | 15.7 | ok |
-| Housing | 2026-10-26 19:55 ET | 15.7 | ok |
-| Sentiment & Surveys | 2026-10-26 19:55 ET | 15.7 | ok |
-| Central Banks & Policy | 2026-10-26 19:55 ET | 15.7 | ok |
-| Financial Conditions & Markets | 2026-10-26 19:55 ET | 15.7 | ok |
+| Inflation | 2026-10-27 14:35 ET | 0.0 | ok |
+| Labor | 2026-10-27 14:35 ET | 0.0 | ok |
+| Growth & Activity | 2026-10-27 14:35 ET | 0.0 | ok |
+| Housing | 2026-10-27 14:35 ET | 0.0 | ok |
+| Sentiment & Surveys | 2026-10-27 14:35 ET | 0.0 | ok |
+| Central Banks & Policy | 2026-10-27 14:35 ET | 0.0 | ok |
+| Financial Conditions & Markets | 2026-10-27 14:35 ET | 0.0 | ok |

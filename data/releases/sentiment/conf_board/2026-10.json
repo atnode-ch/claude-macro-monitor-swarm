@@ -1,0 +1,24 @@
+{
+  "domain": "sentiment",
+  "report": "conf_board",
+  "name": "Conference Board Consumer Confidence",
+  "ref": "2026-10",
+  "tier": 3,
+  "detected_at": "2026-10-27 14:35 ET",
+  "source": "web",
+  "source_url": "https://www.conference-board.org/topics/consumer-confidence",
+  "metrics": {},
+  "prior": {},
+  "verified": false,
+  "consensus": null,
+  "consensus_source": null,
+  "surprise": null,
+  "read": null,
+  "status": "pending_analysis",
+  "due_date": "2026-10-27",
+  "needs_fetch": [
+    "index",
+    "expectations",
+    "jobs_plentiful_minus_hard"
+  ]
+}
