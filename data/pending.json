@@ -1,13 +1,3 @@
 {
-  "items": [
-    {
-      "domain": "sentiment",
-      "report": "umich",
-      "ref": "2026-10",
-      "path": "data/releases/sentiment/umich/2026-10.json",
-      "needs_fetch": false,
-      "tier": 3,
-      "detected_at": "2026-10-26 18:02 ET"
-    }
-  ]
+  "items": []
 }
