@@ -17,8 +17,18 @@
   },
   "verified": true,
   "consensus": null,
-  "consensus_source": null,
+  "consensus_source": "No September 2026 consensus found in searches on 2026-10-27",
   "surprise": null,
-  "read": null,
-  "status": "pending_analysis"
+  "read": "New home sales were 676k SAAR in September, down 0.6% from 680k after +5.1% in the prior period. No consensus found. A flat print at this level on a leading contract series does not confirm further deterioration but shows no recovery.",
+  "status": "analysed",
+  "fields": null,
+  "sources": [],
+  "alert": {
+    "alert": false,
+    "material": false,
+    "reasons": [
+      "no consensus available; surprise not assessed"
+    ]
+  },
+  "analysed_at": "2026-10-27 17:09 ET"
 }

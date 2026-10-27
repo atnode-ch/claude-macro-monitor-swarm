@@ -1,3 +1,22 @@
 {
-  "items": []
+  "items": [
+    {
+      "report": "conf_board",
+      "ref": "2026-10",
+      "path": "data/releases/sentiment/conf_board/2026-10.json",
+      "alert": false
+    },
+    {
+      "report": "durables",
+      "ref": "2026-09",
+      "path": "data/releases/growth/durables/2026-09.json",
+      "alert": false
+    },
+    {
+      "report": "new_home",
+      "ref": "2026-09",
+      "path": "data/releases/housing/new_home/2026-09.json",
+      "alert": false
+    }
+  ]
 }

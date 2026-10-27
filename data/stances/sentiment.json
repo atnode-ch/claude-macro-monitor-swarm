@@ -1,6 +1,6 @@
 {
   "domain": "sentiment",
-  "stance": "Consumer sentiment is weak and flat: 48.0 in October after 48.1 in September, still near the May 2026 low of 44.8. Inflation expectations edged up (1y 4.7%, 5y 3.5%), a minor hawkish signal for the Fed, not yet a de-anchoring. Soft sentiment tends to foreshadow softer retail spending, but the two often decouple, so we wait for hard spending data. German Ifo 90.2 in October (unconfirmed, single source) is a modest EUR offset. Stance: cautious, bearish lean on consumer, low conviction. A rebound above 52, firm retail sales, or 5y expectations above 3.5% would change the view.",
-  "updated_at": "2026-10-27 11:37 ET",
-  "from": "umich 2026-10"
+  "stance": "Consumer sentiment is mixed. UMich-type readings stay weak (48.0 in October, near the May 2026 low of 44.8; 5y inflation expectations 3.5%, a minor hawkish signal). Conference Board rebounded to 91.7 from 84.2 (unconfirmed, single source), with Expectations 72.6 below 80 and a labour differential of 5.3 that points to stable jobs. Divergence between surveys, so low conviction. Cautious, neutral-to-bearish lean on consumer. Firm retail sales, a second CB gain or Expectations above 80 would lift the view; 5y expectations above 3.5% would add a hawkish tilt.",
+  "updated_at": "2026-10-27 17:09 ET",
+  "from": "conf_board 2026-10"
 }

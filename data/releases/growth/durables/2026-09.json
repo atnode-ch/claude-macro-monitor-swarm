@@ -17,8 +17,20 @@
   },
   "verified": true,
   "consensus": null,
-  "consensus_source": null,
+  "consensus_source": "No poll found; only a single Continuum Economics preview (headline +3.5%, core +0.8%), not a market consensus",
   "surprise": null,
-  "read": null,
-  "status": "pending_analysis"
+  "read": "Durable orders +1.84% m/m after +0.12%. Core capex orders +0.46% after +1.55%, so business investment is still rising but at a slower pace. One Continuum preview looked for +3.5% and +0.8%; no poll consensus found.",
+  "status": "analysed",
+  "fields": null,
+  "sources": [
+    "https://continuumeconomics.com/a/b5964454/preview-due-october-27-us-september-durable-goods-orders-bounce-from-a-below-trend-august"
+  ],
+  "alert": {
+    "alert": false,
+    "material": false,
+    "reasons": [
+      "no consensus available; surprise not assessed"
+    ]
+  },
+  "analysed_at": "2026-10-27 17:09 ET"
 }
