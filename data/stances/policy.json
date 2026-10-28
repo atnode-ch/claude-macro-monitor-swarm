@@ -1,6 +1,6 @@
 {
   "domain": "policy",
-  "stance": "Policy stance is hawkish-leaning on the euro area. September HICP yoy rose 0.5pt to 3.75%, above the 3.6% expectation, with energy the main driver and core steady near 2.5%. No prior history logged for this domain. The ECB is unlikely to ease while headline accelerates. A reversal in energy prices or a core drop below 2.4% would soften the view.",
-  "updated_at": "2026-10-18 08:26 ET",
-  "from": "ez_hicp 2026-09"
+  "stance": "Policy stance is hawkish-leaning. The Fed held at 3.75-4.00% on 2026-10-28 as expected, with a 10-2 vote and both dissenters (Cook, Hammack) favouring a 25bp hike. Statement says inflation remains elevated. On the euro area, September HICP rose to 3.75% yoy, above the 3.6% expectation, with core near 2.5%, so the ECB is unlikely to ease. Easing talk would need softer inflation or a drop in energy prices; more dissents for a hike would harden the view.",
+  "updated_at": "2026-10-28 17:10 ET",
+  "from": "fomc 2026-10-28"
 }

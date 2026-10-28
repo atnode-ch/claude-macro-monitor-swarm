@@ -81,14 +81,14 @@ _Rendered 2026-10-28 17:10 ET from data/. Do not edit by hand; edit data/ or rer
 
 | Report | Period | Actual | Prior | Consensus | Surprise | Read |
 |---|---|---|---|---|---|---|
-| **FOMC decision** | 2026-10-28 | rate 4.00%; rate +0bp; rate lower 3.75% | rate 4.00% |  |  | _pending analysis_ [source](https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm) |
+| **FOMC decision** | 2026-10-28 | rate 4.00%; rate +0bp; rate lower 3.75% | rate 4.00% | rate +0bp | rate.change_bp +0 | Fed held at 3.75-4.00% (0bp), in line with consensus, but 2 of 12 voters dissented for a 25bp hike. Statement says inflation remains elevated. Hawkish hold: supports USD and yields, a risk for equities and gold. No SEP at this meeting. [source](https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm) |
 | **Eurozone HICP** | 2026-09 | headline +0.6% m/m; headline 3.8% y/y | headline +0.4% m/m; headline 3.2% y/y | headline 3.6% y/y | headline.yoy_pct +0.2 | HICP yoy 3.75% vs 3.6% consensus (unconfirmed) and 3.23% prior, a 3-year high led by energy. Core 2.5% was in line. Hawkish for ECB path and EUR, bunds; adds pressure on equities. [source](https://ec.europa.eu/eurostat/web/euro-indicators) |
 | **Eurozone GDP** | 2026-Q2 | real gdp +0.6% q/q; real gdp 1.2% y/y | real gdp -0.0% q/q; real gdp 0.5% y/y |  |  | _baseline (pre-migration)_ [source](https://ec.europa.eu/eurostat/web/euro-indicators) |
 | **BoE decision** | 2026-09-17 | rate 3.75% |  |  |  | _baseline (pre-migration)_ [source](https://www.bankofengland.co.uk/monetary-policy) |
 | **FOMC decision** | 2026-09-16 | rate 4.00%; rate +25bp; rate lower 3.75% | rate 3.75% |  |  | _baseline (pre-migration)_ [source](https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm) |
 | **Eurozone HICP** | 2026-08 | headline +0.4% m/m; headline 3.2% y/y | headline +0.2% m/m; headline 2.9% y/y |  |  | _baseline (pre-migration)_ [source](https://ec.europa.eu/eurostat/web/euro-indicators) |
 
-**Current stance:** Policy stance is hawkish-leaning on the euro area. September HICP yoy rose 0.5pt to 3.75%, above the 3.6% expectation, with energy the main driver and core steady near 2.5%. No prior history logged for this domain. The ECB is unlikely to ease while headline accelerates. A reversal in energy prices or a core drop below 2.4% would soften the view. _(updated 2026-10-18 08:26 ET)_
+**Current stance:** Policy stance is hawkish-leaning. The Fed held at 3.75-4.00% on 2026-10-28 as expected, with a 10-2 vote and both dissenters (Cook, Hammack) favouring a 25bp hike. Statement says inflation remains elevated. On the euro area, September HICP rose to 3.75% yoy, above the 3.6% expectation, with core near 2.5%, so the ECB is unlikely to ease. Easing talk would need softer inflation or a drop in energy prices; more dissents for a hike would harden the view. _(updated 2026-10-28 17:10 ET)_
 
 ## Financial Conditions & Markets
 

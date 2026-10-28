@@ -8,15 +8,6 @@
       "needs_fetch": true,
       "tier": 3,
       "detected_at": "2026-10-28 14:41 ET"
-    },
-    {
-      "domain": "policy",
-      "report": "fomc",
-      "ref": "2026-10-28",
-      "path": "data/releases/policy/fomc/2026-10-28.json",
-      "needs_fetch": true,
-      "tier": 1,
-      "detected_at": "2026-10-28 14:41 ET"
     }
   ]
 }

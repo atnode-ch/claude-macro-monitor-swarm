@@ -16,14 +16,34 @@
     "rate.level": 4.0
   },
   "verified": true,
-  "consensus": null,
-  "consensus_source": null,
-  "surprise": null,
-  "read": null,
-  "status": "pending_analysis",
+  "consensus": {
+    "rate.change_bp": 0.0
+  },
+  "consensus_source": "Reuters poll (94 of 100 economists expect hold) as cited by Raisin preview, 2026-10-23",
+  "surprise": {
+    "rate.change_bp": 0.0
+  },
+  "read": "Fed held at 3.75-4.00% (0bp), in line with consensus, but 2 of 12 voters dissented for a 25bp hike. Statement says inflation remains elevated. Hawkish hold: supports USD and yields, a risk for equities and gold. No SEP at this meeting.",
+  "status": "analysed",
   "needs_fetch": [
     "vote_split",
     "guidance_tone",
     "sep_median_2026"
-  ]
+  ],
+  "fields": {
+    "vote_split": "10-2 (Cook, Hammack dissent for a 25bp hike)",
+    "guidance_tone": "hawkish hold"
+  },
+  "sources": [
+    "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+    "https://www.raisin.com/en-us/news/pre-fomc-preview-positioning-cash-october-2026/"
+  ],
+  "alert": {
+    "alert": true,
+    "material": false,
+    "reasons": [
+      "tier-1 release"
+    ]
+  },
+  "analysed_at": "2026-10-28 17:10 ET"
 }
