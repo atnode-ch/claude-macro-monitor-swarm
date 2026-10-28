@@ -1,0 +1,29 @@
+{
+  "domain": "policy",
+  "report": "fomc",
+  "name": "FOMC decision",
+  "ref": "2026-10-28",
+  "tier": 1,
+  "detected_at": "2026-10-28 14:41 ET",
+  "source": "fred",
+  "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+  "metrics": {
+    "rate.level": 4.0,
+    "rate.change_bp": 0.0,
+    "rate_lower.level": 3.75
+  },
+  "prior": {
+    "rate.level": 4.0
+  },
+  "verified": true,
+  "consensus": null,
+  "consensus_source": null,
+  "surprise": null,
+  "read": null,
+  "status": "pending_analysis",
+  "needs_fetch": [
+    "vote_split",
+    "guidance_tone",
+    "sep_median_2026"
+  ]
+}

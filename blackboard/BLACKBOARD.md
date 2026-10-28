@@ -1,6 +1,6 @@
 # Macro Monitor: Blackboard
 
-_Rendered 2026-10-27 19:48 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
+_Rendered 2026-10-28 14:41 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
 
 ## Inflation
 
@@ -37,12 +37,12 @@ _Rendered 2026-10-27 19:48 ET from data/. Do not edit by hand; edit data/ or rer
 
 | Report | Period | Actual | Prior | Consensus | Surprise | Read |
 |---|---|---|---|---|---|---|
+| **Chicago Fed CARTS retail nowcast** | 2026-10 | _awaiting fetch_ |  |  |  | _pending analysis_ [source](https://www.chicagofed.org/-/media/publications/carts/carts.pdf) _(single-source, unconfirmed)_ |
 | **Durable Goods** | 2026-09 | orders +1.8% m/m; core capex orders +0.5% m/m | orders +0.1% m/m; core capex orders +1.6% m/m | unconfirmed |  | Durable orders +1.84% m/m after +0.12%. Core capex orders +0.46% after +1.55%, so business investment is still rising but at a slower pace. One Continuum preview looked for +3.5% and +0.8%; no poll consensus found. [source](https://www.census.gov/manufacturing/m3/index.html) |
 | **Retail Sales** | 2026-09 | headline +0.8% m/m; headline 6.3% y/y; ex auto +0.7% m/m | headline +1.3% m/m; headline 5.6% y/y; ex auto +1.3% m/m | headline +0.3% m/m | headline.chg_pct +0.5 | Headline +0.77% m/m vs 0.3% consensus (beat), after +1.29% in August. Gas stations +6.4% on price drove it; ex-gas only +0.2%. Real consumption signal is softer than headline. Supports nominal GDP, adds to inflation pressure. [source](https://www.census.gov/retail/index.html) |
 | **Industrial Production** | 2026-09 | ip +0.7% m/m; ip 2.2% y/y; capacity util 76.8 | ip +0.1% m/m; ip 1.6% y/y; capacity util 76.4 | unconfirmed |  | IP +0.66% m/m (prior +0.06%), +2.25% y/y (prior 1.62%), capacity utilization 76.85% (prior 76.42%). Consensus not found. Firm upside in output; a hard-data tailwind for Q3 GDP, though IP is a small share of activity. [source](https://www.federalreserve.gov/releases/g17/current/) |
 | **GDP (real, SAAR)** | 2026-Q2 | real gdp saar 2.20; real gdp saar -0.30 chg | real gdp saar 2.50; real gdp saar +2.3 chg |  |  | _baseline (pre-migration)_ [source](https://www.bea.gov/data/gdp/gross-domestic-product) |
 | **Trade Balance** | 2026-08 | balance -105.6 $bn; balance -12.7 $bn chg | balance -92.8 $bn; balance -21.6 $bn chg |  |  | _baseline (pre-migration)_ [source](https://www.census.gov/foreign-trade/Press-Release/current_press_release/index.html) |
-| **Retail Sales** | 2026-08 | headline +1.1% m/m; headline 5.4% y/y; ex auto +1.1% m/m | headline -0.5% m/m; headline 4.5% y/y; ex auto -0.6% m/m |  |  | _baseline (pre-migration)_ [source](https://www.census.gov/retail/index.html) |
 
 **Current stance:** Growth: nominal consumer spending is strong, with retail sales up 0.77% m/m and 6.29% y/y in September after +1.29% in August. Part of the beat is gasoline (ex-gas +0.2%, unconfirmed beyond one news source), so underlying demand is solid but below the headline. Business investment is positive: core capex orders +0.46% in September after +1.55%, a slower gain. Watch the control group, real spending and core capex for GDP. A fall in gas prices would reverse the retail boost. _(updated 2026-10-27 17:09 ET)_
 
@@ -81,6 +81,7 @@ _Rendered 2026-10-27 19:48 ET from data/. Do not edit by hand; edit data/ or rer
 
 | Report | Period | Actual | Prior | Consensus | Surprise | Read |
 |---|---|---|---|---|---|---|
+| **FOMC decision** | 2026-10-28 | rate 4.00%; rate +0bp; rate lower 3.75% | rate 4.00% |  |  | _pending analysis_ [source](https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm) |
 | **Eurozone HICP** | 2026-09 | headline +0.6% m/m; headline 3.8% y/y | headline +0.4% m/m; headline 3.2% y/y | headline 3.6% y/y | headline.yoy_pct +0.2 | HICP yoy 3.75% vs 3.6% consensus (unconfirmed) and 3.23% prior, a 3-year high led by energy. Core 2.5% was in line. Hawkish for ECB path and EUR, bunds; adds pressure on equities. [source](https://ec.europa.eu/eurostat/web/euro-indicators) |
 | **Eurozone GDP** | 2026-Q2 | real gdp +0.6% q/q; real gdp 1.2% y/y | real gdp -0.0% q/q; real gdp 0.5% y/y |  |  | _baseline (pre-migration)_ [source](https://ec.europa.eu/eurostat/web/euro-indicators) |
 | **BoE decision** | 2026-09-17 | rate 3.75% |  |  |  | _baseline (pre-migration)_ [source](https://www.bankofengland.co.uk/monetary-policy) |
@@ -95,6 +96,7 @@ _Rendered 2026-10-27 19:48 ET from data/. Do not edit by hand; edit data/ or rer
 
 | Report | Period | Actual | Prior | Consensus | Surprise | Read |
 |---|---|---|---|---|---|---|
+| **Chicago Fed NFCI** | 2026-10-23 | nfci -0.49; nfci +0.01 chg; anfci -0.50; anfci +0.01 chg | nfci -0.49; nfci +0.01 chg; anfci -0.51; anfci +0.01 chg |  |  | _pending analysis_ [source](https://www.chicagofed.org/research/data/nfci/current-data) |
 | **Chicago Fed NFCI** | 2026-10-16 | nfci -0.50; nfci +0.01 chg; anfci -0.52; anfci +0.01 chg | nfci -0.50; nfci +0.01 chg; anfci -0.52; anfci +0.01 chg | unconfirmed |  | NFCI -0.496 (prior -0.502), up 0.006 for a third week of slight tightening. ANFCI -0.518. Still well below zero, no zero cross, no consensus exists. Immaterial alone; no HY or curve data to confirm. [source](https://www.chicagofed.org/research/data/nfci/current-data) |
 | **Chicago Fed NFCI** | 2026-10-09 | nfci -0.50; nfci +0.01 chg; anfci -0.48; anfci +0.01 chg | nfci -0.51; nfci +0.01 chg; anfci -0.50; anfci +0.01 chg | unconfirmed |  | NFCI -0.499 (prior -0.507), up 0.008 for a second week of slight tightening. Still well below zero, so conditions remain looser than average. No zero cross; no consensus exists. Immaterial on its own. [source](https://www.chicagofed.org/research/data/nfci/current-data) |
 | **Senior Loan Officer Survey (C&I standards)** | 2026-Q3 | ci tightening net 0.00%; ci tightening net -8.1pp chg | ci tightening net 8.10%; ci tightening net +2.8pp chg |  |  | _baseline (pre-migration)_ [source](https://www.federalreserve.gov/data/sloos.htm) |
@@ -134,10 +136,10 @@ Corrected 26 Oct: the first version used the September UMich final instead of th
 
 | Domain | Last success | Age (h, weekdays) | Status |
 |---|---|---|---|
-| Inflation | 2026-10-27 19:48 ET | 0.0 | ok |
-| Labor | 2026-10-27 19:48 ET | 0.0 | ok |
-| Growth & Activity | 2026-10-27 19:48 ET | 0.0 | ok |
-| Housing | 2026-10-27 19:48 ET | 0.0 | ok |
-| Sentiment & Surveys | 2026-10-27 19:48 ET | 0.0 | ok |
-| Central Banks & Policy | 2026-10-27 19:48 ET | 0.0 | ok |
-| Financial Conditions & Markets | 2026-10-27 19:48 ET | 0.0 | ok |
+| Inflation | 2026-10-28 14:41 ET | 0.0 | ok |
+| Labor | 2026-10-28 14:41 ET | 0.0 | ok |
+| Growth & Activity | 2026-10-28 14:41 ET | 0.0 | ok |
+| Housing | 2026-10-28 14:41 ET | 0.0 | ok |
+| Sentiment & Surveys | 2026-10-28 14:41 ET | 0.0 | ok |
+| Central Banks & Policy | 2026-10-28 14:41 ET | 0.0 | ok |
+| Financial Conditions & Markets | 2026-10-28 14:41 ET | 0.0 | ok |
