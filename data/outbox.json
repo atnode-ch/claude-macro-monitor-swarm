@@ -17,6 +17,12 @@
       "ref": "2026-09",
       "path": "data/releases/housing/new_home/2026-09.json",
       "alert": false
+    },
+    {
+      "report": "nfci",
+      "ref": "2026-10-23",
+      "path": "data/releases/markets/nfci/2026-10-23.json",
+      "alert": false
     }
   ]
 }

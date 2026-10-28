@@ -23,6 +23,18 @@
   "consensus": null,
   "consensus_source": null,
   "surprise": null,
-  "read": null,
-  "status": "pending_analysis"
+  "read": "NFCI -0.487 (prior -0.494), up 0.007 for a fourth week of slight tightening. ANFCI -0.501. Well below zero, no zero cross, no consensus exists. Immaterial alone; no HY or curve data to confirm.",
+  "status": "analysed",
+  "fields": null,
+  "sources": [
+    "https://www.chicagofed.org/research/data/nfci/current-data"
+  ],
+  "alert": {
+    "alert": false,
+    "material": false,
+    "reasons": [
+      "no consensus available; surprise not assessed"
+    ]
+  },
+  "analysed_at": "2026-10-28 17:10 ET"
 }

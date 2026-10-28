@@ -1,6 +1,6 @@
 # Macro Monitor: Blackboard
 
-_Rendered 2026-10-28 15:54 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
+_Rendered 2026-10-28 17:10 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
 
 ## Inflation
 
@@ -96,13 +96,13 @@ _Rendered 2026-10-28 15:54 ET from data/. Do not edit by hand; edit data/ or rer
 
 | Report | Period | Actual | Prior | Consensus | Surprise | Read |
 |---|---|---|---|---|---|---|
-| **Chicago Fed NFCI** | 2026-10-23 | nfci -0.49; nfci +0.01 chg; anfci -0.50; anfci +0.01 chg | nfci -0.49; nfci +0.01 chg; anfci -0.51; anfci +0.01 chg |  |  | _pending analysis_ [source](https://www.chicagofed.org/research/data/nfci/current-data) |
+| **Chicago Fed NFCI** | 2026-10-23 | nfci -0.49; nfci +0.01 chg; anfci -0.50; anfci +0.01 chg | nfci -0.49; nfci +0.01 chg; anfci -0.51; anfci +0.01 chg | unconfirmed |  | NFCI -0.487 (prior -0.494), up 0.007 for a fourth week of slight tightening. ANFCI -0.501. Well below zero, no zero cross, no consensus exists. Immaterial alone; no HY or curve data to confirm. [source](https://www.chicagofed.org/research/data/nfci/current-data) |
 | **Chicago Fed NFCI** | 2026-10-16 | nfci -0.50; nfci +0.01 chg; anfci -0.52; anfci +0.01 chg | nfci -0.50; nfci +0.01 chg; anfci -0.52; anfci +0.01 chg | unconfirmed |  | NFCI -0.496 (prior -0.502), up 0.006 for a third week of slight tightening. ANFCI -0.518. Still well below zero, no zero cross, no consensus exists. Immaterial alone; no HY or curve data to confirm. [source](https://www.chicagofed.org/research/data/nfci/current-data) |
 | **Chicago Fed NFCI** | 2026-10-09 | nfci -0.50; nfci +0.01 chg; anfci -0.48; anfci +0.01 chg | nfci -0.51; nfci +0.01 chg; anfci -0.50; anfci +0.01 chg | unconfirmed |  | NFCI -0.499 (prior -0.507), up 0.008 for a second week of slight tightening. Still well below zero, so conditions remain looser than average. No zero cross; no consensus exists. Immaterial on its own. [source](https://www.chicagofed.org/research/data/nfci/current-data) |
 | **Senior Loan Officer Survey (C&I standards)** | 2026-Q3 | ci tightening net 0.00%; ci tightening net -8.1pp chg | ci tightening net 8.10%; ci tightening net +2.8pp chg |  |  | _baseline (pre-migration)_ [source](https://www.federalreserve.gov/data/sloos.htm) |
 | **Chicago Fed NFCI** | 2026-10-02 | nfci -0.49; nfci +0.02 chg; anfci -0.50; anfci +0.02 chg | nfci -0.51; nfci +0.01 chg; anfci -0.52; anfci +0.02 chg |  |  | _baseline (pre-migration)_ [source](https://www.chicagofed.org/research/data/nfci/current-data) |
 
-**Current stance:** Financial conditions are loose. NFCI at -0.496 is well below zero and has tightened 0.006 to 0.010 per week for three prints, a slow drift of about 0.01 in total. ANFCI is -0.518. No regime signal. No curve, HY OAS or other market history is logged, so multi-signal alignment cannot be assessed. A move toward zero, or tightening alongside HY widening and curve dis-inversion, would change the view. _(updated 2026-10-22 17:10 ET)_
+**Current stance:** Financial conditions are loose. NFCI at -0.487 is well below zero and has tightened 0.006 to 0.010 per week for four prints, a drift of about 0.02 in total. ANFCI is -0.501. No regime signal. No curve, HY OAS or other market history is logged, so multi-signal alignment cannot be assessed. A move toward zero, or tightening alongside HY widening and curve dis-inversion, would change the view. _(updated 2026-10-28 17:10 ET)_
 
 **Latest market levels** (as of 2026-10-23):
 
@@ -136,10 +136,10 @@ Corrected 26 Oct: the first version used the September UMich final instead of th
 
 | Domain | Last success | Age (h, weekdays) | Status |
 |---|---|---|---|
-| Inflation | 2026-10-28 15:53 ET | 0.0 | ok |
-| Labor | 2026-10-28 15:53 ET | 0.0 | ok |
-| Growth & Activity | 2026-10-28 15:53 ET | 0.0 | ok |
-| Housing | 2026-10-28 15:53 ET | 0.0 | ok |
-| Sentiment & Surveys | 2026-10-28 15:53 ET | 0.0 | ok |
-| Central Banks & Policy | 2026-10-28 15:53 ET | 0.0 | ok |
-| Financial Conditions & Markets | 2026-10-28 15:53 ET | 0.0 | ok |
+| Inflation | 2026-10-28 15:53 ET | 1.3 | ok |
+| Labor | 2026-10-28 15:53 ET | 1.3 | ok |
+| Growth & Activity | 2026-10-28 15:53 ET | 1.3 | ok |
+| Housing | 2026-10-28 15:53 ET | 1.3 | ok |
+| Sentiment & Surveys | 2026-10-28 15:53 ET | 1.3 | ok |
+| Central Banks & Policy | 2026-10-28 15:53 ET | 1.3 | ok |
+| Financial Conditions & Markets | 2026-10-28 15:53 ET | 1.3 | ok |
