@@ -1,6 +1,6 @@
 {
   "domain": "inflation",
-  "stance": "Inflation pipeline is heating. September PPI headline rose 1.3% m/m (6.3% y/y) and core 0.7% m/m (5.0% y/y), accelerating from 0.5% and 0.2% in August. Energy drove much of the headline, but core broadening matters more for the Fed. PPI leads CPI by 1 to 3 months, so expect upside CPI risk. No core PCE data in view yet. A reversal in energy and core m/m back near 0.3% would soften this view.",
-  "updated_at": "2026-10-18 08:26 ET",
-  "from": "ppi 2026-09"
+  "stance": "Inflation pipeline is heating and now shows in PCE. September core PCE rose 0.32% m/m (3.12% y/y, from 3.03%), headline 0.49% m/m (3.65% y/y). This follows September PPI of 1.3% m/m headline and 0.7% core. Core PCE is 1.1pp above the 2% target and y/y is still accelerating, so cuts stay pushed back. Softer view needs energy reversal and core m/m near 0.2% to 0.3%.",
+  "updated_at": "2026-10-29 17:10 ET",
+  "from": "pce 2026-09"
 }

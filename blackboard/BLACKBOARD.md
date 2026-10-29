@@ -1,6 +1,6 @@
 # Macro Monitor: Blackboard
 
-_Rendered 2026-10-29 15:53 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
+_Rendered 2026-10-29 17:10 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
 
 ## Inflation
 
@@ -8,14 +8,14 @@ _Rendered 2026-10-29 15:53 ET from data/. Do not edit by hand; edit data/ or rer
 
 | Report | Period | Actual | Prior | Consensus | Surprise | Read |
 |---|---|---|---|---|---|---|
-| **PCE price index** | 2026-09 | headline +0.5% m/m; headline 3.6% y/y; core +0.3% m/m; core 3.1% y/y | headline +0.3% m/m; headline 3.4% y/y; core +0.3% m/m; core 3.0% y/y |  |  | _pending analysis_ [source](https://www.bea.gov/data/income-saving/personal-income) |
+| **PCE price index** | 2026-09 | headline +0.5% m/m; headline 3.6% y/y; core +0.3% m/m; core 3.1% y/y | headline +0.3% m/m; headline 3.4% y/y; core +0.3% m/m; core 3.0% y/y | unconfirmed |  | Sept core PCE +0.32% m/m (Aug 0.26%), 3.12% y/y (Aug 3.03%); headline +0.49% m/m, 3.65% y/y (Aug 3.44%). No firm consensus found. Core is 1.1pp above the 2% target and rising; hawkish for yields, USD. [source](https://www.bea.gov/data/income-saving/personal-income) |
 | **PPI** | 2026-09 | headline +1.3% m/m; headline 6.3% y/y; core +0.7% m/m; core 5.0% y/y | headline +0.5% m/m; headline 5.6% y/y; core +0.2% m/m; core 4.8% y/y | headline +0.6% m/m | headline.chg_pct +0.7 | Headline PPI +1.3% m/m vs 0.6% consensus (unconfirmed), y/y 6.3% from 5.6%. Core +0.7% m/m, 5.0% y/y, up from 0.2%. Energy-led, but core also hot. Leads CPI 1 to 3 months: yields and USD up, cuts pushed back. [source](https://www.bls.gov/news.release/ppi.htm) |
 | **CPI** | 2026-09 | headline +0.6% m/m; headline 3.7% y/y; core +0.3% m/m; core 2.6% y/y | headline +0.4% m/m; headline 3.4% y/y; core +0.3% m/m; core 2.4% y/y | headline 3.6% y/y; core +0.2% m/m; core 2.4% y/y | headline.yoy_pct +0.1, core.chg_pct +0.12, core.yoy_pct +0.2 | Core +0.34% m/m vs 0.22% consensus (+0.12pp, material); core y/y 2.56% vs 2.4%, headline y/y 3.74% vs 3.6%. Hot print: yields and USD up, equities down, cuts pushed back. [source](https://www.bls.gov/news.release/cpi.htm) |
 | **PPI** | 2026-08 | headline +0.4% m/m; headline 5.4% y/y; core +0.2% m/m; core 4.6% y/y | headline +0.1% m/m; headline 4.8% y/y; core +0.3% m/m; core 4.3% y/y |  |  | _baseline (pre-migration)_ [source](https://www.bls.gov/news.release/ppi.htm) |
 | **PCE price index** | 2026-08 | headline +0.3% m/m; headline 3.4% y/y; core +0.2% m/m; core 3.0% y/y | headline +0.1% m/m; headline 3.4% y/y; core +0.1% m/m; core 3.0% y/y |  |  | _baseline (pre-migration)_ [source](https://www.bea.gov/data/income-saving/personal-income) |
 | **CPI** | 2026-08 | headline +0.4% m/m; headline 3.4% y/y; core +0.3% m/m; core 2.4% y/y | headline +0.1% m/m; headline 3.4% y/y; core +0.2% m/m; core 2.5% y/y |  |  | _baseline (pre-migration)_ [source](https://www.bls.gov/news.release/cpi.htm) |
 
-**Current stance:** Inflation pipeline is heating. September PPI headline rose 1.3% m/m (6.3% y/y) and core 0.7% m/m (5.0% y/y), accelerating from 0.5% and 0.2% in August. Energy drove much of the headline, but core broadening matters more for the Fed. PPI leads CPI by 1 to 3 months, so expect upside CPI risk. No core PCE data in view yet. A reversal in energy and core m/m back near 0.3% would soften this view. _(updated 2026-10-18 08:26 ET)_
+**Current stance:** Inflation pipeline is heating and now shows in PCE. September core PCE rose 0.32% m/m (3.12% y/y, from 3.03%), headline 0.49% m/m (3.65% y/y). This follows September PPI of 1.3% m/m headline and 0.7% core. Core PCE is 1.1pp above the 2% target and y/y is still accelerating, so cuts stay pushed back. Softer view needs energy reversal and core m/m near 0.2% to 0.3%. _(updated 2026-10-29 17:10 ET)_
 
 ## Labor
 
@@ -23,14 +23,14 @@ _Rendered 2026-10-29 15:53 ET from data/. Do not edit by hand; edit data/ or rer
 
 | Report | Period | Actual | Prior | Consensus | Surprise | Read |
 |---|---|---|---|---|---|---|
-| **Initial Jobless Claims** | 2026-10-24 | initial 194,000; initial -1,000 chg; initial 4wk 196,750; continuing 1,701,000 | initial 195,000; initial -5,000 chg; initial 4wk 198,000; continuing 1,701,000 |  |  | _pending analysis_ [source](https://www.dol.gov/ui/data.pdf) |
+| **Initial Jobless Claims** | 2026-10-24 | initial 194,000; initial -1,000 chg; initial 4wk 196,750; continuing 1,701,000 | initial 195,000; initial -5,000 chg; initial 4wk 198,000; continuing 1,701,000 | unconfirmed |  | Initial claims 194k, -1k w/w from 195k (prior revised up from 194k); consensus not found. 4-week average 196.75k from 198k, continuing 1.701M unchanged. Layoffs stay low, no turn signal; low-hire, low-fire holds. [source](https://www.dol.gov/ui/data.pdf) |
 | **Initial Jobless Claims** | 2026-10-17 | initial 194,000; initial -6,000 chg; initial 4wk 197,750; continuing 1,728,000 | initial 200,000; initial +2,000 chg; initial 4wk 198,750; continuing 1,728,000 | unconfirmed |  | Initial claims 194k, -6k w/w, a low print; consensus not found. 4-week average 197.75k (from 198.75k), continuing 1.728M. Layoffs stay low, no turn signal; low-hire, low-fire holds. [source](https://www.dol.gov/ui/data.pdf) |
 | **UK Labour Market (ONS)** | 2026-08 | unemployment rate 4.70%; awe regular yoy 3.70 |  | unemployment rate 4.90%; awe regular yoy 3.60 | unemployment_rate -0.2, awe_regular_yoy +0.1 | Unemployment 4.7% (3M to Aug) vs 4.9% consensus and 4.9% prior, a beat. Regular pay 3.7% vs 3.6% expected, steady. Vacancies at a 5-year low of 691k. Payrolled change unconfirmed. Firm pay keeps BoE hike risk live. [source](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/latest) |
 | **Initial Jobless Claims** | 2026-10-10 | initial 199,000; initial +1,000 chg; initial 4wk 198,500; continuing 1,710,000 | initial 198,000; initial -1,000 chg; initial 4wk 198,250; continuing 1,710,000 | initial 200,000 | initial.level -1000 | Initial claims 199k vs 200k consensus (unconfirmed), +1k w/w. 4-week average 198.5k, continuing 1.71M unchanged. Layoffs stay low, no labour-market turn signal; supports a low-hire, low-fire read. [source](https://www.dol.gov/ui/data.pdf) |
 | **Initial Jobless Claims** | 2026-09-26 | initial 197,000; initial -1,000 chg; initial 4wk 200,000; continuing 1,701,000 | initial 198,000; initial +0.00 chg; initial 4wk 202,500; continuing 1,701,000 |  |  | _baseline (pre-migration)_ [source](https://www.dol.gov/ui/data.pdf) |
 | **Non-Farm Payrolls** | 2026-09 | payrolls +29k chg; unemployment rate 4.20%; unemployment rate +0.10pp chg; ahe +0.1% m/m; ahe 3.0% y/y | payrolls +133k chg; unemployment rate 4.10%; unemployment rate +0.00pp chg; ahe +0.3% m/m; ahe 3.1% y/y |  |  | _baseline (pre-migration)_ [source](https://www.bls.gov/news.release/empsit.htm) |
 
-**Current stance:** Labour market is low-hire, low-fire in the US: initial claims 194k, 4-week average 197.75k, continuing claims 1.728M (up from 1.71M two weeks ago, still below 1.8M). No turn: that needs rising claims, falling JOLTS openings and soft payrolls, and only claims is logged, not rising. UK: unemployment fell to 4.7% from 4.9%, regular pay 3.7%, vacancies at a 5-year low of 691k, so demand is cooling without slack building. UK payrolled change unconfirmed. Would change on US 4-week claims above 215k or continuing claims above 1.8M. _(updated 2026-10-22 17:10 ET)_
+**Current stance:** Labour market is low-hire, low-fire in the US: initial claims 194k, 4-week average 196.75k, continuing claims 1.701M (down from 1.728M two weeks ago, well below 1.8M). No turn: that needs rising claims, falling JOLTS openings and soft payrolls, and only claims is logged, not rising. UK: unemployment fell to 4.7% from 4.9%, regular pay 3.7%, vacancies at a 5-year low of 691k, so demand is cooling without slack building. UK payrolled change unconfirmed. Would change on US 4-week claims above 215k or continuing claims above 1.8M. _(updated 2026-10-29 17:10 ET)_
 
 ## Growth & Activity
 
@@ -38,14 +38,14 @@ _Rendered 2026-10-29 15:53 ET from data/. Do not edit by hand; edit data/ or rer
 
 | Report | Period | Actual | Prior | Consensus | Surprise | Read |
 |---|---|---|---|---|---|---|
-| **GDP (real, SAAR)** | 2026-Q3 | real gdp saar 3.40; real gdp saar +1.2 chg | real gdp saar 2.20; real gdp saar -0.30 chg |  |  | _pending analysis_ [source](https://www.bea.gov/data/gdp/gross-domestic-product) |
+| **GDP (real, SAAR)** | 2026-Q3 | real gdp saar 3.40; real gdp saar +1.2 chg | real gdp saar 2.20; real gdp saar -0.30 chg | unconfirmed |  | Q3 advance real GDP +3.4% SAAR vs 2.2% in Q2 (+1.2pt), reversing the prior slowdown. No consensus found. Fits strong nominal retail and positive capex; watch the second estimate and real consumption. [source](https://www.bea.gov/data/gdp/gross-domestic-product) |
 | **Chicago Fed CARTS retail nowcast** | 2026-10 | _awaiting fetch_ |  |  |  | _pending analysis_ [source](https://www.chicagofed.org/-/media/publications/carts/carts.pdf) _(single-source, unconfirmed)_ |
 | **Durable Goods** | 2026-09 | orders +1.8% m/m; core capex orders +0.5% m/m | orders +0.1% m/m; core capex orders +1.6% m/m | unconfirmed |  | Durable orders +1.84% m/m after +0.12%. Core capex orders +0.46% after +1.55%, so business investment is still rising but at a slower pace. One Continuum preview looked for +3.5% and +0.8%; no poll consensus found. [source](https://www.census.gov/manufacturing/m3/index.html) |
 | **Retail Sales** | 2026-09 | headline +0.8% m/m; headline 6.3% y/y; ex auto +0.7% m/m | headline +1.3% m/m; headline 5.6% y/y; ex auto +1.3% m/m | headline +0.3% m/m | headline.chg_pct +0.5 | Headline +0.77% m/m vs 0.3% consensus (beat), after +1.29% in August. Gas stations +6.4% on price drove it; ex-gas only +0.2%. Real consumption signal is softer than headline. Supports nominal GDP, adds to inflation pressure. [source](https://www.census.gov/retail/index.html) |
 | **Industrial Production** | 2026-09 | ip +0.7% m/m; ip 2.2% y/y; capacity util 76.8 | ip +0.1% m/m; ip 1.6% y/y; capacity util 76.4 | unconfirmed |  | IP +0.66% m/m (prior +0.06%), +2.25% y/y (prior 1.62%), capacity utilization 76.85% (prior 76.42%). Consensus not found. Firm upside in output; a hard-data tailwind for Q3 GDP, though IP is a small share of activity. [source](https://www.federalreserve.gov/releases/g17/current/) |
 | **GDP (real, SAAR)** | 2026-Q2 | real gdp saar 2.20; real gdp saar -0.30 chg | real gdp saar 2.50; real gdp saar +2.3 chg |  |  | _baseline (pre-migration)_ [source](https://www.bea.gov/data/gdp/gross-domestic-product) |
 
-**Current stance:** Growth: nominal consumer spending is strong, with retail sales up 0.77% m/m and 6.29% y/y in September after +1.29% in August. Part of the beat is gasoline (ex-gas +0.2%, unconfirmed beyond one news source), so underlying demand is solid but below the headline. Business investment is positive: core capex orders +0.46% in September after +1.55%, a slower gain. Watch the control group, real spending and core capex for GDP. A fall in gas prices would reverse the retail boost. _(updated 2026-10-27 17:09 ET)_
+**Current stance:** Growth: Q3 advance GDP printed 3.4% SAAR, up from 2.2% in Q2, so activity re-accelerated. This matches strong nominal consumer spending (September retail sales +0.77% m/m, +6.29% y/y; part is gasoline, ex-gas +0.2%, unconfirmed beyond one source) and positive core capex orders (+0.46% in September after +1.55%). No consensus was found, so beat or miss is unknown. Watch the control group, real spending, core capex and later GDP estimates. _(updated 2026-10-29 17:10 ET)_
 
 ## Housing
 
@@ -82,14 +82,14 @@ _Rendered 2026-10-29 15:53 ET from data/. Do not edit by hand; edit data/ or rer
 
 | Report | Period | Actual | Prior | Consensus | Surprise | Read |
 |---|---|---|---|---|---|---|
-| **ECB decision** | 2026-10-29 | rate 2.50%; rate +0bp | rate 2.50% |  |  | _pending analysis_ [source](https://www.ecb.europa.eu/press/govcdec/html/index.en.html) |
+| **ECB decision** | 2026-10-29 | rate 2.50%; rate +0bp | rate 2.50% | rate 2.50%; rate +0bp | rate.level +0, rate.change_bp +0 | ECB held the deposit rate at 2.50% (0bp), in line with the Reuters poll hold call. 64 of 73 economists in that poll expect a 25bp hike in December; guidance wording unconfirmed. Hold with hike bias is EUR-supportive. [source](https://www.ecb.europa.eu/press/govcdec/html/index.en.html) |
 | **FOMC decision** | 2026-10-28 | rate 4.00%; rate +0bp; rate lower 3.75% | rate 4.00% | rate +0bp | rate.change_bp +0 | Fed held at 3.75-4.00% (0bp), in line with consensus, but 2 of 12 voters dissented for a 25bp hike. Statement says inflation remains elevated. Hawkish hold: supports USD and yields, a risk for equities and gold. No SEP at this meeting. [source](https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm) |
 | **Eurozone HICP** | 2026-09 | headline +0.6% m/m; headline 3.8% y/y | headline +0.4% m/m; headline 3.2% y/y | headline 3.6% y/y | headline.yoy_pct +0.2 | HICP yoy 3.75% vs 3.6% consensus (unconfirmed) and 3.23% prior, a 3-year high led by energy. Core 2.5% was in line. Hawkish for ECB path and EUR, bunds; adds pressure on equities. [source](https://ec.europa.eu/eurostat/web/euro-indicators) |
 | **Eurozone GDP** | 2026-Q2 | real gdp +0.6% q/q; real gdp 1.2% y/y | real gdp -0.0% q/q; real gdp 0.5% y/y |  |  | _baseline (pre-migration)_ [source](https://ec.europa.eu/eurostat/web/euro-indicators) |
 | **BoE decision** | 2026-09-17 | rate 3.75% |  |  |  | _baseline (pre-migration)_ [source](https://www.bankofengland.co.uk/monetary-policy) |
 | **FOMC decision** | 2026-09-16 | rate 4.00%; rate +25bp; rate lower 3.75% | rate 3.75% |  |  | _baseline (pre-migration)_ [source](https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm) |
 
-**Current stance:** Policy stance is hawkish-leaning. The Fed held at 3.75-4.00% on 2026-10-28 as expected, with a 10-2 vote and both dissenters (Cook, Hammack) favouring a 25bp hike. Statement says inflation remains elevated. On the euro area, September HICP rose to 3.75% yoy, above the 3.6% expectation, with core near 2.5%, so the ECB is unlikely to ease. Easing talk would need softer inflation or a drop in energy prices; more dissents for a hike would harden the view. _(updated 2026-10-28 17:10 ET)_
+**Current stance:** Policy stance is hawkish-leaning. The Fed held at 3.75-4.00% on 2026-10-28 with a 10-2 vote, both dissenters (Cook, Hammack) favouring a 25bp hike. The ECB held at 2.50% on 2026-10-29 as expected; tone and vote unconfirmed. September HICP at 3.75% yoy, above the 3.6% expected, keeps a December ECB hike in play (64 of 73 in the Reuters poll). Softer inflation or lower energy prices would ease the view; a hike signal from the ECB would harden it. _(updated 2026-10-29 17:10 ET)_
 
 ## Financial Conditions & Markets
 
@@ -137,10 +137,10 @@ Corrected 26 Oct: the first version used the September UMich final instead of th
 
 | Domain | Last success | Age (h, weekdays) | Status |
 |---|---|---|---|
-| Inflation | 2026-10-29 15:52 ET | 0.0 | ok |
-| Labor | 2026-10-29 15:52 ET | 0.0 | ok |
-| Growth & Activity | 2026-10-29 15:52 ET | 0.0 | ok |
-| Housing | 2026-10-29 15:52 ET | 0.0 | ok |
-| Sentiment & Surveys | 2026-10-29 15:52 ET | 0.0 | ok |
-| Central Banks & Policy | 2026-10-29 15:52 ET | 0.0 | ok |
-| Financial Conditions & Markets | 2026-10-29 15:52 ET | 0.0 | ok |
+| Inflation | 2026-10-29 15:52 ET | 1.3 | ok |
+| Labor | 2026-10-29 15:52 ET | 1.3 | ok |
+| Growth & Activity | 2026-10-29 15:52 ET | 1.3 | ok |
+| Housing | 2026-10-29 15:52 ET | 1.3 | ok |
+| Sentiment & Surveys | 2026-10-29 15:52 ET | 1.3 | ok |
+| Central Banks & Policy | 2026-10-29 15:52 ET | 1.3 | ok |
+| Financial Conditions & Markets | 2026-10-29 15:52 ET | 1.3 | ok |

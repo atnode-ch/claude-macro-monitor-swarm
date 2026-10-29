@@ -1,6 +1,6 @@
 {
   "domain": "policy",
-  "stance": "Policy stance is hawkish-leaning. The Fed held at 3.75-4.00% on 2026-10-28 as expected, with a 10-2 vote and both dissenters (Cook, Hammack) favouring a 25bp hike. Statement says inflation remains elevated. On the euro area, September HICP rose to 3.75% yoy, above the 3.6% expectation, with core near 2.5%, so the ECB is unlikely to ease. Easing talk would need softer inflation or a drop in energy prices; more dissents for a hike would harden the view.",
-  "updated_at": "2026-10-28 17:10 ET",
-  "from": "fomc 2026-10-28"
+  "stance": "Policy stance is hawkish-leaning. The Fed held at 3.75-4.00% on 2026-10-28 with a 10-2 vote, both dissenters (Cook, Hammack) favouring a 25bp hike. The ECB held at 2.50% on 2026-10-29 as expected; tone and vote unconfirmed. September HICP at 3.75% yoy, above the 3.6% expected, keeps a December ECB hike in play (64 of 73 in the Reuters poll). Softer inflation or lower energy prices would ease the view; a hike signal from the ECB would harden it.",
+  "updated_at": "2026-10-29 17:10 ET",
+  "from": "ecb 2026-10-29"
 }

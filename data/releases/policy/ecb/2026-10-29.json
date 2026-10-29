@@ -15,12 +15,32 @@
     "rate.level": 2.5
   },
   "verified": true,
-  "consensus": null,
-  "consensus_source": null,
-  "surprise": null,
-  "read": null,
-  "status": "pending_analysis",
+  "consensus": {
+    "rate.level": 2.5,
+    "rate.change_bp": 0.0
+  },
+  "consensus_source": "Reuters poll of 73 economists, 2026-10-05 to 10-08 (70 of 73 expected a hold at 2.50%)",
+  "surprise": {
+    "rate.level": 0.0,
+    "rate.change_bp": 0.0
+  },
+  "read": "ECB held the deposit rate at 2.50% (0bp), in line with the Reuters poll hold call. 64 of 73 economists in that poll expect a 25bp hike in December; guidance wording unconfirmed. Hold with hike bias is EUR-supportive.",
+  "status": "analysed",
   "needs_fetch": [
     "guidance_tone"
-  ]
+  ],
+  "fields": {
+    "vote_split": "unconfirmed",
+    "guidance_tone": "unconfirmed (hold; statement text not yet published on ECB pages)"
+  },
+  "sources": [
+    "https://www.tmgm.com/es/analysis/market-news/article/ecb-expected-to-pause-in-october-before-hiking-rates-in-december-reuters-poll-202610081239",
+    "https://www.ecb.europa.eu/press/govcdec/html/index.en.html"
+  ],
+  "alert": {
+    "alert": false,
+    "material": false,
+    "reasons": []
+  },
+  "analysed_at": "2026-10-29 17:10 ET"
 }

@@ -23,6 +23,16 @@
   "consensus": null,
   "consensus_source": null,
   "surprise": null,
-  "read": null,
-  "status": "pending_analysis"
+  "read": "Initial claims 194k, -1k w/w from 195k (prior revised up from 194k); consensus not found. 4-week average 196.75k from 198k, continuing 1.701M unchanged. Layoffs stay low, no turn signal; low-hire, low-fire holds.",
+  "status": "analysed",
+  "fields": null,
+  "sources": [],
+  "alert": {
+    "alert": false,
+    "material": false,
+    "reasons": [
+      "no consensus available; surprise not assessed"
+    ]
+  },
+  "analysed_at": "2026-10-29 17:10 ET"
 }

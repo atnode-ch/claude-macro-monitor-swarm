@@ -23,6 +23,17 @@
   "consensus": null,
   "consensus_source": null,
   "surprise": null,
-  "read": null,
-  "status": "pending_analysis"
+  "read": "Sept core PCE +0.32% m/m (Aug 0.26%), 3.12% y/y (Aug 3.03%); headline +0.49% m/m, 3.65% y/y (Aug 3.44%). No firm consensus found. Core is 1.1pp above the 2% target and rising; hawkish for yields, USD.",
+  "status": "analysed",
+  "fields": null,
+  "sources": [],
+  "alert": {
+    "alert": true,
+    "material": false,
+    "reasons": [
+      "tier-1 release",
+      "no consensus available; surprise not assessed"
+    ]
+  },
+  "analysed_at": "2026-10-29 17:10 ET"
 }

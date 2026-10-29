@@ -17,8 +17,20 @@
   },
   "verified": true,
   "consensus": null,
-  "consensus_source": null,
+  "consensus_source": "No economist consensus found for Q3 2026 advance GDP (calendar listing showed not yet published)",
   "surprise": null,
-  "read": null,
-  "status": "pending_analysis"
+  "read": "Q3 advance real GDP +3.4% SAAR vs 2.2% in Q2 (+1.2pt), reversing the prior slowdown. No consensus found. Fits strong nominal retail and positive capex; watch the second estimate and real consumption.",
+  "status": "analysed",
+  "fields": null,
+  "sources": [
+    "https://www.financecalendar.com/event/us-gross-domestic-product-october-2026/"
+  ],
+  "alert": {
+    "alert": false,
+    "material": false,
+    "reasons": [
+      "no consensus available; surprise not assessed"
+    ]
+  },
+  "analysed_at": "2026-10-29 17:10 ET"
 }

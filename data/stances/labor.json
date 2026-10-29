@@ -1,6 +1,6 @@
 {
   "domain": "labor",
-  "stance": "Labour market is low-hire, low-fire in the US: initial claims 194k, 4-week average 197.75k, continuing claims 1.728M (up from 1.71M two weeks ago, still below 1.8M). No turn: that needs rising claims, falling JOLTS openings and soft payrolls, and only claims is logged, not rising. UK: unemployment fell to 4.7% from 4.9%, regular pay 3.7%, vacancies at a 5-year low of 691k, so demand is cooling without slack building. UK payrolled change unconfirmed. Would change on US 4-week claims above 215k or continuing claims above 1.8M.",
-  "updated_at": "2026-10-22 17:10 ET",
-  "from": "claims 2026-10-17"
+  "stance": "Labour market is low-hire, low-fire in the US: initial claims 194k, 4-week average 196.75k, continuing claims 1.701M (down from 1.728M two weeks ago, well below 1.8M). No turn: that needs rising claims, falling JOLTS openings and soft payrolls, and only claims is logged, not rising. UK: unemployment fell to 4.7% from 4.9%, regular pay 3.7%, vacancies at a 5-year low of 691k, so demand is cooling without slack building. UK payrolled change unconfirmed. Would change on US 4-week claims above 215k or continuing claims above 1.8M.",
+  "updated_at": "2026-10-29 17:10 ET",
+  "from": "claims 2026-10-24"
 }
