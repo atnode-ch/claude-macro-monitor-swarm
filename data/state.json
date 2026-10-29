@@ -1,154 +1,154 @@
 {
   "reports": {
     "cpi": {
-      "last_checked": "2026-10-29 14:49 ET",
+      "last_checked": "2026-10-29 15:52 ET",
       "last_ref": "2026-09"
     },
     "ppi": {
-      "last_checked": "2026-10-29 14:49 ET",
+      "last_checked": "2026-10-29 15:52 ET",
       "last_ref": "2026-09"
     },
     "pce": {
-      "last_checked": "2026-10-29 14:49 ET",
+      "last_checked": "2026-10-29 15:52 ET",
       "last_ref": "2026-09"
     },
     "nfp": {
-      "last_checked": "2026-10-29 14:49 ET",
+      "last_checked": "2026-10-29 15:52 ET",
       "last_ref": "2026-09"
     },
     "claims": {
-      "last_checked": "2026-10-29 14:49 ET",
+      "last_checked": "2026-10-29 15:52 ET",
       "last_ref": "2026-10-24"
     },
     "jolts": {
-      "last_checked": "2026-10-29 14:49 ET",
+      "last_checked": "2026-10-29 15:52 ET",
       "last_ref": "2026-08"
     },
     "adp": {
-      "last_checked": "2026-10-29 14:49 ET",
+      "last_checked": "2026-10-29 15:52 ET",
       "last_ref": "2026-09"
     },
     "uk_labour": {
-      "last_checked": "2026-10-29 14:49 ET",
+      "last_checked": "2026-10-29 15:52 ET",
       "last_ref": "2026-08"
     },
     "gdp": {
-      "last_checked": "2026-10-29 14:49 ET",
+      "last_checked": "2026-10-29 15:52 ET",
       "last_ref": "2026-Q3"
     },
     "retail": {
-      "last_checked": "2026-10-29 14:49 ET",
+      "last_checked": "2026-10-29 15:52 ET",
       "last_ref": "2026-09"
     },
     "indpro": {
-      "last_checked": "2026-10-29 14:49 ET",
+      "last_checked": "2026-10-29 15:52 ET",
       "last_ref": "2026-09"
     },
     "durables": {
-      "last_checked": "2026-10-29 14:49 ET",
+      "last_checked": "2026-10-29 15:52 ET",
       "last_ref": "2026-09"
     },
     "trade": {
-      "last_checked": "2026-10-29 14:49 ET",
+      "last_checked": "2026-10-29 15:52 ET",
       "last_ref": "2026-08"
     },
     "ism_mfg": {
-      "last_checked": "2026-10-29 14:49 ET",
+      "last_checked": "2026-10-29 15:52 ET",
       "last_ref": "2026-09"
     },
     "ism_services": {
-      "last_checked": "2026-10-29 14:49 ET",
+      "last_checked": "2026-10-29 15:52 ET",
       "last_ref": "2026-09"
     },
     "carts": {
-      "last_checked": "2026-10-29 14:49 ET",
+      "last_checked": "2026-10-29 15:52 ET",
       "last_ref": "2026-10"
     },
     "starts": {
-      "last_checked": "2026-10-29 14:49 ET",
+      "last_checked": "2026-10-29 15:52 ET",
       "last_ref": "2026-09"
     },
     "new_home": {
-      "last_checked": "2026-10-29 14:49 ET",
+      "last_checked": "2026-10-29 15:52 ET",
       "last_ref": "2026-09"
     },
     "existing_home": {
-      "last_checked": "2026-10-29 14:49 ET",
+      "last_checked": "2026-10-29 15:52 ET",
       "last_ref": "2026-09"
     },
     "umich": {
-      "last_checked": "2026-10-29 14:49 ET",
+      "last_checked": "2026-10-29 15:52 ET",
       "last_ref": "2026-10"
     },
     "conf_board": {
-      "last_checked": "2026-10-29 14:49 ET",
+      "last_checked": "2026-10-29 15:52 ET",
       "last_ref": "2026-10"
     },
     "ifo": {
-      "last_checked": "2026-10-29 14:49 ET",
+      "last_checked": "2026-10-29 15:52 ET",
       "last_ref": "2026-10"
     },
     "fomc": {
-      "last_checked": "2026-10-29 14:49 ET",
+      "last_checked": "2026-10-29 15:52 ET",
       "last_ref": "2026-10-28"
     },
     "ecb": {
-      "last_checked": "2026-10-29 14:49 ET",
+      "last_checked": "2026-10-29 15:52 ET",
       "last_ref": "2026-10-29"
     },
     "boe": {
       "last_rate": 3.75,
-      "last_checked": "2026-10-29 14:49 ET",
+      "last_checked": "2026-10-29 15:52 ET",
       "last_ref": "2026-09-17"
     },
     "ez_hicp": {
-      "last_checked": "2026-10-29 14:49 ET",
+      "last_checked": "2026-10-29 15:52 ET",
       "last_ref": "2026-09"
     },
     "ez_gdp": {
-      "last_checked": "2026-10-29 14:49 ET",
+      "last_checked": "2026-10-29 15:52 ET",
       "last_ref": "2026-Q2"
     },
     "market_levels": {
-      "last_checked": "2026-10-29 14:49 ET"
+      "last_checked": "2026-10-29 15:52 ET"
     },
     "nfci": {
-      "last_checked": "2026-10-29 14:49 ET",
+      "last_checked": "2026-10-29 15:52 ET",
       "last_ref": "2026-10-23"
     },
     "sloos": {
-      "last_checked": "2026-10-29 14:49 ET",
+      "last_checked": "2026-10-29 15:52 ET",
       "last_ref": "2026-Q3"
     }
   },
   "collectors": {
     "inflation": {
-      "last_run": "2026-10-29 14:49 ET",
-      "last_success": "2026-10-29 14:49 ET"
+      "last_run": "2026-10-29 15:52 ET",
+      "last_success": "2026-10-29 15:52 ET"
     },
     "labor": {
-      "last_run": "2026-10-29 14:49 ET",
-      "last_success": "2026-10-29 14:49 ET"
+      "last_run": "2026-10-29 15:52 ET",
+      "last_success": "2026-10-29 15:52 ET"
     },
     "growth": {
-      "last_run": "2026-10-29 14:49 ET",
-      "last_success": "2026-10-29 14:49 ET"
+      "last_run": "2026-10-29 15:52 ET",
+      "last_success": "2026-10-29 15:52 ET"
     },
     "housing": {
-      "last_run": "2026-10-29 14:49 ET",
-      "last_success": "2026-10-29 14:49 ET"
+      "last_run": "2026-10-29 15:52 ET",
+      "last_success": "2026-10-29 15:52 ET"
     },
     "sentiment": {
-      "last_run": "2026-10-29 14:49 ET",
-      "last_success": "2026-10-29 14:49 ET"
+      "last_run": "2026-10-29 15:52 ET",
+      "last_success": "2026-10-29 15:52 ET"
     },
     "policy": {
-      "last_run": "2026-10-29 14:49 ET",
-      "last_success": "2026-10-29 14:49 ET"
+      "last_run": "2026-10-29 15:52 ET",
+      "last_success": "2026-10-29 15:52 ET"
     },
     "markets": {
-      "last_run": "2026-10-29 14:49 ET",
-      "last_success": "2026-10-29 14:49 ET"
+      "last_run": "2026-10-29 15:52 ET",
+      "last_success": "2026-10-29 15:52 ET"
     }
   }
 }
