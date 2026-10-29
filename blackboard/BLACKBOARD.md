@@ -1,6 +1,6 @@
 # Macro Monitor: Blackboard
 
-_Rendered 2026-10-29 17:10 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
+_Rendered 2026-10-29 19:58 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
 
 ## Inflation
 
@@ -105,22 +105,22 @@ _Rendered 2026-10-29 17:10 ET from data/. Do not edit by hand; edit data/ or rer
 
 **Current stance:** Financial conditions are loose. NFCI at -0.487 is well below zero and has tightened 0.006 to 0.010 per week for four prints, a drift of about 0.02 in total. ANFCI is -0.501. No regime signal. No curve, HY OAS or other market history is logged, so multi-signal alignment cannot be assessed. A move toward zero, or tightening alongside HY widening and curve dis-inversion, would change the view. _(updated 2026-10-28 17:10 ET)_
 
-**Latest market levels** (as of 2026-10-27):
+**Latest market levels** (as of 2026-10-28):
 
 | Series | Level | 1d | 5d | Unit |
 |---|---|---|---|---|
-| ust_10y | 4.99 | -1 | -13 | bp |
-| ust_2y | 4.70 | +2 | -9 | bp |
-| ust_3m | 4.22 | +0 | -4 | bp |
-| curve_10y2y | 0.29 | -3 | -4 | bp |
-| curve_10y3m | 0.77 | -1 | -9 | bp |
-| hy_oas | 3.18 | -12 | -15 | bp |
-| ig_oas | 0.88 | -2 | +1 | bp |
-| be_5y5y | 2.25 | +4 | -6 | bp |
-| be_10y | 2.35 | +1 | +0 | bp |
-| real_10y | 2.64 | -2 | -13 | bp |
-| sofr | 3.95 | +2 | +7 | bp |
-| vix | 17.52 | -1 | +0 | pts |
+| ust_10y | 5.05 | +6 | -8 | bp |
+| ust_2y | 4.67 | -3 | -14 | bp |
+| ust_3m | 4.18 | -4 | -7 | bp |
+| curve_10y2y | 0.38 | +9 | +6 | bp |
+| curve_10y3m | 0.87 | +10 | -1 | bp |
+| hy_oas | 3.14 | -4 | -13 | bp |
+| ig_oas | 0.86 | -2 | -2 | bp |
+| be_5y5y | 2.27 | +2 | -7 | bp |
+| be_10y | 2.38 | +3 | +1 | bp |
+| real_10y | 2.67 | +3 | -9 | bp |
+| sofr | 3.94 | -1 | +6 | bp |
+| vix | 16.91 | -1 | +0 | pts |
 | usd_broad | 121.32 | -0 | -0 | pts |
 
 ## Macro Synthesis
@@ -137,10 +137,10 @@ Corrected 26 Oct: the first version used the September UMich final instead of th
 
 | Domain | Last success | Age (h, weekdays) | Status |
 |---|---|---|---|
-| Inflation | 2026-10-29 15:52 ET | 1.3 | ok |
-| Labor | 2026-10-29 15:52 ET | 1.3 | ok |
-| Growth & Activity | 2026-10-29 15:52 ET | 1.3 | ok |
-| Housing | 2026-10-29 15:52 ET | 1.3 | ok |
-| Sentiment & Surveys | 2026-10-29 15:52 ET | 1.3 | ok |
-| Central Banks & Policy | 2026-10-29 15:52 ET | 1.3 | ok |
-| Financial Conditions & Markets | 2026-10-29 15:52 ET | 1.3 | ok |
+| Inflation | 2026-10-29 19:57 ET | 0.0 | ok |
+| Labor | 2026-10-29 19:57 ET | 0.0 | ok |
+| Growth & Activity | 2026-10-29 19:57 ET | 0.0 | ok |
+| Housing | 2026-10-29 19:57 ET | 0.0 | ok |
+| Sentiment & Surveys | 2026-10-29 19:57 ET | 0.0 | ok |
+| Central Banks & Policy | 2026-10-29 19:57 ET | 0.0 | ok |
+| Financial Conditions & Markets | 2026-10-29 19:57 ET | 0.0 | ok |
