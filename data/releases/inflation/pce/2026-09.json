@@ -1,0 +1,28 @@
+{
+  "domain": "inflation",
+  "report": "pce",
+  "name": "PCE price index",
+  "ref": "2026-09",
+  "tier": 1,
+  "detected_at": "2026-10-29 14:49 ET",
+  "source": "fred",
+  "source_url": "https://www.bea.gov/data/income-saving/personal-income",
+  "metrics": {
+    "headline.chg_pct": 0.491,
+    "headline.yoy_pct": 3.649,
+    "core.chg_pct": 0.317,
+    "core.yoy_pct": 3.121
+  },
+  "prior": {
+    "headline.chg_pct": 0.323,
+    "headline.yoy_pct": 3.444,
+    "core.chg_pct": 0.262,
+    "core.yoy_pct": 3.034
+  },
+  "verified": true,
+  "consensus": null,
+  "consensus_source": null,
+  "surprise": null,
+  "read": null,
+  "status": "pending_analysis"
+}

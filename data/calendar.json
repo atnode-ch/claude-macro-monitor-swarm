@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28 20:02 ET",
+  "generated_at": "2026-10-29 14:49 ET",
   "cb_meetings": {
     "fed": [
       "2021-01-27",
@@ -98,14 +98,6 @@
     ]
   },
   "events": [
-    {
-      "date": "2026-10-21",
-      "time_et": "10:00",
-      "report": "existing_home",
-      "name": "Existing Home Sales",
-      "source": "estimate",
-      "weekday": "Wed"
-    },
     {
       "date": "2026-10-22",
       "time_et": "08:30",

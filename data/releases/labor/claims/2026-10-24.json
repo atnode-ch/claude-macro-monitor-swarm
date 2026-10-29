@@ -1,0 +1,28 @@
+{
+  "domain": "labor",
+  "report": "claims",
+  "name": "Initial Jobless Claims",
+  "ref": "2026-10-24",
+  "tier": 2,
+  "detected_at": "2026-10-29 14:49 ET",
+  "source": "fred",
+  "source_url": "https://www.dol.gov/ui/data.pdf",
+  "metrics": {
+    "initial.level": 194000.0,
+    "initial.diff": -1000.0,
+    "initial_4wk.level": 196750.0,
+    "continuing.level": 1701000.0
+  },
+  "prior": {
+    "initial.level": 195000.0,
+    "initial.diff": -5000.0,
+    "initial_4wk.level": 198000.0,
+    "continuing.level": 1701000.0
+  },
+  "verified": true,
+  "consensus": null,
+  "consensus_source": null,
+  "surprise": null,
+  "read": null,
+  "status": "pending_analysis"
+}

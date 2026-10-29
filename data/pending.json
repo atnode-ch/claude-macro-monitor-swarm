@@ -8,6 +8,42 @@
       "needs_fetch": true,
       "tier": 3,
       "detected_at": "2026-10-28 14:41 ET"
+    },
+    {
+      "domain": "inflation",
+      "report": "pce",
+      "ref": "2026-09",
+      "path": "data/releases/inflation/pce/2026-09.json",
+      "needs_fetch": false,
+      "tier": 1,
+      "detected_at": "2026-10-29 14:49 ET"
+    },
+    {
+      "domain": "labor",
+      "report": "claims",
+      "ref": "2026-10-24",
+      "path": "data/releases/labor/claims/2026-10-24.json",
+      "needs_fetch": false,
+      "tier": 2,
+      "detected_at": "2026-10-29 14:49 ET"
+    },
+    {
+      "domain": "growth",
+      "report": "gdp",
+      "ref": "2026-Q3",
+      "path": "data/releases/growth/gdp/2026-Q3.json",
+      "needs_fetch": false,
+      "tier": 2,
+      "detected_at": "2026-10-29 14:49 ET"
+    },
+    {
+      "domain": "policy",
+      "report": "ecb",
+      "ref": "2026-10-29",
+      "path": "data/releases/policy/ecb/2026-10-29.json",
+      "needs_fetch": true,
+      "tier": 2,
+      "detected_at": "2026-10-29 14:49 ET"
     }
   ]
 }

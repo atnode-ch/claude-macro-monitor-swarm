@@ -1,0 +1,26 @@
+{
+  "domain": "policy",
+  "report": "ecb",
+  "name": "ECB decision",
+  "ref": "2026-10-29",
+  "tier": 2,
+  "detected_at": "2026-10-29 14:49 ET",
+  "source": "fred",
+  "source_url": "https://www.ecb.europa.eu/press/govcdec/html/index.en.html",
+  "metrics": {
+    "rate.level": 2.5,
+    "rate.change_bp": 0.0
+  },
+  "prior": {
+    "rate.level": 2.5
+  },
+  "verified": true,
+  "consensus": null,
+  "consensus_source": null,
+  "surprise": null,
+  "read": null,
+  "status": "pending_analysis",
+  "needs_fetch": [
+    "guidance_tone"
+  ]
+}

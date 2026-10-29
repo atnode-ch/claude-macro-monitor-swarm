@@ -1,0 +1,24 @@
+{
+  "domain": "growth",
+  "report": "gdp",
+  "name": "GDP (real, SAAR)",
+  "ref": "2026-Q3",
+  "tier": 2,
+  "detected_at": "2026-10-29 14:49 ET",
+  "source": "fred",
+  "source_url": "https://www.bea.gov/data/gdp/gross-domestic-product",
+  "metrics": {
+    "real_gdp_saar.level": 3.4,
+    "real_gdp_saar.diff": 1.2
+  },
+  "prior": {
+    "real_gdp_saar.level": 2.2,
+    "real_gdp_saar.diff": -0.3
+  },
+  "verified": true,
+  "consensus": null,
+  "consensus_source": null,
+  "surprise": null,
+  "read": null,
+  "status": "pending_analysis"
+}
