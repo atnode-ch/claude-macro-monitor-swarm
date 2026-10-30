@@ -1,0 +1,227 @@
+{
+  "regime": "Inflation firm and growth re-accelerating; the Fed holds with a hike bias while bonds rally",
+  "executive_summary": "This week confirmed the firming-inflation half of last week's watch list and denied the slowdown half. September core PCE rose 0.3% m/m and 3.1% y/y, up from 3.0%, so the PPI and CPI heat has now reached the Fed's preferred gauge. Q3 advance GDP printed 3.4% SAAR against 2.2% in Q2, durable goods orders rose 1.8% and claims stayed below 200,000. The Fed held at 3.75-4.00% with two dissents for a 25bp hike, and the ECB held at 2.50% with a December hike widely expected. Three domains now align: inflation, growth and policy all point to a hot economy and no near-term easing. The tension sits in markets: in the week to 28 Oct, 2y yields fell 14bp, HY spreads tightened 13bp and 5y5y breakevens dropped 7bp, so bonds and credit are not pricing that heat. Housing and consumer sentiment stay weak, the one soft spot.",
+  "narrative": [
+    {
+      "title": "Inflation and policy",
+      "body": "The inflation chain is now complete for September. PPI rose 1.3% m/m with core at 0.7%, CPI core rose 0.3% against 0.2% expected, and core PCE followed at 0.3% m/m and 3.1% y/y, 1.1pp above target and still accelerating. Headline PCE rose 0.5% m/m and 3.6% y/y, with energy doing much of the work. Consumers notice: UMich 5y inflation expectations ticked up to 3.5% and 1y to 4.7%. The Fed held at 3.75-4.00% on 2026-10-28, but Cook and Hammack dissented for a 25bp hike, so the live question for the next meeting is a hold or a hike, not a cut. In Europe, HICP at 3.75% y/y keeps the ECB on a hike path after its 2.50% hold. The BoE decides next week from a 3.75% Bank Rate with UK regular pay growth at 3.7%."
+    },
+    {
+      "title": "Labour",
+      "body": "The US labour market is still low-hire, low-fire. Initial claims were 194,000, the 4-week average 196,750 and continuing claims 1.70 million, all far from the 215,000 and 1.8 million levels that would signal a turn. The latest hiring data are older and soft: September payrolls rose 29,000, unemployment 4.2%, August JOLTS openings 7.08 million, down 256,000. Average hourly earnings rose 3.0% y/y, so wages are not the inflation driver. Next week's payrolls and JOLTS decide whether thin hiring becomes rising slack. In the UK, unemployment fell to 4.7% while vacancies hit a 5-year low, cooling demand without job losses."
+    },
+    {
+      "title": "Growth, housing and sentiment",
+      "body": "Growth re-accelerated. Q3 advance GDP rose 3.4% SAAR, matching September's hard data: retail sales up 0.8% m/m, industrial production up 0.7% and core capex orders up 0.5% after 1.5%. Part of the retail strength was gasoline prices, so real consumption is softer than the nominal figures. The October CARTS retail nowcast was due this week but could not be confirmed and remains unanalysed. Housing is the weak link: September new home sales were 676,000, down 0.6%, after starts fell 5.2% to 1.22 million; permits near 1.40 million suggest stabilisation, not recovery. Sentiment is split. UMich held at 48.0, near its lows, while the Conference Board rose to 91.7 from 84.2, though its Expectations index of 72.6 remains below 80. In Germany, Ifo edged up to 90.2."
+    },
+    {
+      "title": "Financial conditions",
+      "body": "Market data run to 28 Oct, so they include the FOMC decision but not the PCE and GDP prints of the next day. In the week to 28 Oct, the 2y Treasury fell 14bp to 4.67% and the 10y 8bp to 5.05%, steepening 10y-2y by 6bp to 0.38%. HY spreads tightened 13bp to 3.14% and VIX was flat near 16.9. 5y5y breakevens fell 7bp to 2.27%, so long-run inflation pricing eased even as realised inflation rose. The NFCI at -0.487 shows loose conditions, with a fourth week of slight tightening. The broad dollar index is stale since 23 Oct and is not quoted. Loose conditions feed the growth re-acceleration and work against the Fed's inflation fight. The same week, IG spreads tightened 2bp to 0.86% and SOFR rose 6bp to 3.94%."
+    }
+  ],
+  "domain_scorecard": [
+    {
+      "domain": "Inflation",
+      "signal": "firm",
+      "note": "Core PCE 3.1% y/y and rising; PPI and CPI hot in September"
+    },
+    {
+      "domain": "Labor",
+      "signal": "steady",
+      "note": "Claims below 200k, but hiring thin; payrolls next week"
+    },
+    {
+      "domain": "Growth & Activity",
+      "signal": "strong",
+      "note": "Q3 GDP 3.4% SAAR; retail, IP and capex firm; CARTS pending"
+    },
+    {
+      "domain": "Housing",
+      "signal": "weakening",
+      "note": "Starts down twice, new home sales flat at 676k"
+    },
+    {
+      "domain": "Sentiment & Surveys",
+      "signal": "steady",
+      "note": "UMich 48.0 near lows, Conference Board up; inflation expectations rising"
+    },
+    {
+      "domain": "Central Banks & Policy",
+      "signal": "firm",
+      "note": "Fed hold with two hike dissents; ECB December hike in play"
+    },
+    {
+      "domain": "Financial Conditions & Markets",
+      "signal": "steady",
+      "note": "NFCI loose; yields and HY spreads down; dollar data stale"
+    }
+  ],
+  "regime_watch": "The hot-economy regime is confirmed if next week's payrolls and ISM surveys hold firm, claims stay below 200,000 and the Fed's hike dissents gain support, with core PCE above 3.0% y/y. It is denied if hiring turns: payrolls near zero or negative, unemployment above 4.2%, JOLTS openings falling further and the 4-week claims average above 215,000. Markets are the swing factor: if 2y yields and HY spreads keep falling while core inflation accelerates, loose conditions will feed more inflation. A BoE hike would make the global tightening bias explicit.",
+  "week_ahead": [
+    {
+      "report": "ism_mfg",
+      "name": "ISM Manufacturing PMI",
+      "date": "2026-11-02",
+      "weekday": "Mon",
+      "time_et": null,
+      "date_source": "estimate",
+      "why": "Prices Paid leads PPI; New Orders tests the Q3 re-acceleration"
+    },
+    {
+      "report": "ism_services",
+      "name": "ISM Services PMI",
+      "date": "2026-11-04",
+      "weekday": "Wed",
+      "time_et": null,
+      "date_source": "estimate",
+      "why": "Below 50 would be the first labour and growth warning"
+    },
+    {
+      "report": "boe",
+      "name": "BoE decision",
+      "date": "2026-11-05",
+      "weekday": "Thu",
+      "time_et": "07:00",
+      "date_source": "official",
+      "why": "Bank Rate 3.75% with pay at 3.7%; hike risk is live"
+    },
+    {
+      "report": "claims",
+      "name": "Initial Jobless Claims",
+      "date": "2026-11-05",
+      "weekday": "Thu",
+      "time_et": "08:30",
+      "date_source": "estimate",
+      "why": "A rising 4-week average from 196,750 would be the first sign of a labour turn"
+    },
+    {
+      "report": "nfp",
+      "name": "Non-Farm Payrolls",
+      "date": "2026-11-06",
+      "weekday": "Fri",
+      "time_et": null,
+      "date_source": "official",
+      "why": "Tests whether September's 29k hiring pace is a turn or noise; unemployment at 4.2%"
+    },
+    {
+      "report": "jolts",
+      "name": "JOLTS",
+      "date": "2026-11-06",
+      "weekday": "Fri",
+      "time_et": "10:00",
+      "date_source": "estimate",
+      "why": "Openings fell 256k in August; a further drop signals cooling demand"
+    }
+  ],
+  "kpis": [
+    {
+      "label": "Core PCE y/y",
+      "ref": "inflation/pce/2026-09:core.yoy_pct",
+      "value": 3.121,
+      "unit": "%"
+    },
+    {
+      "label": "Real GDP Q3 SAAR",
+      "ref": "growth/gdp/2026-Q3:real_gdp_saar.level",
+      "value": 3.4,
+      "unit": "%"
+    },
+    {
+      "label": "Fed funds upper",
+      "ref": "policy/fomc/2026-10-28:rate.level",
+      "value": 4.0,
+      "unit": "%"
+    },
+    {
+      "label": "Claims 4-wk avg",
+      "ref": "labor/claims/2026-10-24:initial_4wk.level",
+      "value": 196750.0,
+      "unit": ""
+    },
+    {
+      "label": "UST 2y",
+      "ref": "markets:ust_2y",
+      "value": 4.67,
+      "unit": "%"
+    },
+    {
+      "label": "HY OAS",
+      "ref": "markets:hy_oas",
+      "value": 3.14,
+      "unit": "%"
+    }
+  ],
+  "slack_summary": "Inflation firm and growth re-accelerating; the Fed holds with a hike bias while bonds rally.\nKey prints: core PCE 3.1% y/y (0.3% m/m), Q3 GDP 3.4% SAAR, Fed hold at 3.75-4.00% with 2 hike dissents, ECB hold at 2.50%.\nNext week: payrolls, ISM manufacturing and services, JOLTS, BoE decision.",
+  "week": "2026-W44",
+  "week_ending": "2026-10-30",
+  "swarm_health": "all domains fresh",
+  "health": {
+    "all_ok": true,
+    "domains": [
+      {
+        "domain": "inflation",
+        "name": "Inflation",
+        "last_success": "2026-10-30 15:43 ET",
+        "age_hours": 2.1,
+        "stale": false,
+        "errors": []
+      },
+      {
+        "domain": "labor",
+        "name": "Labor",
+        "last_success": "2026-10-30 15:43 ET",
+        "age_hours": 2.1,
+        "stale": false,
+        "errors": []
+      },
+      {
+        "domain": "growth",
+        "name": "Growth & Activity",
+        "last_success": "2026-10-30 15:43 ET",
+        "age_hours": 2.1,
+        "stale": false,
+        "errors": []
+      },
+      {
+        "domain": "housing",
+        "name": "Housing",
+        "last_success": "2026-10-30 15:43 ET",
+        "age_hours": 2.1,
+        "stale": false,
+        "errors": []
+      },
+      {
+        "domain": "sentiment",
+        "name": "Sentiment & Surveys",
+        "last_success": "2026-10-30 15:43 ET",
+        "age_hours": 2.1,
+        "stale": false,
+        "errors": []
+      },
+      {
+        "domain": "policy",
+        "name": "Central Banks & Policy",
+        "last_success": "2026-10-30 15:43 ET",
+        "age_hours": 2.1,
+        "stale": false,
+        "errors": []
+      },
+      {
+        "domain": "markets",
+        "name": "Financial Conditions & Markets",
+        "last_success": "2026-10-30 15:43 ET",
+        "age_hours": 2.1,
+        "stale": false,
+        "errors": []
+      }
+    ],
+    "alert_text": "",
+    "checked_at": "2026-10-30 17:49 ET"
+  },
+  "audit": {
+    "issues": [],
+    "ok": true,
+    "checked_at": "2026-10-30 17:49 ET"
+  },
+  "finalized_at": "2026-10-30 17:49 ET"
+}

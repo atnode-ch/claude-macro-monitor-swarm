@@ -1,6 +1,6 @@
 # Macro Monitor: Blackboard
 
-_Rendered 2026-10-30 15:43 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
+_Rendered 2026-10-30 17:49 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
 
 ## Inflation
 
@@ -125,22 +125,22 @@ _Rendered 2026-10-30 15:43 ET from data/. Do not edit by hand; edit data/ or rer
 
 ## Macro Synthesis
 
-**2026-W43: Inflation firm and consumer inflation expectations edging up; bond markets price slower growth**
+**2026-W44: Inflation firm and growth re-accelerating; the Fed holds with a hike bias while bonds rally**
 
-Corrected 26 Oct: the first version used the September UMich final instead of the October final released this week, and Treasury yields one day older than the other market data. Market figures below are for the week to 23 Oct. Week 43 added no new US inflation data, so the hot September prints still set the tone: core CPI 0.3% m/m against 0.2% consensus, core PPI 5.0% y/y, euro area HICP 3.75%. Hard US activity data stays firm, with initial claims at 194,000. October UMich sentiment was flat at 48.0 from 48.1, but year-ahead inflation expectations rose to 4.7% and long-run expectations to 3.5%. Bond markets moved the other way: the 10y yield fell 9bp to 5.00%, the 10y real yield 8bp and 5y5y breakevens 13bp to 2.20%. HY OAS widened 7bp to 3.38% while VIX eased to 19.45. Markets and housing lean toward slower growth; households expect more inflation. The regime holds. Next week carries the FOMC, the ECB, September PCE and Q3 GDP.
+This week confirmed the firming-inflation half of last week's watch list and denied the slowdown half. September core PCE rose 0.3% m/m and 3.1% y/y, up from 3.0%, so the PPI and CPI heat has now reached the Fed's preferred gauge. Q3 advance GDP printed 3.4% SAAR against 2.2% in Q2, durable goods orders rose 1.8% and claims stayed below 200,000. The Fed held at 3.75-4.00% with two dissents for a 25bp hike, and the ECB held at 2.50% with a December hike widely expected. Three domains now align: inflation, growth and policy all point to a hot economy and no near-term easing. The tension sits in markets: in the week to 28 Oct, 2y yields fell 14bp, HY spreads tightened 13bp and 5y5y breakevens dropped 7bp, so bonds and credit are not pricing that heat. Housing and consumer sentiment stay weak, the one soft spot.
 
-**Regime watch:** The firming-inflation regime is confirmed if September core PCE rises above 3.0% y/y, the FOMC keeps another hike on the table and consumer inflation expectations keep rising. A shift toward slowdown needs the rates signal to reach credit and hard data: Q3 GDP below the 2.2% Q2 pace, a 4-week claims average above 215,000, and HY spreads widening well beyond this week's 7bp. If that happens while core PCE runs hot, that is the stagflation mix the Fed cannot ease into.
-**Week ahead:** Tue 2026-10-27 Conference Board Consumer Confidence; Wed 2026-10-28 FOMC decision; Thu 2026-10-29 PCE price index; Thu 2026-10-29 GDP (real, SAAR); Thu 2026-10-29 Initial Jobless Claims; Thu 2026-10-29 ECB decision
+**Regime watch:** The hot-economy regime is confirmed if next week's payrolls and ISM surveys hold firm, claims stay below 200,000 and the Fed's hike dissents gain support, with core PCE above 3.0% y/y. It is denied if hiring turns: payrolls near zero or negative, unemployment above 4.2%, JOLTS openings falling further and the 4-week claims average above 215,000. Markets are the swing factor: if 2y yields and HY spreads keep falling while core inflation accelerates, loose conditions will feed more inflation. A BoE hike would make the global tightening bias explicit.
+**Week ahead:** Mon 2026-11-02 ISM Manufacturing PMI; Wed 2026-11-04 ISM Services PMI; Thu 2026-11-05 BoE decision; Thu 2026-11-05 Initial Jobless Claims; Fri 2026-11-06 Non-Farm Payrolls; Fri 2026-11-06 JOLTS
 **Swarm health:** all domains fresh
 
 ## Collector health
 
 | Domain | Last success | Age (h, weekdays) | Status |
 |---|---|---|---|
-| Inflation | 2026-10-30 15:43 ET | 0.0 | ok |
-| Labor | 2026-10-30 15:43 ET | 0.0 | ok |
-| Growth & Activity | 2026-10-30 15:43 ET | 0.0 | ok |
-| Housing | 2026-10-30 15:43 ET | 0.0 | ok |
-| Sentiment & Surveys | 2026-10-30 15:43 ET | 0.0 | ok |
-| Central Banks & Policy | 2026-10-30 15:43 ET | 0.0 | ok |
-| Financial Conditions & Markets | 2026-10-30 15:43 ET | 0.0 | ok |
+| Inflation | 2026-10-30 15:43 ET | 2.1 | ok |
+| Labor | 2026-10-30 15:43 ET | 2.1 | ok |
+| Growth & Activity | 2026-10-30 15:43 ET | 2.1 | ok |
+| Housing | 2026-10-30 15:43 ET | 2.1 | ok |
+| Sentiment & Surveys | 2026-10-30 15:43 ET | 2.1 | ok |
+| Central Banks & Policy | 2026-10-30 15:43 ET | 2.1 | ok |
+| Financial Conditions & Markets | 2026-10-30 15:43 ET | 2.1 | ok |
