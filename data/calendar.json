@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29 19:57 ET",
+  "generated_at": "2026-10-30 14:27 ET",
   "cb_meetings": {
     "fed": [
       "2021-01-27",
@@ -98,14 +98,6 @@
     ]
   },
   "events": [
-    {
-      "date": "2026-10-22",
-      "time_et": "08:30",
-      "report": "claims",
-      "name": "Initial Jobless Claims",
-      "source": "estimate",
-      "weekday": "Thu"
-    },
     {
       "date": "2026-10-23",
       "time_et": "10:00",
@@ -211,15 +203,6 @@
       "name": "Trade Balance",
       "source": "official",
       "summary": "U.S. International Trade in Goods and Services, September 2026",
-      "weekday": "Wed"
-    },
-    {
-      "date": "2026-11-04",
-      "time_et": null,
-      "report": "gdp",
-      "name": "GDP (real, SAAR)",
-      "source": "official",
-      "summary": "GDPNow",
       "weekday": "Wed"
     },
     {
