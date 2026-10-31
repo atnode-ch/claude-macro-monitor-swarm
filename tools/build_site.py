@@ -28,7 +28,7 @@ CSS = """/* ThoughtNode "Tactile Archival". Tokens from tn-skill-brand-thoughtno
 :root{--vellum:#F9F6F0;--linen:#F1ECE2;--card:#FFFDF9;--ink:#1C2321;--ink2:#4A524E;--dim:#646A65;--rule:rgba(28,35,33,.12);
 --oxblood:#7A2E2A;--brass:#A8813A;--sage:#56654A;--cloth:#1C2321;--cloth-ink:#EEE9DF;--cloth-brass:#D2AE68;
 --serif:Newsreader,"Iowan Old Style",Georgia,"Times New Roman",serif;--sans:"Source Sans 3","Source Sans Pro",system-ui,-apple-system,"Segoe UI",sans-serif;--mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace}
-@media (prefers-color-scheme:dark){:root{--vellum:#161C1A;--linen:#1D2421;--card:#222A27;--ink:#EEE9DF;--ink2:#C3C1B7;--dim:#A0A59E;--rule:rgba(238,233,223,.14);--oxblood:#D9857D;--brass:#D2AE68;--sage:#A9B99A;--cloth:#0F1413}}
+@media (prefers-color-scheme:dark){:root{--vellum:#1c2321;--linen:#232b28;--card:#27302d;--ink:#eee9df;--ink2:#c3c1b7;--dim:#9a9c93;--rule:rgba(238,233,223,.13);--oxblood:#c9776e;--brass:#d2ae68;--sage:#a9b99a;--cloth:#141a18}}
 *{box-sizing:border-box}
 body{margin:0;background:var(--vellum);color:var(--ink);font:18px/1.65 var(--sans)}
 main{max-width:920px;margin:0 auto;padding:0 20px 72px}
