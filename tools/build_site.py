@@ -17,21 +17,49 @@ from tools import render_blackboard, store
 
 SITE = C.ROOT / "docs" / C.deployment().get("pages", {}).get("slug", "macro-monitor")
 
-CSS = """:root{--bg:#f7f7f4;--fg:#1d1d1b;--muted:#6b6b66;--card:#fff;--line:#e2e1dc;--accent:#2f5d8a;--hot:#b4472f;--cool:#2f7a5b}
-@media (prefers-color-scheme:dark){:root{--bg:#141413;--fg:#ecebe6;--muted:#a3a29b;--card:#1e1e1c;--line:#33332f;--accent:#7fa8d1;--hot:#e0866f;--cool:#71c09b}}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
-main{max-width:920px;margin:0 auto;padding:24px 16px 64px}nav{font-size:14px;margin-bottom:24px}nav a{margin-right:16px}
-a{color:var(--accent)}h1{font-size:28px;margin:0 0 4px}h2{font-size:20px;margin:32px 0 8px;border-bottom:1px solid var(--line);padding-bottom:4px}
-.muted{color:var(--muted);font-size:14px}.banner{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--accent);padding:12px 16px;margin:16px 0;font-weight:600}
-.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:16px 0}.kpi{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:12px}
-.kpi .v{font-size:24px;font-weight:700}.kpi .l{font-size:13px;color:var(--muted)}
-.table-wrap{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:14px;background:var(--card)}th,td{border:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}th{background:var(--bg)}
-.bars{display:flex;gap:16px;align-items:flex-end;height:180px;border-bottom:1px solid var(--line);padding:8px 0;margin:12px 0}
-.bar{flex:1;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;height:100%}.bar .b{width:60%;background:var(--accent);border-radius:3px 3px 0 0}
-.bar .t{font-size:13px;margin-bottom:4px}.bar .n{font-size:12px;color:var(--muted);margin-top:6px;text-align:center}
-.row{display:flex;justify-content:space-between;gap:12px;padding:10px 0;border-bottom:1px solid var(--line)}
-.qa{font-size:12px;border:1px solid var(--line);border-radius:10px;padding:1px 8px;margin-right:8px}
-footer{margin-top:48px;font-size:13px;color:var(--muted)}
+CSS = """/* ThoughtNode "Tactile Archival". Tokens from tn-skill-brand-thoughtnode. Fonts: self-host woff2 beside this file for exact match; system serif/sans fallbacks otherwise. */
+:root{--vellum:#F9F6F0;--linen:#F1ECE2;--card:#FFFDF9;--ink:#1C2321;--ink2:#4A524E;--dim:#646A65;--rule:rgba(28,35,33,.12);
+--oxblood:#7A2E2A;--brass:#A8813A;--sage:#56654A;--cloth:#1C2321;--cloth-ink:#EEE9DF;--cloth-brass:#D2AE68;
+--serif:Newsreader,"Iowan Old Style",Georgia,"Times New Roman",serif;--sans:"Source Sans 3","Source Sans Pro",system-ui,-apple-system,"Segoe UI",sans-serif;--mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace}
+@media (prefers-color-scheme:dark){:root{--vellum:#161C1A;--linen:#1D2421;--card:#222A27;--ink:#EEE9DF;--ink2:#C3C1B7;--dim:#A0A59E;--rule:rgba(238,233,223,.14);--oxblood:#D9857D;--brass:#D2AE68;--sage:#A9B99A;--cloth:#0F1413}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--vellum);color:var(--ink);font:18px/1.65 var(--sans)}
+main{max-width:920px;margin:0 auto;padding:0 20px 72px}
+header.mast{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;padding:22px 0 14px;border-bottom:1px solid var(--rule);margin-bottom:36px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink);font:400 24px/1 var(--serif)}
+.brand svg{width:22px;height:22px;flex:none}.brand em{font-style:normal;color:var(--dim);font-size:15px;font-family:var(--sans);letter-spacing:.02em;margin-left:4px}
+nav{display:flex;gap:6px;font-size:14px;font-weight:600}
+nav a{padding:6px 14px;border:1px solid var(--rule);border-bottom-color:var(--brass);border-radius:6px 6px 0 0;text-decoration:none;color:var(--ink2);background:var(--linen)}
+nav a:hover{color:var(--oxblood)}
+a{color:var(--oxblood);text-underline-offset:3px}
+h1{font:400 40px/1.15 var(--serif);margin:4px 0 8px;letter-spacing:-.01em}
+h2{font:500 24px/1.25 var(--serif);margin:44px 0 12px;padding-bottom:6px;border-bottom:1px solid var(--rule)}
+h3{font:500 19px/1.3 var(--serif);margin:24px 0 4px}
+p{margin:0 0 14px}
+.muted{color:var(--dim);font-size:15px}
+.muted:first-child{font-family:var(--mono);font-size:13px;letter-spacing:.04em;text-transform:uppercase}
+.banner{background:var(--card);border:1px solid var(--rule);border-left:4px solid var(--oxblood);border-radius:4px;padding:16px 20px;margin:20px 0;font:italic 400 22px/1.4 var(--serif);box-shadow:0 1px 3px rgba(28,35,33,.08)}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px;margin:20px 0}
+.kpi{background:var(--card);border:1px solid var(--rule);border-top:3px solid var(--brass);border-radius:4px;padding:14px 16px;box-shadow:0 1px 3px rgba(28,35,33,.08)}
+.kpi .v{font:400 30px/1.1 var(--mono);color:var(--ink)}.kpi .l{font-size:14px;color:var(--dim);margin-top:4px}
+.table-wrap{overflow-x:auto;border:1px solid var(--rule);border-radius:4px;background:var(--card)}
+table{border-collapse:collapse;width:100%;font-size:15px;line-height:1.5}
+th,td{border-bottom:1px solid var(--rule);padding:9px 12px;text-align:left;vertical-align:top}
+tr:last-child td{border-bottom:0}
+th{background:var(--linen);font:600 12px/1.3 var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--ink2);border-bottom:2px solid var(--brass)}
+td:first-child{font-weight:600}
+.bars{display:flex;gap:16px;align-items:flex-end;height:190px;border-bottom:1px solid var(--ink2);padding:8px 0;margin:14px 0}
+.bar{flex:1;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;height:100%}
+.bar .b{width:56%;background:var(--brass);border-radius:2px 2px 0 0}
+.bar .t{font:400 14px var(--mono);margin-bottom:4px}.bar .n{font-size:13px;color:var(--dim);margin-top:6px;text-align:center}
+.row{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:14px 0;border-bottom:1px solid var(--rule)}
+.row strong{font:500 18px var(--mono);color:var(--oxblood);margin-right:6px}
+.row div:last-child{white-space:nowrap;font-size:15px}
+.qa{display:inline-block;font:600 11px/1 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--sage);border:1.5px solid var(--sage);border-radius:3px;padding:4px 7px;margin-right:12px;transform:rotate(-2deg)}
+.qa.open{color:var(--oxblood);border-color:var(--oxblood)}
+@media (max-width:640px){body{font-size:17px}h1{font-size:32px}.row{flex-direction:column;align-items:flex-start;gap:8px}.row div:last-child{white-space:normal}}
+footer{margin-top:56px;padding-top:16px;border-top:1px solid var(--rule);font-size:14px;color:var(--dim)}
+footer .tag{font:italic 400 16px var(--serif);color:var(--ink2);display:block;margin-bottom:4px}
 """
 
 
@@ -40,9 +68,9 @@ def page(title, body, depth=1):
     up = "../" * depth
     return f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{html.escape(title)}</title><link rel="stylesheet" href="{up}style.css"></head><body><main>
-<nav><a href="{up}index.html">Macro Monitor</a></nav>
+<header class="mast"><a class="brand" href="{up}index.html"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="none" stroke="#A8813A" stroke-opacity=".22" stroke-width="2"/><circle cx="12" cy="12" r="5" fill="#A8813A"/></svg>ThoughtNode<em>Macro Monitor</em></a><nav><a href="{up}index.html">Editions</a></nav></header>
 {body}
-<footer>{html.escape(dep['site'].get('footer', ''))}</footer></main></body></html>
+<footer><span class="tag">Master the machine. Multiply the mind.</span>{html.escape(dep['site'].get('footer', ''))}</footer></main></body></html>
 """
 
 
@@ -149,7 +177,7 @@ def index_page():
         s = C.load_json(C.DATA / "synthesis" / f"{wk}.json", {})
         n = len(s.get("audit", {}).get("issues", []))
         rows.append(f'<div class="row"><div><strong>{wk}</strong> · {html.escape(s.get("regime", ""))}</div>'
-                    f'<div><span class="qa">{n} open check{"s" if n != 1 else ""}</span>'
+                    f'<div><span class="qa{" open" if n else ""}">{"Verified" if not n else f"{n} open"}</span>'
                     f'<a href="reports/{wk}.html">Briefing</a> · <a href="blackboard/{wk}.html">Blackboard</a> · '
                     f'<a href="audit/{wk}.html">Fact-check</a></div></div>')
     body = f"""<h1>{html.escape(C.deployment()['site'].get('title', 'Macro Monitor'))}</h1>
