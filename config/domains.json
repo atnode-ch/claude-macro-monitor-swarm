@@ -383,16 +383,16 @@
           "freq": "monthly",
           "tier": 3,
           "due_rule": {
-            "rule": "day_of_month",
-            "day": 28
+            "rule": "nth_business_day",
+            "n": 5
           },
-          "ref_lag_months": 0,
+          "ref_lag_months": 1,
           "fields": [
             "ex_auto_nominal_mom",
             "ex_auto_real_mom"
           ],
-          "_note": "Preview of Retail Sales. Log as a nowcast; no market consensus. Alert only on divergence from the hard print.",
-          "release_url": "https://www.chicagofed.org/-/media/publications/carts/carts.pdf"
+          "_note": "Preview of Retail Sales. Log as a nowcast; no market consensus. Alert only on divergence from the hard print. Chicago Fed publishes a preliminary nowcast in the first week of the following month and a final about a week later (calendar: chicagofed.org/research/data/data-release-calendar); due date is an estimate. Figures: FRED CARTSFINAL (m/m %) and CARTSR (real level).",
+          "release_url": "https://www.chicagofed.org/research/data/carts/current-data"
         }
       ]
     },
