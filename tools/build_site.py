@@ -10,6 +10,7 @@ Everything is plain HTML/CSS, no CDN.
 import argparse
 import html
 import re
+import shutil
 import sys
 
 from collectors import common as C
@@ -17,7 +18,13 @@ from tools import render_blackboard, store
 
 SITE = C.ROOT / "docs" / C.deployment().get("pages", {}).get("slug", "macro-monitor")
 
-CSS = """/* ThoughtNode "Tactile Archival". Tokens from tn-skill-brand-thoughtnode. Fonts: self-host woff2 beside this file for exact match; system serif/sans fallbacks otherwise. */
+CSS = """/* ThoughtNode "Tactile Archival". Tokens from tn-skill-brand-thoughtnode. Fonts and mark are copied from site_assets/ (self-hosted, from thoughtnode.ch). */
+@font-face{font-family:Newsreader;src:url(fonts/newsreader-400.woff2) format("woff2");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:Newsreader;src:url(fonts/newsreader-500.woff2) format("woff2");font-weight:500;font-style:normal;font-display:swap}
+@font-face{font-family:Newsreader;src:url(fonts/newsreader-400italic.woff2) format("woff2");font-weight:400;font-style:italic;font-display:swap}
+@font-face{font-family:"Source Sans 3";src:url(fonts/sourcesans3-400.woff2) format("woff2");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Source Sans 3";src:url(fonts/sourcesans3-600.woff2) format("woff2");font-weight:600;font-style:normal;font-display:swap}
+@font-face{font-family:"IBM Plex Mono";src:url(fonts/plexmono-400.woff2) format("woff2");font-weight:400;font-style:normal;font-display:swap}
 :root{--vellum:#F9F6F0;--linen:#F1ECE2;--card:#FFFDF9;--ink:#1C2321;--ink2:#4A524E;--dim:#646A65;--rule:rgba(28,35,33,.12);
 --oxblood:#7A2E2A;--brass:#A8813A;--sage:#56654A;--cloth:#1C2321;--cloth-ink:#EEE9DF;--cloth-brass:#D2AE68;
 --serif:Newsreader,"Iowan Old Style",Georgia,"Times New Roman",serif;--sans:"Source Sans 3","Source Sans Pro",system-ui,-apple-system,"Segoe UI",sans-serif;--mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace}
@@ -27,7 +34,8 @@ body{margin:0;background:var(--vellum);color:var(--ink);font:18px/1.65 var(--san
 main{max-width:920px;margin:0 auto;padding:0 20px 72px}
 header.mast{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;padding:22px 0 14px;border-bottom:1px solid var(--rule);margin-bottom:36px}
 .brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink);font:400 24px/1 var(--serif)}
-.brand svg{width:22px;height:22px;flex:none}.brand em{font-style:normal;color:var(--dim);font-size:15px;font-family:var(--sans);letter-spacing:.02em;margin-left:4px}
+.brand img{height:32px;width:auto;flex:none}
+@media (prefers-color-scheme:dark){.brand img{background:#F9F6F0;border-radius:6px;padding:3px}}.brand em{font-style:normal;color:var(--dim);font-size:15px;font-family:var(--sans);letter-spacing:.02em;margin-left:4px}
 nav{display:flex;gap:6px;font-size:14px;font-weight:600}
 nav a{padding:6px 14px;border:1px solid var(--rule);border-bottom-color:var(--brass);border-radius:6px 6px 0 0;text-decoration:none;color:var(--ink2);background:var(--linen)}
 nav a:hover{color:var(--oxblood)}
@@ -68,7 +76,7 @@ def page(title, body, depth=1):
     up = "../" * depth
     return f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{html.escape(title)}</title><link rel="stylesheet" href="{up}style.css"></head><body><main>
-<header class="mast"><a class="brand" href="{up}index.html"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="none" stroke="#A8813A" stroke-opacity=".22" stroke-width="2"/><circle cx="12" cy="12" r="5" fill="#A8813A"/></svg>ThoughtNode<em>Macro Monitor</em></a><nav><a href="{up}index.html">Editions</a></nav></header>
+<header class="mast"><a class="brand" href="{up}index.html"><img src="{up}img/mark-flat.svg" alt="" width="39" height="32">ThoughtNode<em>Macro Monitor</em></a><nav><a href="{up}index.html">Editions</a></nav></header>
 {body}
 <footer><span class="tag">Master the machine. Multiply the mind.</span>{html.escape(dep['site'].get('footer', ''))}</footer></main></body></html>
 """
@@ -192,6 +200,7 @@ def build(week=None):
     target = C.DATA / "synthesis" / f"{week}.json" if week else (files[-1] if files else None)
     SITE.mkdir(parents=True, exist_ok=True)
     (SITE / "style.css").write_text(CSS, encoding="utf-8")
+    shutil.copytree(C.ROOT / "site_assets", SITE, dirs_exist_ok=True)
     written = ["style.css"]
     if target and target.exists():
         s = C.load_json(target)

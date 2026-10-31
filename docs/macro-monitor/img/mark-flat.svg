@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="20 20 480 394" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ThoughtNode mark">
+<defs>
+<g id="left" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M252 56C218 54 190 62 168 78C150 72 128 82 116 100C92 116 72 146 66 180C58 218 68 258 92 288C108 308 128 322 146 330C140 346 142 362 156 372C180 380 212 372 232 360C240 356 246 352 252 350Z"/><path d="M240 84C212 78 188 90 174 108C160 126 150 140 130 152C112 163 100 180 96 200C92 218 96 232 104 244"/><path d="M244 118C222 112 202 124 190 142C178 160 166 172 150 184C134 196 124 210 122 228C120 244 124 256 132 266"/><path d="M100 266C112 286 130 302 152 312C172 321 196 328 214 336"/><path d="M186 238C204 236 214 250 206 262C198 272 184 270 180 260"/></g>
+<g id="rightArt" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M252 56C218 54 190 62 168 78C150 72 128 82 116 100C92 116 72 146 66 180C58 218 68 258 92 288C108 308 128 322 146 330C140 346 142 362 156 372C180 380 212 372 232 360C240 356 246 352 252 350Z"/><path d="M252 100H176q-24 0-24 24V152q0 24-24 24H108"/><path d="M252 300H196q-24 0-24 24V330"/><path d="M252 220H186q-26 0-26 26V246q0 24-24 24H104"/></g>
+</defs>
+<use href="#left" stroke="#7A2E2A" stroke-width="9"/>
+<g transform="translate(520,0) scale(-1,1)"><use href="#rightArt" stroke="#A8813A" stroke-width="9"/><g fill="#A8813A"><circle cx="100" cy="176" r="8"/><circle cx="172" cy="340" r="8"/><circle cx="96" cy="270" r="8"/></g></g>
+</svg>
