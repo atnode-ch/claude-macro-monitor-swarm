@@ -340,13 +340,14 @@ def snapshot_levels(rep, series, look, lagging_days):
     return out
 
 
-def collect_snapshot(domain, rep, now, rstate, seed, thr):
+def collect_snapshot(domain, rep, now, rstate, seed, thr, dry_run=False):
     mt = thr["markets"]
     look = mt["lookback_days"]
     fetched = {key: C.fred_csv(sid, years=1) for key, sid in rep["series"].items()}
     latest = snapshot_levels(rep, {k: s for k, s in fetched.items() if s}, look, mt.get("lagging_days", 4))
     latest["updated_at"] = C.fmt_et(now)
-    C.save_json(MARKETS_LATEST, latest)
+    if not dry_run:
+        C.save_json(MARKETS_LATEST, latest)
 
     signals = []
     for key, bp in mt["move_bp"].items():
@@ -399,7 +400,7 @@ def run(domain_filter=None, seed=False, dry_run=False, now=None):
                 elif t == "web":
                     rec = collect_web(domain, rep, now, rstate, seed)
                 elif t == "snapshot":
-                    rec = collect_snapshot(domain, rep, now, rstate, seed, thr)
+                    rec = collect_snapshot(domain, rep, now, rstate, seed, thr, dry_run)
                 else:
                     raise ValueError(f"unknown type {t}")
                 rstate["last_checked"] = C.fmt_et(now)
