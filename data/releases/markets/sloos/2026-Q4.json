@@ -1,0 +1,24 @@
+{
+  "domain": "markets",
+  "report": "sloos",
+  "name": "Senior Loan Officer Survey (C&I standards)",
+  "ref": "2026-Q4",
+  "tier": 2,
+  "detected_at": "2026-11-02 17:11 ET",
+  "source": "fred",
+  "source_url": "https://www.federalreserve.gov/data/sloos.htm",
+  "metrics": {
+    "ci_tightening_net_pct.level": 1.7,
+    "ci_tightening_net_pct.diff": 1.7
+  },
+  "prior": {
+    "ci_tightening_net_pct.level": 0.0,
+    "ci_tightening_net_pct.diff": -8.1
+  },
+  "verified": true,
+  "consensus": null,
+  "consensus_source": null,
+  "surprise": null,
+  "read": null,
+  "status": "pending_analysis"
+}

@@ -8,6 +8,24 @@
       "needs_fetch": true,
       "tier": 3,
       "detected_at": "2026-10-28 14:41 ET"
+    },
+    {
+      "domain": "growth",
+      "report": "ism_mfg",
+      "ref": "2026-10",
+      "path": "data/releases/growth/ism_mfg/2026-10.json",
+      "needs_fetch": true,
+      "tier": 2,
+      "detected_at": "2026-11-02 17:11 ET"
+    },
+    {
+      "domain": "markets",
+      "report": "sloos",
+      "ref": "2026-Q4",
+      "path": "data/releases/markets/sloos/2026-Q4.json",
+      "needs_fetch": false,
+      "tier": 2,
+      "detected_at": "2026-11-02 17:11 ET"
     }
   ]
 }
