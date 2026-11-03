@@ -1,6 +1,6 @@
 {
   "domain": "growth",
-  "stance": "Growth: Q3 advance GDP printed 3.4% SAAR, up from 2.2% in Q2, so activity re-accelerated. This matches strong nominal consumer spending (September retail sales +0.77% m/m, +6.29% y/y; part is gasoline, ex-gas +0.2%, unconfirmed beyond one source) and positive core capex orders (+0.46% in September after +1.55%). No consensus was found, so beat or miss is unknown. Watch the control group, real spending, core capex and later GDP estimates.",
-  "updated_at": "2026-10-29 17:10 ET",
-  "from": "gdp 2026-Q3"
+  "stance": "Growth: Q3 advance GDP printed 3.4% SAAR, up from 2.2% in Q2. Spending data is strong (September retail sales +0.77% m/m; core capex orders +0.46%). October ISM manufacturing is unconfirmed (one publisher): PMI 55.5, new orders 55.5, employment 52.4, prices paid 75.2, so forward orders stay in expansion. No consensus found. Watch ISM confirmation, control group, core capex, later GDP estimates.",
+  "updated_at": "2026-11-03 11:10 ET",
+  "from": "ism_mfg 2026-10"
 }

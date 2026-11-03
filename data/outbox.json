@@ -1,3 +1,16 @@
 {
-  "items": []
+  "items": [
+    {
+      "report": "ism_mfg",
+      "ref": "2026-10",
+      "path": "data/releases/growth/ism_mfg/2026-10.json",
+      "alert": false
+    },
+    {
+      "report": "sloos",
+      "ref": "2026-Q4",
+      "path": "data/releases/markets/sloos/2026-Q4.json",
+      "alert": false
+    }
+  ]
 }

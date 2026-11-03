@@ -1,6 +1,6 @@
 # Macro Monitor: Blackboard
 
-_Rendered 2026-11-02 21:24 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
+_Rendered 2026-11-03 11:10 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
 
 ## Inflation
 
@@ -38,14 +38,14 @@ _Rendered 2026-11-02 21:24 ET from data/. Do not edit by hand; edit data/ or rer
 
 | Report | Period | Actual | Prior | Consensus | Surprise | Read |
 |---|---|---|---|---|---|---|
-| **ISM Manufacturing PMI** | 2026-10 | _awaiting fetch_ |  |  |  | _pending analysis_ [source](https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/) _(single-source, unconfirmed)_ |
+| **ISM Manufacturing PMI** | 2026-10 | pmi 55.5; new orders 55.5; prices paid 75.2; employment 52.4 |  | unconfirmed |  | Unconfirmed, single publisher (Trading Economics): ISM PMI 55.5 vs 54.5 in Sep, new orders 55.5 (55.3), prices paid 75.2 (77.9), employment 52.4 (52.7). All above 50; orders support growth, prices paid still point to firm PPI. [source](https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/) |
 | **GDP (real, SAAR)** | 2026-Q3 | real gdp saar 3.40; real gdp saar +1.2 chg | real gdp saar 2.20; real gdp saar -0.30 chg | unconfirmed |  | Q3 advance real GDP +3.4% SAAR vs 2.2% in Q2 (+1.2pt), reversing the prior slowdown. No consensus found. Fits strong nominal retail and positive capex; watch the second estimate and real consumption. [source](https://www.bea.gov/data/gdp/gross-domestic-product) |
 | **Chicago Fed CARTS retail nowcast** | 2026-10 | _awaiting fetch_ |  |  |  | _pending analysis_ [source](https://www.chicagofed.org/-/media/publications/carts/carts.pdf) _(single-source, unconfirmed)_ |
 | **Durable Goods** | 2026-09 | orders +1.8% m/m; core capex orders +0.5% m/m | orders +0.1% m/m; core capex orders +1.6% m/m | unconfirmed |  | Durable orders +1.84% m/m after +0.12%. Core capex orders +0.46% after +1.55%, so business investment is still rising but at a slower pace. One Continuum preview looked for +3.5% and +0.8%; no poll consensus found. [source](https://www.census.gov/manufacturing/m3/index.html) |
 | **Retail Sales** | 2026-09 | headline +0.8% m/m; headline 6.3% y/y; ex auto +0.7% m/m | headline +1.3% m/m; headline 5.6% y/y; ex auto +1.3% m/m | headline +0.3% m/m | headline.chg_pct +0.5 | Headline +0.77% m/m vs 0.3% consensus (beat), after +1.29% in August. Gas stations +6.4% on price drove it; ex-gas only +0.2%. Real consumption signal is softer than headline. Supports nominal GDP, adds to inflation pressure. [source](https://www.census.gov/retail/index.html) |
 | **Industrial Production** | 2026-09 | ip +0.7% m/m; ip 2.2% y/y; capacity util 76.8 | ip +0.1% m/m; ip 1.6% y/y; capacity util 76.4 | unconfirmed |  | IP +0.66% m/m (prior +0.06%), +2.25% y/y (prior 1.62%), capacity utilization 76.85% (prior 76.42%). Consensus not found. Firm upside in output; a hard-data tailwind for Q3 GDP, though IP is a small share of activity. [source](https://www.federalreserve.gov/releases/g17/current/) |
 
-**Current stance:** Growth: Q3 advance GDP printed 3.4% SAAR, up from 2.2% in Q2, so activity re-accelerated. This matches strong nominal consumer spending (September retail sales +0.77% m/m, +6.29% y/y; part is gasoline, ex-gas +0.2%, unconfirmed beyond one source) and positive core capex orders (+0.46% in September after +1.55%). No consensus was found, so beat or miss is unknown. Watch the control group, real spending, core capex and later GDP estimates. _(updated 2026-10-29 17:10 ET)_
+**Current stance:** Growth: Q3 advance GDP printed 3.4% SAAR, up from 2.2% in Q2. Spending data is strong (September retail sales +0.77% m/m; core capex orders +0.46%). October ISM manufacturing is unconfirmed (one publisher): PMI 55.5, new orders 55.5, employment 52.4, prices paid 75.2, so forward orders stay in expansion. No consensus found. Watch ISM confirmation, control group, core capex, later GDP estimates. _(updated 2026-11-03 11:10 ET)_
 
 ## Housing
 
@@ -97,14 +97,14 @@ _Rendered 2026-11-02 21:24 ET from data/. Do not edit by hand; edit data/ or rer
 
 | Report | Period | Actual | Prior | Consensus | Surprise | Read |
 |---|---|---|---|---|---|---|
-| **Senior Loan Officer Survey (C&I standards)** | 2026-Q4 | ci tightening net 1.70%; ci tightening net +1.7pp chg | ci tightening net 0.00%; ci tightening net -8.1pp chg |  |  | _pending analysis_ [source](https://www.federalreserve.gov/data/sloos.htm) |
+| **Senior Loan Officer Survey (C&I standards)** | 2026-Q4 | ci tightening net 1.70%; ci tightening net +1.7pp chg | ci tightening net 0.00%; ci tightening net -8.1pp chg | unconfirmed |  | Net 1.7% of banks tightened C&I standards, up from 0.0% prior (+1.7pt). Standards are roughly neutral, a small turn toward tightening. No consensus. Leads activity by 6 to 18 months; not yet a restrictive signal. [source](https://www.federalreserve.gov/data/sloos.htm) |
 | **Chicago Fed NFCI** | 2026-10-23 | nfci -0.49; nfci +0.01 chg; anfci -0.50; anfci +0.01 chg | nfci -0.49; nfci +0.01 chg; anfci -0.51; anfci +0.01 chg | unconfirmed |  | NFCI -0.487 (prior -0.494), up 0.007 for a fourth week of slight tightening. ANFCI -0.501. Well below zero, no zero cross, no consensus exists. Immaterial alone; no HY or curve data to confirm. [source](https://www.chicagofed.org/research/data/nfci/current-data) |
 | **Chicago Fed NFCI** | 2026-10-16 | nfci -0.50; nfci +0.01 chg; anfci -0.52; anfci +0.01 chg | nfci -0.50; nfci +0.01 chg; anfci -0.52; anfci +0.01 chg | unconfirmed |  | NFCI -0.496 (prior -0.502), up 0.006 for a third week of slight tightening. ANFCI -0.518. Still well below zero, no zero cross, no consensus exists. Immaterial alone; no HY or curve data to confirm. [source](https://www.chicagofed.org/research/data/nfci/current-data) |
 | **Chicago Fed NFCI** | 2026-10-09 | nfci -0.50; nfci +0.01 chg; anfci -0.48; anfci +0.01 chg | nfci -0.51; nfci +0.01 chg; anfci -0.50; anfci +0.01 chg | unconfirmed |  | NFCI -0.499 (prior -0.507), up 0.008 for a second week of slight tightening. Still well below zero, so conditions remain looser than average. No zero cross; no consensus exists. Immaterial on its own. [source](https://www.chicagofed.org/research/data/nfci/current-data) |
 | **Senior Loan Officer Survey (C&I standards)** | 2026-Q3 | ci tightening net 0.00%; ci tightening net -8.1pp chg | ci tightening net 8.10%; ci tightening net +2.8pp chg |  |  | _baseline (pre-migration)_ [source](https://www.federalreserve.gov/data/sloos.htm) |
 | **Chicago Fed NFCI** | 2026-10-02 | nfci -0.49; nfci +0.02 chg; anfci -0.50; anfci +0.02 chg | nfci -0.51; nfci +0.01 chg; anfci -0.52; anfci +0.02 chg |  |  | _baseline (pre-migration)_ [source](https://www.chicagofed.org/research/data/nfci/current-data) |
 
-**Current stance:** Financial conditions are loose. NFCI at -0.487 is well below zero and has tightened 0.006 to 0.010 per week for four prints, a drift of about 0.02 in total. ANFCI is -0.501. No regime signal. No curve, HY OAS or other market history is logged, so multi-signal alignment cannot be assessed. A move toward zero, or tightening alongside HY widening and curve dis-inversion, would change the view. _(updated 2026-10-28 17:10 ET)_
+**Current stance:** Financial conditions are loose. NFCI at -0.487 is well below zero and has tightened 0.006 to 0.010 per week for four prints, about 0.02 in total. ANFCI is -0.501. SLOOS C&I net tightening is 1.7%, up from 0.0%, so bank credit standards are near neutral with a slight tightening bias. No regime signal. No curve or HY OAS history is logged, so multi-signal alignment cannot be assessed. Another SLOOS rise, NFCI toward zero, or HY widening with curve dis-inversion would change the view. _(updated 2026-11-03 11:10 ET)_
 
 **Latest market levels** (as of 2026-10-30):
 
@@ -138,10 +138,10 @@ This week confirmed the firming-inflation half of last week's watch list and den
 
 | Domain | Last success | Age (h, weekdays) | Status |
 |---|---|---|---|
-| Inflation | 2026-11-02 21:23 ET | 0.0 | ok |
-| Labor | 2026-11-02 21:23 ET | 0.0 | ok |
-| Growth & Activity | 2026-11-02 21:23 ET | 0.0 | ok |
-| Housing | 2026-11-02 21:23 ET | 0.0 | ok |
-| Sentiment & Surveys | 2026-11-02 21:23 ET | 0.0 | ok |
-| Central Banks & Policy | 2026-11-02 21:23 ET | 0.0 | ok |
-| Financial Conditions & Markets | 2026-11-02 21:23 ET | 0.0 | ok |
+| Inflation | 2026-11-02 21:23 ET | 13.8 | ok |
+| Labor | 2026-11-02 21:23 ET | 13.8 | ok |
+| Growth & Activity | 2026-11-02 21:23 ET | 13.8 | ok |
+| Housing | 2026-11-02 21:23 ET | 13.8 | ok |
+| Sentiment & Surveys | 2026-11-02 21:23 ET | 13.8 | ok |
+| Central Banks & Policy | 2026-11-02 21:23 ET | 13.8 | ok |
+| Financial Conditions & Markets | 2026-11-02 21:23 ET | 13.8 | ok |

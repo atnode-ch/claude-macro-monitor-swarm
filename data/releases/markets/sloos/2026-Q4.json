@@ -17,8 +17,20 @@
   },
   "verified": true,
   "consensus": null,
-  "consensus_source": null,
+  "consensus_source": "No published consensus found for the SLOOS C&I net tightening figure",
   "surprise": null,
-  "read": null,
-  "status": "pending_analysis"
+  "read": "Net 1.7% of banks tightened C&I standards, up from 0.0% prior (+1.7pt). Standards are roughly neutral, a small turn toward tightening. No consensus. Leads activity by 6 to 18 months; not yet a restrictive signal.",
+  "status": "analysed",
+  "fields": null,
+  "sources": [
+    "https://www.federalreserve.gov/data/sloos.htm"
+  ],
+  "alert": {
+    "alert": false,
+    "material": false,
+    "reasons": [
+      "no consensus available; surprise not assessed"
+    ]
+  },
+  "analysed_at": "2026-11-03 11:10 ET"
 }
