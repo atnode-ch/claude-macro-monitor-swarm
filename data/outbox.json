@@ -11,6 +11,12 @@
       "ref": "2026-Q4",
       "path": "data/releases/markets/sloos/2026-Q4.json",
       "alert": false
+    },
+    {
+      "report": "jolts",
+      "ref": "2026-09",
+      "path": "data/releases/labor/jolts/2026-09.json",
+      "alert": false
     }
   ]
 }

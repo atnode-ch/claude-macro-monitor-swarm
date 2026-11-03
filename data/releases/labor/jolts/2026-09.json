@@ -21,6 +21,16 @@
   "consensus": null,
   "consensus_source": null,
   "surprise": null,
-  "read": null,
-  "status": "pending_analysis"
+  "read": "Openings rose 333k to 7,523k from 7,190k and quits rate rose to 2.1% from 1.9%. No consensus found. Rising openings argue against a labour turn; higher quits lead firmer wage growth. Mildly hawkish for rates.",
+  "status": "analysed",
+  "fields": null,
+  "sources": [],
+  "alert": {
+    "alert": false,
+    "material": false,
+    "reasons": [
+      "no consensus available; surprise not assessed"
+    ]
+  },
+  "analysed_at": "2026-11-03 17:10 ET"
 }
