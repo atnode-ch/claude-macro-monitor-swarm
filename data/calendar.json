@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02 21:23 ET",
+  "generated_at": "2026-11-03 14:59 ET",
   "cb_meetings": {
     "fed": [
       "2021-01-27",
@@ -206,19 +206,18 @@
       "weekday": "Fri"
     },
     {
-      "date": "2026-11-10",
-      "time_et": null,
-      "report": "cpi",
-      "name": "CPI",
-      "source": "official",
-      "summary": "Consumer Price Index",
-      "weekday": "Tue"
-    },
-    {
       "date": "2026-11-12",
       "time_et": "08:30",
       "report": "claims",
       "name": "Initial Jobless Claims",
+      "source": "estimate",
+      "weekday": "Thu"
+    },
+    {
+      "date": "2026-11-12",
+      "time_et": "08:30",
+      "report": "cpi",
+      "name": "CPI",
       "source": "estimate",
       "weekday": "Thu"
     },
