@@ -1,6 +1,6 @@
 {
   "domain": "growth",
-  "stance": "Growth: Q3 advance GDP printed 3.4% SAAR, up from 2.2% in Q2. Spending data is strong (September retail sales +0.77% m/m; core capex orders +0.46%). October ISM manufacturing is unconfirmed (one publisher): PMI 55.5, new orders 55.5, employment 52.4, prices paid 75.2, so forward orders stay in expansion. No consensus found. Watch ISM confirmation, control group, core capex, later GDP estimates.",
-  "updated_at": "2026-11-03 11:10 ET",
-  "from": "ism_mfg 2026-10"
+  "stance": "Growth: Q3 advance GDP printed 3.4% SAAR, up from 2.2% in Q2. Spending data is strong (September retail sales +0.77% m/m; core capex orders +0.46%). September trade deficit was little changed at -105.0bn (-105.7bn in August). October ISM manufacturing is unconfirmed (one publisher): PMI 55.5, new orders 55.5, employment 52.4, prices paid 75.2, so forward orders stay in expansion. Watch ISM confirmation, control group, core capex, later GDP estimates.",
+  "updated_at": "2026-11-04 17:08 ET",
+  "from": "trade 2026-09"
 }

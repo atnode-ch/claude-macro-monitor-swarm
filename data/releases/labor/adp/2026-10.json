@@ -15,8 +15,18 @@
   },
   "verified": true,
   "consensus": null,
-  "consensus_source": null,
+  "consensus_source": "No published October 2026 poll found in one search",
   "surprise": null,
-  "read": null,
-  "status": "pending_analysis"
+  "read": "ADP October private payrolls +86k, same as the 86k prior in the packet. No consensus found. ADP is an imperfect NFP proxy; positive hiring fits the low-hire, low-fire read, and no turn signal (claims, openings) is added.",
+  "status": "analysed",
+  "fields": null,
+  "sources": [],
+  "alert": {
+    "alert": false,
+    "material": false,
+    "reasons": [
+      "no consensus available; surprise not assessed"
+    ]
+  },
+  "analysed_at": "2026-11-04 17:08 ET"
 }

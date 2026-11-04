@@ -1,6 +1,6 @@
 {
   "domain": "markets",
-  "stance": "Financial conditions are loose. NFCI at -0.487 is well below zero and has tightened 0.006 to 0.010 per week for four prints, about 0.02 in total. ANFCI is -0.501. SLOOS C&I net tightening is 1.7%, up from 0.0%, so bank credit standards are near neutral with a slight tightening bias. No regime signal. No curve or HY OAS history is logged, so multi-signal alignment cannot be assessed. Another SLOOS rise, NFCI toward zero, or HY widening with curve dis-inversion would change the view.",
-  "updated_at": "2026-11-03 11:10 ET",
-  "from": "sloos 2026-Q4"
+  "stance": "Financial conditions are loose. NFCI at -0.459 is well below zero and has tightened every week for five prints, 0.007 to 0.010 a week. ANFCI is -0.435. The prior levels in this release differ from last week's logged values, so earlier levels were likely revised. SLOOS C&I net tightening is 1.7%, up from 0.0%, near neutral. No regime signal. Would change on SLOOS rise, NFCI toward zero, or HY widening with curve dis-inversion.",
+  "updated_at": "2026-11-04 17:08 ET",
+  "from": "nfci 2026-10-30"
 }

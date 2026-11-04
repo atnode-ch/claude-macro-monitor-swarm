@@ -17,8 +17,18 @@
   },
   "verified": true,
   "consensus": null,
-  "consensus_source": null,
+  "consensus_source": "No total goods and services consensus found for September 2026",
   "surprise": null,
-  "read": null,
-  "status": "pending_analysis"
+  "read": "September trade deficit -105.0bn vs -105.7bn in August, a 0.69bn narrowing after August's 12.9bn widening. Little net change, so no new swing for Q3 GDP net exports. No consensus found.",
+  "status": "analysed",
+  "fields": null,
+  "sources": [],
+  "alert": {
+    "alert": false,
+    "material": false,
+    "reasons": [
+      "no consensus available; surprise not assessed"
+    ]
+  },
+  "analysed_at": "2026-11-04 17:08 ET"
 }

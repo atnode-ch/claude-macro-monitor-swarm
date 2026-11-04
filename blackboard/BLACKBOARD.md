@@ -1,6 +1,6 @@
 # Macro Monitor: Blackboard
 
-_Rendered 2026-11-04 15:57 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
+_Rendered 2026-11-04 17:08 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
 
 ## Inflation
 
@@ -23,14 +23,14 @@ _Rendered 2026-11-04 15:57 ET from data/. Do not edit by hand; edit data/ or rer
 
 | Report | Period | Actual | Prior | Consensus | Surprise | Read |
 |---|---|---|---|---|---|---|
-| **ADP employment** | 2026-10 | private payrolls +86k chg | private payrolls +86k chg |  |  | _pending analysis_ [source](https://adpemploymentreport.com/) |
+| **ADP employment** | 2026-10 | private payrolls +86k chg | private payrolls +86k chg | unconfirmed |  | ADP October private payrolls +86k, same as the 86k prior in the packet. No consensus found. ADP is an imperfect NFP proxy; positive hiring fits the low-hire, low-fire read, and no turn signal (claims, openings) is added. [source](https://adpemploymentreport.com/) |
 | **JOLTS** | 2026-09 | openings 7,523k; openings +333k chg; quits rate 2.10% | openings 7,190k; openings -145k chg; quits rate 1.90% | unconfirmed |  | Openings rose 333k to 7,523k from 7,190k and quits rate rose to 2.1% from 1.9%. No consensus found. Rising openings argue against a labour turn; higher quits lead firmer wage growth. Mildly hawkish for rates. [source](https://www.bls.gov/news.release/jolts.htm) |
 | **Initial Jobless Claims** | 2026-10-24 | initial 194,000; initial -1,000 chg; initial 4wk 196,750; continuing 1,701,000 | initial 195,000; initial -5,000 chg; initial 4wk 198,000; continuing 1,701,000 | unconfirmed |  | Initial claims 194k, -1k w/w from 195k (prior revised up from 194k); consensus not found. 4-week average 196.75k from 198k, continuing 1.701M unchanged. Layoffs stay low, no turn signal; low-hire, low-fire holds. [source](https://www.dol.gov/ui/data.pdf) |
 | **Initial Jobless Claims** | 2026-10-17 | initial 194,000; initial -6,000 chg; initial 4wk 197,750; continuing 1,728,000 | initial 200,000; initial +2,000 chg; initial 4wk 198,750; continuing 1,728,000 | unconfirmed |  | Initial claims 194k, -6k w/w, a low print; consensus not found. 4-week average 197.75k (from 198.75k), continuing 1.728M. Layoffs stay low, no turn signal; low-hire, low-fire holds. [source](https://www.dol.gov/ui/data.pdf) |
 | **UK Labour Market (ONS)** | 2026-08 | unemployment rate 4.70%; awe regular yoy 3.70 |  | unemployment rate 4.90%; awe regular yoy 3.60 | unemployment_rate -0.2, awe_regular_yoy +0.1 | Unemployment 4.7% (3M to Aug) vs 4.9% consensus and 4.9% prior, a beat. Regular pay 3.7% vs 3.6% expected, steady. Vacancies at a 5-year low of 691k. Payrolled change unconfirmed. Firm pay keeps BoE hike risk live. [source](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/latest) |
 | **Initial Jobless Claims** | 2026-10-10 | initial 199,000; initial +1,000 chg; initial 4wk 198,500; continuing 1,710,000 | initial 198,000; initial -1,000 chg; initial 4wk 198,250; continuing 1,710,000 | initial 200,000 | initial.level -1000 | Initial claims 199k vs 200k consensus (unconfirmed), +1k w/w. 4-week average 198.5k, continuing 1.71M unchanged. Layoffs stay low, no labour-market turn signal; supports a low-hire, low-fire read. [source](https://www.dol.gov/ui/data.pdf) |
 
-**Current stance:** Labour market is low-hire, low-fire in the US: initial claims 194k, 4-week average 196.75k, continuing claims 1.701M (below 1.8M). JOLTS September openings rose to 7,523k from 7,190k and quits rate rose to 2.1% from 1.9%, so openings are not falling. No turn: that needs rising claims, falling openings and soft payrolls, and none is logged. UK: unemployment 4.7%, regular pay 3.7%, vacancies 691k, cooling without slack. UK payrolled change unconfirmed. Would change on 4-week claims above 215k, continuing claims above 1.8M, or openings falling. _(updated 2026-11-03 17:10 ET)_
+**Current stance:** Labour market is low-hire, low-fire in the US: initial claims 194k, 4-week average 196.75k, continuing claims 1.701M (below 1.8M). JOLTS September openings 7,523k (from 7,190k), quits rate 2.1% (from 1.9%). ADP October private payrolls +86k, unchanged vs prior, so payrolls are not soft. No turn: that needs rising claims, falling openings and soft payrolls, and none is logged. UK: unemployment 4.7%, regular pay 3.7%, vacancies 691k, cooling without slack. UK payrolled change unconfirmed. Would change on 4-week claims above 215k, continuing claims above 1.8M, or openings falling. _(updated 2026-11-04 17:08 ET)_
 
 ## Growth & Activity
 
@@ -39,13 +39,13 @@ _Rendered 2026-11-04 15:57 ET from data/. Do not edit by hand; edit data/ or rer
 | Report | Period | Actual | Prior | Consensus | Surprise | Read |
 |---|---|---|---|---|---|---|
 | **ISM Services PMI** | 2026-10 | _awaiting fetch_ |  |  |  | _pending analysis_ [source](https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/) _(single-source, unconfirmed)_ |
-| **Trade Balance** | 2026-09 | balance -105.0 $bn; balance +0.69 $bn chg | balance -105.7 $bn; balance -12.9 $bn chg |  |  | _pending analysis_ [source](https://www.census.gov/foreign-trade/Press-Release/current_press_release/index.html) |
+| **Trade Balance** | 2026-09 | balance -105.0 $bn; balance +0.69 $bn chg | balance -105.7 $bn; balance -12.9 $bn chg | unconfirmed |  | September trade deficit -105.0bn vs -105.7bn in August, a 0.69bn narrowing after August's 12.9bn widening. Little net change, so no new swing for Q3 GDP net exports. No consensus found. [source](https://www.census.gov/foreign-trade/Press-Release/current_press_release/index.html) |
 | **ISM Manufacturing PMI** | 2026-10 | pmi 55.5; new orders 55.5; prices paid 75.2; employment 52.4 |  | unconfirmed |  | Unconfirmed, single publisher (Trading Economics): ISM PMI 55.5 vs 54.5 in Sep, new orders 55.5 (55.3), prices paid 75.2 (77.9), employment 52.4 (52.7). All above 50; orders support growth, prices paid still point to firm PPI. [source](https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/) |
 | **GDP (real, SAAR)** | 2026-Q3 | real gdp saar 3.40; real gdp saar +1.2 chg | real gdp saar 2.20; real gdp saar -0.30 chg | unconfirmed |  | Q3 advance real GDP +3.4% SAAR vs 2.2% in Q2 (+1.2pt), reversing the prior slowdown. No consensus found. Fits strong nominal retail and positive capex; watch the second estimate and real consumption. [source](https://www.bea.gov/data/gdp/gross-domestic-product) |
 | **Chicago Fed CARTS retail nowcast** | 2026-10 | _awaiting fetch_ |  |  |  | _pending analysis_ [source](https://www.chicagofed.org/-/media/publications/carts/carts.pdf) _(single-source, unconfirmed)_ |
 | **Durable Goods** | 2026-09 | orders +1.8% m/m; core capex orders +0.5% m/m | orders +0.1% m/m; core capex orders +1.6% m/m | unconfirmed |  | Durable orders +1.84% m/m after +0.12%. Core capex orders +0.46% after +1.55%, so business investment is still rising but at a slower pace. One Continuum preview looked for +3.5% and +0.8%; no poll consensus found. [source](https://www.census.gov/manufacturing/m3/index.html) |
 
-**Current stance:** Growth: Q3 advance GDP printed 3.4% SAAR, up from 2.2% in Q2. Spending data is strong (September retail sales +0.77% m/m; core capex orders +0.46%). October ISM manufacturing is unconfirmed (one publisher): PMI 55.5, new orders 55.5, employment 52.4, prices paid 75.2, so forward orders stay in expansion. No consensus found. Watch ISM confirmation, control group, core capex, later GDP estimates. _(updated 2026-11-03 11:10 ET)_
+**Current stance:** Growth: Q3 advance GDP printed 3.4% SAAR, up from 2.2% in Q2. Spending data is strong (September retail sales +0.77% m/m; core capex orders +0.46%). September trade deficit was little changed at -105.0bn (-105.7bn in August). October ISM manufacturing is unconfirmed (one publisher): PMI 55.5, new orders 55.5, employment 52.4, prices paid 75.2, so forward orders stay in expansion. Watch ISM confirmation, control group, core capex, later GDP estimates. _(updated 2026-11-04 17:08 ET)_
 
 ## Housing
 
@@ -97,14 +97,14 @@ _Rendered 2026-11-04 15:57 ET from data/. Do not edit by hand; edit data/ or rer
 
 | Report | Period | Actual | Prior | Consensus | Surprise | Read |
 |---|---|---|---|---|---|---|
-| **Chicago Fed NFCI** | 2026-10-30 | nfci -0.46; nfci +0.01 chg; anfci -0.43; anfci +0.01 chg | nfci -0.47; nfci +0.01 chg; anfci -0.44; anfci +0.01 chg |  |  | _pending analysis_ [source](https://www.chicagofed.org/research/data/nfci/current-data) |
+| **Chicago Fed NFCI** | 2026-10-30 | nfci -0.46; nfci +0.01 chg; anfci -0.43; anfci +0.01 chg | nfci -0.47; nfci +0.01 chg; anfci -0.44; anfci +0.01 chg | unconfirmed |  | NFCI -0.459 (prior -0.467), up 0.008 for a fifth week of slight tightening. ANFCI -0.435. Still well below zero, no zero cross, no consensus exists. Immaterial alone; no HY or curve data to confirm. [source](https://www.chicagofed.org/research/data/nfci/current-data) |
 | **Senior Loan Officer Survey (C&I standards)** | 2026-Q4 | ci tightening net 1.70%; ci tightening net +1.7pp chg | ci tightening net 0.00%; ci tightening net -8.1pp chg | unconfirmed |  | Net 1.7% of banks tightened C&I standards, up from 0.0% prior (+1.7pt). Standards are roughly neutral, a small turn toward tightening. No consensus. Leads activity by 6 to 18 months; not yet a restrictive signal. [source](https://www.federalreserve.gov/data/sloos.htm) |
 | **Chicago Fed NFCI** | 2026-10-23 | nfci -0.49; nfci +0.01 chg; anfci -0.50; anfci +0.01 chg | nfci -0.49; nfci +0.01 chg; anfci -0.51; anfci +0.01 chg | unconfirmed |  | NFCI -0.487 (prior -0.494), up 0.007 for a fourth week of slight tightening. ANFCI -0.501. Well below zero, no zero cross, no consensus exists. Immaterial alone; no HY or curve data to confirm. [source](https://www.chicagofed.org/research/data/nfci/current-data) |
 | **Chicago Fed NFCI** | 2026-10-16 | nfci -0.50; nfci +0.01 chg; anfci -0.52; anfci +0.01 chg | nfci -0.50; nfci +0.01 chg; anfci -0.52; anfci +0.01 chg | unconfirmed |  | NFCI -0.496 (prior -0.502), up 0.006 for a third week of slight tightening. ANFCI -0.518. Still well below zero, no zero cross, no consensus exists. Immaterial alone; no HY or curve data to confirm. [source](https://www.chicagofed.org/research/data/nfci/current-data) |
 | **Chicago Fed NFCI** | 2026-10-09 | nfci -0.50; nfci +0.01 chg; anfci -0.48; anfci +0.01 chg | nfci -0.51; nfci +0.01 chg; anfci -0.50; anfci +0.01 chg | unconfirmed |  | NFCI -0.499 (prior -0.507), up 0.008 for a second week of slight tightening. Still well below zero, so conditions remain looser than average. No zero cross; no consensus exists. Immaterial on its own. [source](https://www.chicagofed.org/research/data/nfci/current-data) |
 | **Senior Loan Officer Survey (C&I standards)** | 2026-Q3 | ci tightening net 0.00%; ci tightening net -8.1pp chg | ci tightening net 8.10%; ci tightening net +2.8pp chg |  |  | _baseline (pre-migration)_ [source](https://www.federalreserve.gov/data/sloos.htm) |
 
-**Current stance:** Financial conditions are loose. NFCI at -0.487 is well below zero and has tightened 0.006 to 0.010 per week for four prints, about 0.02 in total. ANFCI is -0.501. SLOOS C&I net tightening is 1.7%, up from 0.0%, so bank credit standards are near neutral with a slight tightening bias. No regime signal. No curve or HY OAS history is logged, so multi-signal alignment cannot be assessed. Another SLOOS rise, NFCI toward zero, or HY widening with curve dis-inversion would change the view. _(updated 2026-11-03 11:10 ET)_
+**Current stance:** Financial conditions are loose. NFCI at -0.459 is well below zero and has tightened every week for five prints, 0.007 to 0.010 a week. ANFCI is -0.435. The prior levels in this release differ from last week's logged values, so earlier levels were likely revised. SLOOS C&I net tightening is 1.7%, up from 0.0%, near neutral. No regime signal. Would change on SLOOS rise, NFCI toward zero, or HY widening with curve dis-inversion. _(updated 2026-11-04 17:08 ET)_
 
 **Latest market levels** (as of 2026-10-30):
 
@@ -138,10 +138,10 @@ This week confirmed the firming-inflation half of last week's watch list and den
 
 | Domain | Last success | Age (h, weekdays) | Status |
 |---|---|---|---|
-| Inflation | 2026-11-04 15:56 ET | 0.0 | ok |
-| Labor | 2026-11-04 15:56 ET | 0.0 | ok |
-| Growth & Activity | 2026-11-04 15:56 ET | 0.0 | ok |
-| Housing | 2026-11-04 15:56 ET | 0.0 | ok |
-| Sentiment & Surveys | 2026-11-04 15:56 ET | 0.0 | ok |
-| Central Banks & Policy | 2026-11-04 15:56 ET | 0.0 | ok |
-| Financial Conditions & Markets | 2026-11-04 15:56 ET | 0.0 | ok |
+| Inflation | 2026-11-04 15:56 ET | 1.2 | ok |
+| Labor | 2026-11-04 15:56 ET | 1.2 | ok |
+| Growth & Activity | 2026-11-04 15:56 ET | 1.2 | ok |
+| Housing | 2026-11-04 15:56 ET | 1.2 | ok |
+| Sentiment & Surveys | 2026-11-04 15:56 ET | 1.2 | ok |
+| Central Banks & Policy | 2026-11-04 15:56 ET | 1.2 | ok |
+| Financial Conditions & Markets | 2026-11-04 15:56 ET | 1.2 | ok |
