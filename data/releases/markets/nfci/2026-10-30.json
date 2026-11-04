@@ -1,0 +1,28 @@
+{
+  "domain": "markets",
+  "report": "nfci",
+  "name": "Chicago Fed NFCI",
+  "ref": "2026-10-30",
+  "tier": 3,
+  "detected_at": "2026-11-04 15:19 ET",
+  "source": "fred",
+  "source_url": "https://www.chicagofed.org/research/data/nfci/current-data",
+  "metrics": {
+    "nfci.level": -0.459,
+    "nfci.diff": 0.008,
+    "anfci.level": -0.435,
+    "anfci.diff": 0.008
+  },
+  "prior": {
+    "nfci.level": -0.467,
+    "nfci.diff": 0.01,
+    "anfci.level": -0.443,
+    "anfci.diff": 0.011
+  },
+  "verified": true,
+  "consensus": null,
+  "consensus_source": null,
+  "surprise": null,
+  "read": null,
+  "status": "pending_analysis"
+}

@@ -1,0 +1,24 @@
+{
+  "domain": "growth",
+  "report": "trade",
+  "name": "Trade Balance",
+  "ref": "2026-09",
+  "tier": 3,
+  "detected_at": "2026-11-04 15:19 ET",
+  "source": "fred",
+  "source_url": "https://www.census.gov/foreign-trade/Press-Release/current_press_release/index.html",
+  "metrics": {
+    "balance_bn.level": -105.047,
+    "balance_bn.diff": 0.69
+  },
+  "prior": {
+    "balance_bn.level": -105.737,
+    "balance_bn.diff": -12.911
+  },
+  "verified": true,
+  "consensus": null,
+  "consensus_source": null,
+  "surprise": null,
+  "read": null,
+  "status": "pending_analysis"
+}
