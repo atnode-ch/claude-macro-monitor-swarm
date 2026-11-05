@@ -1,6 +1,6 @@
 # Macro Monitor: Blackboard
 
-_Rendered 2026-11-05 11:09 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
+_Rendered 2026-11-05 15:29 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
 
 ## Inflation
 
@@ -23,12 +23,12 @@ _Rendered 2026-11-05 11:09 ET from data/. Do not edit by hand; edit data/ or rer
 
 | Report | Period | Actual | Prior | Consensus | Surprise | Read |
 |---|---|---|---|---|---|---|
+| **Initial Jobless Claims** | 2026-10-31 | initial 189,000; initial -6,000 chg; initial 4wk 194,750; continuing 1,718,000 | initial 195,000; initial +0.00 chg; initial 4wk 197,000; continuing 1,718,000 |  |  | _pending analysis_ [source](https://www.dol.gov/ui/data.pdf) |
 | **ADP employment** | 2026-10 | private payrolls +86k chg | private payrolls +86k chg | unconfirmed |  | ADP October private payrolls +86k, same as the 86k prior in the packet. No consensus found. ADP is an imperfect NFP proxy; positive hiring fits the low-hire, low-fire read, and no turn signal (claims, openings) is added. [source](https://adpemploymentreport.com/) |
 | **JOLTS** | 2026-09 | openings 7,523k; openings +333k chg; quits rate 2.10% | openings 7,190k; openings -145k chg; quits rate 1.90% | unconfirmed |  | Openings rose 333k to 7,523k from 7,190k and quits rate rose to 2.1% from 1.9%. No consensus found. Rising openings argue against a labour turn; higher quits lead firmer wage growth. Mildly hawkish for rates. [source](https://www.bls.gov/news.release/jolts.htm) |
 | **Initial Jobless Claims** | 2026-10-24 | initial 194,000; initial -1,000 chg; initial 4wk 196,750; continuing 1,701,000 | initial 195,000; initial -5,000 chg; initial 4wk 198,000; continuing 1,701,000 | unconfirmed |  | Initial claims 194k, -1k w/w from 195k (prior revised up from 194k); consensus not found. 4-week average 196.75k from 198k, continuing 1.701M unchanged. Layoffs stay low, no turn signal; low-hire, low-fire holds. [source](https://www.dol.gov/ui/data.pdf) |
 | **Initial Jobless Claims** | 2026-10-17 | initial 194,000; initial -6,000 chg; initial 4wk 197,750; continuing 1,728,000 | initial 200,000; initial +2,000 chg; initial 4wk 198,750; continuing 1,728,000 | unconfirmed |  | Initial claims 194k, -6k w/w, a low print; consensus not found. 4-week average 197.75k (from 198.75k), continuing 1.728M. Layoffs stay low, no turn signal; low-hire, low-fire holds. [source](https://www.dol.gov/ui/data.pdf) |
 | **UK Labour Market (ONS)** | 2026-08 | unemployment rate 4.70%; awe regular yoy 3.70 |  | unemployment rate 4.90%; awe regular yoy 3.60 | unemployment_rate -0.2, awe_regular_yoy +0.1 | Unemployment 4.7% (3M to Aug) vs 4.9% consensus and 4.9% prior, a beat. Regular pay 3.7% vs 3.6% expected, steady. Vacancies at a 5-year low of 691k. Payrolled change unconfirmed. Firm pay keeps BoE hike risk live. [source](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/latest) |
-| **Initial Jobless Claims** | 2026-10-10 | initial 199,000; initial +1,000 chg; initial 4wk 198,500; continuing 1,710,000 | initial 198,000; initial -1,000 chg; initial 4wk 198,250; continuing 1,710,000 | initial 200,000 | initial.level -1000 | Initial claims 199k vs 200k consensus (unconfirmed), +1k w/w. 4-week average 198.5k, continuing 1.71M unchanged. Layoffs stay low, no labour-market turn signal; supports a low-hire, low-fire read. [source](https://www.dol.gov/ui/data.pdf) |
 
 **Current stance:** Labour market is low-hire, low-fire in the US: initial claims 194k, 4-week average 196.75k, continuing claims 1.701M (below 1.8M). JOLTS September openings 7,523k (from 7,190k), quits rate 2.1% (from 1.9%). ADP October private payrolls +86k, unchanged vs prior, so payrolls are not soft. No turn: that needs rising claims, falling openings and soft payrolls, and none is logged. UK: unemployment 4.7%, regular pay 3.7%, vacancies 691k, cooling without slack. UK payrolled change unconfirmed. Would change on 4-week claims above 215k, continuing claims above 1.8M, or openings falling. _(updated 2026-11-04 17:08 ET)_
 
@@ -82,12 +82,12 @@ _Rendered 2026-11-05 11:09 ET from data/. Do not edit by hand; edit data/ or rer
 
 | Report | Period | Actual | Prior | Consensus | Surprise | Read |
 |---|---|---|---|---|---|---|
+| **BoE decision** | 2026-11-05 | rate 4.00%; rate +25bp | rate 3.75% |  |  | _pending analysis_ [source](https://www.bankofengland.co.uk/monetary-policy) |
 | **ECB decision** | 2026-10-29 | rate 2.50%; rate +0bp | rate 2.50% | rate 2.50%; rate +0bp | rate.level +0, rate.change_bp +0 | ECB held the deposit rate at 2.50% (0bp), in line with the Reuters poll hold call. 64 of 73 economists in that poll expect a 25bp hike in December; guidance wording unconfirmed. Hold with hike bias is EUR-supportive. [source](https://www.ecb.europa.eu/press/govcdec/html/index.en.html) |
 | **FOMC decision** | 2026-10-28 | rate 4.00%; rate +0bp; rate lower 3.75% | rate 4.00% | rate +0bp | rate.change_bp +0 | Fed held at 3.75-4.00% (0bp), in line with consensus, but 2 of 12 voters dissented for a 25bp hike. Statement says inflation remains elevated. Hawkish hold: supports USD and yields, a risk for equities and gold. No SEP at this meeting. [source](https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm) |
 | **Eurozone HICP** | 2026-09 | headline +0.6% m/m; headline 3.8% y/y | headline +0.4% m/m; headline 3.2% y/y | headline 3.6% y/y | headline.yoy_pct +0.2 | HICP yoy 3.75% vs 3.6% consensus (unconfirmed) and 3.23% prior, a 3-year high led by energy. Core 2.5% was in line. Hawkish for ECB path and EUR, bunds; adds pressure on equities. [source](https://ec.europa.eu/eurostat/web/euro-indicators) |
 | **Eurozone GDP** | 2026-Q2 | real gdp +0.6% q/q; real gdp 1.2% y/y | real gdp -0.0% q/q; real gdp 0.5% y/y |  |  | _baseline (pre-migration)_ [source](https://ec.europa.eu/eurostat/web/euro-indicators) |
 | **BoE decision** | 2026-09-17 | rate 3.75% |  |  |  | _baseline (pre-migration)_ [source](https://www.bankofengland.co.uk/monetary-policy) |
-| **FOMC decision** | 2026-09-16 | rate 4.00%; rate +25bp; rate lower 3.75% | rate 3.75% |  |  | _baseline (pre-migration)_ [source](https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm) |
 
 **Current stance:** Policy stance is hawkish-leaning. The Fed held at 3.75-4.00% on 2026-10-28 with a 10-2 vote, both dissenters (Cook, Hammack) favouring a 25bp hike. The ECB held at 2.50% on 2026-10-29 as expected; tone and vote unconfirmed. September HICP at 3.75% yoy, above the 3.6% expected, keeps a December ECB hike in play (64 of 73 in the Reuters poll). Softer inflation or lower energy prices would ease the view; a hike signal from the ECB would harden it. _(updated 2026-10-29 17:10 ET)_
 
@@ -138,10 +138,10 @@ This week confirmed the firming-inflation half of last week's watch list and den
 
 | Domain | Last success | Age (h, weekdays) | Status |
 |---|---|---|---|
-| Inflation | 2026-11-04 19:55 ET | 15.2 | ok |
-| Labor | 2026-11-04 19:55 ET | 15.2 | ok |
-| Growth & Activity | 2026-11-04 19:55 ET | 15.2 | ok |
-| Housing | 2026-11-04 19:55 ET | 15.2 | ok |
-| Sentiment & Surveys | 2026-11-04 19:55 ET | 15.2 | ok |
-| Central Banks & Policy | 2026-11-04 19:55 ET | 15.2 | ok |
-| Financial Conditions & Markets | 2026-11-04 19:55 ET | 15.2 | ok |
+| Inflation | 2026-11-05 15:29 ET | 0.0 | ok |
+| Labor | 2026-11-05 15:29 ET | 0.0 | ok |
+| Growth & Activity | 2026-11-05 15:29 ET | 0.0 | ok |
+| Housing | 2026-11-05 15:29 ET | 0.0 | ok |
+| Sentiment & Surveys | 2026-11-05 15:29 ET | 0.0 | ok |
+| Central Banks & Policy | 2026-11-05 15:29 ET | 0.0 | ok |
+| Financial Conditions & Markets | 2026-11-05 15:29 ET | 0.0 | ok |
