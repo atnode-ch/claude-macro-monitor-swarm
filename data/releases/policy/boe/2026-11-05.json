@@ -16,12 +16,28 @@
   },
   "verified": true,
   "consensus": null,
-  "consensus_source": null,
+  "consensus_source": "No Reuters/Bloomberg poll found; only a mid-October prediction market priced a 25bp hike at 91.5% (not a poll)",
   "surprise": null,
-  "read": null,
-  "status": "pending_analysis",
+  "read": "BoE hiked 25bp to 4.0% from 3.75%, 8-1 with Mann wanting 50bp. Guidance conditional, not on a pre-set path. Hawkish for GBP and gilts. Vote from BoE page only, unconfirmed by a second source.",
+  "status": "analysed",
   "needs_fetch": [
     "vote_split",
     "guidance_tone"
-  ]
+  ],
+  "fields": {
+    "vote_split": "8-1 (Mann for +50bp)",
+    "guidance_tone": "conditional hawkish hike; not on a pre-set path"
+  },
+  "sources": [
+    "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026"
+  ],
+  "alert": {
+    "alert": true,
+    "material": true,
+    "reasons": [
+      "policy rate moved +25bp",
+      "no consensus available; surprise not assessed"
+    ]
+  },
+  "analysed_at": "2026-11-05 17:08 ET"
 }
