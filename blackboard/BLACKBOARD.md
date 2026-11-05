@@ -1,6 +1,6 @@
 # Macro Monitor: Blackboard
 
-_Rendered 2026-11-04 17:08 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
+_Rendered 2026-11-04 19:55 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
 
 ## Inflation
 
@@ -106,22 +106,22 @@ _Rendered 2026-11-04 17:08 ET from data/. Do not edit by hand; edit data/ or rer
 
 **Current stance:** Financial conditions are loose. NFCI at -0.459 is well below zero and has tightened every week for five prints, 0.007 to 0.010 a week. ANFCI is -0.435. The prior levels in this release differ from last week's logged values, so earlier levels were likely revised. SLOOS C&I net tightening is 1.7%, up from 0.0%, near neutral. No regime signal. Would change on SLOOS rise, NFCI toward zero, or HY widening with curve dis-inversion. _(updated 2026-11-04 17:08 ET)_
 
-**Latest market levels** (as of 2026-10-30):
+**Latest market levels** (as of 2026-11-03):
 
 | Series | Level | 1d | 5d | Unit |
 |---|---|---|---|---|
-| ust_10y | 4.94 | -4 | -6 | bp |
-| ust_2y | 4.56 | -5 | -13 | bp |
-| ust_3m | 4.16 | -2 | -6 | bp |
-| curve_10y2y | 0.38 | +1 | +7 | bp |
-| curve_10y3m | 0.78 | -2 | +0 | bp |
-| hy_oas | 3.44 | +18 | +6 | bp |
-| ig_oas | 0.94 | +5 | +3 | bp |
-| be_5y5y | 2.22 | -1 | +2 | bp |
-| be_10y | 2.34 | -1 | +0 | bp |
-| real_10y | 2.60 | -3 | -6 | bp |
-| sofr | 3.95 | +1 | +3 | bp |
-| vix | 19.42 | +2 | -0 | pts |
+| ust_10y | 4.95 | +4 | -4 | bp |
+| ust_2y | 4.61 | +2 | -9 | bp |
+| ust_3m | 4.21 | +0 | -1 | bp |
+| curve_10y2y | 0.34 | +2 | +5 | bp |
+| curve_10y3m | 0.74 | +4 | -3 | bp |
+| hy_oas | 3.40 | -3 | +22 | bp |
+| ig_oas | 0.93 | -1 | +5 | bp |
+| be_5y5y | 2.21 | +2 | -4 | bp |
+| be_10y | 2.30 | +1 | -5 | bp |
+| real_10y | 2.65 | +3 | +1 | bp |
+| sofr | 3.97 | +2 | +2 | bp |
+| vix | 20.83 | -0 | +3 | pts |
 | usd_broad | 121.67 | -0 | +0 | pts |
 
 ## Macro Synthesis
@@ -138,10 +138,10 @@ This week confirmed the firming-inflation half of last week's watch list and den
 
 | Domain | Last success | Age (h, weekdays) | Status |
 |---|---|---|---|
-| Inflation | 2026-11-04 15:56 ET | 1.2 | ok |
-| Labor | 2026-11-04 15:56 ET | 1.2 | ok |
-| Growth & Activity | 2026-11-04 15:56 ET | 1.2 | ok |
-| Housing | 2026-11-04 15:56 ET | 1.2 | ok |
-| Sentiment & Surveys | 2026-11-04 15:56 ET | 1.2 | ok |
-| Central Banks & Policy | 2026-11-04 15:56 ET | 1.2 | ok |
-| Financial Conditions & Markets | 2026-11-04 15:56 ET | 1.2 | ok |
+| Inflation | 2026-11-04 19:55 ET | 0.0 | ok |
+| Labor | 2026-11-04 19:55 ET | 0.0 | ok |
+| Growth & Activity | 2026-11-04 19:55 ET | 0.0 | ok |
+| Housing | 2026-11-04 19:55 ET | 0.0 | ok |
+| Sentiment & Surveys | 2026-11-04 19:55 ET | 0.0 | ok |
+| Central Banks & Policy | 2026-11-04 19:55 ET | 0.0 | ok |
+| Financial Conditions & Markets | 2026-11-04 19:55 ET | 0.0 | ok |
