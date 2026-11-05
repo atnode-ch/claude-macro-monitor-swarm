@@ -35,6 +35,12 @@
       "ref": "2026-09",
       "path": "data/releases/growth/trade/2026-09.json",
       "alert": false
+    },
+    {
+      "report": "ism_services",
+      "ref": "2026-10",
+      "path": "data/releases/growth/ism_services/2026-10.json",
+      "alert": false
     }
   ]
 }

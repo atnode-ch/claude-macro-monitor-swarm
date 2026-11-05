@@ -7,19 +7,37 @@
   "detected_at": "2026-11-04 15:19 ET",
   "source": "web",
   "source_url": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/",
-  "metrics": {},
+  "metrics": {
+    "pmi": 54.5,
+    "new_orders": 55.9,
+    "prices_paid": 73.0,
+    "employment": 51.4
+  },
   "prior": {},
-  "verified": false,
+  "verified": true,
   "consensus": null,
   "consensus_source": null,
   "surprise": null,
-  "read": null,
-  "status": "pending_analysis",
+  "read": "ISM Services PMI 54.5 (54.9 in Sep), new orders 55.9 (59.8), employment 51.4 (50.1), prices 73.0 (74.0). Still expansion; orders cooled 3.9 pts, hiring improved, prices stay hot. No confirmed consensus.",
+  "status": "analysed",
   "due_date": "2026-11-04",
   "needs_fetch": [
     "pmi",
     "new_orders",
     "prices_paid",
     "employment"
-  ]
+  ],
+  "fields": null,
+  "sources": [
+    "https://www.prnewswire.com/news-releases/services-pmi-at-54-5-october-2026-ism-services-pmi-report-302928112.html",
+    "https://www.monitordaily.com/ism-economic-activity-in-services-sector-expands-in-october-services-pmi-at-54-5/"
+  ],
+  "alert": {
+    "alert": false,
+    "material": false,
+    "reasons": [
+      "no consensus available; surprise not assessed"
+    ]
+  },
+  "analysed_at": "2026-11-05 11:09 ET"
 }
