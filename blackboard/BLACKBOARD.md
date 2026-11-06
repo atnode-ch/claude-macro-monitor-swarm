@@ -1,6 +1,6 @@
 # Macro Monitor: Blackboard
 
-_Rendered 2026-11-06 17:11 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
+_Rendered 2026-11-06 17:49 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
 
 ## Inflation
 
@@ -126,22 +126,22 @@ _Rendered 2026-11-06 17:11 ET from data/. Do not edit by hand; edit data/ or rer
 
 ## Macro Synthesis
 
-**2026-W44: Inflation firm and growth re-accelerating; the Fed holds with a hike bias while bonds rally**
+**2026-W45: Hot economy confirmed: payrolls and ISM firm, inflation pipeline hot, BoE hikes, while bonds keep rallying**
 
-This week confirmed the firming-inflation half of last week's watch list and denied the slowdown half. September core PCE rose 0.3% m/m and 3.1% y/y, up from 3.0%, so the PPI and CPI heat has now reached the Fed's preferred gauge. Q3 advance GDP printed 3.4% SAAR against 2.2% in Q2, durable goods orders rose 1.8% and claims stayed below 200,000. The Fed held at 3.75-4.00% with two dissents for a 25bp hike, and the ECB held at 2.50% with a December hike widely expected. Three domains now align: inflation, growth and policy all point to a hot economy and no near-term easing. The tension sits in markets: in the week to 28 Oct, 2y yields fell 14bp, HY spreads tightened 13bp and 5y5y breakevens dropped 7bp, so bonds and credit are not pricing that heat. Housing and consumer sentiment stay weak, the one soft spot.
+This week's data met last week's tests for a hot-economy regime. October payrolls rose 165k after 60k, unemployment fell to 4.1% and average hourly earnings rose 0.37% m/m. Initial claims fell to 189,000 and September JOLTS openings rose 333k to 7.52 million. ISM Services held at 54.5 and the unconfirmed ISM Manufacturing print was 55.5, with prices paid at 73.0 and 75.2. That lines up labour, growth and the early inflation pipeline in one direction, on top of September core PCE at 3.1% y/y. The BoE hiked 25bp to 4.0%, the first hike among the three central banks we track, and an ECB hike in December remains in play. Markets disagree: in the week to 4 Nov the 10y Treasury fell 15bp to 4.90% and 10y breakevens fell 12bp, while HY spreads widened 18bp. October CPI next week is the main test.
 
-**Regime watch:** The hot-economy regime is confirmed if next week's payrolls and ISM surveys hold firm, claims stay below 200,000 and the Fed's hike dissents gain support, with core PCE above 3.0% y/y. It is denied if hiring turns: payrolls near zero or negative, unemployment above 4.2%, JOLTS openings falling further and the 4-week claims average above 215,000. Markets are the swing factor: if 2y yields and HY spreads keep falling while core inflation accelerates, loose conditions will feed more inflation. A BoE hike would make the global tightening bias explicit.
-**Week ahead:** Mon 2026-11-02 ISM Manufacturing PMI; Wed 2026-11-04 ISM Services PMI; Thu 2026-11-05 BoE decision; Thu 2026-11-05 Initial Jobless Claims; Fri 2026-11-06 Non-Farm Payrolls; Fri 2026-11-06 JOLTS
+**Regime watch:** The hot-economy regime is now aligned across labour, growth, the inflation pipeline and policy. It firms further if October CPI shows core at 0.3% m/m or more and PPI stays hot, which would make a Fed hike live. It weakens if core CPI drops to 0.2% m/m or below, the 4-week claims average rises well above 194,750, or ISM new orders fall into contraction. Markets are the open question: if Treasury yields and breakevens keep falling while HY spreads widen and the NFCI moves toward zero, financial conditions would be leading the economy lower, the first sign of a turn the data have not yet confirmed.
+**Week ahead:** Thu 2026-11-12 CPI; Thu 2026-11-12 Initial Jobless Claims; Fri 2026-11-13 PPI
 **Swarm health:** all domains fresh
 
 ## Collector health
 
 | Domain | Last success | Age (h, weekdays) | Status |
 |---|---|---|---|
-| Inflation | 2026-11-06 15:36 ET | 1.6 | ok |
-| Labor | 2026-11-06 15:36 ET | 1.6 | ok |
-| Growth & Activity | 2026-11-06 15:36 ET | 1.6 | ok |
-| Housing | 2026-11-06 15:36 ET | 1.6 | ok |
-| Sentiment & Surveys | 2026-11-06 15:36 ET | 1.6 | ok |
-| Central Banks & Policy | 2026-11-06 15:36 ET | 1.6 | ok |
-| Financial Conditions & Markets | 2026-11-06 15:36 ET | 1.6 | ok |
+| Inflation | 2026-11-06 15:36 ET | 2.2 | ok |
+| Labor | 2026-11-06 15:36 ET | 2.2 | ok |
+| Growth & Activity | 2026-11-06 15:36 ET | 2.2 | ok |
+| Housing | 2026-11-06 15:36 ET | 2.2 | ok |
+| Sentiment & Surveys | 2026-11-06 15:36 ET | 2.2 | ok |
+| Central Banks & Policy | 2026-11-06 15:36 ET | 2.2 | ok |
+| Financial Conditions & Markets | 2026-11-06 15:36 ET | 2.2 | ok |
