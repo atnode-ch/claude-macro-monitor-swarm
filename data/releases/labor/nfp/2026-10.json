@@ -1,0 +1,30 @@
+{
+  "domain": "labor",
+  "report": "nfp",
+  "name": "Non-Farm Payrolls",
+  "ref": "2026-10",
+  "tier": 1,
+  "detected_at": "2026-11-06 14:52 ET",
+  "source": "fred",
+  "source_url": "https://www.bls.gov/news.release/empsit.htm",
+  "metrics": {
+    "payrolls_k.diff": 165.0,
+    "unemployment_rate.level": 4.1,
+    "unemployment_rate.diff": -0.1,
+    "ahe.chg_pct": 0.37,
+    "ahe.yoy_pct": 3.121
+  },
+  "prior": {
+    "payrolls_k.diff": 60.0,
+    "unemployment_rate.level": 4.2,
+    "unemployment_rate.diff": 0.1,
+    "ahe.chg_pct": 0.265,
+    "ahe.yoy_pct": 3.161
+  },
+  "verified": true,
+  "consensus": null,
+  "consensus_source": null,
+  "surprise": null,
+  "read": null,
+  "status": "pending_analysis"
+}

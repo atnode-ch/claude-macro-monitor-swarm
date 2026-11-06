@@ -1,6 +1,6 @@
 # Macro Monitor: Blackboard
 
-_Rendered 2026-11-05 19:58 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
+_Rendered 2026-11-06 14:52 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
 
 ## Inflation
 
@@ -23,12 +23,12 @@ _Rendered 2026-11-05 19:58 ET from data/. Do not edit by hand; edit data/ or rer
 
 | Report | Period | Actual | Prior | Consensus | Surprise | Read |
 |---|---|---|---|---|---|---|
+| **Non-Farm Payrolls** | 2026-10 | payrolls +165k chg; unemployment rate 4.10%; unemployment rate -0.10pp chg; ahe +0.4% m/m; ahe 3.1% y/y | payrolls +60k chg; unemployment rate 4.20%; unemployment rate +0.10pp chg; ahe +0.3% m/m; ahe 3.2% y/y |  |  | _pending analysis_ [source](https://www.bls.gov/news.release/empsit.htm) |
 | **Initial Jobless Claims** | 2026-10-31 | initial 189,000; initial -6,000 chg; initial 4wk 194,750; continuing 1,718,000 | initial 195,000; initial +0.00 chg; initial 4wk 197,000; continuing 1,718,000 | unconfirmed |  | Initial claims 189k, -6k w/w from 195k; consensus not found. 4-week average 194.75k from 197k, continuing 1.718M from 1.718M. Layoffs stay low, no turn signal; low-hire, low-fire holds. [source](https://www.dol.gov/ui/data.pdf) |
 | **ADP employment** | 2026-10 | private payrolls +86k chg | private payrolls +86k chg | unconfirmed |  | ADP October private payrolls +86k, same as the 86k prior in the packet. No consensus found. ADP is an imperfect NFP proxy; positive hiring fits the low-hire, low-fire read, and no turn signal (claims, openings) is added. [source](https://adpemploymentreport.com/) |
 | **JOLTS** | 2026-09 | openings 7,523k; openings +333k chg; quits rate 2.10% | openings 7,190k; openings -145k chg; quits rate 1.90% | unconfirmed |  | Openings rose 333k to 7,523k from 7,190k and quits rate rose to 2.1% from 1.9%. No consensus found. Rising openings argue against a labour turn; higher quits lead firmer wage growth. Mildly hawkish for rates. [source](https://www.bls.gov/news.release/jolts.htm) |
 | **Initial Jobless Claims** | 2026-10-24 | initial 194,000; initial -1,000 chg; initial 4wk 196,750; continuing 1,701,000 | initial 195,000; initial -5,000 chg; initial 4wk 198,000; continuing 1,701,000 | unconfirmed |  | Initial claims 194k, -1k w/w from 195k (prior revised up from 194k); consensus not found. 4-week average 196.75k from 198k, continuing 1.701M unchanged. Layoffs stay low, no turn signal; low-hire, low-fire holds. [source](https://www.dol.gov/ui/data.pdf) |
 | **Initial Jobless Claims** | 2026-10-17 | initial 194,000; initial -6,000 chg; initial 4wk 197,750; continuing 1,728,000 | initial 200,000; initial +2,000 chg; initial 4wk 198,750; continuing 1,728,000 | unconfirmed |  | Initial claims 194k, -6k w/w, a low print; consensus not found. 4-week average 197.75k (from 198.75k), continuing 1.728M. Layoffs stay low, no turn signal; low-hire, low-fire holds. [source](https://www.dol.gov/ui/data.pdf) |
-| **UK Labour Market (ONS)** | 2026-08 | unemployment rate 4.70%; awe regular yoy 3.70 |  | unemployment rate 4.90%; awe regular yoy 3.60 | unemployment_rate -0.2, awe_regular_yoy +0.1 | Unemployment 4.7% (3M to Aug) vs 4.9% consensus and 4.9% prior, a beat. Regular pay 3.7% vs 3.6% expected, steady. Vacancies at a 5-year low of 691k. Payrolled change unconfirmed. Firm pay keeps BoE hike risk live. [source](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/latest) |
 
 **Current stance:** Labour market is low-hire, low-fire in the US: initial claims 189k, 4-week average 194.75k, continuing claims 1.718M (below 1.8M). JOLTS September openings 7,523k (from 7,190k), quits rate 2.1% (from 1.9%). ADP October private payrolls +86k, unchanged vs prior, so payrolls are not soft. No turn: that needs rising claims, falling openings and soft payrolls, and none is logged. UK: unemployment 4.7%, regular pay 3.7%, vacancies 691k, cooling without slack. UK payrolled change unconfirmed. Would change on 4-week claims above 215k, continuing claims above 1.8M, or openings falling. _(updated 2026-11-05 17:08 ET)_
 
@@ -138,10 +138,10 @@ This week confirmed the firming-inflation half of last week's watch list and den
 
 | Domain | Last success | Age (h, weekdays) | Status |
 |---|---|---|---|
-| Inflation | 2026-11-05 19:58 ET | 0.0 | ok |
-| Labor | 2026-11-05 19:58 ET | 0.0 | ok |
-| Growth & Activity | 2026-11-05 19:58 ET | 0.0 | ok |
-| Housing | 2026-11-05 19:58 ET | 0.0 | ok |
-| Sentiment & Surveys | 2026-11-05 19:58 ET | 0.0 | ok |
-| Central Banks & Policy | 2026-11-05 19:58 ET | 0.0 | ok |
-| Financial Conditions & Markets | 2026-11-05 19:58 ET | 0.0 | ok |
+| Inflation | 2026-11-06 14:52 ET | 0.0 | ok |
+| Labor | 2026-11-06 14:52 ET | 0.0 | ok |
+| Growth & Activity | 2026-11-06 14:52 ET | 0.0 | ok |
+| Housing | 2026-11-06 14:52 ET | 0.0 | ok |
+| Sentiment & Surveys | 2026-11-06 14:52 ET | 0.0 | ok |
+| Central Banks & Policy | 2026-11-06 14:52 ET | 0.0 | ok |
+| Financial Conditions & Markets | 2026-11-06 14:52 ET | 0.0 | ok |

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05 19:58 ET",
+  "generated_at": "2026-11-06 14:52 ET",
   "cb_meetings": {
     "fed": [
       "2021-01-27",
@@ -98,40 +98,6 @@
     ]
   },
   "events": [
-    {
-      "date": "2026-10-29",
-      "time_et": "08:30",
-      "report": "claims",
-      "name": "Initial Jobless Claims",
-      "source": "estimate",
-      "weekday": "Thu"
-    },
-    {
-      "date": "2026-10-29",
-      "time_et": "08:30",
-      "report": "gdp",
-      "name": "GDP (real, SAAR)",
-      "source": "official",
-      "summary": "GDP (Advance Estimate), 3rd Quarter 2026",
-      "weekday": "Thu"
-    },
-    {
-      "date": "2026-10-29",
-      "time_et": "08:30",
-      "report": "pce",
-      "name": "PCE price index",
-      "source": "official",
-      "summary": "Personal Income and Outlays, September 2026",
-      "weekday": "Thu"
-    },
-    {
-      "date": "2026-10-29",
-      "time_et": "09:15",
-      "report": "ecb",
-      "name": "ECB decision",
-      "source": "official",
-      "weekday": "Thu"
-    },
     {
       "date": "2026-11-02",
       "time_et": null,
@@ -574,6 +540,14 @@
       "source": "official",
       "summary": "GDPNow",
       "weekday": "Thu"
+    },
+    {
+      "date": "2026-12-21",
+      "time_et": "10:00",
+      "report": "existing_home",
+      "name": "Existing Home Sales",
+      "source": "estimate",
+      "weekday": "Mon"
     }
   ],
   "errors": []
