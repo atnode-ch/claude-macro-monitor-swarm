@@ -1,6 +1,6 @@
 # Macro Monitor: Blackboard
 
-_Rendered 2026-11-06 19:08 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
+_Rendered 2026-11-09 17:54 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
 
 ## Inflation
 
@@ -106,23 +106,23 @@ _Rendered 2026-11-06 19:08 ET from data/. Do not edit by hand; edit data/ or rer
 
 **Current stance:** Financial conditions are loose. NFCI at -0.459 is well below zero and has tightened every week for five prints, 0.007 to 0.010 a week. ANFCI is -0.435. The prior levels in this release differ from last week's logged values, so earlier levels were likely revised. SLOOS C&I net tightening is 1.7%, up from 0.0%, near neutral. No regime signal. Would change on SLOOS rise, NFCI toward zero, or HY widening with curve dis-inversion. _(updated 2026-11-04 17:08 ET)_
 
-**Latest market levels** (as of 2026-11-05):
+**Latest market levels** (as of 2026-11-06):
 
 | Series | Level | 1d | 5d | Unit |
 |---|---|---|---|---|
-| ust_10y | 4.84 | -6 | -14 | bp |
-| ust_2y | 4.46 | -12 | -15 | bp |
-| ust_3m | 4.17 | -4 | -1 | bp |
-| curve_10y2y | 0.38 | +6 | +1 | bp |
-| curve_10y3m | 0.67 | -2 | -13 | bp |
-| hy_oas | 3.48 | +16 | +22 | bp |
-| ig_oas | 0.93 | +2 | +4 | bp |
-| be_5y5y | 2.22 | +0 | -1 | bp |
-| be_10y | 2.24 | -2 | -11 | bp |
-| real_10y | 2.60 | -4 | -3 | bp |
-| sofr | 3.92 | -2 | -2 | bp |
-| vix | 28.18 | +12 | +11 | pts |
-| usd_broad | 121.67 | -0 | +0 | pts |
+| ust_10y | 4.86 | +2 | -8 | bp |
+| ust_2y | 4.51 | +5 | -5 | bp |
+| ust_3m | 4.19 | +2 | +3 | bp |
+| curve_10y2y | 0.35 | -3 | -3 | bp |
+| curve_10y3m | 0.67 | +0 | -11 | bp |
+| hy_oas | 3.42 | -6 | -2 | bp |
+| ig_oas | 0.93 | +0 | -1 | bp |
+| be_5y5y | 2.17 | -5 | -5 | bp |
+| be_10y | 2.23 | -1 | -11 | bp |
+| real_10y | 2.63 | +3 | +3 | bp |
+| sofr | 3.89 | -3 | -6 | bp |
+| vix | 25.64 | -2 | +6 | pts |
+| usd_broad | 121.88 | +0 | +0 | pts |
 
 ## Macro Synthesis
 
@@ -138,10 +138,10 @@ This week's data met last week's tests for a hot-economy regime. October payroll
 
 | Domain | Last success | Age (h, weekdays) | Status |
 |---|---|---|---|
-| Inflation | 2026-11-06 19:08 ET | 0.0 | ok |
-| Labor | 2026-11-06 19:08 ET | 0.0 | ok |
-| Growth & Activity | 2026-11-06 19:08 ET | 0.0 | ok |
-| Housing | 2026-11-06 19:08 ET | 0.0 | ok |
-| Sentiment & Surveys | 2026-11-06 19:08 ET | 0.0 | ok |
-| Central Banks & Policy | 2026-11-06 19:08 ET | 0.0 | ok |
-| Financial Conditions & Markets | 2026-11-06 19:08 ET | 0.0 | ok |
+| Inflation | 2026-11-09 17:53 ET | 0.0 | ok |
+| Labor | 2026-11-09 17:53 ET | 0.0 | ok |
+| Growth & Activity | 2026-11-09 17:53 ET | 0.0 | ok |
+| Housing | 2026-11-09 17:53 ET | 0.0 | ok |
+| Sentiment & Surveys | 2026-11-09 17:53 ET | 0.0 | ok |
+| Central Banks & Policy | 2026-11-09 17:53 ET | 0.0 | ok |
+| Financial Conditions & Markets | 2026-11-09 17:53 ET | 0.0 | ok |
