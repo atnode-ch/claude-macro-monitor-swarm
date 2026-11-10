@@ -23,6 +23,17 @@
   "consensus": null,
   "consensus_source": null,
   "surprise": null,
-  "read": null,
-  "status": "pending_analysis"
+  "read": "Core +0.30% m/m vs +0.34% in Sep; headline +0.35% vs +0.65%. Cooler than the prior month but core is still above 0.2%. No poll consensus found (y/y not in feed), so no beat/miss call. Cuts stay on hold.",
+  "status": "analysed",
+  "fields": null,
+  "sources": [],
+  "alert": {
+    "alert": true,
+    "material": false,
+    "reasons": [
+      "tier-1 release",
+      "no consensus available; surprise not assessed"
+    ]
+  },
+  "analysed_at": "2026-11-10 17:14 ET"
 }
