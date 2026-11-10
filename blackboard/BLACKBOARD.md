@@ -1,6 +1,6 @@
 # Macro Monitor: Blackboard
 
-_Rendered 2026-11-09 21:45 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
+_Rendered 2026-11-10 15:19 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
 
 ## Inflation
 
@@ -8,12 +8,12 @@ _Rendered 2026-11-09 21:45 ET from data/. Do not edit by hand; edit data/ or rer
 
 | Report | Period | Actual | Prior | Consensus | Surprise | Read |
 |---|---|---|---|---|---|---|
+| **CPI** | 2026-10 | headline +0.3% m/m; core +0.3% m/m | headline +0.6% m/m; headline 3.7% y/y; core +0.3% m/m; core 2.6% y/y |  |  | _pending analysis_ [source](https://www.bls.gov/news.release/cpi.htm) |
 | **PCE price index** | 2026-09 | headline +0.5% m/m; headline 3.6% y/y; core +0.3% m/m; core 3.1% y/y | headline +0.3% m/m; headline 3.4% y/y; core +0.3% m/m; core 3.0% y/y | unconfirmed |  | Sept core PCE +0.32% m/m (Aug 0.26%), 3.12% y/y (Aug 3.03%); headline +0.49% m/m, 3.65% y/y (Aug 3.44%). No firm consensus found. Core is 1.1pp above the 2% target and rising; hawkish for yields, USD. [source](https://www.bea.gov/data/income-saving/personal-income) |
 | **PPI** | 2026-09 | headline +1.3% m/m; headline 6.3% y/y; core +0.7% m/m; core 5.0% y/y | headline +0.5% m/m; headline 5.6% y/y; core +0.2% m/m; core 4.8% y/y | headline +0.6% m/m | headline.chg_pct +0.7 | Headline PPI +1.3% m/m vs 0.6% consensus (unconfirmed), y/y 6.3% from 5.6%. Core +0.7% m/m, 5.0% y/y, up from 0.2%. Energy-led, but core also hot. Leads CPI 1 to 3 months: yields and USD up, cuts pushed back. [source](https://www.bls.gov/news.release/ppi.htm) |
 | **CPI** | 2026-09 | headline +0.6% m/m; headline 3.7% y/y; core +0.3% m/m; core 2.6% y/y | headline +0.4% m/m; headline 3.4% y/y; core +0.3% m/m; core 2.4% y/y | headline 3.6% y/y; core +0.2% m/m; core 2.4% y/y | headline.yoy_pct +0.1, core.chg_pct +0.12, core.yoy_pct +0.2 | Core +0.34% m/m vs 0.22% consensus (+0.12pp, material); core y/y 2.56% vs 2.4%, headline y/y 3.74% vs 3.6%. Hot print: yields and USD up, equities down, cuts pushed back. [source](https://www.bls.gov/news.release/cpi.htm) |
 | **PPI** | 2026-08 | headline +0.4% m/m; headline 5.4% y/y; core +0.2% m/m; core 4.6% y/y | headline +0.1% m/m; headline 4.8% y/y; core +0.3% m/m; core 4.3% y/y |  |  | _baseline (pre-migration)_ [source](https://www.bls.gov/news.release/ppi.htm) |
 | **PCE price index** | 2026-08 | headline +0.3% m/m; headline 3.4% y/y; core +0.2% m/m; core 3.0% y/y | headline +0.1% m/m; headline 3.4% y/y; core +0.1% m/m; core 3.0% y/y |  |  | _baseline (pre-migration)_ [source](https://www.bea.gov/data/income-saving/personal-income) |
-| **CPI** | 2026-08 | headline +0.4% m/m; headline 3.4% y/y; core +0.3% m/m; core 2.4% y/y | headline +0.1% m/m; headline 3.4% y/y; core +0.2% m/m; core 2.5% y/y |  |  | _baseline (pre-migration)_ [source](https://www.bls.gov/news.release/cpi.htm) |
 
 **Current stance:** Inflation pipeline is heating and now shows in PCE. September core PCE rose 0.32% m/m (3.12% y/y, from 3.03%), headline 0.49% m/m (3.65% y/y). This follows September PPI of 1.3% m/m headline and 0.7% core. Core PCE is 1.1pp above the 2% target and y/y is still accelerating, so cuts stay pushed back. Softer view needs energy reversal and core m/m near 0.2% to 0.3%. _(updated 2026-10-29 17:10 ET)_
 
@@ -138,10 +138,10 @@ This week's data met last week's tests for a hot-economy regime. October payroll
 
 | Domain | Last success | Age (h, weekdays) | Status |
 |---|---|---|---|
-| Inflation | 2026-11-09 21:45 ET | 0.0 | ok |
-| Labor | 2026-11-09 21:45 ET | 0.0 | ok |
-| Growth & Activity | 2026-11-09 21:45 ET | 0.0 | ok |
-| Housing | 2026-11-09 21:45 ET | 0.0 | ok |
-| Sentiment & Surveys | 2026-11-09 21:45 ET | 0.0 | ok |
-| Central Banks & Policy | 2026-11-09 21:45 ET | 0.0 | ok |
-| Financial Conditions & Markets | 2026-11-09 21:45 ET | 0.0 | ok |
+| Inflation | 2026-11-10 15:19 ET | 0.0 | ok |
+| Labor | 2026-11-10 15:19 ET | 0.0 | ok |
+| Growth & Activity | 2026-11-10 15:19 ET | 0.0 | ok |
+| Housing | 2026-11-10 15:19 ET | 0.0 | ok |
+| Sentiment & Surveys | 2026-11-10 15:19 ET | 0.0 | ok |
+| Central Banks & Policy | 2026-11-10 15:19 ET | 0.0 | ok |
+| Financial Conditions & Markets | 2026-11-10 15:19 ET | 0.0 | ok |
