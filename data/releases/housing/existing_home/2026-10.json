@@ -19,6 +19,16 @@
   "consensus": null,
   "consensus_source": null,
   "surprise": null,
-  "read": null,
-  "status": "pending_analysis"
+  "read": "Existing home sales fell 5.5% to 3.75M SAAR from a revised 3.97M. No consensus found. Closings lag, so this reflects the Aug/Sep rate rise to near 7.4%. Confirms affordability stress and a residential investment drag; negative for builders and REITs.",
+  "status": "analysed",
+  "fields": null,
+  "sources": [],
+  "alert": {
+    "alert": false,
+    "material": false,
+    "reasons": [
+      "no consensus available; surprise not assessed"
+    ]
+  },
+  "analysed_at": "2026-11-12 17:09 ET"
 }

@@ -1,3 +1,22 @@
 {
-  "items": []
+  "items": [
+    {
+      "report": "claims",
+      "ref": "2026-11-07",
+      "path": "data/releases/labor/claims/2026-11-07.json",
+      "alert": false
+    },
+    {
+      "report": "existing_home",
+      "ref": "2026-10",
+      "path": "data/releases/housing/existing_home/2026-10.json",
+      "alert": false
+    },
+    {
+      "report": "nfci",
+      "ref": "2026-11-06",
+      "path": "data/releases/markets/nfci/2026-11-06.json",
+      "alert": false
+    }
+  ]
 }

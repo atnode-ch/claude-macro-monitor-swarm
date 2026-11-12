@@ -1,6 +1,6 @@
 # Macro Monitor: Blackboard
 
-_Rendered 2026-11-12 16:37 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
+_Rendered 2026-11-12 17:13 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
 
 ## Inflation
 
@@ -23,14 +23,14 @@ _Rendered 2026-11-12 16:37 ET from data/. Do not edit by hand; edit data/ or rer
 
 | Report | Period | Actual | Prior | Consensus | Surprise | Read |
 |---|---|---|---|---|---|---|
-| **Initial Jobless Claims** | 2026-11-07 | initial 200,000; initial +9,000 chg; initial 4wk 195,250; continuing 1,697,000 | initial 191,000; initial -4,000 chg; initial 4wk 195,250; continuing 1,697,000 |  |  | _pending analysis_ [source](https://www.dol.gov/ui/data.pdf) |
+| **Initial Jobless Claims** | 2026-11-07 | initial 200,000; initial +9,000 chg; initial 4wk 195,250; continuing 1,697,000 | initial 191,000; initial -4,000 chg; initial 4wk 195,250; continuing 1,697,000 | unconfirmed |  | Initial claims 200k, +9k w/w from 191k (prior revised up from 189k); consensus not found. 4-week average 195.25k, continuing 1.697M. Still low, no turn signal, low-hire, low-fire holds. [source](https://www.dol.gov/ui/data.pdf) |
 | **Non-Farm Payrolls** | 2026-10 | payrolls +165k chg; unemployment rate 4.10%; unemployment rate -0.10pp chg; ahe +0.4% m/m; ahe 3.1% y/y | payrolls +60k chg; unemployment rate 4.20%; unemployment rate +0.10pp chg; ahe +0.3% m/m; ahe 3.2% y/y | unconfirmed |  | October payrolls +165k (prior +60k), unemployment 4.1% (from 4.2%), AHE +0.37% m/m (prior 0.265%), 3.12% y/y (prior 3.16%). No consensus found. Firm jobs with a faster m/m wage print; y/y wages still near 3.1%. [source](https://www.bls.gov/news.release/empsit.htm) |
 | **Initial Jobless Claims** | 2026-10-31 | initial 189,000; initial -6,000 chg; initial 4wk 194,750; continuing 1,718,000 | initial 195,000; initial +0.00 chg; initial 4wk 197,000; continuing 1,718,000 | unconfirmed |  | Initial claims 189k, -6k w/w from 195k; consensus not found. 4-week average 194.75k from 197k, continuing 1.718M from 1.718M. Layoffs stay low, no turn signal; low-hire, low-fire holds. [source](https://www.dol.gov/ui/data.pdf) |
 | **ADP employment** | 2026-10 | private payrolls +86k chg | private payrolls +86k chg | unconfirmed |  | ADP October private payrolls +86k, same as the 86k prior in the packet. No consensus found. ADP is an imperfect NFP proxy; positive hiring fits the low-hire, low-fire read, and no turn signal (claims, openings) is added. [source](https://adpemploymentreport.com/) |
 | **JOLTS** | 2026-09 | openings 7,523k; openings +333k chg; quits rate 2.10% | openings 7,190k; openings -145k chg; quits rate 1.90% | unconfirmed |  | Openings rose 333k to 7,523k from 7,190k and quits rate rose to 2.1% from 1.9%. No consensus found. Rising openings argue against a labour turn; higher quits lead firmer wage growth. Mildly hawkish for rates. [source](https://www.bls.gov/news.release/jolts.htm) |
 | **Initial Jobless Claims** | 2026-10-24 | initial 194,000; initial -1,000 chg; initial 4wk 196,750; continuing 1,701,000 | initial 195,000; initial -5,000 chg; initial 4wk 198,000; continuing 1,701,000 | unconfirmed |  | Initial claims 194k, -1k w/w from 195k (prior revised up from 194k); consensus not found. 4-week average 196.75k from 198k, continuing 1.701M unchanged. Layoffs stay low, no turn signal; low-hire, low-fire holds. [source](https://www.dol.gov/ui/data.pdf) |
 
-**Current stance:** Labour market is low-hire, low-fire in the US, with a firmer tone. October payrolls +165k (prior +60k), unemployment 4.1% (from 4.2%), AHE +0.37% m/m, 3.12% y/y. Claims 189k, 4-week average 194.75k, continuing 1.718M; JOLTS September openings 7,523k, quits 2.1%. ADP +86k. No turn: no rising claims, falling openings or soft payrolls. UK: unemployment 4.7%, regular pay 3.7%, cooling without slack; payrolled change unconfirmed. Would change on 4-week claims above 215k, continuing claims above 1.8M, falling openings, or AHE m/m staying above 0.3%. _(updated 2026-11-06 17:09 ET)_
+**Current stance:** Labour market is low-hire, low-fire in the US, with a firmer tone. October payrolls +165k (prior +60k), unemployment 4.1% (from 4.2%), AHE +0.37% m/m, 3.12% y/y. Claims 200k (+9k), 4-week average 195.25k, continuing 1.697M; JOLTS September openings 7,523k, quits 2.1%. ADP +86k. No turn: claims uptick is small, openings and payrolls are not soft. UK: unemployment 4.7%, regular pay 3.7%, cooling without slack; payrolled change unconfirmed. Would change on 4-week claims above 215k, continuing claims above 1.8M, falling openings, or AHE m/m staying above 0.3%. _(updated 2026-11-12 17:09 ET)_
 
 ## Growth & Activity
 
@@ -53,14 +53,14 @@ _Rendered 2026-11-12 16:37 ET from data/. Do not edit by hand; edit data/ or rer
 
 | Report | Period | Actual | Prior | Consensus | Surprise | Read |
 |---|---|---|---|---|---|---|
-| **Existing Home Sales** | 2026-10 | sales 3.75m; sales -5.5% m/m | sales 3.97m; sales +1.0% m/m |  |  | _pending analysis_ [source](https://www.nar.realtor/research-and-statistics/housing-statistics/existing-home-sales) |
+| **Existing Home Sales** | 2026-10 | sales 3.75m; sales -5.5% m/m | sales 3.97m; sales +1.0% m/m | unconfirmed |  | Existing home sales fell 5.5% to 3.75M SAAR from a revised 3.97M. No consensus found. Closings lag, so this reflects the Aug/Sep rate rise to near 7.4%. Confirms affordability stress and a residential investment drag; negative for builders and REITs. [source](https://www.nar.realtor/research-and-statistics/housing-statistics/existing-home-sales) |
 | **New Home Sales** | 2026-09 | sales 676k; sales -0.6% m/m | sales 680k; sales +5.1% m/m | unconfirmed |  | New home sales were 676k SAAR in September, down 0.6% from 680k after +5.1% in the prior period. No consensus found. A flat print at this level on a leading contract series does not confirm further deterioration but shows no recovery. [source](https://www.census.gov/construction/nrs/index.html) |
 | **Housing Starts & Building Permits** | 2026-09 | starts 1,221k; starts -5.2% m/m; permits 1,400k; permits -0.2% m/m | starts 1,288k; starts -5.9% m/m; permits 1,403k; permits -2.1% m/m | unconfirmed |  | September starts fell 5.2% to 1,221k SAAR, a second straight drop (prior -5.9%). Permits slipped 0.2% to 1,400k, so the leading series is steady. No consensus found. Weak starts signal a residential investment drag in Q3 GDP. [source](https://www.census.gov/construction/nrc/index.html) |
 | **Existing Home Sales** | 2026-09 | sales 3.99m; sales +1.5% m/m | sales 3.93m; sales -3.2% m/m | sales 3.95m | sales_m.level +0.04 | Existing home sales rose 1.5% to 3.99M SAAR, about 0.04M above the 3.95M consensus. Closings lag, and 30-year rates near 7.4% point to weaker Oct and Nov prints. Mild support for builders and REITs, limited GDP lift. [source](https://www.nar.realtor/research-and-statistics/housing-statistics/existing-home-sales) |
 | **Housing Starts & Building Permits** | 2026-08 | starts 1,275k; starts -2.6% m/m; permits 1,403k; permits -2.1% m/m | starts 1,309k; starts -9.0% m/m; permits 1,433k; permits +4.3% m/m |  |  | _baseline (pre-migration)_ [source](https://www.census.gov/construction/nrc/index.html) |
 | **New Home Sales** | 2026-08 | sales 684k; sales +6.4% m/m | sales 643k; sales -4.3% m/m |  |  | _baseline (pre-migration)_ [source](https://www.census.gov/construction/nrs/index.html) |
 
-**Current stance:** Housing is weak at a low level. September starts fell 5.2% to 1,221k SAAR after -5.9%. Permits held near 1,400k (-0.2%), the leading signal, so starts should stabilise. New home sales of 676k (-0.6% after +5.1%) were flat on the month, giving no sign of a rebound. Existing sales of 3.99M (+1.5%) are lagging closings, and mortgage rates near 7.4% cap affordability. Residential investment is a GDP drag. Permits below 1,350k or new home sales falling further would confirm deterioration. View is provisional. _(updated 2026-10-27 17:09 ET)_
+**Current stance:** Housing is weak at a low level and softened further. Existing sales fell 5.5% to 3.75M SAAR (prior revised to 3.97M), the lagged effect of mortgage rates near 7.4%. September starts fell 5.2% to 1,221k and permits held near 1,400k (-0.2%), so starts should stabilise. New home sales of 676k were flat. Residential investment remains a GDP drag. Permits below 1,350k or new home sales falling further would confirm deterioration. View is provisional. _(updated 2026-11-12 17:09 ET)_
 
 ## Sentiment & Surveys
 
@@ -97,14 +97,14 @@ _Rendered 2026-11-12 16:37 ET from data/. Do not edit by hand; edit data/ or rer
 
 | Report | Period | Actual | Prior | Consensus | Surprise | Read |
 |---|---|---|---|---|---|---|
-| **Chicago Fed NFCI** | 2026-11-06 | nfci -0.46; nfci +0.00 chg; anfci -0.48; anfci +0.00 chg | nfci -0.47; nfci +0.01 chg; anfci -0.48; anfci +0.00 chg |  |  | _pending analysis_ [source](https://www.chicagofed.org/research/data/nfci/current-data) |
+| **Chicago Fed NFCI** | 2026-11-06 | nfci -0.46; nfci +0.00 chg; anfci -0.48; anfci +0.00 chg | nfci -0.47; nfci +0.01 chg; anfci -0.48; anfci +0.00 chg | unconfirmed |  | NFCI -0.462 (prior -0.465), up 0.003, the smallest weekly rise in the logged run. ANFCI -0.477, unchanged. Well below zero, no zero cross, no consensus exists. Immaterial alone; no HY or curve data to confirm. [source](https://www.chicagofed.org/research/data/nfci/current-data) |
 | **Chicago Fed NFCI** | 2026-10-30 | nfci -0.46; nfci +0.01 chg; anfci -0.43; anfci +0.01 chg | nfci -0.47; nfci +0.01 chg; anfci -0.44; anfci +0.01 chg | unconfirmed |  | NFCI -0.459 (prior -0.467), up 0.008 for a fifth week of slight tightening. ANFCI -0.435. Still well below zero, no zero cross, no consensus exists. Immaterial alone; no HY or curve data to confirm. [source](https://www.chicagofed.org/research/data/nfci/current-data) |
 | **Senior Loan Officer Survey (C&I standards)** | 2026-Q4 | ci tightening net 1.70%; ci tightening net +1.7pp chg | ci tightening net 0.00%; ci tightening net -8.1pp chg | unconfirmed |  | Net 1.7% of banks tightened C&I standards, up from 0.0% prior (+1.7pt). Standards are roughly neutral, a small turn toward tightening. No consensus. Leads activity by 6 to 18 months; not yet a restrictive signal. [source](https://www.federalreserve.gov/data/sloos.htm) |
 | **Chicago Fed NFCI** | 2026-10-23 | nfci -0.49; nfci +0.01 chg; anfci -0.50; anfci +0.01 chg | nfci -0.49; nfci +0.01 chg; anfci -0.51; anfci +0.01 chg | unconfirmed |  | NFCI -0.487 (prior -0.494), up 0.007 for a fourth week of slight tightening. ANFCI -0.501. Well below zero, no zero cross, no consensus exists. Immaterial alone; no HY or curve data to confirm. [source](https://www.chicagofed.org/research/data/nfci/current-data) |
 | **Chicago Fed NFCI** | 2026-10-16 | nfci -0.50; nfci +0.01 chg; anfci -0.52; anfci +0.01 chg | nfci -0.50; nfci +0.01 chg; anfci -0.52; anfci +0.01 chg | unconfirmed |  | NFCI -0.496 (prior -0.502), up 0.006 for a third week of slight tightening. ANFCI -0.518. Still well below zero, no zero cross, no consensus exists. Immaterial alone; no HY or curve data to confirm. [source](https://www.chicagofed.org/research/data/nfci/current-data) |
 | **Chicago Fed NFCI** | 2026-10-09 | nfci -0.50; nfci +0.01 chg; anfci -0.48; anfci +0.01 chg | nfci -0.51; nfci +0.01 chg; anfci -0.50; anfci +0.01 chg | unconfirmed |  | NFCI -0.499 (prior -0.507), up 0.008 for a second week of slight tightening. Still well below zero, so conditions remain looser than average. No zero cross; no consensus exists. Immaterial on its own. [source](https://www.chicagofed.org/research/data/nfci/current-data) |
 
-**Current stance:** Financial conditions are loose. NFCI at -0.459 is well below zero and has tightened every week for five prints, 0.007 to 0.010 a week. ANFCI is -0.435. The prior levels in this release differ from last week's logged values, so earlier levels were likely revised. SLOOS C&I net tightening is 1.7%, up from 0.0%, near neutral. No regime signal. Would change on SLOOS rise, NFCI toward zero, or HY widening with curve dis-inversion. _(updated 2026-11-04 17:08 ET)_
+**Current stance:** Financial conditions are loose. NFCI at -0.462 is well below zero and still edging up (+0.003 this week), but the weekly pace has slowed from 0.008 to 0.003 and ANFCI is flat at -0.477. Prior levels were revised from last week's logged values (NFCI -0.459 became -0.465). SLOOS C&I net tightening is 1.7%, up from 0.0%, near neutral. No regime signal. Would change on SLOOS rise, NFCI toward zero, or HY widening with curve dis-inversion. _(updated 2026-11-12 17:09 ET)_
 
 **Latest market levels** (as of 2026-11-10):
 
@@ -138,10 +138,10 @@ This week's data met last week's tests for a hot-economy regime. October payroll
 
 | Domain | Last success | Age (h, weekdays) | Status |
 |---|---|---|---|
-| Inflation | 2026-11-12 16:36 ET | 0.0 | ok |
-| Labor | 2026-11-12 16:36 ET | 0.0 | ok |
-| Growth & Activity | 2026-11-12 16:36 ET | 0.0 | ok |
-| Housing | 2026-11-12 16:36 ET | 0.0 | ok |
-| Sentiment & Surveys | 2026-11-12 16:36 ET | 0.0 | ok |
-| Central Banks & Policy | 2026-11-12 16:36 ET | 0.0 | ok |
-| Financial Conditions & Markets | 2026-11-12 16:36 ET | 0.0 | ok |
+| Inflation | 2026-11-12 16:36 ET | 0.6 | ok |
+| Labor | 2026-11-12 16:36 ET | 0.6 | ok |
+| Growth & Activity | 2026-11-12 16:36 ET | 0.6 | ok |
+| Housing | 2026-11-12 16:36 ET | 0.6 | ok |
+| Sentiment & Surveys | 2026-11-12 16:36 ET | 0.6 | ok |
+| Central Banks & Policy | 2026-11-12 16:36 ET | 0.6 | ok |
+| Financial Conditions & Markets | 2026-11-12 16:36 ET | 0.6 | ok |

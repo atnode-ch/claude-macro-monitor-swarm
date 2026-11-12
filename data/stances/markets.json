@@ -1,6 +1,6 @@
 {
   "domain": "markets",
-  "stance": "Financial conditions are loose. NFCI at -0.459 is well below zero and has tightened every week for five prints, 0.007 to 0.010 a week. ANFCI is -0.435. The prior levels in this release differ from last week's logged values, so earlier levels were likely revised. SLOOS C&I net tightening is 1.7%, up from 0.0%, near neutral. No regime signal. Would change on SLOOS rise, NFCI toward zero, or HY widening with curve dis-inversion.",
-  "updated_at": "2026-11-04 17:08 ET",
-  "from": "nfci 2026-10-30"
+  "stance": "Financial conditions are loose. NFCI at -0.462 is well below zero and still edging up (+0.003 this week), but the weekly pace has slowed from 0.008 to 0.003 and ANFCI is flat at -0.477. Prior levels were revised from last week's logged values (NFCI -0.459 became -0.465). SLOOS C&I net tightening is 1.7%, up from 0.0%, near neutral. No regime signal. Would change on SLOOS rise, NFCI toward zero, or HY widening with curve dis-inversion.",
+  "updated_at": "2026-11-12 17:09 ET",
+  "from": "nfci 2026-11-06"
 }
