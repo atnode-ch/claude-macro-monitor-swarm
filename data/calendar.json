@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11 20:55 ET",
+  "generated_at": "2026-11-12 15:40 ET",
   "cb_meetings": {
     "fed": [
       "2021-01-27",
@@ -56,6 +56,7 @@
       "2027-07-28",
       "2027-09-15",
       "2027-10-27",
+      "2027-11-17",
       "2027-12-08"
     ],
     "ecb": [
@@ -98,23 +99,6 @@
     ]
   },
   "events": [
-    {
-      "date": "2026-11-04",
-      "time_et": "08:30",
-      "report": "trade",
-      "name": "Trade Balance",
-      "source": "official",
-      "summary": "U.S. International Trade in Goods and Services, September 2026",
-      "weekday": "Wed"
-    },
-    {
-      "date": "2026-11-04",
-      "time_et": null,
-      "report": "ism_services",
-      "name": "ISM Services PMI",
-      "source": "estimate",
-      "weekday": "Wed"
-    },
     {
       "date": "2026-11-05",
       "time_et": "07:00",
