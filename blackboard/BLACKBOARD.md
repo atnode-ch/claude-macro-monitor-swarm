@@ -1,6 +1,6 @@
 # Macro Monitor: Blackboard
 
-_Rendered 2026-11-12 17:13 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
+_Rendered 2026-11-12 20:08 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
 
 ## Inflation
 
@@ -138,10 +138,10 @@ This week's data met last week's tests for a hot-economy regime. October payroll
 
 | Domain | Last success | Age (h, weekdays) | Status |
 |---|---|---|---|
-| Inflation | 2026-11-12 16:36 ET | 0.6 | ok |
-| Labor | 2026-11-12 16:36 ET | 0.6 | ok |
-| Growth & Activity | 2026-11-12 16:36 ET | 0.6 | ok |
-| Housing | 2026-11-12 16:36 ET | 0.6 | ok |
-| Sentiment & Surveys | 2026-11-12 16:36 ET | 0.6 | ok |
-| Central Banks & Policy | 2026-11-12 16:36 ET | 0.6 | ok |
-| Financial Conditions & Markets | 2026-11-12 16:36 ET | 0.6 | ok |
+| Inflation | 2026-11-12 20:08 ET | 0.0 | ok |
+| Labor | 2026-11-12 20:08 ET | 0.0 | ok |
+| Growth & Activity | 2026-11-12 20:08 ET | 0.0 | ok |
+| Housing | 2026-11-12 20:08 ET | 0.0 | ok |
+| Sentiment & Surveys | 2026-11-12 20:08 ET | 0.0 | ok |
+| Central Banks & Policy | 2026-11-12 20:08 ET | 0.0 | ok |
+| Financial Conditions & Markets | 2026-11-12 20:08 ET | 0.0 | ok |
