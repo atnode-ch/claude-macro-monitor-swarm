@@ -1,6 +1,6 @@
 {
   "domain": "inflation",
-  "stance": "Inflation pipeline is hot but October CPI eased. Core CPI rose 0.30% m/m (Sep 0.34%) and headline 0.35% (Sep 0.65%), so the energy-led spike is fading. September core PCE was 0.32% m/m (3.12% y/y), 1.1pp above the 2% target and still accelerating, after September PPI of 1.3% headline and 0.7% core. Cuts stay pushed back. A softer view needs core m/m near 0.2% to 0.25% and energy reversal. October y/y CPI and consensus are unconfirmed.",
-  "updated_at": "2026-11-10 17:14 ET",
-  "from": "cpi 2026-10"
+  "stance": "Inflation pipeline is hot but cooling at the margin. October CPI core rose 0.30% m/m (Sep 0.34%) and headline 0.35% (Sep 0.65%). October PPI headline rose 0.35% m/m (Sep revised 1.41%) and core 0.33% (Sep 0.82%), though PPI y/y is 6.52% headline and 5.04% core. September core PCE was 0.32% m/m (3.12% y/y), 1.1pp above the 2% target. Cuts stay pushed back. A softer view needs core m/m near 0.2% to 0.25% across CPI and PPI. October consensus figures are unconfirmed.",
+  "updated_at": "2026-11-13 17:10 ET",
+  "from": "ppi 2026-10"
 }

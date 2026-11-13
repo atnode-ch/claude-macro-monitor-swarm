@@ -17,6 +17,12 @@
       "ref": "2026-11-06",
       "path": "data/releases/markets/nfci/2026-11-06.json",
       "alert": false
+    },
+    {
+      "report": "ppi",
+      "ref": "2026-10",
+      "path": "data/releases/inflation/ppi/2026-10.json",
+      "alert": false
     }
   ]
 }

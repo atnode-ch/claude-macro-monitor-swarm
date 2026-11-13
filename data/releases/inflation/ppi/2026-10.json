@@ -21,8 +21,20 @@
   },
   "verified": true,
   "consensus": null,
-  "consensus_source": null,
+  "consensus_source": "No reliable consensus found in one targeted search",
   "surprise": null,
-  "read": null,
-  "status": "pending_analysis"
+  "read": "Headline PPI +0.35% m/m vs 1.41% prior (revised), y/y 6.52% from 6.29%. Core +0.33% m/m vs 0.82%, y/y 5.04% from 5.02%. Monthly pace cooled sharply, but y/y stays high. No consensus found. Still supports a firm CPI pipeline.",
+  "status": "analysed",
+  "fields": null,
+  "sources": [
+    "https://www.bls.gov/news.release/ppi.htm"
+  ],
+  "alert": {
+    "alert": false,
+    "material": false,
+    "reasons": [
+      "no consensus available; surprise not assessed"
+    ]
+  },
+  "analysed_at": "2026-11-13 17:10 ET"
 }
