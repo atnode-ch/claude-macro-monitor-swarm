@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12 20:08 ET",
+  "generated_at": "2026-11-13 15:22 ET",
   "cb_meetings": {
     "fed": [
       "2021-01-27",
@@ -100,22 +100,6 @@
   },
   "events": [
     {
-      "date": "2026-11-05",
-      "time_et": "07:00",
-      "report": "boe",
-      "name": "BoE decision",
-      "source": "official",
-      "weekday": "Thu"
-    },
-    {
-      "date": "2026-11-05",
-      "time_et": "08:30",
-      "report": "claims",
-      "name": "Initial Jobless Claims",
-      "source": "estimate",
-      "weekday": "Thu"
-    },
-    {
       "date": "2026-11-06",
       "time_et": "08:30",
       "report": "nfp",
@@ -194,15 +178,6 @@
       "name": "UK Labour Market (ONS)",
       "source": "estimate",
       "weekday": "Tue"
-    },
-    {
-      "date": "2026-11-18",
-      "time_et": null,
-      "report": "gdp",
-      "name": "GDP (real, SAAR)",
-      "source": "official",
-      "summary": "GDPNow",
-      "weekday": "Wed"
     },
     {
       "date": "2026-11-19",
@@ -555,6 +530,14 @@
       "name": "UMich Consumer Sentiment (final)",
       "source": "estimate",
       "weekday": "Fri"
+    },
+    {
+      "date": "2026-12-28",
+      "time_et": "08:30",
+      "report": "durables",
+      "name": "Durable Goods",
+      "source": "estimate",
+      "weekday": "Mon"
     }
   ],
   "errors": []

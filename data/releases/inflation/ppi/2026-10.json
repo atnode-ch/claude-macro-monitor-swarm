@@ -1,0 +1,28 @@
+{
+  "domain": "inflation",
+  "report": "ppi",
+  "name": "PPI",
+  "ref": "2026-10",
+  "tier": 2,
+  "detected_at": "2026-11-13 15:22 ET",
+  "source": "fred",
+  "source_url": "https://www.bls.gov/news.release/ppi.htm",
+  "metrics": {
+    "headline.chg_pct": 0.348,
+    "headline.yoy_pct": 6.52,
+    "core.chg_pct": 0.326,
+    "core.yoy_pct": 5.04
+  },
+  "prior": {
+    "headline.chg_pct": 1.408,
+    "headline.yoy_pct": 6.286,
+    "core.chg_pct": 0.82,
+    "core.yoy_pct": 5.017
+  },
+  "verified": true,
+  "consensus": null,
+  "consensus_source": null,
+  "surprise": null,
+  "read": null,
+  "status": "pending_analysis"
+}
