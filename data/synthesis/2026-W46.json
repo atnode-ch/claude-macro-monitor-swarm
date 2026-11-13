@@ -1,0 +1,218 @@
+{
+  "regime": "Hot economy holds as inflation momentum eases: core CPI 0.3%, PPI cools from September, front-end yields rise",
+  "executive_summary": "October CPI met last week's test for a firm regime, but only at the margin. Core CPI rose 0.3% m/m, the same pace as September, and headline slowed to 0.3%. October PPI cooled sharply from a September spike: headline 0.3% m/m after 1.4%, core 0.3% after 0.8%, though y/y rates stay high at 6.5% and 5.0%. Labour data this week were limited to claims, which rose 9k to 200,000 with the 4-week average at 195,250, still low. Existing home sales fell 5.5% to 3.75M, keeping housing the weak link. Taken with last week's 165k payrolls, ISM above 54 and Q3 GDP at 3.4%, labour, growth and the inflation pipeline still point the same way. Markets moved toward the data: in the week to 10 Nov the 2y yield rose 12bp and the 10y real yield 13bp, while HY spreads tightened 9bp. The Fed's next move is a hold or a hike; no cut is live.",
+  "narrative": [
+    {
+      "title": "Inflation and policy",
+      "body": "October core CPI rose 0.3% m/m, matching September, and headline rose 0.3%, about half the September pace. The y/y rates are not in the feed, and no poll consensus was found, so we do not score a surprise. October PPI rose 0.3% m/m at both headline and core, after a revised 1.4% and 0.8% in September. The monthly pace cooled a lot, but PPI y/y rose to 6.5% from 6.3% headline and held at 5.0% core. The surveys say the pipeline is still hot: ISM Services prices were 73.0 and ISM Manufacturing prices paid 75.2 (unconfirmed, single publisher). The latest core PCE is September at 0.3% m/m and 3.1% y/y, with October PCE not yet out. Core m/m at 0.3% across CPI and PPI keeps the Fed on hold with a hike bias: it held at 3.75-4.00% with two dissents for a hike, and nothing this week argues for a cut. A softer view needs core near 0.2% m/m on both measures. Abroad, the BoE hiked 25bp to 4.0% last week and the ECB, at 2.50% with euro area HICP at 3.75% y/y, has a December hike in play."
+    },
+    {
+      "title": "Labour",
+      "body": "The only new US labour data this week were weekly claims. Initial claims for the week to 7 Nov rose 9k to 200,000. The 4-week average edged up to 195,250 and continuing claims fell to 1.697 million, from 1.718 million a week earlier. These are low levels, and last week's turn thresholds (4-week average well above 194,750, continuing claims above 1.8 million) were not crossed in any meaningful way. The October payroll report came out last week and set the tone: payrolls rose 165k, unemployment fell to 4.1% and average hourly earnings rose 0.37% m/m. September JOLTS openings were 7.52 million with quits at 2.1%. The picture is a low-fire labour market that is still adding jobs and lifting pay, which feeds services inflation through wages. UK labour data are due next week; the last print showed unemployment at 4.7% and regular pay at 3.7%."
+    },
+    {
+      "title": "Growth, housing and sentiment",
+      "body": "There were no new growth prints this week. The October CARTS retail nowcast is still unanalysed because its figures could not be retrieved, so we draw nothing from it. The latest data stay firm: Q3 advance GDP at 3.4% SAAR, ISM Services at 54.5 with new orders at 55.9, and ISM Manufacturing at 55.5 (unconfirmed, single publisher). September retail sales rose 0.8% m/m, but gasoline drove most of that. Housing is the clear exception. October existing home sales fell 5.5% to 3.75M SAAR from a revised 3.97M, reflecting mortgage rates near 7.4% in August and September. September starts were 1.22 million and permits steady near 1.40 million, so the leading series is not yet signalling a further leg down. Sentiment had no new data; UMich was 48.0 in October with 5y inflation expectations at 3.5%. Strong output alongside weak housing and weak confidence is the late-cycle mix that higher rates produce."
+    },
+    {
+      "title": "Financial conditions",
+      "body": "Market data run to 10 Nov and predate PPI and the weekly claims report. In the week to 10 Nov the front end sold off: the 2y yield rose 12bp to 4.73% and the 3m bill 9bp to 4.30%, while the 10y rose only 3bp to 4.98%. The 10y-2y curve flattened 9bp to 0.25%. The 10y real yield rose 13bp to 2.78% while 10y breakevens fell 10bp to 2.20% and 5y5y 6bp to 2.15%, so markets priced tighter policy, not higher inflation. Credit improved: HY spreads tightened 9bp to 3.34% and VIX was 19.46. The broad dollar index lags (last value 6 Nov), so we do not quote it. NFCI was -0.462 for the week to 6 Nov, still loose, and SLOOS shows near-neutral C&I standards. Last week's risk was that falling yields and wider spreads would lead the economy lower. This week reversed that: markets are moving toward a firmer Fed rather than away from the data."
+    }
+  ],
+  "domain_scorecard": [
+    {
+      "domain": "Inflation",
+      "signal": "firm",
+      "note": "Core CPI and PPI 0.3% m/m; monthly pace cooler than September"
+    },
+    {
+      "domain": "Labor",
+      "signal": "strong",
+      "note": "Claims 200,000, low; October payrolls 165k, unemployment 4.1%"
+    },
+    {
+      "domain": "Growth & Activity",
+      "signal": "strong",
+      "note": "Q3 GDP 3.4%, ISM above 54; no new prints, CARTS unanalysed"
+    },
+    {
+      "domain": "Housing",
+      "signal": "weakening",
+      "note": "Existing sales fell 5.5% to 3.75M; starts down, permits steady"
+    },
+    {
+      "domain": "Sentiment & Surveys",
+      "signal": "steady",
+      "note": "No new data; UMich 48.0, surveys diverge, low conviction"
+    },
+    {
+      "domain": "Central Banks & Policy",
+      "signal": "firm",
+      "note": "Fed hold with hike dissents; BoE hiked; ECB December hike in play"
+    },
+    {
+      "domain": "Financial Conditions & Markets",
+      "signal": "steady",
+      "note": "NFCI loose, HY tighter; front-end yields up 12bp"
+    }
+  ],
+  "regime_watch": "The hot-economy regime still holds across labour, growth, the inflation pipeline and policy, but October showed the first cooling in monthly price momentum. It firms if retail sales and industrial production next week stay strong and claims stay near 200,000, which would keep a Fed hike live. It weakens if core CPI and PPI drop to 0.2% m/m or below for a second month, the 4-week claims average rises above 215,000, or continuing claims pass 1.8 million. Housing is already weak; permits below 1.35 million would show rates biting harder. In markets, falling breakevens with rising real yields is a policy-tightening signal; a turn would show as HY spreads widening and NFCI moving toward zero.",
+  "week_ahead": [
+    {
+      "report": "retail",
+      "name": "Retail Sales",
+      "date": "2026-11-16",
+      "weekday": "Mon",
+      "time_et": "08:30",
+      "date_source": "estimate",
+      "why": "October spending after the gasoline-driven September beat; tests the strong-consumer leg of the regime."
+    },
+    {
+      "report": "indpro",
+      "name": "Industrial Production",
+      "date": "2026-11-16",
+      "weekday": "Mon",
+      "time_et": "09:15",
+      "date_source": "estimate",
+      "why": "Checks whether September's output jump held, and cross-checks the unconfirmed ISM Manufacturing print."
+    },
+    {
+      "report": "uk_labour",
+      "name": "UK Labour Market (ONS)",
+      "date": "2026-11-17",
+      "weekday": "Tue",
+      "time_et": null,
+      "date_source": "estimate",
+      "why": "First labour data after the BoE hike; pay at 3.7% keeps further hikes live."
+    },
+    {
+      "report": "starts",
+      "name": "Housing Starts & Building Permits",
+      "date": "2026-11-17",
+      "weekday": "Tue",
+      "time_et": "08:30",
+      "date_source": "estimate",
+      "why": "Permits are the leading housing series; a drop below 1.35 million would confirm deterioration."
+    },
+    {
+      "report": "claims",
+      "name": "Initial Jobless Claims",
+      "date": "2026-11-19",
+      "weekday": "Thu",
+      "time_et": "08:30",
+      "date_source": "estimate",
+      "why": "Initial claims near 200,000; a 4-week average above 215,000 would start a labour turn."
+    }
+  ],
+  "kpis": [
+    {
+      "label": "Core CPI m/m",
+      "ref": "inflation/cpi/2026-10:core.chg_pct",
+      "value": 0.296,
+      "unit": "%"
+    },
+    {
+      "label": "Core PPI y/y",
+      "ref": "inflation/ppi/2026-10:core.yoy_pct",
+      "value": 5.04,
+      "unit": "%"
+    },
+    {
+      "label": "Initial claims",
+      "ref": "labor/claims/2026-11-07:initial.level",
+      "value": 200000.0,
+      "unit": ""
+    },
+    {
+      "label": "Existing home sales (M)",
+      "ref": "housing/existing_home/2026-10:sales_m.level",
+      "value": 3.75,
+      "unit": "M"
+    },
+    {
+      "label": "2y Treasury",
+      "ref": "markets:ust_2y",
+      "value": 4.73,
+      "unit": "%"
+    },
+    {
+      "label": "HY OAS",
+      "ref": "markets:hy_oas",
+      "value": 3.34,
+      "unit": "%"
+    }
+  ],
+  "slack_summary": "Hot economy holds as inflation momentum eases: October core CPI and core PPI both 0.3% m/m, PPI well off its September spike.\nClaims 200,000, existing home sales down 5.5% to 3.75M; 2y yield up 12bp and HY spreads 9bp tighter in the week to 10 Nov.\nNext week: retail sales, industrial production, housing starts, UK labour, claims.",
+  "week": "2026-W46",
+  "week_ending": "2026-11-13",
+  "swarm_health": "all domains fresh",
+  "health": {
+    "all_ok": true,
+    "domains": [
+      {
+        "domain": "inflation",
+        "name": "Inflation",
+        "last_success": "2026-11-13 16:00 ET",
+        "age_hours": 1.8,
+        "stale": false,
+        "errors": []
+      },
+      {
+        "domain": "labor",
+        "name": "Labor",
+        "last_success": "2026-11-13 16:00 ET",
+        "age_hours": 1.8,
+        "stale": false,
+        "errors": []
+      },
+      {
+        "domain": "growth",
+        "name": "Growth & Activity",
+        "last_success": "2026-11-13 16:00 ET",
+        "age_hours": 1.8,
+        "stale": false,
+        "errors": []
+      },
+      {
+        "domain": "housing",
+        "name": "Housing",
+        "last_success": "2026-11-13 16:00 ET",
+        "age_hours": 1.8,
+        "stale": false,
+        "errors": []
+      },
+      {
+        "domain": "sentiment",
+        "name": "Sentiment & Surveys",
+        "last_success": "2026-11-13 16:00 ET",
+        "age_hours": 1.8,
+        "stale": false,
+        "errors": []
+      },
+      {
+        "domain": "policy",
+        "name": "Central Banks & Policy",
+        "last_success": "2026-11-13 16:00 ET",
+        "age_hours": 1.8,
+        "stale": false,
+        "errors": []
+      },
+      {
+        "domain": "markets",
+        "name": "Financial Conditions & Markets",
+        "last_success": "2026-11-13 16:00 ET",
+        "age_hours": 1.8,
+        "stale": false,
+        "errors": []
+      }
+    ],
+    "alert_text": "",
+    "checked_at": "2026-11-13 17:50 ET"
+  },
+  "audit": {
+    "issues": [],
+    "ok": true,
+    "checked_at": "2026-11-13 17:50 ET"
+  },
+  "finalized_at": "2026-11-13 17:50 ET"
+}
