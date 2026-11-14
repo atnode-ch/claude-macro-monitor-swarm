@@ -8,6 +8,24 @@
       "needs_fetch": true,
       "tier": 3,
       "detected_at": "2026-10-28 14:41 ET"
+    },
+    {
+      "domain": "policy",
+      "report": "ez_gdp",
+      "ref": "2026-Q3",
+      "path": "data/releases/policy/ez_gdp/2026-Q3.json",
+      "needs_fetch": false,
+      "tier": 3,
+      "detected_at": "2026-11-13 19:54 ET"
+    },
+    {
+      "domain": "markets",
+      "report": "market_levels",
+      "ref": "2026-W46",
+      "path": "data/releases/markets/market_levels/2026-W46.json",
+      "needs_fetch": false,
+      "tier": 3,
+      "detected_at": "2026-11-13 19:54 ET"
     }
   ]
 }

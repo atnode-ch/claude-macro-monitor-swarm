@@ -1,6 +1,6 @@
 # Macro Monitor: Blackboard
 
-_Rendered 2026-11-13 17:50 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
+_Rendered 2026-11-13 19:55 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
 
 ## Inflation
 
@@ -82,12 +82,12 @@ _Rendered 2026-11-13 17:50 ET from data/. Do not edit by hand; edit data/ or rer
 
 | Report | Period | Actual | Prior | Consensus | Surprise | Read |
 |---|---|---|---|---|---|---|
+| **Eurozone GDP** | 2026-Q3 | real gdp +0.4% q/q; real gdp 1.3% y/y | real gdp +0.6% q/q; real gdp 1.2% y/y |  |  | _pending analysis_ [source](https://ec.europa.eu/eurostat/web/euro-indicators) |
 | **BoE decision** | 2026-11-05 | rate 4.00%; rate +25bp | rate 3.75% | unconfirmed |  | BoE hiked 25bp to 4.0% from 3.75%, 8-1 with Mann wanting 50bp. Guidance conditional, not on a pre-set path. Hawkish for GBP and gilts. Vote from BoE page only, unconfirmed by a second source. [source](https://www.bankofengland.co.uk/monetary-policy) |
 | **ECB decision** | 2026-10-29 | rate 2.50%; rate +0bp | rate 2.50% | rate 2.50%; rate +0bp | rate.level +0, rate.change_bp +0 | ECB held the deposit rate at 2.50% (0bp), in line with the Reuters poll hold call. 64 of 73 economists in that poll expect a 25bp hike in December; guidance wording unconfirmed. Hold with hike bias is EUR-supportive. [source](https://www.ecb.europa.eu/press/govcdec/html/index.en.html) |
 | **FOMC decision** | 2026-10-28 | rate 4.00%; rate +0bp; rate lower 3.75% | rate 4.00% | rate +0bp | rate.change_bp +0 | Fed held at 3.75-4.00% (0bp), in line with consensus, but 2 of 12 voters dissented for a 25bp hike. Statement says inflation remains elevated. Hawkish hold: supports USD and yields, a risk for equities and gold. No SEP at this meeting. [source](https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm) |
 | **Eurozone HICP** | 2026-09 | headline +0.6% m/m; headline 3.8% y/y | headline +0.4% m/m; headline 3.2% y/y | headline 3.6% y/y | headline.yoy_pct +0.2 | HICP yoy 3.75% vs 3.6% consensus (unconfirmed) and 3.23% prior, a 3-year high led by energy. Core 2.5% was in line. Hawkish for ECB path and EUR, bunds; adds pressure on equities. [source](https://ec.europa.eu/eurostat/web/euro-indicators) |
 | **Eurozone GDP** | 2026-Q2 | real gdp +0.6% q/q; real gdp 1.2% y/y | real gdp -0.0% q/q; real gdp 0.5% y/y |  |  | _baseline (pre-migration)_ [source](https://ec.europa.eu/eurostat/web/euro-indicators) |
-| **BoE decision** | 2026-09-17 | rate 3.75% |  |  |  | _baseline (pre-migration)_ [source](https://www.bankofengland.co.uk/monetary-policy) |
 
 **Current stance:** Policy stance is hawkish-leaning. The Fed held at 3.75-4.00% on 2026-10-28 with a 10-2 vote, both dissenters favouring a hike. The ECB held at 2.50% on 2026-10-29; tone and vote unconfirmed. The BoE hiked 25bp to 4.0% on 2026-11-05, 8-1 (Mann for 50bp), guidance conditional on energy and second-round effects (vote unconfirmed by a second source). September euro-area HICP at 3.75% keeps a December ECB hike in play. Softer inflation or lower energy would ease the view; an ECB hike signal would harden it. _(updated 2026-11-05 17:08 ET)_
 
@@ -97,31 +97,31 @@ _Rendered 2026-11-13 17:50 ET from data/. Do not edit by hand; edit data/ or rer
 
 | Report | Period | Actual | Prior | Consensus | Surprise | Read |
 |---|---|---|---|---|---|---|
+| **Market levels (curve, spreads, breakevens, vol)** | 2026-W46 | hy_oas -28bp over 5d (level 3.20); ust_2y +40bp over 5d (level 4.86); ust_10y +26bp over 5d (level 5.10) |  |  |  | _pending analysis_ [source](https://fred.stlouisfed.org/) |
 | **Chicago Fed NFCI** | 2026-11-06 | nfci -0.46; nfci +0.00 chg; anfci -0.48; anfci +0.00 chg | nfci -0.47; nfci +0.01 chg; anfci -0.48; anfci +0.00 chg | unconfirmed |  | NFCI -0.462 (prior -0.465), up 0.003, the smallest weekly rise in the logged run. ANFCI -0.477, unchanged. Well below zero, no zero cross, no consensus exists. Immaterial alone; no HY or curve data to confirm. [source](https://www.chicagofed.org/research/data/nfci/current-data) |
 | **Chicago Fed NFCI** | 2026-10-30 | nfci -0.46; nfci +0.01 chg; anfci -0.43; anfci +0.01 chg | nfci -0.47; nfci +0.01 chg; anfci -0.44; anfci +0.01 chg | unconfirmed |  | NFCI -0.459 (prior -0.467), up 0.008 for a fifth week of slight tightening. ANFCI -0.435. Still well below zero, no zero cross, no consensus exists. Immaterial alone; no HY or curve data to confirm. [source](https://www.chicagofed.org/research/data/nfci/current-data) |
 | **Senior Loan Officer Survey (C&I standards)** | 2026-Q4 | ci tightening net 1.70%; ci tightening net +1.7pp chg | ci tightening net 0.00%; ci tightening net -8.1pp chg | unconfirmed |  | Net 1.7% of banks tightened C&I standards, up from 0.0% prior (+1.7pt). Standards are roughly neutral, a small turn toward tightening. No consensus. Leads activity by 6 to 18 months; not yet a restrictive signal. [source](https://www.federalreserve.gov/data/sloos.htm) |
 | **Chicago Fed NFCI** | 2026-10-23 | nfci -0.49; nfci +0.01 chg; anfci -0.50; anfci +0.01 chg | nfci -0.49; nfci +0.01 chg; anfci -0.51; anfci +0.01 chg | unconfirmed |  | NFCI -0.487 (prior -0.494), up 0.007 for a fourth week of slight tightening. ANFCI -0.501. Well below zero, no zero cross, no consensus exists. Immaterial alone; no HY or curve data to confirm. [source](https://www.chicagofed.org/research/data/nfci/current-data) |
 | **Chicago Fed NFCI** | 2026-10-16 | nfci -0.50; nfci +0.01 chg; anfci -0.52; anfci +0.01 chg | nfci -0.50; nfci +0.01 chg; anfci -0.52; anfci +0.01 chg | unconfirmed |  | NFCI -0.496 (prior -0.502), up 0.006 for a third week of slight tightening. ANFCI -0.518. Still well below zero, no zero cross, no consensus exists. Immaterial alone; no HY or curve data to confirm. [source](https://www.chicagofed.org/research/data/nfci/current-data) |
-| **Chicago Fed NFCI** | 2026-10-09 | nfci -0.50; nfci +0.01 chg; anfci -0.48; anfci +0.01 chg | nfci -0.51; nfci +0.01 chg; anfci -0.50; anfci +0.01 chg | unconfirmed |  | NFCI -0.499 (prior -0.507), up 0.008 for a second week of slight tightening. Still well below zero, so conditions remain looser than average. No zero cross; no consensus exists. Immaterial on its own. [source](https://www.chicagofed.org/research/data/nfci/current-data) |
 
 **Current stance:** Financial conditions are loose. NFCI at -0.462 is well below zero and still edging up (+0.003 this week), but the weekly pace has slowed from 0.008 to 0.003 and ANFCI is flat at -0.477. Prior levels were revised from last week's logged values (NFCI -0.459 became -0.465). SLOOS C&I net tightening is 1.7%, up from 0.0%, near neutral. No regime signal. Would change on SLOOS rise, NFCI toward zero, or HY widening with curve dis-inversion. _(updated 2026-11-12 17:09 ET)_
 
-**Latest market levels** (as of 2026-11-10):
+**Latest market levels** (as of 2026-11-12):
 
 | Series | Level | 1d | 5d | Unit |
 |---|---|---|---|---|
-| ust_10y | 4.98 | +10 | +3 | bp |
-| ust_2y | 4.73 | +17 | +12 | bp |
-| ust_3m | 4.30 | +6 | +9 | bp |
-| curve_10y2y | 0.25 | -7 | -9 | bp |
-| curve_10y3m | 0.68 | +4 | -6 | bp |
-| hy_oas | 3.34 | -8 | -9 | bp |
-| ig_oas | 0.91 | -2 | -3 | bp |
-| be_5y5y | 2.15 | -4 | -6 | bp |
-| be_10y | 2.20 | -2 | -10 | bp |
-| real_10y | 2.78 | +12 | +13 | bp |
-| sofr | 3.89 | +1 | -8 | bp |
-| vix | 19.46 | -0 | -1 | pts |
+| ust_10y | 5.10 | +12 | +26 | bp |
+| ust_2y | 4.86 | +13 | +40 | bp |
+| ust_3m | 4.32 | +2 | +15 | bp |
+| curve_10y2y | 0.24 | -1 | -14 | bp |
+| curve_10y3m | 0.78 | +10 | +11 | bp |
+| hy_oas | 3.20 | -10 | -28 | bp |
+| ig_oas | 0.89 | -1 | -4 | bp |
+| be_5y5y | 2.17 | +2 | -5 | bp |
+| be_10y | 2.24 | +4 | +0 | bp |
+| real_10y | 2.86 | +8 | +26 | bp |
+| sofr | 3.90 | +1 | -2 | bp |
+| vix | 18.70 | +1 | -10 | pts |
 | usd_broad | 121.88 | +0 | +0 | pts |
 
 ## Macro Synthesis
@@ -138,10 +138,10 @@ October CPI met last week's test for a firm regime, but only at the margin. Core
 
 | Domain | Last success | Age (h, weekdays) | Status |
 |---|---|---|---|
-| Inflation | 2026-11-13 16:00 ET | 1.8 | ok |
-| Labor | 2026-11-13 16:00 ET | 1.8 | ok |
-| Growth & Activity | 2026-11-13 16:00 ET | 1.8 | ok |
-| Housing | 2026-11-13 16:00 ET | 1.8 | ok |
-| Sentiment & Surveys | 2026-11-13 16:00 ET | 1.8 | ok |
-| Central Banks & Policy | 2026-11-13 16:00 ET | 1.8 | ok |
-| Financial Conditions & Markets | 2026-11-13 16:00 ET | 1.8 | ok |
+| Inflation | 2026-11-13 19:54 ET | 0.0 | ok |
+| Labor | 2026-11-13 19:54 ET | 0.0 | ok |
+| Growth & Activity | 2026-11-13 19:54 ET | 0.0 | ok |
+| Housing | 2026-11-13 19:54 ET | 0.0 | ok |
+| Sentiment & Surveys | 2026-11-13 19:54 ET | 0.0 | ok |
+| Central Banks & Policy | 2026-11-13 19:54 ET | 0.0 | ok |
+| Financial Conditions & Markets | 2026-11-13 19:54 ET | 0.0 | ok |

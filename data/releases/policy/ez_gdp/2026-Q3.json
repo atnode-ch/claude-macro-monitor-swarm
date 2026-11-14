@@ -1,0 +1,24 @@
+{
+  "domain": "policy",
+  "report": "ez_gdp",
+  "name": "Eurozone GDP",
+  "ref": "2026-Q3",
+  "tier": 3,
+  "detected_at": "2026-11-13 19:54 ET",
+  "source": "fred",
+  "source_url": "https://ec.europa.eu/eurostat/web/euro-indicators",
+  "metrics": {
+    "real_gdp.chg_pct": 0.411,
+    "real_gdp.yoy_pct": 1.283
+  },
+  "prior": {
+    "real_gdp.chg_pct": 0.646,
+    "real_gdp.yoy_pct": 1.187
+  },
+  "verified": true,
+  "consensus": null,
+  "consensus_source": null,
+  "surprise": null,
+  "read": null,
+  "status": "pending_analysis"
+}
