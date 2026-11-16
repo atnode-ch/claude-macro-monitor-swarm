@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13 19:54 ET",
+  "generated_at": "2026-11-16 17:45 ET",
   "cb_meetings": {
     "fed": [
       "2021-01-27",
@@ -99,30 +99,6 @@
     ]
   },
   "events": [
-    {
-      "date": "2026-11-06",
-      "time_et": "08:30",
-      "report": "nfp",
-      "name": "Non-Farm Payrolls",
-      "source": "estimate",
-      "weekday": "Fri"
-    },
-    {
-      "date": "2026-11-06",
-      "time_et": "10:00",
-      "report": "jolts",
-      "name": "JOLTS",
-      "source": "estimate",
-      "weekday": "Fri"
-    },
-    {
-      "date": "2026-11-06",
-      "time_et": null,
-      "report": "carts",
-      "name": "Chicago Fed CARTS retail nowcast",
-      "source": "estimate",
-      "weekday": "Fri"
-    },
     {
       "date": "2026-11-12",
       "time_et": "08:30",
@@ -538,6 +514,22 @@
       "name": "Durable Goods",
       "source": "estimate",
       "weekday": "Mon"
+    },
+    {
+      "date": "2026-12-29",
+      "time_et": null,
+      "report": "conf_board",
+      "name": "Conference Board Consumer Confidence",
+      "source": "estimate",
+      "weekday": "Tue"
+    },
+    {
+      "date": "2026-12-31",
+      "time_et": "08:30",
+      "report": "claims",
+      "name": "Initial Jobless Claims",
+      "source": "estimate",
+      "weekday": "Thu"
     }
   ],
   "errors": []

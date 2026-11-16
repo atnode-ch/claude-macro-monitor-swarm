@@ -1,6 +1,6 @@
 # Macro Monitor: Blackboard
 
-_Rendered 2026-11-16 17:10 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
+_Rendered 2026-11-16 17:46 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
 
 ## Inflation
 
@@ -106,23 +106,23 @@ _Rendered 2026-11-16 17:10 ET from data/. Do not edit by hand; edit data/ or rer
 
 **Current stance:** Financial conditions are loose. NFCI at -0.462 is below zero and edging up (+0.003). This week's market levels show a sharp front-end repricing (2y +40bp to 4.86, 10y +26bp to 5.10, 10y2y 0.24) while HY OAS tightened 28bp to 3.20 and VIX is 18.7. Rates are tightening but credit is not, so there is no multi-signal restrictive alignment. SLOOS C&I net tightening 1.7%, near neutral. CME FedWatch path unconfirmed. Would change on HY widening, NFCI toward zero, or SLOOS rise. _(updated 2026-11-16 11:10 ET)_
 
-**Latest market levels** (as of 2026-11-12):
+**Latest market levels** (as of 2026-11-13):
 
 | Series | Level | 1d | 5d | Unit |
 |---|---|---|---|---|
-| ust_10y | 5.10 | +12 | +26 | bp |
-| ust_2y | 4.86 | +13 | +40 | bp |
-| ust_3m | 4.32 | +2 | +15 | bp |
-| curve_10y2y | 0.24 | -1 | -14 | bp |
-| curve_10y3m | 0.78 | +10 | +11 | bp |
-| hy_oas | 3.20 | -10 | -28 | bp |
-| ig_oas | 0.89 | -1 | -4 | bp |
-| be_5y5y | 2.17 | +2 | -5 | bp |
-| be_10y | 2.24 | +4 | +0 | bp |
-| real_10y | 2.86 | +8 | +26 | bp |
-| sofr | 3.90 | +1 | -2 | bp |
-| vix | 18.70 | +1 | -10 | pts |
-| usd_broad | 121.88 | +0 | +0 | pts |
+| ust_10y | 5.15 | +5 | +29 | bp |
+| ust_2y | 4.88 | +2 | +37 | bp |
+| ust_3m | 4.32 | +0 | +13 | bp |
+| curve_10y2y | 0.27 | +3 | -8 | bp |
+| curve_10y3m | 0.83 | +5 | +16 | bp |
+| hy_oas | 3.23 | +3 | -19 | bp |
+| ig_oas | 0.89 | +0 | -4 | bp |
+| be_5y5y | 2.18 | +1 | +1 | bp |
+| be_10y | 2.24 | +0 | +1 | bp |
+| real_10y | 2.91 | +5 | +28 | bp |
+| sofr | 3.90 | +0 | +1 | bp |
+| vix | 19.30 | +1 | -6 | pts |
+| usd_broad | 122.65 | +0 | +1 | pts |
 
 ## Macro Synthesis
 
@@ -138,10 +138,10 @@ October CPI met last week's test for a firm regime, but only at the margin. Core
 
 | Domain | Last success | Age (h, weekdays) | Status |
 |---|---|---|---|
-| Inflation | 2026-11-13 19:54 ET | 21.3 | ok |
-| Labor | 2026-11-13 19:54 ET | 21.3 | ok |
-| Growth & Activity | 2026-11-13 19:54 ET | 21.3 | ok |
-| Housing | 2026-11-13 19:54 ET | 21.3 | ok |
-| Sentiment & Surveys | 2026-11-13 19:54 ET | 21.3 | ok |
-| Central Banks & Policy | 2026-11-13 19:54 ET | 21.3 | ok |
-| Financial Conditions & Markets | 2026-11-13 19:54 ET | 21.3 | ok |
+| Inflation | 2026-11-16 17:46 ET | 0.0 | ok |
+| Labor | 2026-11-16 17:46 ET | 0.0 | ok |
+| Growth & Activity | 2026-11-16 17:46 ET | 0.0 | ok |
+| Housing | 2026-11-16 17:46 ET | 0.0 | ok |
+| Sentiment & Surveys | 2026-11-16 17:46 ET | 0.0 | ok |
+| Central Banks & Policy | 2026-11-16 17:46 ET | 0.0 | ok |
+| Financial Conditions & Markets | 2026-11-16 17:46 ET | 0.0 | ok |
