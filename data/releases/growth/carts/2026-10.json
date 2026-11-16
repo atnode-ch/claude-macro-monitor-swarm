@@ -7,17 +7,31 @@
   "detected_at": "2026-10-28 14:41 ET",
   "source": "web",
   "source_url": "https://www.chicagofed.org/-/media/publications/carts/carts.pdf",
-  "metrics": {},
+  "metrics": {
+    "ex_auto_nominal_mom": 1.0
+  },
   "prior": {},
   "verified": false,
   "consensus": null,
   "consensus_source": null,
   "surprise": null,
-  "read": null,
-  "status": "pending_analysis",
+  "read": "CARTS October ex-auto nominal +1.0% m/m (FRED CARTSFINAL; Sep 0.4%), unconfirmed, one source. Real m/m not found. A preview of the Census print; strong if it holds, so watch control group.",
+  "status": "analysed",
   "due_date": "2026-10-28",
   "needs_fetch": [
     "ex_auto_nominal_mom",
     "ex_auto_real_mom"
-  ]
+  ],
+  "fields": null,
+  "sources": [
+    "https://fred.stlouisfed.org/data/CARTSFINAL"
+  ],
+  "alert": {
+    "alert": false,
+    "material": false,
+    "reasons": [
+      "no consensus available; surprise not assessed"
+    ]
+  },
+  "analysed_at": "2026-11-16 17:10 ET"
 }

@@ -1,6 +1,6 @@
 # Macro Monitor: Blackboard
 
-_Rendered 2026-11-16 11:10 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
+_Rendered 2026-11-16 17:10 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
 
 ## Inflation
 
@@ -42,10 +42,10 @@ _Rendered 2026-11-16 11:10 ET from data/. Do not edit by hand; edit data/ or rer
 | **Trade Balance** | 2026-09 | balance -105.0 $bn; balance +0.69 $bn chg | balance -105.7 $bn; balance -12.9 $bn chg | unconfirmed |  | September trade deficit -105.0bn vs -105.7bn in August, a 0.69bn narrowing after August's 12.9bn widening. Little net change, so no new swing for Q3 GDP net exports. No consensus found. [source](https://www.census.gov/foreign-trade/Press-Release/current_press_release/index.html) |
 | **ISM Manufacturing PMI** | 2026-10 | pmi 55.5; new orders 55.5; prices paid 75.2; employment 52.4 |  | unconfirmed |  | Unconfirmed, single publisher (Trading Economics): ISM PMI 55.5 vs 54.5 in Sep, new orders 55.5 (55.3), prices paid 75.2 (77.9), employment 52.4 (52.7). All above 50; orders support growth, prices paid still point to firm PPI. [source](https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/) |
 | **GDP (real, SAAR)** | 2026-Q3 | real gdp saar 3.40; real gdp saar +1.2 chg | real gdp saar 2.20; real gdp saar -0.30 chg | unconfirmed |  | Q3 advance real GDP +3.4% SAAR vs 2.2% in Q2 (+1.2pt), reversing the prior slowdown. No consensus found. Fits strong nominal retail and positive capex; watch the second estimate and real consumption. [source](https://www.bea.gov/data/gdp/gross-domestic-product) |
-| **Chicago Fed CARTS retail nowcast** | 2026-10 | _awaiting fetch_ |  |  |  | _pending analysis_ [source](https://www.chicagofed.org/-/media/publications/carts/carts.pdf) _(single-source, unconfirmed)_ |
+| **Chicago Fed CARTS retail nowcast** | 2026-10 | ex auto nominal mom 1.00 |  | unconfirmed |  | CARTS October ex-auto nominal +1.0% m/m (FRED CARTSFINAL; Sep 0.4%), unconfirmed, one source. Real m/m not found. A preview of the Census print; strong if it holds, so watch control group. [source](https://www.chicagofed.org/-/media/publications/carts/carts.pdf) _(single-source, unconfirmed)_ |
 | **Durable Goods** | 2026-09 | orders +1.8% m/m; core capex orders +0.5% m/m | orders +0.1% m/m; core capex orders +1.6% m/m | unconfirmed |  | Durable orders +1.84% m/m after +0.12%. Core capex orders +0.46% after +1.55%, so business investment is still rising but at a slower pace. One Continuum preview looked for +3.5% and +0.8%; no poll consensus found. [source](https://www.census.gov/manufacturing/m3/index.html) |
 
-**Current stance:** Growth: Q3 advance GDP printed 3.4% SAAR, up from 2.2% in Q2. Spending is strong (September retail sales +0.77% m/m; core capex orders +0.46%). September trade deficit -105.0bn (-105.7bn in August). October ISM services is verified at 54.5 (54.9 Sep) with new orders 55.9 (59.8), employment 51.4, prices 73.0: expansion with softer orders. October ISM manufacturing is unconfirmed (one publisher): PMI 55.5. Watch ISM manufacturing confirmation, control group, core capex, later GDP estimates. _(updated 2026-11-05 11:09 ET)_
+**Current stance:** Growth: Q3 advance GDP printed 3.4% SAAR, up from 2.2% in Q2. Spending is strong (September retail sales +0.77% m/m; core capex orders +0.46%). CARTS October ex-auto nominal +1.0% m/m (unconfirmed, one source) points to firm retail sales ahead. September trade deficit -105.0bn. October ISM services verified at 54.5 (54.9 Sep), new orders 55.9 (59.8). ISM manufacturing PMI 55.5 is unconfirmed. Watch CARTS confirmation, Census retail control group, core capex, later GDP. _(updated 2026-11-16 17:10 ET)_
 
 ## Housing
 
@@ -138,10 +138,10 @@ October CPI met last week's test for a firm regime, but only at the margin. Core
 
 | Domain | Last success | Age (h, weekdays) | Status |
 |---|---|---|---|
-| Inflation | 2026-11-13 19:54 ET | 15.3 | ok |
-| Labor | 2026-11-13 19:54 ET | 15.3 | ok |
-| Growth & Activity | 2026-11-13 19:54 ET | 15.3 | ok |
-| Housing | 2026-11-13 19:54 ET | 15.3 | ok |
-| Sentiment & Surveys | 2026-11-13 19:54 ET | 15.3 | ok |
-| Central Banks & Policy | 2026-11-13 19:54 ET | 15.3 | ok |
-| Financial Conditions & Markets | 2026-11-13 19:54 ET | 15.3 | ok |
+| Inflation | 2026-11-13 19:54 ET | 21.3 | ok |
+| Labor | 2026-11-13 19:54 ET | 21.3 | ok |
+| Growth & Activity | 2026-11-13 19:54 ET | 21.3 | ok |
+| Housing | 2026-11-13 19:54 ET | 21.3 | ok |
+| Sentiment & Surveys | 2026-11-13 19:54 ET | 21.3 | ok |
+| Central Banks & Policy | 2026-11-13 19:54 ET | 21.3 | ok |
+| Financial Conditions & Markets | 2026-11-13 19:54 ET | 21.3 | ok |

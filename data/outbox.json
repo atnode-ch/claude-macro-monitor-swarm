@@ -1,3 +1,10 @@
 {
-  "items": []
+  "items": [
+    {
+      "report": "carts",
+      "ref": "2026-10",
+      "path": "data/releases/growth/carts/2026-10.json",
+      "alert": false
+    }
+  ]
 }
