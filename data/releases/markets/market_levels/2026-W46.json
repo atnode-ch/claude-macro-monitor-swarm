@@ -27,13 +27,23 @@
   "consensus": null,
   "consensus_source": null,
   "surprise": null,
-  "read": null,
-  "status": "pending_analysis",
+  "read": "2y +40bp in 5d to 4.86 and 10y +26bp to 5.10 while HY OAS tightened 28bp to 3.20: a rates repricing, not credit stress. 10y2y 0.24. VIX 18.7. FedWatch path unconfirmed (no current reading found).",
+  "status": "analysed",
   "signals": [
     "hy_oas -28bp over 5d (level 3.20)",
     "ust_2y +40bp over 5d (level 4.86)",
     "ust_10y +26bp over 5d (level 5.10)"
   ],
   "fedwatch_check_needed": true,
-  "as_of": "2026-11-12"
+  "as_of": "2026-11-12",
+  "fields": null,
+  "sources": [],
+  "alert": {
+    "alert": true,
+    "material": true,
+    "reasons": [
+      "market move: hy_oas -28bp over 5d (level 3.20); ust_2y +40bp over 5d (level 4.86); ust_10y +26bp over 5d (level 5.10)"
+    ]
+  },
+  "analysed_at": "2026-11-16 11:10 ET"
 }

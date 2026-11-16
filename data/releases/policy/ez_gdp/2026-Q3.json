@@ -16,9 +16,28 @@
     "real_gdp.yoy_pct": 1.187
   },
   "verified": true,
-  "consensus": null,
-  "consensus_source": null,
-  "surprise": null,
-  "read": null,
-  "status": "pending_analysis"
+  "consensus": {
+    "real_gdp.chg_pct": 0.2,
+    "real_gdp.yoy_pct": 1.1
+  },
+  "consensus_source": "Eurostat flash Q3 2026 poll as reported by FXStreet and Trading Economics, 2026-10-30",
+  "surprise": {
+    "real_gdp.chg_pct": 0.2,
+    "real_gdp.yoy_pct": 0.2
+  },
+  "read": "Euro-area Q3 GDP +0.41% q/q vs 0.2% consensus, slower than 0.65% prior; y/y 1.28% vs 1.1% expected, up from 1.19%. Resilient growth gives the ECB room to hike if HICP stays high; mildly EUR supportive.",
+  "status": "analysed",
+  "fields": null,
+  "sources": [
+    "https://www.fxstreet.com/news/eurozone-gdp-expands-04-in-q3-beats-02-estimates-202610301002",
+    "https://tradingeconomics.com/euro-area/gdp-growth-annual/news/497643"
+  ],
+  "alert": {
+    "alert": true,
+    "material": true,
+    "reasons": [
+      "real_gdp.chg_pct surprise +0.2 (threshold 0.2)"
+    ]
+  },
+  "analysed_at": "2026-11-16 11:10 ET"
 }
