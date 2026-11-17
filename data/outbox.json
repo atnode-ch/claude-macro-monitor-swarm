@@ -5,6 +5,24 @@
       "ref": "2026-10",
       "path": "data/releases/growth/carts/2026-10.json",
       "alert": false
+    },
+    {
+      "report": "uk_labour",
+      "ref": "2026-09",
+      "path": "data/releases/labor/uk_labour/2026-09.json",
+      "alert": false
+    },
+    {
+      "report": "retail",
+      "ref": "2026-10",
+      "path": "data/releases/growth/retail/2026-10.json",
+      "alert": false
+    },
+    {
+      "report": "indpro",
+      "ref": "2026-10",
+      "path": "data/releases/growth/indpro/2026-10.json",
+      "alert": false
     }
   ]
 }

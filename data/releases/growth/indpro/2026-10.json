@@ -21,6 +21,18 @@
   "consensus": null,
   "consensus_source": null,
   "surprise": null,
-  "read": null,
-  "status": "pending_analysis"
+  "read": "IP -0.43% m/m (prior +0.73%), +2.15% y/y (prior 2.14%), capacity utilization 76.36% (prior 76.77%). Consensus not found. Output gave back part of the September gain; a soft hard-data input to Q4 GDP against firm spending.",
+  "status": "analysed",
+  "fields": null,
+  "sources": [
+    "https://www.federalreserve.gov/releases/g17/current/"
+  ],
+  "alert": {
+    "alert": false,
+    "material": false,
+    "reasons": [
+      "no consensus available; surprise not assessed"
+    ]
+  },
+  "analysed_at": "2026-11-17 17:09 ET"
 }

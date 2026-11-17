@@ -1,6 +1,6 @@
 {
   "domain": "labor",
-  "stance": "Labour market is low-hire, low-fire in the US, with a firmer tone. October payrolls +165k (prior +60k), unemployment 4.1% (from 4.2%), AHE +0.37% m/m, 3.12% y/y. Claims 200k (+9k), 4-week average 195.25k, continuing 1.697M; JOLTS September openings 7,523k, quits 2.1%. ADP +86k. No turn: claims uptick is small, openings and payrolls are not soft. UK: unemployment 4.7%, regular pay 3.7%, cooling without slack; payrolled change unconfirmed. Would change on 4-week claims above 215k, continuing claims above 1.8M, falling openings, or AHE m/m staying above 0.3%.",
-  "updated_at": "2026-11-12 17:09 ET",
-  "from": "claims 2026-11-07"
+  "stance": "Labour market is low-hire, low-fire in the US, with a firmer tone. October payrolls +165k (prior +60k), unemployment 4.1% (from 4.2%), AHE +0.37% m/m, 3.12% y/y. Claims 200k (+9k), 4-week average 195.25k, continuing 1.697M; JOLTS September openings 7,523k, quits 2.1%. ADP +86k. No turn: claims uptick is small, openings and payrolls are not soft. UK: unemployment 4.6%, regular pay 3.5% (from 3.7%), vacancies 690k, flash payrolls -34k unconfirmed; cooling pay with falling jobless rate. Would change on 4-week claims above 215k, continuing claims above 1.8M, falling openings, AHE m/m above 0.3%, or UK pay re-accelerating.",
+  "updated_at": "2026-11-17 17:09 ET",
+  "from": "uk_labour 2026-09"
 }

@@ -21,6 +21,16 @@
   "consensus": null,
   "consensus_source": null,
   "surprise": null,
-  "read": null,
-  "status": "pending_analysis"
+  "read": "Headline +0.21% m/m (prior +0.83%), ex-auto +0.21% (prior +0.82%): sharp slowdown, no consensus found. YoY 6.82% (prior 6.57%) still firm. Slower consumption input to Q4 GDP; CARTS +1.0% ex-auto pointed higher, so it diverged.",
+  "status": "analysed",
+  "fields": null,
+  "sources": [],
+  "alert": {
+    "alert": false,
+    "material": false,
+    "reasons": [
+      "no consensus available; surprise not assessed"
+    ]
+  },
+  "analysed_at": "2026-11-17 17:09 ET"
 }

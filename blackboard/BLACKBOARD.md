@@ -1,6 +1,6 @@
 # Macro Monitor: Blackboard
 
-_Rendered 2026-11-17 16:32 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
+_Rendered 2026-11-17 17:09 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
 
 ## Inflation
 
@@ -23,14 +23,14 @@ _Rendered 2026-11-17 16:32 ET from data/. Do not edit by hand; edit data/ or rer
 
 | Report | Period | Actual | Prior | Consensus | Surprise | Read |
 |---|---|---|---|---|---|---|
-| **UK Labour Market (ONS)** | 2026-09 | _awaiting fetch_ |  |  |  | _pending analysis_ [source](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/latest) _(single-source, unconfirmed)_ |
+| **UK Labour Market (ONS)** | 2026-09 | unemployment rate 4.60%; awe regular yoy 3.50; payrolled employees chg -34.0k |  | awe regular yoy 3.60 | awe_regular_yoy -0.1 | Unemployment 4.6% (3M to Sep) vs 4.7% prior, regular pay 3.5% vs 3.6% expected and 3.7% prior. Oct payrolled change -34k is flash, one source, unconfirmed. Vacancies 690k. Pay cooling eases BoE hike risk. [source](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/latest) |
 | **Initial Jobless Claims** | 2026-11-07 | initial 200,000; initial +9,000 chg; initial 4wk 195,250; continuing 1,697,000 | initial 191,000; initial -4,000 chg; initial 4wk 195,250; continuing 1,697,000 | unconfirmed |  | Initial claims 200k, +9k w/w from 191k (prior revised up from 189k); consensus not found. 4-week average 195.25k, continuing 1.697M. Still low, no turn signal, low-hire, low-fire holds. [source](https://www.dol.gov/ui/data.pdf) |
 | **Non-Farm Payrolls** | 2026-10 | payrolls +165k chg; unemployment rate 4.10%; unemployment rate -0.10pp chg; ahe +0.4% m/m; ahe 3.1% y/y | payrolls +60k chg; unemployment rate 4.20%; unemployment rate +0.10pp chg; ahe +0.3% m/m; ahe 3.2% y/y | unconfirmed |  | October payrolls +165k (prior +60k), unemployment 4.1% (from 4.2%), AHE +0.37% m/m (prior 0.265%), 3.12% y/y (prior 3.16%). No consensus found. Firm jobs with a faster m/m wage print; y/y wages still near 3.1%. [source](https://www.bls.gov/news.release/empsit.htm) |
 | **Initial Jobless Claims** | 2026-10-31 | initial 189,000; initial -6,000 chg; initial 4wk 194,750; continuing 1,718,000 | initial 195,000; initial +0.00 chg; initial 4wk 197,000; continuing 1,718,000 | unconfirmed |  | Initial claims 189k, -6k w/w from 195k; consensus not found. 4-week average 194.75k from 197k, continuing 1.718M from 1.718M. Layoffs stay low, no turn signal; low-hire, low-fire holds. [source](https://www.dol.gov/ui/data.pdf) |
 | **ADP employment** | 2026-10 | private payrolls +86k chg | private payrolls +86k chg | unconfirmed |  | ADP October private payrolls +86k, same as the 86k prior in the packet. No consensus found. ADP is an imperfect NFP proxy; positive hiring fits the low-hire, low-fire read, and no turn signal (claims, openings) is added. [source](https://adpemploymentreport.com/) |
 | **JOLTS** | 2026-09 | openings 7,523k; openings +333k chg; quits rate 2.10% | openings 7,190k; openings -145k chg; quits rate 1.90% | unconfirmed |  | Openings rose 333k to 7,523k from 7,190k and quits rate rose to 2.1% from 1.9%. No consensus found. Rising openings argue against a labour turn; higher quits lead firmer wage growth. Mildly hawkish for rates. [source](https://www.bls.gov/news.release/jolts.htm) |
 
-**Current stance:** Labour market is low-hire, low-fire in the US, with a firmer tone. October payrolls +165k (prior +60k), unemployment 4.1% (from 4.2%), AHE +0.37% m/m, 3.12% y/y. Claims 200k (+9k), 4-week average 195.25k, continuing 1.697M; JOLTS September openings 7,523k, quits 2.1%. ADP +86k. No turn: claims uptick is small, openings and payrolls are not soft. UK: unemployment 4.7%, regular pay 3.7%, cooling without slack; payrolled change unconfirmed. Would change on 4-week claims above 215k, continuing claims above 1.8M, falling openings, or AHE m/m staying above 0.3%. _(updated 2026-11-12 17:09 ET)_
+**Current stance:** Labour market is low-hire, low-fire in the US, with a firmer tone. October payrolls +165k (prior +60k), unemployment 4.1% (from 4.2%), AHE +0.37% m/m, 3.12% y/y. Claims 200k (+9k), 4-week average 195.25k, continuing 1.697M; JOLTS September openings 7,523k, quits 2.1%. ADP +86k. No turn: claims uptick is small, openings and payrolls are not soft. UK: unemployment 4.6%, regular pay 3.5% (from 3.7%), vacancies 690k, flash payrolls -34k unconfirmed; cooling pay with falling jobless rate. Would change on 4-week claims above 215k, continuing claims above 1.8M, falling openings, AHE m/m above 0.3%, or UK pay re-accelerating. _(updated 2026-11-17 17:09 ET)_
 
 ## Growth & Activity
 
@@ -38,14 +38,14 @@ _Rendered 2026-11-17 16:32 ET from data/. Do not edit by hand; edit data/ or rer
 
 | Report | Period | Actual | Prior | Consensus | Surprise | Read |
 |---|---|---|---|---|---|---|
-| **Retail Sales** | 2026-10 | headline +0.2% m/m; headline 6.8% y/y; ex auto +0.2% m/m | headline +0.8% m/m; headline 6.6% y/y; ex auto +0.8% m/m |  |  | _pending analysis_ [source](https://www.census.gov/retail/index.html) |
-| **Industrial Production** | 2026-10 | ip -0.4% m/m; ip 2.1% y/y; capacity util 76.4 | ip +0.7% m/m; ip 2.1% y/y; capacity util 76.8 |  |  | _pending analysis_ [source](https://www.federalreserve.gov/releases/g17/current/) |
+| **Retail Sales** | 2026-10 | headline +0.2% m/m; headline 6.8% y/y; ex auto +0.2% m/m | headline +0.8% m/m; headline 6.6% y/y; ex auto +0.8% m/m | unconfirmed |  | Headline +0.21% m/m (prior +0.83%), ex-auto +0.21% (prior +0.82%): sharp slowdown, no consensus found. YoY 6.82% (prior 6.57%) still firm. Slower consumption input to Q4 GDP; CARTS +1.0% ex-auto pointed higher, so it diverged. [source](https://www.census.gov/retail/index.html) |
+| **Industrial Production** | 2026-10 | ip -0.4% m/m; ip 2.1% y/y; capacity util 76.4 | ip +0.7% m/m; ip 2.1% y/y; capacity util 76.8 | unconfirmed |  | IP -0.43% m/m (prior +0.73%), +2.15% y/y (prior 2.14%), capacity utilization 76.36% (prior 76.77%). Consensus not found. Output gave back part of the September gain; a soft hard-data input to Q4 GDP against firm spending. [source](https://www.federalreserve.gov/releases/g17/current/) |
 | **ISM Services PMI** | 2026-10 | pmi 54.5; new orders 55.9; prices paid 73.0; employment 51.4 |  | unconfirmed |  | ISM Services PMI 54.5 (54.9 in Sep), new orders 55.9 (59.8), employment 51.4 (50.1), prices 73.0 (74.0). Still expansion; orders cooled 3.9 pts, hiring improved, prices stay hot. No confirmed consensus. [source](https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/) |
 | **Trade Balance** | 2026-09 | balance -105.0 $bn; balance +0.69 $bn chg | balance -105.7 $bn; balance -12.9 $bn chg | unconfirmed |  | September trade deficit -105.0bn vs -105.7bn in August, a 0.69bn narrowing after August's 12.9bn widening. Little net change, so no new swing for Q3 GDP net exports. No consensus found. [source](https://www.census.gov/foreign-trade/Press-Release/current_press_release/index.html) |
 | **ISM Manufacturing PMI** | 2026-10 | pmi 55.5; new orders 55.5; prices paid 75.2; employment 52.4 |  | unconfirmed |  | Unconfirmed, single publisher (Trading Economics): ISM PMI 55.5 vs 54.5 in Sep, new orders 55.5 (55.3), prices paid 75.2 (77.9), employment 52.4 (52.7). All above 50; orders support growth, prices paid still point to firm PPI. [source](https://www.ismworld.org/supply-management-news-and-reports/reports/ism-report-on-business/) |
 | **GDP (real, SAAR)** | 2026-Q3 | real gdp saar 3.40; real gdp saar +1.2 chg | real gdp saar 2.20; real gdp saar -0.30 chg | unconfirmed |  | Q3 advance real GDP +3.4% SAAR vs 2.2% in Q2 (+1.2pt), reversing the prior slowdown. No consensus found. Fits strong nominal retail and positive capex; watch the second estimate and real consumption. [source](https://www.bea.gov/data/gdp/gross-domestic-product) |
 
-**Current stance:** Growth: Q3 advance GDP printed 3.4% SAAR, up from 2.2% in Q2. Spending is strong (September retail sales +0.77% m/m; core capex orders +0.46%). CARTS October ex-auto nominal +1.0% m/m (unconfirmed, one source) points to firm retail sales ahead. September trade deficit -105.0bn. October ISM services verified at 54.5 (54.9 Sep), new orders 55.9 (59.8). ISM manufacturing PMI 55.5 is unconfirmed. Watch CARTS confirmation, Census retail control group, core capex, later GDP. _(updated 2026-11-16 17:10 ET)_
+**Current stance:** Growth: Q3 advance GDP printed 3.4% SAAR, up from 2.2% in Q2. Spending is strong (September retail sales +0.77% m/m; core capex orders +0.46%). October IP fell 0.43% m/m after +0.73%, capacity utilization 76.36%, y/y still 2.15%: output softer, one month only. CARTS October ex-auto +1.0% m/m is unconfirmed (one source). ISM services 54.5 verified; ISM manufacturing 55.5 unconfirmed. Watch IP revisions, CARTS, retail control group, core capex. _(updated 2026-11-17 17:09 ET)_
 
 ## Housing
 
@@ -138,10 +138,10 @@ October CPI met last week's test for a firm regime, but only at the margin. Core
 
 | Domain | Last success | Age (h, weekdays) | Status |
 |---|---|---|---|
-| Inflation | 2026-11-17 16:31 ET | 0.0 | ok |
-| Labor | 2026-11-17 16:31 ET | 0.0 | ok |
-| Growth & Activity | 2026-11-17 16:31 ET | 0.0 | ok |
-| Housing | 2026-11-17 16:31 ET | 0.0 | ok |
-| Sentiment & Surveys | 2026-11-17 16:31 ET | 0.0 | ok |
-| Central Banks & Policy | 2026-11-17 16:31 ET | 0.0 | ok |
-| Financial Conditions & Markets | 2026-11-17 16:31 ET | 0.0 | ok |
+| Inflation | 2026-11-17 16:31 ET | 0.6 | ok |
+| Labor | 2026-11-17 16:31 ET | 0.6 | ok |
+| Growth & Activity | 2026-11-17 16:31 ET | 0.6 | ok |
+| Housing | 2026-11-17 16:31 ET | 0.6 | ok |
+| Sentiment & Surveys | 2026-11-17 16:31 ET | 0.6 | ok |
+| Central Banks & Policy | 2026-11-17 16:31 ET | 0.6 | ok |
+| Financial Conditions & Markets | 2026-11-17 16:31 ET | 0.6 | ok |
