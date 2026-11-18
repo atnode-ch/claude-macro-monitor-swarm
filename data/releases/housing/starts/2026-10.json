@@ -1,0 +1,28 @@
+{
+  "domain": "housing",
+  "report": "starts",
+  "name": "Housing Starts & Building Permits",
+  "ref": "2026-10",
+  "tier": 3,
+  "detected_at": "2026-11-18 16:08 ET",
+  "source": "fred",
+  "source_url": "https://www.census.gov/construction/nrc/index.html",
+  "metrics": {
+    "starts_k.level": 1309.0,
+    "starts_k.chg_pct": 9.908,
+    "permits_k.level": 1295.0,
+    "permits_k.chg_pct": -7.368
+  },
+  "prior": {
+    "starts_k.level": 1191.0,
+    "starts_k.chg_pct": -6.953,
+    "permits_k.level": 1398.0,
+    "permits_k.chg_pct": -0.356
+  },
+  "verified": true,
+  "consensus": null,
+  "consensus_source": null,
+  "surprise": null,
+  "read": null,
+  "status": "pending_analysis"
+}

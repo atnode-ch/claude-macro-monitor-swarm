@@ -1,3 +1,31 @@
 {
-  "items": []
+  "items": [
+    {
+      "domain": "housing",
+      "report": "starts",
+      "ref": "2026-10",
+      "path": "data/releases/housing/starts/2026-10.json",
+      "needs_fetch": false,
+      "tier": 3,
+      "detected_at": "2026-11-18 16:08 ET"
+    },
+    {
+      "domain": "policy",
+      "report": "ez_hicp",
+      "ref": "2026-10",
+      "path": "data/releases/policy/ez_hicp/2026-10.json",
+      "needs_fetch": false,
+      "tier": 3,
+      "detected_at": "2026-11-18 16:08 ET"
+    },
+    {
+      "domain": "markets",
+      "report": "nfci",
+      "ref": "2026-11-13",
+      "path": "data/releases/markets/nfci/2026-11-13.json",
+      "needs_fetch": false,
+      "tier": 3,
+      "detected_at": "2026-11-18 16:08 ET"
+    }
+  ]
 }
