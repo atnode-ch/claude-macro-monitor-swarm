@@ -23,6 +23,24 @@
       "ref": "2026-10",
       "path": "data/releases/growth/indpro/2026-10.json",
       "alert": false
+    },
+    {
+      "report": "ez_hicp",
+      "ref": "2026-10",
+      "path": "data/releases/policy/ez_hicp/2026-10.json",
+      "alert": false
+    },
+    {
+      "report": "nfci",
+      "ref": "2026-11-13",
+      "path": "data/releases/markets/nfci/2026-11-13.json",
+      "alert": false
+    },
+    {
+      "report": "starts",
+      "ref": "2026-10",
+      "path": "data/releases/housing/starts/2026-10.json",
+      "alert": false
     }
   ]
 }

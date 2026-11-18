@@ -21,8 +21,18 @@
   },
   "verified": true,
   "consensus": null,
-  "consensus_source": null,
+  "consensus_source": "No consensus found for October 2026 in a targeted search on 2026-11-18",
   "surprise": null,
-  "read": null,
-  "status": "pending_analysis"
+  "read": "October starts rose 9.9% to 1,309k SAAR from a revised 1,191k, but permits fell 7.4% to 1,295k from 1,398k. Permits lead starts by about a month, so the rebound looks fragile. No consensus found.",
+  "status": "analysed",
+  "fields": null,
+  "sources": [],
+  "alert": {
+    "alert": false,
+    "material": false,
+    "reasons": [
+      "no consensus available; surprise not assessed"
+    ]
+  },
+  "analysed_at": "2026-11-18 17:08 ET"
 }

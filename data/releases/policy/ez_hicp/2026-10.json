@@ -16,9 +16,24 @@
     "headline.yoy_pct": 3.76
   },
   "verified": true,
-  "consensus": null,
-  "consensus_source": null,
-  "surprise": null,
-  "read": null,
-  "status": "pending_analysis"
+  "consensus": {
+    "headline.yoy_pct": 4.0
+  },
+  "consensus_source": "FXStreet and InvestingLive coverage of the 2026-11-04 flash (4.0% yoy expected); unconfirmed by a formal poll",
+  "surprise": {
+    "headline.yoy_pct": 0.0
+  },
+  "read": "HICP yoy 4.01% vs 4.0% consensus (unconfirmed, in line) and 3.76% prior; m/m 0.45% vs 0.62% prior. Energy-led, core flash 2.5% unchanged. Keeps a December ECB hike live: hawkish EUR and bunds, pressure on equities.",
+  "status": "analysed",
+  "fields": null,
+  "sources": [
+    "https://www.fxstreet.com/news/eurozone-flash-hicp-grows-faster-by-4-yoy-in-october-as-expected-202611041002",
+    "https://investinglive.com/news/eurozone-inflation-hits-4-for-first-time-since-2023-piling-pressure-on-ecb/"
+  ],
+  "alert": {
+    "alert": false,
+    "material": false,
+    "reasons": []
+  },
+  "analysed_at": "2026-11-18 17:08 ET"
 }
