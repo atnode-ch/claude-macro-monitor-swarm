@@ -1,6 +1,6 @@
 # Macro Monitor: Blackboard
 
-_Rendered 2026-11-18 17:08 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
+_Rendered 2026-11-18 17:22 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
 
 ## Inflation
 
@@ -106,22 +106,22 @@ _Rendered 2026-11-18 17:08 ET from data/. Do not edit by hand; edit data/ or rer
 
 **Current stance:** Financial conditions are loose. NFCI at -0.478 is below zero and eased 0.005 this week after a run of slight rises. Latest market levels showed a sharp front-end repricing (2y 4.86, 10y 5.10, 10y2y 0.24) while HY OAS tightened to 3.20 and VIX was 18.7. Rates are tightening but credit is not, so there is no multi-signal restrictive alignment. SLOOS C&I net tightening 1.7%, near neutral. CME FedWatch path unconfirmed. Would change on HY widening, NFCI toward zero, or SLOOS rise. _(updated 2026-11-18 17:08 ET)_
 
-**Latest market levels** (as of 2026-11-13):
+**Latest market levels** (as of 2026-11-17):
 
 | Series | Level | 1d | 5d | Unit |
 |---|---|---|---|---|
-| ust_10y | 5.15 | +5 | +29 | bp |
-| ust_2y | 4.88 | +2 | +37 | bp |
-| ust_3m | 4.32 | +0 | +13 | bp |
-| curve_10y2y | 0.27 | +3 | -8 | bp |
-| curve_10y3m | 0.83 | +5 | +16 | bp |
-| hy_oas | 3.23 | +3 | -19 | bp |
-| ig_oas | 0.89 | +0 | -4 | bp |
-| be_5y5y | 2.18 | +1 | +1 | bp |
-| be_10y | 2.24 | +0 | +1 | bp |
-| real_10y | 2.91 | +5 | +28 | bp |
-| sofr | 3.90 | +0 | +1 | bp |
-| vix | 19.30 | +1 | -6 | pts |
+| ust_10y | 5.10 | -2 | +12 | bp |
+| ust_2y | 4.80 | -3 | +7 | bp |
+| ust_3m | 4.33 | -1 | +3 | bp |
+| curve_10y2y | 0.30 | +1 | +5 | bp |
+| curve_10y3m | 0.77 | -1 | +9 | bp |
+| hy_oas | 3.43 | +9 | +13 | bp |
+| ig_oas | 0.92 | +2 | +2 | bp |
+| be_5y5y | 2.16 | +1 | +1 | bp |
+| be_10y | 2.21 | +1 | +1 | bp |
+| real_10y | 2.89 | -3 | +11 | bp |
+| sofr | 3.92 | -1 | +3 | bp |
+| vix | 25.46 | +3 | +6 | pts |
 | usd_broad | 122.65 | +0 | +1 | pts |
 
 ## Macro Synthesis
@@ -138,10 +138,10 @@ October CPI met last week's test for a firm regime, but only at the margin. Core
 
 | Domain | Last success | Age (h, weekdays) | Status |
 |---|---|---|---|
-| Inflation | 2026-11-18 16:08 ET | 1.0 | ok |
-| Labor | 2026-11-18 16:08 ET | 1.0 | ok |
-| Growth & Activity | 2026-11-18 16:08 ET | 1.0 | ok |
-| Housing | 2026-11-18 16:08 ET | 1.0 | ok |
-| Sentiment & Surveys | 2026-11-18 16:08 ET | 1.0 | ok |
-| Central Banks & Policy | 2026-11-18 16:08 ET | 1.0 | ok |
-| Financial Conditions & Markets | 2026-11-18 16:08 ET | 1.0 | ok |
+| Inflation | 2026-11-18 17:22 ET | 0.0 | ok |
+| Labor | 2026-11-18 17:22 ET | 0.0 | ok |
+| Growth & Activity | 2026-11-18 17:22 ET | 0.0 | ok |
+| Housing | 2026-11-18 17:22 ET | 0.0 | ok |
+| Sentiment & Surveys | 2026-11-18 17:22 ET | 0.0 | ok |
+| Central Banks & Policy | 2026-11-18 17:22 ET | 0.0 | ok |
+| Financial Conditions & Markets | 2026-11-18 17:22 ET | 0.0 | ok |
