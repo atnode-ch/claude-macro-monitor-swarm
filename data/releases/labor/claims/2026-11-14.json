@@ -21,8 +21,18 @@
   },
   "verified": true,
   "consensus": null,
-  "consensus_source": null,
+  "consensus_source": "No consensus found for the week ended 2026-11-14 (searched 2026-11-19)",
   "surprise": null,
-  "read": null,
-  "status": "pending_analysis"
+  "read": "Initial claims 203k, +1k w/w from 202k (prior revised up from 200k); consensus not found. 4-week average 197.75k (prior 195.75k), continuing 1.763M. Still low, drifting up slowly, no turn signal.",
+  "status": "analysed",
+  "fields": null,
+  "sources": [],
+  "alert": {
+    "alert": false,
+    "material": false,
+    "reasons": [
+      "no consensus available; surprise not assessed"
+    ]
+  },
+  "analysed_at": "2026-11-19 17:09 ET"
 }

@@ -1,6 +1,6 @@
 # Macro Monitor: Blackboard
 
-_Rendered 2026-11-19 16:14 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
+_Rendered 2026-11-19 17:09 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
 
 ## Inflation
 
@@ -23,14 +23,14 @@ _Rendered 2026-11-19 16:14 ET from data/. Do not edit by hand; edit data/ or rer
 
 | Report | Period | Actual | Prior | Consensus | Surprise | Read |
 |---|---|---|---|---|---|---|
-| **Initial Jobless Claims** | 2026-11-14 | initial 203,000; initial +1,000 chg; initial 4wk 197,750; continuing 1,763,000 | initial 202,000; initial +11,000 chg; initial 4wk 195,750; continuing 1,763,000 |  |  | _pending analysis_ [source](https://www.dol.gov/ui/data.pdf) |
+| **Initial Jobless Claims** | 2026-11-14 | initial 203,000; initial +1,000 chg; initial 4wk 197,750; continuing 1,763,000 | initial 202,000; initial +11,000 chg; initial 4wk 195,750; continuing 1,763,000 | unconfirmed |  | Initial claims 203k, +1k w/w from 202k (prior revised up from 200k); consensus not found. 4-week average 197.75k (prior 195.75k), continuing 1.763M. Still low, drifting up slowly, no turn signal. [source](https://www.dol.gov/ui/data.pdf) |
 | **UK Labour Market (ONS)** | 2026-09 | unemployment rate 4.60%; awe regular yoy 3.50; payrolled employees chg -34.0k |  | awe regular yoy 3.60 | awe_regular_yoy -0.1 | Unemployment 4.6% (3M to Sep) vs 4.7% prior, regular pay 3.5% vs 3.6% expected and 3.7% prior. Oct payrolled change -34k is flash, one source, unconfirmed. Vacancies 690k. Pay cooling eases BoE hike risk. [source](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/latest) |
 | **Initial Jobless Claims** | 2026-11-07 | initial 200,000; initial +9,000 chg; initial 4wk 195,250; continuing 1,697,000 | initial 191,000; initial -4,000 chg; initial 4wk 195,250; continuing 1,697,000 | unconfirmed |  | Initial claims 200k, +9k w/w from 191k (prior revised up from 189k); consensus not found. 4-week average 195.25k, continuing 1.697M. Still low, no turn signal, low-hire, low-fire holds. [source](https://www.dol.gov/ui/data.pdf) |
 | **Non-Farm Payrolls** | 2026-10 | payrolls +165k chg; unemployment rate 4.10%; unemployment rate -0.10pp chg; ahe +0.4% m/m; ahe 3.1% y/y | payrolls +60k chg; unemployment rate 4.20%; unemployment rate +0.10pp chg; ahe +0.3% m/m; ahe 3.2% y/y | unconfirmed |  | October payrolls +165k (prior +60k), unemployment 4.1% (from 4.2%), AHE +0.37% m/m (prior 0.265%), 3.12% y/y (prior 3.16%). No consensus found. Firm jobs with a faster m/m wage print; y/y wages still near 3.1%. [source](https://www.bls.gov/news.release/empsit.htm) |
 | **Initial Jobless Claims** | 2026-10-31 | initial 189,000; initial -6,000 chg; initial 4wk 194,750; continuing 1,718,000 | initial 195,000; initial +0.00 chg; initial 4wk 197,000; continuing 1,718,000 | unconfirmed |  | Initial claims 189k, -6k w/w from 195k; consensus not found. 4-week average 194.75k from 197k, continuing 1.718M from 1.718M. Layoffs stay low, no turn signal; low-hire, low-fire holds. [source](https://www.dol.gov/ui/data.pdf) |
 | **ADP employment** | 2026-10 | private payrolls +86k chg | private payrolls +86k chg | unconfirmed |  | ADP October private payrolls +86k, same as the 86k prior in the packet. No consensus found. ADP is an imperfect NFP proxy; positive hiring fits the low-hire, low-fire read, and no turn signal (claims, openings) is added. [source](https://adpemploymentreport.com/) |
 
-**Current stance:** Labour market is low-hire, low-fire in the US, with a firmer tone. October payrolls +165k (prior +60k), unemployment 4.1% (from 4.2%), AHE +0.37% m/m, 3.12% y/y. Claims 200k (+9k), 4-week average 195.25k, continuing 1.697M; JOLTS September openings 7,523k, quits 2.1%. ADP +86k. No turn: claims uptick is small, openings and payrolls are not soft. UK: unemployment 4.6%, regular pay 3.5% (from 3.7%), vacancies 690k, flash payrolls -34k unconfirmed; cooling pay with falling jobless rate. Would change on 4-week claims above 215k, continuing claims above 1.8M, falling openings, AHE m/m above 0.3%, or UK pay re-accelerating. _(updated 2026-11-17 17:09 ET)_
+**Current stance:** Labour market is low-hire, low-fire in the US, with a firmer tone. October payrolls +165k (prior +60k), unemployment 4.1%, AHE +0.37% m/m. Claims 203k (+1k), 4-week average 197.75k, continuing 1.763M (below the 1.8M trigger, up from 1.697M a week earlier); JOLTS openings 7,523k. UK: cooling pay with falling jobless rate. Would change on 4-week claims above 215k, continuing claims above 1.8M, falling openings, AHE m/m above 0.3%, or UK pay re-accelerating. _(updated 2026-11-19 17:09 ET)_
 
 ## Growth & Activity
 
@@ -138,10 +138,10 @@ October CPI met last week's test for a firm regime, but only at the margin. Core
 
 | Domain | Last success | Age (h, weekdays) | Status |
 |---|---|---|---|
-| Inflation | 2026-11-19 16:14 ET | 0.0 | ok |
-| Labor | 2026-11-19 16:14 ET | 0.0 | ok |
-| Growth & Activity | 2026-11-19 16:14 ET | 0.0 | ok |
-| Housing | 2026-11-19 16:14 ET | 0.0 | ok |
-| Sentiment & Surveys | 2026-11-19 16:14 ET | 0.0 | ok |
-| Central Banks & Policy | 2026-11-19 16:14 ET | 0.0 | ok |
-| Financial Conditions & Markets | 2026-11-19 16:14 ET | 0.0 | ok |
+| Inflation | 2026-11-19 16:14 ET | 0.9 | ok |
+| Labor | 2026-11-19 16:14 ET | 0.9 | ok |
+| Growth & Activity | 2026-11-19 16:14 ET | 0.9 | ok |
+| Housing | 2026-11-19 16:14 ET | 0.9 | ok |
+| Sentiment & Surveys | 2026-11-19 16:14 ET | 0.9 | ok |
+| Central Banks & Policy | 2026-11-19 16:14 ET | 0.9 | ok |
+| Financial Conditions & Markets | 2026-11-19 16:14 ET | 0.9 | ok |

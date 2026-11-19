@@ -41,6 +41,12 @@
       "ref": "2026-10",
       "path": "data/releases/housing/starts/2026-10.json",
       "alert": false
+    },
+    {
+      "report": "claims",
+      "ref": "2026-11-14",
+      "path": "data/releases/labor/claims/2026-11-14.json",
+      "alert": false
     }
   ]
 }
