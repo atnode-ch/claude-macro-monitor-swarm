@@ -1,0 +1,227 @@
+{
+  "regime": "Hot economy shows first cracks: October retail sales and output soften, HY spreads widen 32bp, core inflation still 0.3%",
+  "executive_summary": "Last week's test for the hot-economy regime was whether October retail sales and industrial production stayed strong. Neither did. Retail sales rose 0.2% m/m after 0.8%, and industrial production fell 0.4% after a 0.7% gain. Markets moved the same way: HY spreads widened 32bp to 3.52%, VIX rose 9.7 points to 28.44, and the 2y yield fell 10bp to 4.76%. Three domains (growth, housing, financial conditions) now point to softer activity. Labour does not yet agree: initial claims were 203,000 and continuing claims 1.763 million, both below their warning levels. Inflation has not cooled enough to matter for the Fed, with core CPI and core PPI both at 0.3% m/m in October and core PCE at 3.1% y/y in September. The result is an early dual-mandate tension: softer spending and tighter credit against sticky prices. One week of data does not make a regime change. October PCE and the Q3 GDP second estimate next week are the next tests.",
+  "narrative": [
+    {
+      "title": "Inflation and policy",
+      "body": "No new US inflation data this week. October core CPI rose 0.3% m/m and core PPI 0.3% m/m, both cooler than September but above the 0.2% to 0.25% pace that would ease the view. PPI y/y is 6.5% headline and 5.0% core, so the pipeline stays firm. September core PCE was 3.1% y/y, 1.1pp above target. The Fed held at 3.75-4.00% in October with two dissents for a hike, so the live question is a hike or a pause, not a cut. Softer spending data and a 10bp fall in the 2y yield move the market toward a pause. In Europe, final October HICP was 4.0% y/y, in line with the flash, with core at 2.5% and energy driving the headline; a December ECB hike stays in play. The BoE hiked 25bp to 4.0% earlier this month."
+    },
+    {
+      "title": "Labour",
+      "body": "US labour is still firm and does not join the softening story. Initial claims for the week to 14 November were 203,000, up 1,000, with the 4-week average at 197,750. Continuing claims were 1.763 million, below the 1.8 million trigger but up from 1.697 million a week earlier, the one series to watch. October payrolls were +165k with unemployment at 4.1%. In the UK, data for the 3 months to September showed unemployment at 4.6% from 4.7% and regular pay growth at 3.5%, 0.1pp below consensus and down from 3.7%. Cooler UK pay lowers the odds of another BoE hike. The October UK payrolled-employee fall of 34k is a flash figure and unconfirmed."
+    },
+    {
+      "title": "Growth, housing and sentiment",
+      "body": "October retail sales rose 0.2% m/m, ex-autos also 0.2%, after about 0.8% in September. The unconfirmed CARTS preview had pointed to +1.0% ex-autos, so the official print diverged from it. Industrial production fell 0.4% m/m, capacity utilisation slipped to 76.4%, and output is still 2.2% higher than a year ago. Both are first inputs to Q4 GDP after a 3.4% Q3 advance print, and both are softer. The ISM surveys for October (services 54.5, manufacturing 55.5 unconfirmed) remain in expansion, so hard data is softening before the surveys. Housing stays weak: October starts rose 9.9% to 1309k, but permits fell 7.4% to 1295k, below the 1.35 million warning level. Permits lead starts, so the rebound is likely to fade. Sentiment had no new data this week; the stance dates from late October, with UMich at 48.0 and 5y inflation expectations at 3.5%."
+    },
+    {
+      "title": "Financial conditions",
+      "body": "Week to 19 November: credit and volatility turned. HY OAS widened 32bp to 3.52% and IG 5bp to 0.94%. VIX rose 9.7 points to 28.44. Treasury yields fell, the 2y by 10bp to 4.76% and the 10y by 6bp to 5.04%, so 10y-2y steepened 4bp to 0.28%. 10y breakevens fell 8bp to 2.16% while the 10y real yield rose 2bp to 2.88%, which reads as lower growth and inflation expectations, not easier policy. The latest NFCI, for the week to 13 November, was -0.478 and still loose; it predates this move. The broad dollar index lags in the feed (last value 13 November), so no current dollar read. Banks' net C&I tightening of 1.7% in the Q4 SLOOS is small but points the same way."
+    }
+  ],
+  "domain_scorecard": [
+    {
+      "domain": "Inflation",
+      "signal": "firm",
+      "note": "No new data; core CPI and PPI 0.3% m/m, core PCE 3.1% y/y"
+    },
+    {
+      "domain": "Labor",
+      "signal": "steady",
+      "note": "Claims 203,000; continuing 1.763M, rising but below 1.8M trigger"
+    },
+    {
+      "domain": "Growth & Activity",
+      "signal": "cooling",
+      "note": "Retail sales +0.2% m/m, IP -0.4%; ISM still in expansion"
+    },
+    {
+      "domain": "Housing",
+      "signal": "weakening",
+      "note": "Permits fell 7.4% to 1295k, below 1.35M; starts bounce fragile"
+    },
+    {
+      "domain": "Sentiment & Surveys",
+      "signal": "n/a",
+      "note": "No new data this week; stance from late October, UMich 48.0"
+    },
+    {
+      "domain": "Central Banks & Policy",
+      "signal": "firm",
+      "note": "Fed hold with hike dissents; ECB December hike live; UK pay cooler"
+    },
+    {
+      "domain": "Financial Conditions & Markets",
+      "signal": "weakening",
+      "note": "HY OAS +32bp to 3.52%, VIX 28.44; NFCI not yet updated"
+    }
+  ],
+  "regime_watch": "The hot-economy regime is under test for the first time. Growth, housing and credit now point to softer activity, while labour and inflation have not moved. A turn is confirmed if October PCE shows core near 0.2% m/m, the 4-week claims average rises above 215,000 or continuing claims pass 1.8 million, NFCI moves toward zero, and HY spreads hold above 3.50% or reach 4.00%. That would shift the Fed debate from a hike toward a pause. The turn is denied if the Q3 GDP second estimate and October durable goods stay firm, HY spreads retrace, and core PCE stays at 0.3% m/m or higher; then this week reads as a one-month dip in spending. The worst mix is softer activity with core inflation stuck at 0.3%, the dual-mandate dilemma.",
+  "week_ahead": [
+    {
+      "report": "conf_board",
+      "name": "Conference Board Consumer Confidence",
+      "date": "2026-11-24",
+      "weekday": "Tue",
+      "time_et": null,
+      "date_source": "estimate",
+      "why": "Labour differential and Expectations below 80 cross-check the consumer slowdown."
+    },
+    {
+      "report": "new_home",
+      "name": "New Home Sales",
+      "date": "2026-11-24",
+      "weekday": "Tue",
+      "time_et": "10:00",
+      "date_source": "estimate",
+      "why": "A drop below 676k would confirm housing deterioration after weak permits."
+    },
+    {
+      "report": "pce",
+      "name": "PCE price index",
+      "date": "2026-11-25",
+      "weekday": "Wed",
+      "time_et": "08:30",
+      "date_source": "official",
+      "why": "October core PCE m/m decides whether inflation joins the softening; 0.2% would ease hike pressure."
+    },
+    {
+      "report": "gdp",
+      "name": "GDP (real, SAAR)",
+      "date": "2026-11-25",
+      "weekday": "Wed",
+      "time_et": "08:30",
+      "date_source": "official",
+      "why": "Second estimate of Q3 3.4%; a revision lower would support the growth-cooling read."
+    },
+    {
+      "report": "claims",
+      "name": "Initial Jobless Claims",
+      "date": "2026-11-26",
+      "weekday": "Thu",
+      "time_et": "08:30",
+      "date_source": "estimate",
+      "why": "Continuing claims at 1.763M are closing on the 1.8M trigger; labour is the missing domain."
+    },
+    {
+      "report": "durables",
+      "name": "Durable Goods",
+      "date": "2026-11-26",
+      "weekday": "Thu",
+      "time_et": "08:30",
+      "date_source": "estimate",
+      "why": "Core capex orders test whether business investment holds as credit spreads widen."
+    }
+  ],
+  "kpis": [
+    {
+      "label": "Retail sales m/m",
+      "ref": "growth/retail/2026-10:headline.chg_pct",
+      "value": 0.212,
+      "unit": "%"
+    },
+    {
+      "label": "Industrial production m/m",
+      "ref": "growth/indpro/2026-10:ip.chg_pct",
+      "value": -0.434,
+      "unit": "%"
+    },
+    {
+      "label": "Continuing claims",
+      "ref": "labor/claims/2026-11-14:continuing.level",
+      "value": 1763000.0,
+      "unit": ""
+    },
+    {
+      "label": "Building permits (k)",
+      "ref": "housing/starts/2026-10:permits_k.level",
+      "value": 1295.0,
+      "unit": "k"
+    },
+    {
+      "label": "HY OAS",
+      "ref": "markets:hy_oas",
+      "value": 3.52,
+      "unit": "%"
+    },
+    {
+      "label": "2y Treasury",
+      "ref": "markets:ust_2y",
+      "value": 4.76,
+      "unit": "%"
+    }
+  ],
+  "slack_summary": "Regime: hot economy shows first cracks. October retail sales +0.2% m/m and IP -0.4%, permits -7.4% to 1295k, HY OAS +32bp to 3.52%, VIX 28.44; claims 203,000 and core inflation at 0.3% m/m have not turned.\nNext week: October PCE, Q3 GDP second estimate, claims and durable goods.",
+  "week": "2026-W47",
+  "week_ending": "2026-11-20",
+  "swarm_health": "all domains fresh",
+  "health": {
+    "all_ok": true,
+    "domains": [
+      {
+        "domain": "inflation",
+        "name": "Inflation",
+        "last_success": "2026-11-20 16:58 ET",
+        "age_hours": 0.9,
+        "stale": false,
+        "errors": []
+      },
+      {
+        "domain": "labor",
+        "name": "Labor",
+        "last_success": "2026-11-20 16:58 ET",
+        "age_hours": 0.9,
+        "stale": false,
+        "errors": []
+      },
+      {
+        "domain": "growth",
+        "name": "Growth & Activity",
+        "last_success": "2026-11-20 16:58 ET",
+        "age_hours": 0.9,
+        "stale": false,
+        "errors": []
+      },
+      {
+        "domain": "housing",
+        "name": "Housing",
+        "last_success": "2026-11-20 16:58 ET",
+        "age_hours": 0.9,
+        "stale": false,
+        "errors": []
+      },
+      {
+        "domain": "sentiment",
+        "name": "Sentiment & Surveys",
+        "last_success": "2026-11-20 16:58 ET",
+        "age_hours": 0.9,
+        "stale": false,
+        "errors": []
+      },
+      {
+        "domain": "policy",
+        "name": "Central Banks & Policy",
+        "last_success": "2026-11-20 16:58 ET",
+        "age_hours": 0.9,
+        "stale": false,
+        "errors": []
+      },
+      {
+        "domain": "markets",
+        "name": "Financial Conditions & Markets",
+        "last_success": "2026-11-20 16:58 ET",
+        "age_hours": 0.9,
+        "stale": false,
+        "errors": []
+      }
+    ],
+    "alert_text": "",
+    "checked_at": "2026-11-20 17:49 ET"
+  },
+  "audit": {
+    "issues": [],
+    "ok": true,
+    "checked_at": "2026-11-20 17:49 ET"
+  },
+  "finalized_at": "2026-11-20 17:49 ET"
+}

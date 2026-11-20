@@ -1,6 +1,6 @@
 # Macro Monitor: Blackboard
 
-_Rendered 2026-11-20 17:08 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
+_Rendered 2026-11-20 17:49 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
 
 ## Inflation
 
@@ -126,22 +126,22 @@ _Rendered 2026-11-20 17:08 ET from data/. Do not edit by hand; edit data/ or rer
 
 ## Macro Synthesis
 
-**2026-W46: Hot economy holds as inflation momentum eases: core CPI 0.3%, PPI cools from September, front-end yields rise**
+**2026-W47: Hot economy shows first cracks: October retail sales and output soften, HY spreads widen 32bp, core inflation still 0.3%**
 
-October CPI met last week's test for a firm regime, but only at the margin. Core CPI rose 0.3% m/m, the same pace as September, and headline slowed to 0.3%. October PPI cooled sharply from a September spike: headline 0.3% m/m after 1.4%, core 0.3% after 0.8%, though y/y rates stay high at 6.5% and 5.0%. Labour data this week were limited to claims, which rose 9k to 200,000 with the 4-week average at 195,250, still low. Existing home sales fell 5.5% to 3.75M, keeping housing the weak link. Taken with last week's 165k payrolls, ISM above 54 and Q3 GDP at 3.4%, labour, growth and the inflation pipeline still point the same way. Markets moved toward the data: in the week to 10 Nov the 2y yield rose 12bp and the 10y real yield 13bp, while HY spreads tightened 9bp. The Fed's next move is a hold or a hike; no cut is live.
+Last week's test for the hot-economy regime was whether October retail sales and industrial production stayed strong. Neither did. Retail sales rose 0.2% m/m after 0.8%, and industrial production fell 0.4% after a 0.7% gain. Markets moved the same way: HY spreads widened 32bp to 3.52%, VIX rose 9.7 points to 28.44, and the 2y yield fell 10bp to 4.76%. Three domains (growth, housing, financial conditions) now point to softer activity. Labour does not yet agree: initial claims were 203,000 and continuing claims 1.763 million, both below their warning levels. Inflation has not cooled enough to matter for the Fed, with core CPI and core PPI both at 0.3% m/m in October and core PCE at 3.1% y/y in September. The result is an early dual-mandate tension: softer spending and tighter credit against sticky prices. One week of data does not make a regime change. October PCE and the Q3 GDP second estimate next week are the next tests.
 
-**Regime watch:** The hot-economy regime still holds across labour, growth, the inflation pipeline and policy, but October showed the first cooling in monthly price momentum. It firms if retail sales and industrial production next week stay strong and claims stay near 200,000, which would keep a Fed hike live. It weakens if core CPI and PPI drop to 0.2% m/m or below for a second month, the 4-week claims average rises above 215,000, or continuing claims pass 1.8 million. Housing is already weak; permits below 1.35 million would show rates biting harder. In markets, falling breakevens with rising real yields is a policy-tightening signal; a turn would show as HY spreads widening and NFCI moving toward zero.
-**Week ahead:** Mon 2026-11-16 Retail Sales; Mon 2026-11-16 Industrial Production; Tue 2026-11-17 UK Labour Market (ONS); Tue 2026-11-17 Housing Starts & Building Permits; Thu 2026-11-19 Initial Jobless Claims
+**Regime watch:** The hot-economy regime is under test for the first time. Growth, housing and credit now point to softer activity, while labour and inflation have not moved. A turn is confirmed if October PCE shows core near 0.2% m/m, the 4-week claims average rises above 215,000 or continuing claims pass 1.8 million, NFCI moves toward zero, and HY spreads hold above 3.50% or reach 4.00%. That would shift the Fed debate from a hike toward a pause. The turn is denied if the Q3 GDP second estimate and October durable goods stay firm, HY spreads retrace, and core PCE stays at 0.3% m/m or higher; then this week reads as a one-month dip in spending. The worst mix is softer activity with core inflation stuck at 0.3%, the dual-mandate dilemma.
+**Week ahead:** Tue 2026-11-24 Conference Board Consumer Confidence; Tue 2026-11-24 New Home Sales; Wed 2026-11-25 PCE price index; Wed 2026-11-25 GDP (real, SAAR); Thu 2026-11-26 Initial Jobless Claims; Thu 2026-11-26 Durable Goods
 **Swarm health:** all domains fresh
 
 ## Collector health
 
 | Domain | Last success | Age (h, weekdays) | Status |
 |---|---|---|---|
-| Inflation | 2026-11-20 16:58 ET | 0.2 | ok |
-| Labor | 2026-11-20 16:58 ET | 0.2 | ok |
-| Growth & Activity | 2026-11-20 16:58 ET | 0.2 | ok |
-| Housing | 2026-11-20 16:58 ET | 0.2 | ok |
-| Sentiment & Surveys | 2026-11-20 16:58 ET | 0.2 | ok |
-| Central Banks & Policy | 2026-11-20 16:58 ET | 0.2 | ok |
-| Financial Conditions & Markets | 2026-11-20 16:58 ET | 0.2 | ok |
+| Inflation | 2026-11-20 16:58 ET | 0.9 | ok |
+| Labor | 2026-11-20 16:58 ET | 0.9 | ok |
+| Growth & Activity | 2026-11-20 16:58 ET | 0.9 | ok |
+| Housing | 2026-11-20 16:58 ET | 0.9 | ok |
+| Sentiment & Surveys | 2026-11-20 16:58 ET | 0.9 | ok |
+| Central Banks & Policy | 2026-11-20 16:58 ET | 0.9 | ok |
+| Financial Conditions & Markets | 2026-11-20 16:58 ET | 0.9 | ok |
