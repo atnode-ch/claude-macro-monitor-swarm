@@ -1,6 +1,6 @@
 # Macro Monitor: Blackboard
 
-_Rendered 2026-11-20 15:57 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
+_Rendered 2026-11-20 16:59 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
 
 ## Inflation
 
@@ -97,31 +97,31 @@ _Rendered 2026-11-20 15:57 ET from data/. Do not edit by hand; edit data/ or rer
 
 | Report | Period | Actual | Prior | Consensus | Surprise | Read |
 |---|---|---|---|---|---|---|
+| **Market levels (curve, spreads, breakevens, vol)** | 2026-W47 | hy_oas +32bp over 5d (level 3.52) |  |  |  | _pending analysis_ [source](https://fred.stlouisfed.org/) |
 | **Chicago Fed NFCI** | 2026-11-13 | nfci -0.48; nfci -0.01 chg; anfci -0.50; anfci -0.01 chg | nfci -0.47; nfci -0.00 chg; anfci -0.49; anfci -0.01 chg | unconfirmed |  | NFCI -0.478 (prior -0.473), down 0.005, a small easing after the earlier run of weekly rises. ANFCI -0.502. Well below zero, no zero cross, no consensus exists. Immaterial alone; no HY or curve data in this print. [source](https://www.chicagofed.org/research/data/nfci/current-data) |
 | **Market levels (curve, spreads, breakevens, vol)** | 2026-W46 | hy_oas -28bp over 5d (level 3.20); ust_2y +40bp over 5d (level 4.86); ust_10y +26bp over 5d (level 5.10) |  | unconfirmed |  | 2y +40bp in 5d to 4.86 and 10y +26bp to 5.10 while HY OAS tightened 28bp to 3.20: a rates repricing, not credit stress. 10y2y 0.24. VIX 18.7. FedWatch path unconfirmed (no current reading found). [source](https://fred.stlouisfed.org/) |
 | **Chicago Fed NFCI** | 2026-11-06 | nfci -0.46; nfci +0.00 chg; anfci -0.48; anfci +0.00 chg | nfci -0.47; nfci +0.01 chg; anfci -0.48; anfci +0.00 chg | unconfirmed |  | NFCI -0.462 (prior -0.465), up 0.003, the smallest weekly rise in the logged run. ANFCI -0.477, unchanged. Well below zero, no zero cross, no consensus exists. Immaterial alone; no HY or curve data to confirm. [source](https://www.chicagofed.org/research/data/nfci/current-data) |
 | **Chicago Fed NFCI** | 2026-10-30 | nfci -0.46; nfci +0.01 chg; anfci -0.43; anfci +0.01 chg | nfci -0.47; nfci +0.01 chg; anfci -0.44; anfci +0.01 chg | unconfirmed |  | NFCI -0.459 (prior -0.467), up 0.008 for a fifth week of slight tightening. ANFCI -0.435. Still well below zero, no zero cross, no consensus exists. Immaterial alone; no HY or curve data to confirm. [source](https://www.chicagofed.org/research/data/nfci/current-data) |
 | **Senior Loan Officer Survey (C&I standards)** | 2026-Q4 | ci tightening net 1.70%; ci tightening net +1.7pp chg | ci tightening net 0.00%; ci tightening net -8.1pp chg | unconfirmed |  | Net 1.7% of banks tightened C&I standards, up from 0.0% prior (+1.7pt). Standards are roughly neutral, a small turn toward tightening. No consensus. Leads activity by 6 to 18 months; not yet a restrictive signal. [source](https://www.federalreserve.gov/data/sloos.htm) |
-| **Chicago Fed NFCI** | 2026-10-23 | nfci -0.49; nfci +0.01 chg; anfci -0.50; anfci +0.01 chg | nfci -0.49; nfci +0.01 chg; anfci -0.51; anfci +0.01 chg | unconfirmed |  | NFCI -0.487 (prior -0.494), up 0.007 for a fourth week of slight tightening. ANFCI -0.501. Well below zero, no zero cross, no consensus exists. Immaterial alone; no HY or curve data to confirm. [source](https://www.chicagofed.org/research/data/nfci/current-data) |
 
 **Current stance:** Financial conditions are loose. NFCI at -0.478 is below zero and eased 0.005 this week after a run of slight rises. Latest market levels showed a sharp front-end repricing (2y 4.86, 10y 5.10, 10y2y 0.24) while HY OAS tightened to 3.20 and VIX was 18.7. Rates are tightening but credit is not, so there is no multi-signal restrictive alignment. SLOOS C&I net tightening 1.7%, near neutral. CME FedWatch path unconfirmed. Would change on HY widening, NFCI toward zero, or SLOOS rise. _(updated 2026-11-18 17:08 ET)_
 
-**Latest market levels** (as of 2026-11-18):
+**Latest market levels** (as of 2026-11-19):
 
 | Series | Level | 1d | 5d | Unit |
 |---|---|---|---|---|
-| ust_10y | 5.07 | -3 | +9 | bp |
-| ust_2y | 4.80 | +0 | +7 | bp |
-| ust_3m | 4.34 | +1 | +4 | bp |
-| curve_10y2y | 0.27 | -3 | +2 | bp |
-| curve_10y3m | 0.73 | -4 | +5 | bp |
-| hy_oas | 3.47 | +4 | +17 | bp |
-| ig_oas | 0.93 | +1 | +3 | bp |
-| be_5y5y | 2.15 | -1 | +0 | bp |
-| be_10y | 2.19 | -2 | -1 | bp |
-| real_10y | 2.88 | -1 | +10 | bp |
-| sofr | 3.90 | -2 | +1 | bp |
-| vix | 24.56 | -1 | +7 | pts |
+| ust_10y | 5.04 | -3 | -6 | bp |
+| ust_2y | 4.76 | -4 | -10 | bp |
+| ust_3m | 4.34 | +0 | +2 | bp |
+| curve_10y2y | 0.28 | +1 | +4 | bp |
+| curve_10y3m | 0.70 | -3 | -8 | bp |
+| hy_oas | 3.52 | +5 | +32 | bp |
+| ig_oas | 0.94 | +1 | +5 | bp |
+| be_5y5y | 2.10 | -5 | -7 | bp |
+| be_10y | 2.16 | -3 | -8 | bp |
+| real_10y | 2.88 | +0 | +2 | bp |
+| sofr | 3.91 | +1 | +1 | bp |
+| vix | 28.44 | +4 | +10 | pts |
 | usd_broad | 122.65 | +0 | +1 | pts |
 
 ## Macro Synthesis
@@ -138,10 +138,10 @@ October CPI met last week's test for a firm regime, but only at the margin. Core
 
 | Domain | Last success | Age (h, weekdays) | Status |
 |---|---|---|---|
-| Inflation | 2026-11-20 15:57 ET | 0.0 | ok |
-| Labor | 2026-11-20 15:57 ET | 0.0 | ok |
-| Growth & Activity | 2026-11-20 15:57 ET | 0.0 | ok |
-| Housing | 2026-11-20 15:57 ET | 0.0 | ok |
-| Sentiment & Surveys | 2026-11-20 15:57 ET | 0.0 | ok |
-| Central Banks & Policy | 2026-11-20 15:57 ET | 0.0 | ok |
-| Financial Conditions & Markets | 2026-11-20 15:57 ET | 0.0 | ok |
+| Inflation | 2026-11-20 16:58 ET | 0.0 | ok |
+| Labor | 2026-11-20 16:58 ET | 0.0 | ok |
+| Growth & Activity | 2026-11-20 16:58 ET | 0.0 | ok |
+| Housing | 2026-11-20 16:58 ET | 0.0 | ok |
+| Sentiment & Surveys | 2026-11-20 16:58 ET | 0.0 | ok |
+| Central Banks & Policy | 2026-11-20 16:58 ET | 0.0 | ok |
+| Financial Conditions & Markets | 2026-11-20 16:58 ET | 0.0 | ok |

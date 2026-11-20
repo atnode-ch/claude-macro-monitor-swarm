@@ -1,3 +1,13 @@
 {
-  "items": []
+  "items": [
+    {
+      "domain": "markets",
+      "report": "market_levels",
+      "ref": "2026-W47",
+      "path": "data/releases/markets/market_levels/2026-W47.json",
+      "needs_fetch": false,
+      "tier": 3,
+      "detected_at": "2026-11-20 16:58 ET"
+    }
+  ]
 }
