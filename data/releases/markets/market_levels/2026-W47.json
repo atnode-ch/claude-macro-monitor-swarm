@@ -27,11 +27,21 @@
   "consensus": null,
   "consensus_source": null,
   "surprise": null,
-  "read": null,
-  "status": "pending_analysis",
+  "read": "HY OAS +32bp to 3.52 (W46 3.20), above the 25bp threshold, and VIX 18.7 to 28.44. 2y -10bp to 4.76, 10y -6bp to 5.04, 10y2y 0.28 (0.24). Credit stress now joins the rates move; NFCI still needed.",
+  "status": "analysed",
   "signals": [
     "hy_oas +32bp over 5d (level 3.52)"
   ],
   "fedwatch_check_needed": false,
-  "as_of": "2026-11-19"
+  "as_of": "2026-11-19",
+  "fields": null,
+  "sources": [],
+  "alert": {
+    "alert": true,
+    "material": true,
+    "reasons": [
+      "market move: hy_oas +32bp over 5d (level 3.52)"
+    ]
+  },
+  "analysed_at": "2026-11-20 17:08 ET"
 }

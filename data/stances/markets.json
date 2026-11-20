@@ -1,6 +1,6 @@
 {
   "domain": "markets",
-  "stance": "Financial conditions are loose. NFCI at -0.478 is below zero and eased 0.005 this week after a run of slight rises. Latest market levels showed a sharp front-end repricing (2y 4.86, 10y 5.10, 10y2y 0.24) while HY OAS tightened to 3.20 and VIX was 18.7. Rates are tightening but credit is not, so there is no multi-signal restrictive alignment. SLOOS C&I net tightening 1.7%, near neutral. CME FedWatch path unconfirmed. Would change on HY widening, NFCI toward zero, or SLOOS rise.",
-  "updated_at": "2026-11-18 17:08 ET",
-  "from": "nfci 2026-11-13"
+  "stance": "Financial conditions were loose at the last NFCI read (-0.478, eased 0.005), but W47 shifts the tone. HY OAS widened 32bp to 3.52 and VIX rose to 28.44 while yields fell (2y 4.76, 10y 5.04), reversing W46 where credit tightened. Curve 10y2y at 0.28, 10y3m 0.70. Credit and vol are now aligned with rates; NFCI has not yet confirmed. SLOOS C&I net tightening 1.7%. CME FedWatch path unconfirmed. Would firm on NFCI toward zero or HY above 4.00; would fade if HY retraces.",
+  "updated_at": "2026-11-20 17:08 ET",
+  "from": "market_levels 2026-W47"
 }
