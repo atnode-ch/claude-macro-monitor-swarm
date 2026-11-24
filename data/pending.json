@@ -1,3 +1,22 @@
 {
-  "items": []
+  "items": [
+    {
+      "domain": "sentiment",
+      "report": "conf_board",
+      "ref": "2026-11",
+      "path": "data/releases/sentiment/conf_board/2026-11.json",
+      "needs_fetch": true,
+      "tier": 3,
+      "detected_at": "2026-11-24 17:56 ET"
+    },
+    {
+      "domain": "sentiment",
+      "report": "ifo",
+      "ref": "2026-11",
+      "path": "data/releases/sentiment/ifo/2026-11.json",
+      "needs_fetch": true,
+      "tier": 3,
+      "detected_at": "2026-11-24 17:56 ET"
+    }
+  ]
 }

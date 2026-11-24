@@ -1,0 +1,24 @@
+{
+  "domain": "sentiment",
+  "report": "ifo",
+  "name": "German Ifo Business Climate",
+  "ref": "2026-11",
+  "tier": 3,
+  "detected_at": "2026-11-24 17:56 ET",
+  "source": "web",
+  "source_url": "https://www.ifo.de/en/ifo-business-climate-index",
+  "metrics": {},
+  "prior": {},
+  "verified": false,
+  "consensus": null,
+  "consensus_source": null,
+  "surprise": null,
+  "read": null,
+  "status": "pending_analysis",
+  "due_date": "2026-11-24",
+  "needs_fetch": [
+    "business_climate",
+    "current_assessment",
+    "expectations"
+  ]
+}

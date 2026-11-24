@@ -1,6 +1,6 @@
 # Macro Monitor: Blackboard
 
-_Rendered 2026-11-23 23:49 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
+_Rendered 2026-11-24 17:56 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
 
 ## Inflation
 
@@ -68,11 +68,12 @@ _Rendered 2026-11-23 23:49 ET from data/. Do not edit by hand; edit data/ or rer
 
 | Report | Period | Actual | Prior | Consensus | Surprise | Read |
 |---|---|---|---|---|---|---|
+| **German Ifo Business Climate** | 2026-11 | _awaiting fetch_ |  |  |  | _pending analysis_ [source](https://www.ifo.de/en/ifo-business-climate-index) _(single-source, unconfirmed)_ |
+| **Conference Board Consumer Confidence** | 2026-11 | _awaiting fetch_ |  |  |  | _pending analysis_ [source](https://www.conference-board.org/topics/consumer-confidence) _(single-source, unconfirmed)_ |
 | **Conference Board Consumer Confidence** | 2026-10 | index 91.7; expectations 72.6; jobs plentiful minus hard 5.30 |  | unconfirmed |  | Conference Board index 91.7 vs 84.2 in Sep (+7.5); Expectations 72.6, still under the 80 recession signal. Jobs plentiful 26.7% minus hard 21.4% = 5.3, a better labour lead. No consensus found. One source, unconfirmed. [source](https://www.conference-board.org/topics/consumer-confidence) _(single-source, unconfirmed)_ |
 | **UMich Consumer Sentiment (final)** | 2026-10 | sentiment 48.0; sentiment -0.10 chg; infl exp 1y 4.70; infl exp 1y +0.10 chg; infl exp 5y 3.50; infl exp 5y +0.10 chg | sentiment 48.1; sentiment -3.6 chg; infl exp 1y 4.60; infl exp 1y +0.60 chg; infl exp 5y 3.40; infl exp 5y +0.10 chg | unconfirmed |  | Final October sentiment 48.0, down 0.1 from 48.1. 5y inflation expectations 3.5% from 3.4%, 1y 4.7% from 4.6%: small hawkish tick on anchoring. Sentiment flat and weak; no consensus found. [source](https://www.sca.isr.umich.edu/) |
 | **German Ifo Business Climate** | 2026-10 | business climate 90.2 |  | unconfirmed |  | Ifo climate 90.2 vs 89.9 in September (unconfirmed, single source ifo.de). Expectations improved, current assessment slightly worse; component values not published numerically. Mildly supportive for EUR and Europe equities. No consensus found. [source](https://www.ifo.de/en/ifo-business-climate-index) |
 | **UMich Consumer Sentiment (final)** | 2026-09 | sentiment 48.1; sentiment -3.6 chg | sentiment 51.7; sentiment -3.5 chg | unconfirmed |  | Final September sentiment 48.1, down 3.6 from 51.7 and revised up from 47.8 preliminary. Near record-low territory (low 44.8 in May). No final consensus found. Weak print leans soft for retail sales; single survey, low weight. [source](https://www.sca.isr.umich.edu/) |
-| **UMich Consumer Sentiment (final)** | 2026-08 | sentiment 51.7; sentiment -3.5 chg | sentiment 55.2; sentiment +5.7 chg |  |  | _baseline (pre-migration)_ [source](https://www.sca.isr.umich.edu/) |
 
 **Current stance:** Consumer sentiment is mixed. UMich-type readings stay weak (48.0 in October, near the May 2026 low of 44.8; 5y inflation expectations 3.5%, a minor hawkish signal). Conference Board rebounded to 91.7 from 84.2 (unconfirmed, single source), with Expectations 72.6 below 80 and a labour differential of 5.3 that points to stable jobs. Divergence between surveys, so low conviction. Cautious, neutral-to-bearish lean on consumer. Firm retail sales, a second CB gain or Expectations above 80 would lift the view; 5y expectations above 3.5% would add a hawkish tilt. _(updated 2026-10-27 17:09 ET)_
 
@@ -138,10 +139,10 @@ Last week's test for the hot-economy regime was whether October retail sales and
 
 | Domain | Last success | Age (h, weekdays) | Status |
 |---|---|---|---|
-| Inflation | 2026-11-23 23:49 ET | 0.0 | ok |
-| Labor | 2026-11-23 23:49 ET | 0.0 | ok |
-| Growth & Activity | 2026-11-23 23:49 ET | 0.0 | ok |
-| Housing | 2026-11-23 23:49 ET | 0.0 | ok |
-| Sentiment & Surveys | 2026-11-23 23:49 ET | 0.0 | ok |
-| Central Banks & Policy | 2026-11-23 23:49 ET | 0.0 | ok |
-| Financial Conditions & Markets | 2026-11-23 23:49 ET | 0.0 | ok |
+| Inflation | 2026-11-24 17:56 ET | 0.0 | ok |
+| Labor | 2026-11-24 17:56 ET | 0.0 | ok |
+| Growth & Activity | 2026-11-24 17:56 ET | 0.0 | ok |
+| Housing | 2026-11-24 17:56 ET | 0.0 | ok |
+| Sentiment & Surveys | 2026-11-24 17:56 ET | 0.0 | ok |
+| Central Banks & Policy | 2026-11-24 17:56 ET | 0.0 | ok |
+| Financial Conditions & Markets | 2026-11-24 17:56 ET | 0.0 | ok |

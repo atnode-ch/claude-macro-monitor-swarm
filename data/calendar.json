@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23 23:49 ET",
+  "generated_at": "2026-11-24 17:55 ET",
   "cb_meetings": {
     "fed": [
       "2021-01-27",
@@ -99,22 +99,6 @@
     ]
   },
   "events": [
-    {
-      "date": "2026-11-16",
-      "time_et": "08:30",
-      "report": "retail",
-      "name": "Retail Sales",
-      "source": "estimate",
-      "weekday": "Mon"
-    },
-    {
-      "date": "2026-11-16",
-      "time_et": "09:15",
-      "report": "indpro",
-      "name": "Industrial Production",
-      "source": "estimate",
-      "weekday": "Mon"
-    },
     {
       "date": "2026-11-17",
       "time_et": "08:30",
