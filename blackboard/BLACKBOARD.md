@@ -1,6 +1,6 @@
 # Macro Monitor: Blackboard
 
-_Rendered 2026-11-20 20:34 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
+_Rendered 2026-11-23 19:38 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
 
 ## Inflation
 
@@ -106,23 +106,23 @@ _Rendered 2026-11-20 20:34 ET from data/. Do not edit by hand; edit data/ or rer
 
 **Current stance:** Financial conditions were loose at the last NFCI read (-0.478, eased 0.005), but W47 shifts the tone. HY OAS widened 32bp to 3.52 and VIX rose to 28.44 while yields fell (2y 4.76, 10y 5.04), reversing W46 where credit tightened. Curve 10y2y at 0.28, 10y3m 0.70. Credit and vol are now aligned with rates; NFCI has not yet confirmed. SLOOS C&I net tightening 1.7%. CME FedWatch path unconfirmed. Would firm on NFCI toward zero or HY above 4.00; would fade if HY retraces. _(updated 2026-11-20 17:08 ET)_
 
-**Latest market levels** (as of 2026-11-19):
+**Latest market levels** (as of 2026-11-20):
 
 | Series | Level | 1d | 5d | Unit |
 |---|---|---|---|---|
-| ust_10y | 5.04 | -3 | -6 | bp |
-| ust_2y | 4.76 | -4 | -10 | bp |
-| ust_3m | 4.34 | +0 | +2 | bp |
-| curve_10y2y | 0.28 | +1 | +4 | bp |
-| curve_10y3m | 0.70 | -3 | -8 | bp |
-| hy_oas | 3.52 | +5 | +32 | bp |
-| ig_oas | 0.94 | +1 | +5 | bp |
-| be_5y5y | 2.10 | -5 | -7 | bp |
-| be_10y | 2.16 | -3 | -8 | bp |
-| real_10y | 2.88 | +0 | +2 | bp |
-| sofr | 3.91 | +1 | +1 | bp |
-| vix | 28.44 | +4 | +10 | pts |
-| usd_broad | 122.65 | +0 | +1 | pts |
+| ust_10y | 4.92 | -12 | -23 | bp |
+| ust_2y | 4.63 | -13 | -25 | bp |
+| ust_3m | 4.32 | -2 | +0 | bp |
+| curve_10y2y | 0.29 | +1 | +2 | bp |
+| curve_10y3m | 0.60 | -10 | -23 | bp |
+| hy_oas | 3.76 | +24 | +53 | bp |
+| ig_oas | 0.98 | +4 | +9 | bp |
+| be_5y5y | 2.12 | +2 | -6 | bp |
+| be_10y | 2.15 | -1 | -9 | bp |
+| real_10y | 2.77 | -11 | -14 | bp |
+| sofr | 3.92 | +1 | +2 | bp |
+| vix | 35.89 | +7 | +17 | pts |
+| usd_broad | 123.60 | +0 | +1 | pts |
 
 ## Macro Synthesis
 
@@ -138,10 +138,10 @@ Last week's test for the hot-economy regime was whether October retail sales and
 
 | Domain | Last success | Age (h, weekdays) | Status |
 |---|---|---|---|
-| Inflation | 2026-11-20 20:34 ET | 0.0 | ok |
-| Labor | 2026-11-20 20:34 ET | 0.0 | ok |
-| Growth & Activity | 2026-11-20 20:34 ET | 0.0 | ok |
-| Housing | 2026-11-20 20:34 ET | 0.0 | ok |
-| Sentiment & Surveys | 2026-11-20 20:34 ET | 0.0 | ok |
-| Central Banks & Policy | 2026-11-20 20:34 ET | 0.0 | ok |
-| Financial Conditions & Markets | 2026-11-20 20:34 ET | 0.0 | ok |
+| Inflation | 2026-11-23 19:37 ET | 0.0 | ok |
+| Labor | 2026-11-23 19:37 ET | 0.0 | ok |
+| Growth & Activity | 2026-11-23 19:37 ET | 0.0 | ok |
+| Housing | 2026-11-23 19:37 ET | 0.0 | ok |
+| Sentiment & Surveys | 2026-11-23 19:37 ET | 0.0 | ok |
+| Central Banks & Policy | 2026-11-23 19:37 ET | 0.0 | ok |
+| Financial Conditions & Markets | 2026-11-23 19:37 ET | 0.0 | ok |
