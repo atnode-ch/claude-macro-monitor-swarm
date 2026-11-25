@@ -1,3 +1,16 @@
 {
-  "items": []
+  "items": [
+    {
+      "report": "conf_board",
+      "ref": "2026-11",
+      "path": "data/releases/sentiment/conf_board/2026-11.json",
+      "alert": false
+    },
+    {
+      "report": "ifo",
+      "ref": "2026-11",
+      "path": "data/releases/sentiment/ifo/2026-11.json",
+      "alert": false
+    }
+  ]
 }

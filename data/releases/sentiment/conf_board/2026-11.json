@@ -7,18 +7,34 @@
   "detected_at": "2026-11-24 17:56 ET",
   "source": "web",
   "source_url": "https://www.conference-board.org/topics/consumer-confidence",
-  "metrics": {},
+  "metrics": {
+    "index": 103.3,
+    "expectations": 83.6,
+    "jobs_plentiful_minus_hard": 12.4
+  },
   "prior": {},
   "verified": false,
   "consensus": null,
-  "consensus_source": null,
+  "consensus_source": "No consensus found for Nov 2026",
   "surprise": null,
-  "read": null,
-  "status": "pending_analysis",
+  "read": "Conference Board index 103.3 vs 91.9 in Oct (revised, +11.4); Expectations 83.6, back above the 80 level. Jobs plentiful 30.8% minus hard 18.4% = 12.4 vs 5.3. No consensus found. One source, unconfirmed.",
+  "status": "analysed",
   "due_date": "2026-11-24",
   "needs_fetch": [
     "index",
     "expectations",
     "jobs_plentiful_minus_hard"
-  ]
+  ],
+  "fields": null,
+  "sources": [
+    "https://www.conference-board.org/topics/consumer-confidence"
+  ],
+  "alert": {
+    "alert": false,
+    "material": false,
+    "reasons": [
+      "no consensus available; surprise not assessed"
+    ]
+  },
+  "analysed_at": "2026-11-25 17:09 ET"
 }

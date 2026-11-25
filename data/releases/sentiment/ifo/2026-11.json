@@ -7,18 +7,41 @@
   "detected_at": "2026-11-24 17:56 ET",
   "source": "web",
   "source_url": "https://www.ifo.de/en/ifo-business-climate-index",
-  "metrics": {},
+  "metrics": {
+    "business_climate": 90.6,
+    "current_assessment": 89.4,
+    "expectations": 91.9
+  },
   "prior": {},
-  "verified": false,
-  "consensus": null,
-  "consensus_source": null,
-  "surprise": null,
-  "read": null,
-  "status": "pending_analysis",
+  "verified": true,
+  "consensus": {
+    "business_climate": 90.5,
+    "current_assessment": 89.5,
+    "expectations": 92.0
+  },
+  "consensus_source": "business_climate: Reuters poll per RTE, 2026-11-24 (ActionForex lists 90.6); current_assessment and expectations: ActionForex consensus table, 2026-11-24",
+  "surprise": {
+    "business_climate": 0.1,
+    "current_assessment": -0.1,
+    "expectations": -0.1
+  },
+  "read": "Ifo climate 90.6 vs 90.1 in October (revised), in line with consensus 90.5 to 90.6. Current 89.4 (88.8), expectations 91.9 (91.5), both a touch under consensus. Services and trade up, manufacturing down. Mild EUR support.",
+  "status": "analysed",
   "due_date": "2026-11-24",
   "needs_fetch": [
     "business_climate",
     "current_assessment",
     "expectations"
-  ]
+  ],
+  "fields": null,
+  "sources": [
+    "https://www.rte.ie/news/business/2026/1124/1600420-german-ifo-index/",
+    "https://www.actionforex.com/live-comments/661933-germany-ifo-business-climate-rises-to-90-6-but-manufacturing-recovery-loses-momentum/"
+  ],
+  "alert": {
+    "alert": false,
+    "material": false,
+    "reasons": []
+  },
+  "analysed_at": "2026-11-25 17:09 ET"
 }
