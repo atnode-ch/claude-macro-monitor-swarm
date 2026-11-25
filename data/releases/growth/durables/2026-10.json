@@ -1,0 +1,24 @@
+{
+  "domain": "growth",
+  "report": "durables",
+  "name": "Durable Goods",
+  "ref": "2026-10",
+  "tier": 3,
+  "detected_at": "2026-11-25 17:10 ET",
+  "source": "fred",
+  "source_url": "https://www.census.gov/manufacturing/m3/index.html",
+  "metrics": {
+    "orders.chg_pct": 0.224,
+    "core_capex_orders.chg_pct": 1.177
+  },
+  "prior": {
+    "orders.chg_pct": 1.992,
+    "core_capex_orders.chg_pct": 0.83
+  },
+  "verified": true,
+  "consensus": null,
+  "consensus_source": null,
+  "surprise": null,
+  "read": null,
+  "status": "pending_analysis"
+}

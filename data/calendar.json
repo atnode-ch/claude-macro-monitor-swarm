@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24 22:33 ET",
+  "generated_at": "2026-11-25 17:10 ET",
   "cb_meetings": {
     "fed": [
       "2021-01-27",
@@ -99,22 +99,6 @@
     ]
   },
   "events": [
-    {
-      "date": "2026-11-17",
-      "time_et": "08:30",
-      "report": "starts",
-      "name": "Housing Starts & Building Permits",
-      "source": "estimate",
-      "weekday": "Tue"
-    },
-    {
-      "date": "2026-11-17",
-      "time_et": null,
-      "report": "uk_labour",
-      "name": "UK Labour Market (ONS)",
-      "source": "estimate",
-      "weekday": "Tue"
-    },
     {
       "date": "2026-11-19",
       "time_et": "08:30",

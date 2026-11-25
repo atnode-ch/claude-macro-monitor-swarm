@@ -1,0 +1,37 @@
+{
+  "domain": "markets",
+  "report": "market_levels",
+  "name": "Market levels (curve, spreads, breakevens, vol)",
+  "ref": "2026-W48",
+  "tier": 3,
+  "detected_at": "2026-11-25 17:10 ET",
+  "source": "fred",
+  "source_url": "https://fred.stlouisfed.org/",
+  "metrics": {
+    "ust_10y": 4.91,
+    "ust_2y": 4.63,
+    "ust_3m": 4.36,
+    "curve_10y2y": 0.28,
+    "curve_10y3m": 0.55,
+    "hy_oas": 3.72,
+    "ig_oas": 0.98,
+    "be_5y5y": 2.13,
+    "be_10y": 2.12,
+    "real_10y": 2.79,
+    "sofr": 3.94,
+    "vix": 26.36,
+    "usd_broad": 123.5978
+  },
+  "prior": {},
+  "verified": true,
+  "consensus": null,
+  "consensus_source": null,
+  "surprise": null,
+  "read": null,
+  "status": "pending_analysis",
+  "signals": [
+    "hy_oas +29bp over 5d (level 3.72)"
+  ],
+  "fedwatch_check_needed": false,
+  "as_of": "2026-11-24"
+}
