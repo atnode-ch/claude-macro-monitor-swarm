@@ -17,8 +17,18 @@
   },
   "verified": true,
   "consensus": null,
-  "consensus_source": null,
+  "consensus_source": "No October 2026 consensus found in one search",
   "surprise": null,
-  "read": null,
-  "status": "pending_analysis"
+  "read": "New home sales rose 14.2% to 701k SAAR in October from a revised 614k (September first printed 676k). No consensus found. Contract signings rebounded, but the gain is off a downward-revised base and the level is only 3.7% above the first September print.",
+  "status": "analysed",
+  "fields": null,
+  "sources": [],
+  "alert": {
+    "alert": false,
+    "material": false,
+    "reasons": [
+      "no consensus available; surprise not assessed"
+    ]
+  },
+  "analysed_at": "2026-11-26 11:09 ET"
 }

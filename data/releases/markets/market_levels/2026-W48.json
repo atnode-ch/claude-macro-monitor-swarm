@@ -27,11 +27,21 @@
   "consensus": null,
   "consensus_source": null,
   "surprise": null,
-  "read": null,
-  "status": "pending_analysis",
+  "read": "HY OAS 3.72 (+29bp over 5d, W47 3.52), above the 25bp threshold; VIX 26.36 (28.44). 2y 4.63 (-13bp), 10y 4.91 (-13bp), 10y2y flat at 0.28, 10y3m 0.55 (0.70). Credit stress persists as yields fall.",
+  "status": "analysed",
   "signals": [
     "hy_oas +29bp over 5d (level 3.72)"
   ],
   "fedwatch_check_needed": false,
-  "as_of": "2026-11-24"
+  "as_of": "2026-11-24",
+  "fields": null,
+  "sources": [],
+  "alert": {
+    "alert": true,
+    "material": true,
+    "reasons": [
+      "market move: hy_oas +29bp over 5d (level 3.72)"
+    ]
+  },
+  "analysed_at": "2026-11-26 11:09 ET"
 }

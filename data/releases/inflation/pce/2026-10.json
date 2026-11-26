@@ -21,8 +21,21 @@
   },
   "verified": true,
   "consensus": null,
-  "consensus_source": null,
+  "consensus_source": "No dated Reuters/Bloomberg/Dow Jones poll found; Oxford Economics nowcast (headline 3.8% y/y) is not a consensus",
   "surprise": null,
-  "read": null,
-  "status": "pending_analysis"
+  "read": "Oct core PCE +0.29% m/m (prior 0.33%), 3.26% y/y (prior 3.14%); headline +0.32% m/m (0.50%), 3.85% y/y (3.67%). No consensus found. Core m/m eased, but y/y is 1.26pp above the 2% target and still rising. Cuts stay on hold.",
+  "status": "analysed",
+  "fields": null,
+  "sources": [
+    "https://www.oxfordeconomics.com/resource/us-pce-nowcast-broadening-pressures-lock-in-december-rate-hike/"
+  ],
+  "alert": {
+    "alert": true,
+    "material": false,
+    "reasons": [
+      "tier-1 release",
+      "no consensus available; surprise not assessed"
+    ]
+  },
+  "analysed_at": "2026-11-26 11:09 ET"
 }

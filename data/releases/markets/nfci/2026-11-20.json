@@ -23,6 +23,18 @@
   "consensus": null,
   "consensus_source": null,
   "surprise": null,
-  "read": null,
-  "status": "pending_analysis"
+  "read": "NFCI -0.444 (prior -0.450, revised from -0.478 logged), up 0.006. ANFCI -0.443. Still loose, no zero cross, no consensus exists. Mild tightening begins to echo the W47 HY and VIX move; immaterial alone.",
+  "status": "analysed",
+  "fields": null,
+  "sources": [
+    "https://www.chicagofed.org/research/data/nfci/current-data"
+  ],
+  "alert": {
+    "alert": false,
+    "material": false,
+    "reasons": [
+      "no consensus available; surprise not assessed"
+    ]
+  },
+  "analysed_at": "2026-11-26 11:09 ET"
 }

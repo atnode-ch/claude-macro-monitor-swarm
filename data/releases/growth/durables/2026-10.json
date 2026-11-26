@@ -19,6 +19,18 @@
   "consensus": null,
   "consensus_source": null,
   "surprise": null,
-  "read": null,
-  "status": "pending_analysis"
+  "read": "Durable orders +0.22% m/m after +1.99%, in line with a Continuum preview of +0.2% (not a poll). Core capex orders +1.18% after +0.83%, a second month of acceleration, so business investment is firming into Q4.",
+  "status": "analysed",
+  "fields": null,
+  "sources": [
+    "https://continuumeconomics.com/a/60fc5d9d/preview-due-november-25-us-october-durable-goods-orders-momentum-has-slowed"
+  ],
+  "alert": {
+    "alert": false,
+    "material": false,
+    "reasons": [
+      "no consensus available; surprise not assessed"
+    ]
+  },
+  "analysed_at": "2026-11-26 11:09 ET"
 }

@@ -1,6 +1,6 @@
 {
   "domain": "housing",
-  "stance": "Housing is weak at a low level. Existing sales fell 5.5% to 3.75M SAAR in the last print, with mortgage rates near 7.4%. October starts rebounded 9.9% to 1,309k after a revised 1,191k, but permits fell 7.4% to 1,295k, below the 1,350k warning level. Permits lead starts, so the starts bounce is likely to fade. Residential investment stays a GDP drag. New home sales falling below 676k would confirm deterioration. View is provisional.",
-  "updated_at": "2026-11-18 17:08 ET",
-  "from": "starts 2026-10"
+  "stance": "Housing is weak at a low level, with a tentative stabilisation signal. New home sales rose 14.2% to 701k SAAR in October, but from a September revised down to 614k from 676k. October starts rebounded 9.9% to 1,309k, while permits fell 7.4% to 1,295k, below the 1,350k warning level, so the starts bounce is likely to fade. Existing sales were 3.75M with mortgage rates near 7.4%. Residential investment stays a GDP drag. Another print above 700k would ease the concern; View is provisional.",
+  "updated_at": "2026-11-26 11:09 ET",
+  "from": "new_home 2026-10"
 }
