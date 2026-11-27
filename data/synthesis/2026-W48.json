@@ -1,0 +1,218 @@
+{
+  "regime": "Hot economy holds: core PCE 0.3% m/m, claims at 189k and capex orders firm, while HY spreads widen another 30bp",
+  "executive_summary": "Last week's cracks did not spread to the hard data. October core PCE rose 0.3% m/m and 3.3% y/y, up from 3.1%, so inflation is still drifting away from target. Initial claims fell to 189,000 and continuing claims held at 1.697M, well below the 1.8M trigger. Core capex orders rose 1.2% in October, a second month of gains. New home sales rebounded to 701k, though off a revised-down September. Consumer surveys improved: UMich final sentiment 51.5 with 1y inflation expectations down to 3.7%. The one domain moving the other way is credit: HY OAS widened 30bp to 3.77% in the week to 25 Nov and VIX rose to 28.3, while Treasury yields fell. Markets are pricing slower growth that the data have not yet shown. The Fed held at 3.75-4.00% in October with two hike dissents; nothing this week argues for a cut.",
+  "narrative": [
+    {
+      "title": "Inflation and policy",
+      "body": "October core PCE rose 0.3% m/m after 0.3% in September; y/y rose to 3.3% from 3.1%. Headline PCE was 0.3% m/m and 3.8% y/y. CPI core (0.3%) and PPI core (0.3%) for October tell the same story, so the pipeline from producer to consumer prices is consistent and still about 1.3pp too hot on core PCE. ISM prices paid in the 70s keep that pipeline loaded. No poll consensus was found for PCE. The Fed held at 3.75-4.00% on 28 Oct with two dissents for a hike, so the live question for the December meeting is a hold versus a hike, not a cut. Abroad, the BoE hiked 25bp to 4.0% and the ECB held at 2.50% with a December hike widely expected after 4.0% HICP. Policy stance is unchanged from last week: hawkish-leaning."
+    },
+    {
+      "title": "Labour",
+      "body": "Initial claims fell 13k to 189,000 for the week to 21 Nov; the 4-week average is 196,000 and continuing claims are 1.697M. Both sit well below the turn triggers (215,000 and 1.8M). The latest monthly data are October payrolls +165k, unemployment 4.1% and AHE +0.4% m/m, plus September JOLTS openings up 333k. The Conference Board labour differential rose to 12.4 from 5.3, but that print is from one source and unconfirmed. Nothing in labour confirms the turn flagged last week. In the UK, regular pay growth cooled to 3.5%, below the 3.6% expected."
+    },
+    {
+      "title": "Growth, housing and sentiment",
+      "body": "October durable orders rose 0.2% after 2.0%, and core capex orders rose 1.2% after 0.8%: business investment is firming into Q4. That offsets part of last week's soft October retail sales (+0.2%) and industrial production (-0.4%). Q3 GDP stands at 3.4% SAAR from the advance estimate. New home sales rose 14.2% to 701k, but September was revised down to 614k from 676k, so the level is only modestly above the first September print; with permits down 7.4%, housing stays weak. UMich final sentiment rose to 51.5 from 48.0, with 1y inflation expectations at 3.7% (from 4.7%) and 5y at 3.3% (from 3.5%). The Conference Board index jumped to 103.3, unconfirmed. German Ifo was 90.6, in line."
+    },
+    {
+      "title": "Financial conditions",
+      "body": "In the week to 25 Nov, HY OAS widened 30bp to 3.77% and IG OAS 6bp to 0.99%, after a similar widening the week before. VIX rose 3.7 points to 28.3. Treasuries rallied: 2y -19bp to 4.61%, 10y -22bp to 4.85%, 10y real yield -15bp to 2.73%. The 10y3m curve flattened 22bp to 0.51%. 5y5y breakevens eased 4bp to 2.11%, so the bond rally is about growth and risk, not inflation. NFCI was -0.444 for the week to 20 Nov, still loose. The broad dollar series lags (last value 20 Nov), so no current reading is quoted. Two weeks of 30bp credit widening is the only clear stress signal in the swarm."
+    }
+  ],
+  "domain_scorecard": [
+    {
+      "domain": "Inflation",
+      "signal": "firm",
+      "note": "Core PCE 0.3% m/m, 3.3% y/y and rising"
+    },
+    {
+      "domain": "Labor",
+      "signal": "strong",
+      "note": "Claims 189,000, continuing 1.697M; no turn signal"
+    },
+    {
+      "domain": "Growth & Activity",
+      "signal": "steady",
+      "note": "Core capex orders +1.2% offset soft retail and output"
+    },
+    {
+      "domain": "Housing",
+      "signal": "weakening",
+      "note": "New home sales 701k off revised base; permits falling"
+    },
+    {
+      "domain": "Sentiment & Surveys",
+      "signal": "steady",
+      "note": "UMich 51.5 from low base; inflation expectations eased"
+    },
+    {
+      "domain": "Central Banks & Policy",
+      "signal": "firm",
+      "note": "Fed hawkish hold, BoE hiked, ECB hike expected"
+    },
+    {
+      "domain": "Financial Conditions & Markets",
+      "signal": "weakening",
+      "note": "HY OAS +30bp to 3.77%, VIX 28.3, yields lower"
+    }
+  ],
+  "regime_watch": "The hot-economy regime survived its first test: core PCE stayed at 0.3%, claims fell and capex orders firmed. The open risk is credit. A regime change is confirmed if HY OAS reaches 4.00% and NFCI moves toward zero while November payrolls slow sharply, claims rise toward 215,000 and ISM new orders fall toward 50. That would make the Fed choose between a stalling economy and 3.3% core PCE, the dual-mandate dilemma. It is denied if spreads retrace, November payrolls and ISM stay firm, and yields rebuild; then the credit move was positioning, and the Fed debate stays on a hike.",
+  "week_ahead": [
+    {
+      "report": "ism_mfg",
+      "name": "ISM Manufacturing PMI",
+      "date": "2026-12-01",
+      "weekday": "Tue",
+      "time_et": null,
+      "date_source": "estimate",
+      "why": "New orders and prices paid test growth and the inflation pipeline"
+    },
+    {
+      "report": "jolts",
+      "name": "JOLTS",
+      "date": "2026-12-01",
+      "weekday": "Tue",
+      "time_et": null,
+      "date_source": "official",
+      "why": "Openings and quits: did hiring demand hold after September's rise?"
+    },
+    {
+      "report": "ism_services",
+      "name": "ISM Services PMI",
+      "date": "2026-12-03",
+      "weekday": "Thu",
+      "time_et": null,
+      "date_source": "estimate",
+      "why": "Services orders cooled 3.9 pts in October; a further drop would echo credit"
+    },
+    {
+      "report": "claims",
+      "name": "Initial Jobless Claims",
+      "date": "2026-12-03",
+      "weekday": "Thu",
+      "time_et": "08:30",
+      "date_source": "estimate",
+      "why": "Any move toward 215,000 on the 4-week average would confirm a labour turn"
+    },
+    {
+      "report": "nfp",
+      "name": "Non-Farm Payrolls",
+      "date": "2026-12-04",
+      "weekday": "Fri",
+      "time_et": null,
+      "date_source": "official",
+      "why": "November payrolls and AHE set the tone for the December FOMC"
+    }
+  ],
+  "kpis": [
+    {
+      "label": "Core PCE y/y",
+      "ref": "inflation/pce/2026-10:core.yoy_pct",
+      "value": 3.261,
+      "unit": "%"
+    },
+    {
+      "label": "Core PCE m/m",
+      "ref": "inflation/pce/2026-10:core.chg_pct",
+      "value": 0.293,
+      "unit": "%"
+    },
+    {
+      "label": "Initial claims",
+      "ref": "labor/claims/2026-11-21:initial.level",
+      "value": 189000.0,
+      "unit": ""
+    },
+    {
+      "label": "Core capex orders m/m",
+      "ref": "growth/durables/2026-10:core_capex_orders.chg_pct",
+      "value": 1.177,
+      "unit": "%"
+    },
+    {
+      "label": "HY OAS",
+      "ref": "markets:hy_oas",
+      "value": 3.77,
+      "unit": "%"
+    },
+    {
+      "label": "UST 10y",
+      "ref": "markets:ust_10y",
+      "value": 4.85,
+      "unit": "%"
+    }
+  ],
+  "slack_summary": "Hot economy holds: core PCE 0.3% m/m (3.3% y/y), claims 189,000, core capex orders +1.2%, but HY OAS +30bp to 3.77% for a second week.\nKey prints: Oct PCE, durables, new home sales 701k, UMich 51.5 with 1y expectations 3.7%.\nNext week: ISM, JOLTS, claims and November payrolls decide whether credit stress reaches the real economy.",
+  "week": "2026-W48",
+  "week_ending": "2026-11-27",
+  "swarm_health": "all domains fresh",
+  "health": {
+    "all_ok": true,
+    "domains": [
+      {
+        "domain": "inflation",
+        "name": "Inflation",
+        "last_success": "2026-11-27 16:50 ET",
+        "age_hours": 1.0,
+        "stale": false,
+        "errors": []
+      },
+      {
+        "domain": "labor",
+        "name": "Labor",
+        "last_success": "2026-11-27 16:50 ET",
+        "age_hours": 1.0,
+        "stale": false,
+        "errors": []
+      },
+      {
+        "domain": "growth",
+        "name": "Growth & Activity",
+        "last_success": "2026-11-27 16:50 ET",
+        "age_hours": 1.0,
+        "stale": false,
+        "errors": []
+      },
+      {
+        "domain": "housing",
+        "name": "Housing",
+        "last_success": "2026-11-27 16:50 ET",
+        "age_hours": 1.0,
+        "stale": false,
+        "errors": []
+      },
+      {
+        "domain": "sentiment",
+        "name": "Sentiment & Surveys",
+        "last_success": "2026-11-27 16:50 ET",
+        "age_hours": 1.0,
+        "stale": false,
+        "errors": []
+      },
+      {
+        "domain": "policy",
+        "name": "Central Banks & Policy",
+        "last_success": "2026-11-27 16:50 ET",
+        "age_hours": 1.0,
+        "stale": false,
+        "errors": []
+      },
+      {
+        "domain": "markets",
+        "name": "Financial Conditions & Markets",
+        "last_success": "2026-11-27 16:50 ET",
+        "age_hours": 1.0,
+        "stale": false,
+        "errors": []
+      }
+    ],
+    "alert_text": "",
+    "checked_at": "2026-11-27 17:48 ET"
+  },
+  "audit": {
+    "issues": [],
+    "ok": true,
+    "checked_at": "2026-11-27 17:48 ET"
+  },
+  "finalized_at": "2026-11-27 17:48 ET"
+}

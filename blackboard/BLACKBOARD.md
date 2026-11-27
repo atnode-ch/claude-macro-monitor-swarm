@@ -1,6 +1,6 @@
 # Macro Monitor: Blackboard
 
-_Rendered 2026-11-27 17:08 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
+_Rendered 2026-11-27 17:48 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
 
 ## Inflation
 
@@ -127,22 +127,22 @@ _Rendered 2026-11-27 17:08 ET from data/. Do not edit by hand; edit data/ or rer
 
 ## Macro Synthesis
 
-**2026-W47: Hot economy shows first cracks: October retail sales and output soften, HY spreads widen 32bp, core inflation still 0.3%**
+**2026-W48: Hot economy holds: core PCE 0.3% m/m, claims at 189k and capex orders firm, while HY spreads widen another 30bp**
 
-Last week's test for the hot-economy regime was whether October retail sales and industrial production stayed strong. Neither did. Retail sales rose 0.2% m/m after 0.8%, and industrial production fell 0.4% after a 0.7% gain. Markets moved the same way: HY spreads widened 32bp to 3.52%, VIX rose 9.7 points to 28.44, and the 2y yield fell 10bp to 4.76%. Three domains (growth, housing, financial conditions) now point to softer activity. Labour does not yet agree: initial claims were 203,000 and continuing claims 1.763 million, both below their warning levels. Inflation has not cooled enough to matter for the Fed, with core CPI and core PPI both at 0.3% m/m in October and core PCE at 3.1% y/y in September. The result is an early dual-mandate tension: softer spending and tighter credit against sticky prices. One week of data does not make a regime change. October PCE and the Q3 GDP second estimate next week are the next tests.
+Last week's cracks did not spread to the hard data. October core PCE rose 0.3% m/m and 3.3% y/y, up from 3.1%, so inflation is still drifting away from target. Initial claims fell to 189,000 and continuing claims held at 1.697M, well below the 1.8M trigger. Core capex orders rose 1.2% in October, a second month of gains. New home sales rebounded to 701k, though off a revised-down September. Consumer surveys improved: UMich final sentiment 51.5 with 1y inflation expectations down to 3.7%. The one domain moving the other way is credit: HY OAS widened 30bp to 3.77% in the week to 25 Nov and VIX rose to 28.3, while Treasury yields fell. Markets are pricing slower growth that the data have not yet shown. The Fed held at 3.75-4.00% in October with two hike dissents; nothing this week argues for a cut.
 
-**Regime watch:** The hot-economy regime is under test for the first time. Growth, housing and credit now point to softer activity, while labour and inflation have not moved. A turn is confirmed if October PCE shows core near 0.2% m/m, the 4-week claims average rises above 215,000 or continuing claims pass 1.8 million, NFCI moves toward zero, and HY spreads hold above 3.50% or reach 4.00%. That would shift the Fed debate from a hike toward a pause. The turn is denied if the Q3 GDP second estimate and October durable goods stay firm, HY spreads retrace, and core PCE stays at 0.3% m/m or higher; then this week reads as a one-month dip in spending. The worst mix is softer activity with core inflation stuck at 0.3%, the dual-mandate dilemma.
-**Week ahead:** Tue 2026-11-24 Conference Board Consumer Confidence; Tue 2026-11-24 New Home Sales; Wed 2026-11-25 PCE price index; Wed 2026-11-25 GDP (real, SAAR); Thu 2026-11-26 Initial Jobless Claims; Thu 2026-11-26 Durable Goods
+**Regime watch:** The hot-economy regime survived its first test: core PCE stayed at 0.3%, claims fell and capex orders firmed. The open risk is credit. A regime change is confirmed if HY OAS reaches 4.00% and NFCI moves toward zero while November payrolls slow sharply, claims rise toward 215,000 and ISM new orders fall toward 50. That would make the Fed choose between a stalling economy and 3.3% core PCE, the dual-mandate dilemma. It is denied if spreads retrace, November payrolls and ISM stay firm, and yields rebuild; then the credit move was positioning, and the Fed debate stays on a hike.
+**Week ahead:** Tue 2026-12-01 ISM Manufacturing PMI; Tue 2026-12-01 JOLTS; Thu 2026-12-03 ISM Services PMI; Thu 2026-12-03 Initial Jobless Claims; Fri 2026-12-04 Non-Farm Payrolls
 **Swarm health:** all domains fresh
 
 ## Collector health
 
 | Domain | Last success | Age (h, weekdays) | Status |
 |---|---|---|---|
-| Inflation | 2026-11-27 16:50 ET | 0.3 | ok |
-| Labor | 2026-11-27 16:50 ET | 0.3 | ok |
-| Growth & Activity | 2026-11-27 16:50 ET | 0.3 | ok |
-| Housing | 2026-11-27 16:50 ET | 0.3 | ok |
-| Sentiment & Surveys | 2026-11-27 16:50 ET | 0.3 | ok |
-| Central Banks & Policy | 2026-11-27 16:50 ET | 0.3 | ok |
-| Financial Conditions & Markets | 2026-11-27 16:50 ET | 0.3 | ok |
+| Inflation | 2026-11-27 16:50 ET | 1.0 | ok |
+| Labor | 2026-11-27 16:50 ET | 1.0 | ok |
+| Growth & Activity | 2026-11-27 16:50 ET | 1.0 | ok |
+| Housing | 2026-11-27 16:50 ET | 1.0 | ok |
+| Sentiment & Surveys | 2026-11-27 16:50 ET | 1.0 | ok |
+| Central Banks & Policy | 2026-11-27 16:50 ET | 1.0 | ok |
+| Financial Conditions & Markets | 2026-11-27 16:50 ET | 1.0 | ok |
