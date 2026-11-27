@@ -1,3 +1,10 @@
 {
-  "items": []
+  "items": [
+    {
+      "report": "umich",
+      "ref": "2026-11",
+      "path": "data/releases/sentiment/umich/2026-11.json",
+      "alert": false
+    }
+  ]
 }

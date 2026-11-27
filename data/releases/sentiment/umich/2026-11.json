@@ -25,8 +25,20 @@
   },
   "verified": true,
   "consensus": null,
-  "consensus_source": null,
+  "consensus_source": "No consensus found for the final reading",
   "surprise": null,
-  "read": null,
-  "status": "pending_analysis"
+  "read": "Final sentiment 51.5, up 3.5 from 48.0 in October and above the 51.0 preliminary. 1y inflation expectations fell to 3.7% from 4.7%; 5y eased to 3.3% from 3.5%, a less hawkish Fed anchoring signal.",
+  "status": "analysed",
+  "fields": null,
+  "sources": [
+    "https://stockanalysis.com/news/consumer-sentiment-rises-november-2026/"
+  ],
+  "alert": {
+    "alert": false,
+    "material": false,
+    "reasons": [
+      "no consensus available; surprise not assessed"
+    ]
+  },
+  "analysed_at": "2026-11-27 17:08 ET"
 }

@@ -1,6 +1,6 @@
 {
   "domain": "sentiment",
-  "stance": "Consumer sentiment is mixed. UMich-type readings stay weak (48.0 in October; 5y inflation expectations 3.5%). Conference Board rebounded to 91.7 (unconfirmed). Ifo rose to 90.6 in November (verified, 2 sources) from 90.1, in line with consensus, with gains in services and trade and a manufacturing dip. German momentum improves slowly while US consumer surveys diverge. Low conviction, neutral-to-bearish lean on US consumer.",
-  "updated_at": "2026-11-25 17:09 ET",
-  "from": "ifo 2026-11"
+  "stance": "Consumer sentiment is recovering from a low base. UMich final rose to 51.5 in November from 48.0, with 1y inflation expectations down to 3.7% (from 4.7%) and 5y down to 3.3% (from 3.5%), easing the Fed anchoring concern. Conference Board 91.7 (unconfirmed). Ifo 90.6 in November (verified, 2 sources). Single-survey rebounds often fail to carry into spending. Low conviction, neutral lean on US consumer; a 5y reading back above 3.5% would revive the hawkish risk.",
+  "updated_at": "2026-11-27 17:08 ET",
+  "from": "umich 2026-11"
 }
