@@ -1,6 +1,6 @@
 # Macro Monitor: Blackboard
 
-_Rendered 2026-11-27 17:58 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
+_Rendered 2026-11-27 21:44 ET from data/. Do not edit by hand; edit data/ or rerun the tools._
 
 ## Inflation
 
@@ -139,10 +139,10 @@ Last week's cracks did not spread to the hard data. October core PCE rose 0.3% m
 
 | Domain | Last success | Age (h, weekdays) | Status |
 |---|---|---|---|
-| Inflation | 2026-11-27 17:58 ET | 0.0 | ok |
-| Labor | 2026-11-27 17:58 ET | 0.0 | ok |
-| Growth & Activity | 2026-11-27 17:58 ET | 0.0 | ok |
-| Housing | 2026-11-27 17:58 ET | 0.0 | ok |
-| Sentiment & Surveys | 2026-11-27 17:58 ET | 0.0 | ok |
-| Central Banks & Policy | 2026-11-27 17:58 ET | 0.0 | ok |
-| Financial Conditions & Markets | 2026-11-27 17:58 ET | 0.0 | ok |
+| Inflation | 2026-11-27 21:44 ET | 0.0 | ok |
+| Labor | 2026-11-27 21:44 ET | 0.0 | ok |
+| Growth & Activity | 2026-11-27 21:44 ET | 0.0 | ok |
+| Housing | 2026-11-27 21:44 ET | 0.0 | ok |
+| Sentiment & Surveys | 2026-11-27 21:44 ET | 0.0 | ok |
+| Central Banks & Policy | 2026-11-27 21:44 ET | 0.0 | ok |
+| Financial Conditions & Markets | 2026-11-27 21:44 ET | 0.0 | ok |
